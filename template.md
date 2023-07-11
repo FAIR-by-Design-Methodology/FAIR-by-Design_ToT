@@ -9,7 +9,17 @@
 ## Learning Objectives
 - min one learning objective using the Blooms taxonomy
 
-## Subtitle
+## Prerequisites
+- list any knowledge that is required so that the learning unit can be followed
+
+## Learning method(s)
+One or more preferred teaching methods that should be utilised during the training for maximum effect.
+Some typical teaching methods that can be employed are presented in the following image
+![teaching methods comparison based on level od technology involved (low to high) and type of centeredness (teacher vs student)](/img/2u-teach-teaching-styles-v4_2.png)
+Image by [edX](https://www.edx.org) from [teach.com](https://teach.com/what/teachers-know/teaching-methods/), &copy; 2U
+
+
+## Learning content
 
 Here goes the content of the learning unit divided into a number of subtitles and any additional headings as necessary.
 
@@ -54,6 +64,11 @@ To add an image, first place the image in the /img folder and then use a relativ
 Image by [Karina Copa](https://pixabay.com/users/kayuli-781524) from [Pixabay](https://pixabay.com)
 
 if reusing images or text clear attribution should be provided as in the example above.
+
+## Related Learning Materials
+
+Refer to excersizes, quizes, games or other types of learning materials whereever they should be included in the unit and provide links to this content.
+
 
 ## Summary
 

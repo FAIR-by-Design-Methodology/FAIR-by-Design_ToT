@@ -22,6 +22,9 @@
 ## Prerequisites
 - if any
 
+## Duration
+- total training duration
+
 ## Training objectives
 - list of specific training objectives
 

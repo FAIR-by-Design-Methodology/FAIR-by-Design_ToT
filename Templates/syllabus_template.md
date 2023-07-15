@@ -25,16 +25,16 @@
 ## Training objectives
 - list of specific training objectives
 
-## Agenda: Training Schedule - List of Training Topics
+## Agenda: Training Schedule - Training Structure
 | Date/Time | Topic             |
 |-----------|-------------------|
-| timeslot  | topic description |
-| timeslot  | topic description |
+| timeslot  | training unit 1   |
+| timeslot  | training unit 2   |
 | timeslot  | coffee break      |
-| timeslot  | topic description |
+| timeslot  | training unit 3   |
 | timeslot  | lunch break       |
-| timelsot  | topic description |
-| timeslot  | topic description |
+| timelsot  | training unit 4   |
+| timeslot  | training unit 5   |
 
 ## Resources and Materials
 - location of available resources for the training

@@ -4,10 +4,10 @@
 
 # Training Fascilitator Guide
 
-- what content should be checked before running the training
-- it includes all necessary information regarding the preparation and planning of the training
-- can be provided as a checklist with timing 
-    - what to do before, during and after the training
+The purpose of this document is to include all necessary information regarding the preparation and planning of the training.
+
+It can also be provided as a checklist with timing information
+- what to do before, during and after the training
 
 Information that should be included:
 - where are all of the materials that should be used during the training

@@ -14,6 +14,9 @@
 ## Target Audience
 - who is this learning unit meant for
 
+## Duration
+- time needed to learn the provided content
+
 ## Prerequisites
 - list any knowledge that is required so that the learning unit can be followed
 
@@ -65,8 +68,9 @@ You can also create mixed lists.
 To add an image, first place the image in the /img folder and then use a relative link similar to above using a ! in front. 
 All images should be located in the img folder that is on the same level with the content file. 
 
-![an image of a macaw parrot](./img/macaw-g8f80c4f64_640.jpg)
+![an image of a macaw parrot](img/macaw-g8f80c4f64_640.jpg)
 Image by [Karina Copa](https://pixabay.com/users/kayuli-781524) from [Pixabay](https://pixabay.com)
+
 
 Don't forget attribution if the image was not created by you. If you are reusing images or text clear attribution should be provided as in the example above. Same applies in case of reusing text or other type of content. Be careful to follow the attribution rules as provided by the image source (in the example above it is Pixabay).
 

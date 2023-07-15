@@ -11,7 +11,7 @@ doi: 10.5281/zenodo.1234
 date-released: 2023-10-17
 license: CC0 1.0 Universal
 license-url: "https://creativecommons.org/publicdomain/zero/1.0/legalcode"
-type: training
+type: generic
 keywords:
  - thefirstkeyword
  - thesecondkeyword

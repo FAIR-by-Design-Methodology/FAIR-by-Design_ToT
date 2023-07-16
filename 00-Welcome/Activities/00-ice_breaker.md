@@ -1,37 +1,53 @@
 [_metadata_:author]:- "Skills4EOSC T2.3"
-[_metadata_:title]:- "Training Activity Setup"
-[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, training activity template"
+[_metadata_:title]:- "Ice Breaking Activity"
+[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, ice breaker"
 
-# Activity name
-This document serves as a guide on how to deliver the specific training activity.
+# Ice Breaker
 
-Summary description of the activity.
+Very simple activity that helps setup people for interaction and eases people into the training.
 
 ## Activity duration
 
+3 mins
+
 ## Number of people that it can be perfomed with
+
+any number of people
 
 ## Goal of activity
 
+Main purpose is to overcome the remote environment, create personal connectio and diffuse anxiety and boredom.
+Secondary purpose is to test out the tool for interaction (BBB quiz questions and Menti).
+
 ## Materials
-- list of materials needed to perform the activity
-- reference digital
-- list physical equipment
+- Menti slides
+- Share screen
+- Chat
 
 ## Instructions
 
-Describe how to run the activity. If the activity has several stages break them down into subheadings and provide duration for each.
+Use just one simple question that can be adapted to time of day or other circumstances.
 
-List any questions the trainer should ask during the activity.
+Create a Menti presentation:
+- Menti slide with how to connect
+- Menti slide with chosen question
 
-List or link to examples of completing the activity.
+During the training the moderator shares screen with the Menti presentation. Moderator should also provide the link to Menti in chat.
+
+Example questions:
+- Are you an early bird or night owl?
+- Coffee or tea?
+- Teleportation or flying?
+- Are you a cat person or a dog person?
+- Popcorn or M&Ms?
 
 ## Tips and Tricks
-- if the activity can be done both physically and online, provide info on the differences and specifics for each
+- can be done both physically and online
+If you have more time you can use a more open ended question. This really helps for team building helping people to get to know each other.
 
 ## Related sources
-- list any additional sources that may be usefull for the activity
+- [The Only List of Icebreaker Questions You’ll Ever Need](https://museumhack.com/list-icebreakers-questions)
 
-## Comments
+## Comments - TBD
 - how did it go
 - supporting the co-creation process

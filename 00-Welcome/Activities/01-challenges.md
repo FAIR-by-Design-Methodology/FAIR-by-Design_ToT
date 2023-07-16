@@ -1,37 +1,41 @@
 [_metadata_:author]:- "Skills4EOSC T2.3"
-[_metadata_:title]:- "Training Activity Setup"
-[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, training activity template"
+[_metadata_:title]:- "FAIR Instructor Challenges Activity"
+[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, FAIR design challenges"
 
-# Activity name
-This document serves as a guide on how to deliver the specific training activity.
-
-Summary description of the activity.
+# Challenges
+Start a group discussion on the challenges that people would like to overcome by taking the training. Create a safe environment where attendants can share their doubts, fears and difficulties and reassure them that they will be addressed during the training. 
 
 ## Activity duration
 
+5 mins
+
 ## Number of people that it can be perfomed with
+
+any
 
 ## Goal of activity
 
+Get insight into the fears regarding the trainees. What are the barriers that need to be overcome. Pinpoint where to focus the attention during the training in order to overcome the identified challenges.
+
 ## Materials
-- list of materials needed to perform the activity
-- reference digital
-- list physical equipment
+- Menti word cloud slide or BBB quiz
 
 ## Instructions
 
-Describe how to run the activity. If the activity has several stages break them down into subheadings and provide duration for each.
+Ask the trainees about the difficulties and challenges they would face in everyday life when they would need to put the training into practice. Which part of the training seems to be most daunting?
 
-List any questions the trainer should ask during the activity.
+Example question: 
+- What I find most difficult when developing FAIR learning materials is ...?
 
-List or link to examples of completing the activity.
+Provide a menti slide with the question and ask the participants to finish the sentence with a short phrase.
+Discuss how different identified issues will be addressed during the training.
 
 ## Tips and Tricks
-- if the activity can be done both physically and online, provide info on the differences and specifics for each
+- create a safe co-creation environment by sharing examples from personal experience, what is the most frustrating activity, why and how to overcome it
 
 ## Related sources
-- list any additional sources that may be usefull for the activity
+- [25-activities-for-making-lecture-based-training-active](https://www.businesstrainingworks.com/training-resource/25-activities-for-making-lecture-based-training-active/))
 
-## Comments
+## Comments - TBD
 - how did it go
 - supporting the co-creation process

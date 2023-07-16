@@ -1,11 +1,17 @@
 cff-version: 1.2.0
 message: "If you use these learning materials, please cite it as below."
 authors:
-  - family-names: Surname
-    given-names: First_Name
-    orcid: https://orcid.org/1234-5678-9101-1121
-title: "Training Name"
-abstract: "Training description"
+  - family-names: Filiposka
+    given-names: Sonja
+    orcid: https://orcid.org/0000-0003-0034-2855
+  - family-names: Mishev
+    given-names: Anastas
+    orcid: https://orcid.org/0000-0001-7271-6655
+  - family-names: Kjorveziroski
+    given-names: Vojdan
+    orcid: https://orcid.org/0000-0003-0419-4300  
+title: "FAIR-by-Desing Learning Materials Methodology Training of Trainers"
+abstract: "TThe main goal of this ToT is to provide guidance and instructions on how to use the proposed FAIR-by-Design Methodology for development of FAIR learning materials in practice. The training will take you through all steps in the methodology and showcase their implementation using practical examples and developed templates."
 version: 1.0.0
 doi: 10.5281/zenodo.1234
 date-released: 2023-10-17
@@ -13,7 +19,7 @@ license: CC0 1.0 Universal
 license-url: "https://creativecommons.org/publicdomain/zero/1.0/legalcode"
 type: generic
 keywords:
- - thefirstkeyword
- - thesecondkeyword
- - "a third keyword"
-repository: "https://github.com/citation-file-format/my-research-software"
+ - "FAIR-by-Design"
+ - "Methodology"
+ - "FAIR learning objects"
+repository: "https://github.com/sonjafiliposka/FAIR-by-Design_ToT"

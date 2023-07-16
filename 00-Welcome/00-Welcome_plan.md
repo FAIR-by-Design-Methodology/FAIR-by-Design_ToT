@@ -18,7 +18,7 @@ Online: BBB room
 up to 100
 
 ### Learning objectives
-- Describe FAIR-by-design methodology
+- Describe the FAIR-by-design methodology
 - Identify FAIR design challenges
 
 ### Plan

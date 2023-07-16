@@ -1,93 +1,69 @@
 [_metadata_:author]:- "Skills4EOSC T2.3"
-[_metadata_:title]:- "FAIR Learning Unit Learning Content Structure Template"
-[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, FAIR learning unit template"
+[_metadata_:title]:- "Welcome"
+[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, welcome"
 
 
 
-# Learning Unit Template
+# Welcome
 
 ## Introduction
 
 ## Learning Objectives
-- min one learning objective using the verbs from the Blooms taxonomy
+- Describe the FAIR-by-design methodology
+- Identify FAIR design challenges
 
 ## Target Audience
-- who is this learning unit meant for
+- attendees of the FAIR-by-Design ToT live webinar
 
 ## Duration
-- time needed to learn the provided content
+- 10 mins
 
 ## Prerequisites
-- list any knowledge that is required so that the learning unit can be followed
+- familiarity with the published D2.2 FAIR-by-Design Learning Materials Methodology
 
 ## Learning Tools
+- training BBB room
+- Menti
 
-- list any tools that are necessary to be used to complete the learning unit
-- examples include required software, access to resources, etc.
+## Participants
 
-## Learning Content Topic
+The training is focused on all Skills4EOSC project members that will need to develop learning materials for the different types of trainings envisaged within the project. No previous knowledge of FAIR materials development is required to follow the training. 
+The training will be delivered by a set of trainers each focusing on different aspects of the FAIR-by-design methodology for development of FAIR learning materials. In addition, there will be moderators to help out with the technical aspects and fascilitators for any group activities. 
 
-Here goes the content of the learning unit divided into a number of subtopics and any additional headings as necessary.
+## Housekeeping
 
-Use blank rows to divide between paragraphs.
+Participants can jump in during the training with a comment or question at any time using the provided chat or by opening their mics. Sharing personal experiences and recommending other tools and resources in addition to the examples provided during the training is strongly encouraged.
+The focus of the training is on hands-on practical implementation of the FAIR-by-design methodology.
+Thus there will be many activities that the participants will need to take active role in, aiming to test out the concepts and get a first hand experience.
+There will be short 15 mins coffee breaks after each hour-hour and a half of traininig. During the second full day of training, there will be an 1 hour break for lunch.
+Your feedback on this training is essential to improve it and provide you with additional examples and resources you might need during the FAIR learning materials development. Focusing on the co-creation process, in additon to the feedback form that is available on the course, there are many other ways to provide your feedback that will be presented during the training.
 
-References to external or internal content provided elsewhere should be linked with [hyperlinks](https://pages.github.com/).
+### Main interaction
 
-### Sub-subtitle
+The main interaction with the participants will be via mics, chat, BBB quiz and Menti questions.
 
-Refer to a different learning unit using a relative link. For an example, see the [README](README.md) file.
+## Training purpose
 
-*Example italic text*
+The main goal of the training is the practical implementation of the FAIR-by-Design learning materials methodology that has been developed by T2.3 and published in D2.2.
+The methodology extends the backward instructional design process with the FAIR principles aiming to ensure that the learning materials will be findable, accessible, interoperable and resusable from their conception and throughout their lifetime including updates, new versions, reuse, etc. 
 
-**Example bold text**
+![FAIR-by-Design Learning Materials Methodology](img/methodology.png)
 
-### Lists
+The methodology is composed of 6 main steps that are iteratively repeated within a continous improvement loop:
+- Prepare
+- Discover
+- Design
+- Produce
+- Publish
+- Verify
 
-Example numbered bullets:
-1. numbered list one
-2. two
-3. three
+## Training objectives
 
-Example unnumbered list.
+## Materials
 
-- unnumbered list
-- item two
-- item three
-    - subitem
-    - use 4 spaces to create nested subitem
-
-You can also create mixed lists.
-
-- mixed list
-    1. now numbered subitem
-    2. subitem number two
-- back to mixed list level 1 bullet
-
-### Images
-
-To add an image, first place the image in the /img folder and then use a relative link similar to above using a ! in front. 
-All images should be located in the img folder that is on the same level with the content file. 
-
-![an image of a macaw parrot](img/macaw-g8f80c4f64_640.jpg)
-Image by [Karina Copa](https://pixabay.com/users/kayuli-781524) from [Pixabay](https://pixabay.com)
+## Training outline
 
 
-Don't forget attribution if the image was not created by you. If you are reusing images or text clear attribution should be provided as in the example above. Same applies in case of reusing text or other type of content. Be careful to follow the attribution rules as provided by the image source (in the example above it is Pixabay).
-
-### Accessibility
-
-Using headings and subheadings, lists and alternative text for images is extremly important so as to ensure accessibility of the content for people with impairments. Also, take care to choose the appropriate color pallette for images.
-
-### Tables
-
-Tables are a bit tricky in md, the easiest way to create them is to use a tool that will generate the md code that you can then just copy paste in your content file.
-One such tool that can be used is the [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) available online. The provided example table has been generated using this tool. 
-
-| **Column 1 title** | **Column 2 title**  |
-|--------------------|---------------------|
-| content 1          |      content 4      |
-| content 2          |      content 5      |
-| content 3          | content 6 content 7 |
 
 ### Related Learning Materials
 
@@ -100,5 +76,5 @@ At the end provide a short summary of the main points of the learning unit (thes
 
 ## Suggested Reading
 - provide a list of references for further reading that should help clarify the content of the learning unit and elevate the knowledge level
-- [Markdown guide](https://www.markdownguide.org/), free and open-source reference guide that explains how to use Markdown.
+- Skills4EOSC D2.2
 

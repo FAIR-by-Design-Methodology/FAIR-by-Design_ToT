@@ -38,7 +38,7 @@ Note: If the training is relying heavily on presentations then another option fo
 ### Assessment
 - what, how, when
 - is it going to be formative (throughout) or summative (in the end)
-- results how ad when
+- results how and when
 
 ### Certificate or Badge
 - if issued then under what circumstances

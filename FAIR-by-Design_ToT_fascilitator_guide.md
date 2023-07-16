@@ -5,6 +5,7 @@
 # FAIR-by-Design Training Fascilitator Guide
 
 The purpose of this document is to include all necessary information regarding the preparation and planning of the FAIR-by-Design Training of Trainers.
+The training is organised as an online multi-day webinar using a Big Blue Button (BBB) room integrated into a Moodle based learning platform for course materials and interaction with trainees. 
 
 ## Training materials, resources and equipment
 ### Learning materials

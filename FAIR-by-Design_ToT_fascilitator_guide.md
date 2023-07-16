@@ -43,7 +43,8 @@ The trainers materials latest version is taken from the GitHub repo.
 ## During the training
 - [ ] Use 00 to welcome participants, introduce people and define expectations and rules
 - [ ] Ask people to jump in during the training at any time using chat or mic (moderator will follow and prompt the trainer if needed)
-- [ ] The first ice breaking activity should be considered as input as to where to draw the attention when training and doing activities
+- [ ] The first ice breaking activity should also be used as a way to test if the interactive tool is working (BBB quiz and/or Menti)
+- [ ] The main welcome activity is to be considered as input as to where to draw the attention when training and doing activities
 - [ ] Create a discussion environment by having multiple trainers talking together about tips and tricks and encouraging others to join
 - [ ] Use anonymous online tools for the practical activities to overcome shyness or fear of failure
 - [ ] Encourage co-creation, ask others to recommend an action or tool or resource that may be used to acomplish a goal

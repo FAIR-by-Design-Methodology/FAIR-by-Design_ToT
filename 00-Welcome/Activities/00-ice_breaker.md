@@ -8,7 +8,7 @@ Very simple activity that helps setup people for interaction and eases people in
 
 ## Activity duration
 
-3 mins
+5 mins
 
 ## Number of people that it can be performed with
 

@@ -24,11 +24,11 @@ up to 100
 ### Plan
 | Duration | Topic                  | Key points/Teaching Method/Questions                                   | Activities               | Resources                  |
 |----------|------------------------|------------------------------------------------------------------------|--------------------------|----------------------------|
-| 2        | Welcome / Introduction | introduce trainer and trainees                                         |                          | pptx                       |
-| 2        | Housekeeping           | set rules and expectations, provide framework                          |                          | pptx                       |
-| 3        | Ice breaker            | create a relaxing atmosphere, setup for interaction                    | 00-ice_breaker           | Menti + BBB quiz           |
-| 4        | Outline                | training purpose, learning objectives and outline                      |                          | pptx                       |
-| 4        | FAIR Challenges        | key takeaways                                                          | 01-challenges            | Menti                      |
+| 5        | Welcome / Introduction | introduce trainer and trainees                                         |                          | pptx                       |
+| 5        | Housekeeping           | set rules and expectations, provide framework                          |                          | pptx                       |
+| 5        | Ice breaker            | create a relaxing atmosphere, setup for interaction                    | 00-ice_breaker           | Menti + BBB quiz           |
+| 10       | Outline                | training purpose, learning objectives and outline                      |                          | pptx                       |
+| 5        | FAIR Challenges        | key takeaways, group discussion                                        | 01-challenges            | Menti                      |
 
 
 ### Reflection - TBD

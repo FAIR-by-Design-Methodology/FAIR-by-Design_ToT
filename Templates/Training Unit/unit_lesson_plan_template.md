@@ -41,7 +41,8 @@ Note: If the training is relying heavily on presentations then another option fo
 - results how and when
 
 ### Certificate or Badge
-- if issued then under what circumstances
+- microcredentials for the unit
+- if certificate or badge is issued then explain how it can be gained
 
 ### Reflection
 - how did it go

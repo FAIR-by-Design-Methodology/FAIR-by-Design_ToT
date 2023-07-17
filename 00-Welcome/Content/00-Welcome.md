@@ -51,15 +51,65 @@ The methodology extends the backward instructional design process with the FAIR 
 
 The methodology is composed of 6 main steps that are iteratively repeated within a continous improvement loop:
 - Prepare
+    - develop FAIR skills that will augment the traditional instructional design skills. These include FAIR principles, Intelectual Property Rights, licensing, attribution, permanent identifiers (PIDs) and metadata. 
+    - define the purpose, learning objectives and audience targets
 - Discover
+    - identify existing learning materials
+    - assess the potential for their reuse
 - Design
+    - define the syllabus and create the learning materials structure
+    - start a fascilitators guide 
+    - ensure interoperability by choosing open licences
 - Produce
+    - use open authoring tools and formats
+    - develop accessible content
+    - define metadata
 - Publish
+    - deposit the learning content for learners and for instructors
+    - use PIDs
+    - define access rights and provide attribution guidelines
+    - enable feedback gathering
+    - list in relevant catalogues
 - Verify
+    - go through a quality assurance (QA) process to verify FAIRness
+Continuous improvement should be implemented to ensure the learning materials are up-to-date and gathered internal and external input has been incorporated. This includes: 
+    - analyse gathered feedback
+    - initiate a new version development when necessary
 
 ## Training objectives
+Upon successfully completing the training the atendees should be able to:
+- Define FAIR learning objects
+- Adapt and mix FAIR learning objects
+- Identify licenses and attribute correspondingly
+- Structure comprehensive learning materials
+- Manage file formats and tools
+- Define metadata using a schema
+- Create and publish FAIR-by-Design learning materials
+- Collaborate with other instructors
+- Assess FAIR-ness of existing learning objects 
 
 ## Materials
+The final formats of all materials are avaialable on the Skill4EOSC learning platform within the FAIR-by-Design course. These include:
+- presentation slides 
+- presentation notes
+- related templates
+- links for further reading
+- self-assessment quizes
+
+The course also includes the BBB room used for the training that will have the recordings from the training. 
+
+In addition there is also an open forum where any enrolled trainee can ask a question or start a discussion.
+
+Finally, there is a feedback form that trainees are asked to fill out after the training so that the learning materials can be improved based on their feedback.
+
+During the life training the materials will be revealed on a day-by-day basis as the training progresses. 
+
+To access the materials one must register on the learning platform and then self-enroll in the course. 
+
+The course also offers the possibility to obtain a FAIR Instructor badge once all course activities have been successfuly completed.
+
+errrrorrrr
+
 
 ## Training outline
 

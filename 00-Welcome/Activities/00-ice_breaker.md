@@ -10,13 +10,13 @@ Very simple activity that helps setup people for interaction and eases people in
 
 3 mins
 
-## Number of people that it can be perfomed with
+## Number of people that it can be performed with
 
 any number of people
 
 ## Goal of activity
 
-Main purpose is to overcome the remote environment, create personal connectio and diffuse anxiety and boredom.
+Main purpose is to overcome the remote environment, create personal connection and diffuse anxiety and boredom.
 Secondary purpose is to test out the tool for interaction (BBB quiz questions and Menti).
 
 ## Materials

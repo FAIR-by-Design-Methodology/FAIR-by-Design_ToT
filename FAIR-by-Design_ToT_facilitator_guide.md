@@ -1,11 +1,11 @@
 [_metadata_:author]:- "Skills4EOSC T2.3"
-[_metadata_:title]:- "FAIR-by-Design Training of Trainers Fascilitator Guide"
-[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, fascilitator guide"
+[_metadata_:title]:- "FAIR-by-Design Training of Trainers Facilitator Guide"
+[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, facilitator guide"
 
-# FAIR-by-Design Training Fascilitator Guide
+# FAIR-by-Design Training Facilitator Guide
 
 The purpose of this document is to include all necessary information regarding the preparation and planning of the FAIR-by-Design Training of Trainers.
-The training is organised as an online multi-day webinar using a Big Blue Button (BBB) room integrated into a Moodle based learning platform for course materials and interaction with trainees. 
+The training is organized as an online multi-day webinar using a Big Blue Button (BBB) room integrated into a Moodle based learning platform for course materials and interaction with trainees. 
 
 ## Training materials, resources and equipment
 ### Learning materials
@@ -47,11 +47,11 @@ The trainers materials latest version is taken from the GitHub repo.
 - [ ] The main welcome activity is to be considered as input as to where to draw the attention when training and doing activities
 - [ ] Create a discussion environment by having multiple trainers talking together about tips and tricks and encouraging others to join
 - [ ] Use anonymous online tools for the practical activities to overcome shyness or fear of failure
-- [ ] Encourage co-creation, ask others to recommend an action or tool or resource that may be used to acomplish a goal
+- [ ] Encourage co-creation, ask others to recommend an action or tool or resource that may be used to accomplish a goal
 
 
 ## After the training
 - [ ] Send out a reminder for feedback gathering and badge collecting
 - [ ] Write down reflection comments for each training unit
-- [ ] Analyse gathered feedback
+- [ ] Analyze gathered feedback
 - [ ] Initiate work on a new version of the training materials 

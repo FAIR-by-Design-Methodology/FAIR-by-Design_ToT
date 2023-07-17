@@ -59,7 +59,7 @@ Use the Bloom's taxonomy verbs from the learning objectives to define the questi
     - multiple answers
     - rank order
     - open answer
-6. Creating - combine informaton and create something new
+6. Creating - combine information and create something new
     - multiple answers
     - open answer
 

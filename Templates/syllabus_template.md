@@ -46,4 +46,4 @@
 - if any
 
 ## Contact information
-- how to reach out to training organisers
+- how to reach out to training organizers

@@ -9,7 +9,7 @@ Summary description of the activity.
 
 ## Activity duration
 
-## Number of people that it can be perfomed with
+## Number of people that it can be performed with
 
 ## Goal of activity
 
@@ -30,7 +30,7 @@ List or link to examples of completing the activity.
 - if the activity can be done both physically and online, provide info on the differences and specifics for each
 
 ## Related sources
-- list any additional sources that may be usefull for the activity
+- list any additional sources that may be useful for the activity
 
 ## Comments
 - how did it go

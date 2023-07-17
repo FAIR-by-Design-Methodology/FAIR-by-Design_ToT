@@ -4,9 +4,9 @@
 
 # Training Evaluation Form
 In Skills4EOSC we strive to provide high quality training and continuous improve our training activities. 
-To be able to achive that your feedback is very important to us. 
+To be able to achieve that your feedback is very important to us. 
 
-Please take a moment of your time to fillout the evaluation of the [insert training title]. It will only take a minute.
+Please take a moment of your time to fill out the evaluation of the [insert training title]. It will only take a minute.
 
 ## Training rating
 Overall, the training provided was
@@ -38,6 +38,6 @@ How would you rate your level of knowledge on the topic before and after the tra
 
 ## Insights
 In your opinion 
-- the most useful part of the training is [freetext]
-- the least useful part of the training is [freetext]
-- the training could have been improved by [freetext]
+- the most useful part of the training is [free text]
+- the least useful part of the training is [free text]
+- the training could have been improved by [free text]

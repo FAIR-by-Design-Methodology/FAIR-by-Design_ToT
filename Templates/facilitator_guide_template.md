@@ -1,8 +1,8 @@
 [_metadata_:author]:- "Skills4EOSC T2.3"
-[_metadata_:title]:- "Training Fascilitator Guide"
-[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, fascilitator guide template"
+[_metadata_:title]:- "Training Facilitator Guide"
+[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, facilitator guide template"
 
-# Training Fascilitator Guide
+# Training Facilitator Guide
 
 The purpose of this document is to include all necessary information regarding the preparation and planning of the training.
 
@@ -17,7 +17,7 @@ Information that should be included:
         - e.g. activity resources such as card decks
         - etc.
 - how to prepare the materials beforehand
-    - e.g. something needs to be written on the flipcharts
+    - e.g. something needs to be written on the flip charts
 - how to prepare the learning environment
     - room layout and any other specifics (e.g. name tags, sign-in sheet, etc.)
     - in case of an online training this includes preparation of the virtual room, providing access, sending out or publishing reading materials, etc.

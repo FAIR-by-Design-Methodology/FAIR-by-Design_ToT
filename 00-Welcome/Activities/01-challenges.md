@@ -9,7 +9,7 @@ Start a group discussion on the challenges that people would like to overcome by
 
 5 mins
 
-## Number of people that it can be perfomed with
+## Number of people that it can be performed with
 
 any
 
@@ -27,7 +27,7 @@ Ask the trainees about the difficulties and challenges they would face in everyd
 Example question: 
 - What I find most difficult when developing FAIR learning materials is ...?
 
-Provide a menti slide with the question and ask the participants to finish the sentence with a short phrase.
+Provide a Menti slide with the question and ask the participants to finish the sentence with a short phrase.
 Discuss how different identified issues will be addressed during the training.
 
 ## Tips and Tricks

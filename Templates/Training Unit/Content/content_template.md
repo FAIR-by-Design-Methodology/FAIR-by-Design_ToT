@@ -76,7 +76,7 @@ Don't forget attribution if the image was not created by you. If you are reusing
 
 ### Accessibility
 
-Using headings and subheadings, lists and alternative text for images is extremly important so as to ensure accessibility of the content for people with impairments. Also, take care to choose the appropriate color pallette for images.
+Using headings and subheadings, lists and alternative text for images is extremely important so as to ensure accessibility of the content for people with impairments. Also, take care to choose the appropriate color pallette for images.
 
 ### Tables
 
@@ -91,7 +91,7 @@ One such tool that can be used is the [Markdown Tables Generator](https://www.ta
 
 ### Related Learning Materials
 
-Refer to excersizes, quizes, games or other types of learning materials whereever they should be included in the unit and provide links to this content.
+Refer to exercises, quizzes, games or other types of learning materials where ever they should be included in the unit and provide links to this content.
 
 
 ## Summary

@@ -14,7 +14,7 @@ Online: BBB room
 ### Total duration
 15 mins
 
-### Number of attendies
+### Number of attendees
 up to 100
 
 ### Learning objectives

@@ -14,7 +14,7 @@ Aim/Goal of unit
 
 ### Total duration
 
-### Number of attendies
+### Number of attendees
 - important to know the max group size
 - can be a number range (e.g. 20-30)
 
@@ -29,7 +29,7 @@ Aim/Goal of unit
 | 10       | Welcome / Introduction | - housekeeping  - introduce trainer and trainees - learning objectives | ice breaker              | e.g. name tags, flip chart |
 | 5        | The hook               | - focus attention - provide framework                                  | brainstorm expectations  | e.g. post-it notes         |
 |          | Training               | information + examples                                                 | check for understanding  | e.g. pptx + handouts       |
-|          | Guided practice        | trainer acts as fascilitator                                           | excercise or activity    | e.g. posters and markers   |
+|          | Guided practice        | trainer acts as facilitator                                            | exercise or activity    | e.g. posters and markers   |
 |          | Summary                | key takeaways                                                          | reinforcement assignment | e.g. cards                 |
 
 Note: If the training is relying heavily on presentations then another option for the plan layout is to provided in a slide by slide using slide thumbnails in the topic column. In this case each row in the table should refer to a separate slide in the presentation.
@@ -41,7 +41,7 @@ Note: If the training is relying heavily on presentations then another option fo
 - results how and when
 
 ### Certificate or Badge
-- microcredentials for the unit
+- micro-credentials for the unit
 - if certificate or badge is issued then explain how it can be gained
 
 ### Reflection

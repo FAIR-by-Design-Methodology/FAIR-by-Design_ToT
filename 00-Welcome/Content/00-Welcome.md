@@ -16,7 +16,7 @@
 - attendees of the FAIR-by-Design ToT live webinar
 
 ## Duration
-- 10 mins
+- 30 mins
 
 ## Prerequisites
 - familiarity with the published [D2.2 FAIR-by-Design Learning Materials Methodology](https://zenodo.org/record/7875541)

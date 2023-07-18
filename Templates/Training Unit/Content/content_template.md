@@ -6,7 +6,7 @@
 
 # Learning Unit Template
 
-## Introduction
+Introduction
 
 ## Learning Objectives
 - min one learning objective using the verbs from the Blooms taxonomy

@@ -1,31 +1,64 @@
 [_metadata_:author]:- "Skills4EOSC T2.3"
-[_metadata_:title]:- "FAIR Learning Unit Learning Content Structure Template"
-[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, FAIR learning unit template"
+[_metadata_:title]:- "FAIR Skills & Principles"
+[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, FAIR skills, FAIR principles"
 
 
 
-# Learning Unit Template
+# FAIR Skills & Principles
 
-## Introduction
+To be able to successfully design FAIR learning objects an instructional designer must expand the traditional skill set with additional FAIR related skills. Using these newly acquired skills, the instructor can then incorporate additional actions in the backward instructional design process in order to produce FAIR-by-design learning objects. 
+
+Thus, becoming familiar with the FAIR principles and their implementation is an essential step in the Prepare stage of the FAIR-by-Design methodology.
 
 ## Learning Objectives
-- min one learning objective using the verbs from the Blooms taxonomy
+- Describe the FAIR-by-Design instructional design skills
+- Summarize the FAIR guiding principles
+- Compare licenses
+- Write attribution
+- Identify Permanent Identifiers (PIDs)
+- Recognize metadata
+- Interpret the instructional design process
 
 ## Target Audience
-- who is this learning unit meant for
+- attendees of the FAIR-by-Design ToT live webinar
 
 ## Duration
-- time needed to learn the provided content
+30 mins
 
 ## Prerequisites
-- list any knowledge that is required so that the learning unit can be followed
+none
 
 ## Learning Tools
 
 - list any tools that are necessary to be used to complete the learning unit
 - examples include required software, access to resources, etc.
 
-## Learning Content Topic
+## FAIR-by-Design Instructional Design Skills
+
+The skills required to start producing FAIR learning materials include:
+- Expertise in advocacy and promotion of the FAIR guiding principles
+- Expertise in curating and sharing FAIR data enabling
+    - Efficient application of the concept of metadata
+        - Choosing and implementing metadata schema with accompanying controlled vocabularies and ontologies
+    - Understanding the concept of storing and indexing digital objects
+        - Use of persistent identifiers (PIDs) for digital objects
+        - Use of repositories or learning management systems and storing platforms
+- Legal expertise to be able to recognize, define and combine 
+    - Intellectual Property Rights
+    - Licensing
+    - Attribution and citing of learning materials and other resources
+- Technical expertise in
+    - Different tools and formats used for creation and delivery of learning content and their interoperability
+    - Use of versioning during the creation and maintenance of different types of materials and resources
+- Good communication, collaboration and research skills that will support the process of 
+    - Co-creation, 
+    - Sharing, 
+    - Finding and reuse of learning materials, and 
+    - Implementation of best practices and other related policies
+- Instructional design and development expertise necessary for the creation of high-quality learning materials
+
+
+
 
 Here goes the content of the learning unit divided into a number of subtopics and any additional headings as necessary.
 

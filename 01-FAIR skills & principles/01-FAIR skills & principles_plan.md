@@ -1,48 +1,46 @@
 [_metadata_:author]:- "Skills4EOSC T2.3"
-[_metadata_:title]:- "FAIR Learning Unit Lesson Plan Template"
-[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, FAIR learning unit lesson plan template"
+[_metadata_:title]:- "FAIR Skills & Principles Plan"
+[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, FAIR Skills, FAIR principles, plan"
 
-# Unit Lesson Plan Template
+# FAIR Skills & Principles
 
-## Unit Name
+## Goal
 
-Aim/Goal of unit
+Discuss the skills relevant for FAIR-by-Design learning materials development. Introduce the FAIR principles and define the FAIR learning objects characteristics.
 
 ### Location
-- is it going to be online or physical
-- if physical any special room type should be noted (e.g. classroom, IT lab, ...)
+- online
+- BBB course room
 
 ### Total duration
+30 mins
 
 ### Number of attendees
-- important to know the max group size
-- can be a number range (e.g. 20-30)
+- any (< 100)
 
 ### Learning objectives
-- list the learning objectives that are to be achieved
-- learning objectives should be devised using the verbs from the Bloom's Taxonomy
-- learning objectives should be SMART
+- Describe the FAIR-by-Design instructional design skills
+- Summarize the FAIR guiding principles
+- Define FAIR learning objects
+- Determining FAIRness of learning objects 
 
 ### Plan
-| Duration | Topic                  | Key points/Teaching Method/Questions                                   | Activities               | Resources                  |
-|----------|------------------------|------------------------------------------------------------------------|--------------------------|----------------------------|
-| 10       | Welcome / Introduction | - housekeeping  - introduce trainer and trainees - learning objectives | ice breaker              | e.g. name tags, flip chart |
-| 5        | The hook               | - focus attention - provide framework                                  | brainstorm expectations  | e.g. post-it notes         |
-|          | Training               | information + examples                                                 | check for understanding  | e.g. pptx + handouts       |
-|          | Guided practice        | trainer acts as facilitator                                            | exercise or activity    | e.g. posters and markers   |
-|          | Summary                | key takeaways                                                          | reinforcement assignment | e.g. cards                 |
-
-Note: If the training is relying heavily on presentations then another option for the plan layout is to provided in a slide by slide using slide thumbnails in the topic column. In this case each row in the table should refer to a separate slide in the presentation.
-
+| **Duration** | **Topic**             | **Key points/Teaching Method/Questions**                                                                                         | **Activities**                                | **Resources**  |
+|--------------|-----------------------|----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|----------------|
+| 3            | FAIR skills           | focus attention on the marriage of two skillsets  (FAIR + instructional design)                                                  | brainstorm expectations                       | pptx           |
+| 4            | FAIR principles       | - introduce main concepts - human vs machine - data, metadata, infrastructure - what is FAIR in different fields and disciplines | FAIRification framework                       | pptx           |
+| 8            | FAIR Learning objects | - perspective - granularity  - what's inside a learning object - characteristics of FAIR LO                                      | discuss effort needed to increase granularity | pptx           |
+| 10           | Guided practice       | trainer acts as facilitator                                                                                                      | Assess FAIRness activity                      | browser, Menti |
+| 5            | Summary               | key takeaways                                                                                                                    | group discussion after the activity quiz      | pptx           |
 
 ### Assessment
-- what, how, when
-- is it going to be formative (throughout) or summative (in the end)
-- results how and when
+- summative assessment
+- quiz available on the learning platform
+- can be completed at any time
+- auto-graded upon submission, with final marks and pass criteria information provided by the LMS
 
-### Certificate or Badge
-- micro-credentials for the unit
-- if certificate or badge is issued then explain how it can be gained
+### Badge
+- successful quiz completion counts towards the FAIR Instructor badge
 
 ### Reflection
 - how did it go

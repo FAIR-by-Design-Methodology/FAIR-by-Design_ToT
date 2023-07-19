@@ -30,7 +30,7 @@ none
 - Browser
 - Menti access or BBB quiz interaction
 
-## FAIR-by-Design Instructional Design Skills
+## FAIR Instructional Design Skills
 
 The skills required to start producing FAIR learning materials can be divided into two groups:
 - FAIR oriented skills

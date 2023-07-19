@@ -50,3 +50,30 @@ The ultimate goal of FAIR is to optimise the reuse of data. To achieve this, met
 - [R1.3. (Meta)data meet domain-relevant community standards](https://www.go-fair.org/fair-principles/r1-3-metadata-meet-domain-relevant-community-standards/)
 
 The principles refer to three types of entities: data (or any digital object), metadata (information about that digital object), and infrastructure. For instance, principle F4 defines that both metadata and data are registered or indexed in a searchable resource (the infrastructure component).
+
+## RDA Minimal Metadata for Learning Resources
+
+The RDA Education And Training On Handling Of Research Data Interest Group has defined a minimal metadata seta for learning resources that has become a de facto standard for describing FAIR learning materials.
+
+The following table describes the minimal metadata set elements and their definitions:
+
+| **Element Name** | **Definition** |
+|---|---|
+| Title | The human readable name of the resource. |
+| Abstract / Description | A brief synopsis about or description of the learning resource |
+| Author(s) | Name of entity(ies) authoring the resource |
+| Primary Language | Language in which the resource was originally published or made available |
+| Keyword(s) | Keywords or tags used to describe the resource |
+| License | A license document that applies to this content, typically indicated by URL |
+| Version Date | Version date for the most recently published or broadcast resource |
+| URL to Resource | URL that resolves to the learning resource or to a "landing page" for the resource that contains important contextual information  including the direct resolvable link to the resource, if applicable. |
+| Resource URL Type | Designation of the identifier scheme  used for the resource URL, e.g., DOI, ARK, Handle |
+| Target Group (Audience) | Principal users(s) for which the resource was designed |
+| Learning Resource Type | The predominant type or kind that characterizes the learning resource |
+| Learning Outcome | Descriptions of what knowledge, skills or abilities a learner should acquire on completion of the resource |
+| Access Cost | Choice stating whether or not there is a fee for use of the resource (yes, no, maybe) |
+| Expertise (Skill) Level | Target skill level in the topic being taught; example values include beginner, intermediate, advanced |
+
+This table is taken from [RDA Minimal Metadata for Learning Resources](https://doi.org/10.15497/RDA00073) by Hoebelheinrich, Nancy J; Biernacka, Katarzyna; Brazas, Michelle; Castro, Leyla Jael; Fiore, Nicola; Hellström, Margareta; Lazzeri, Emma; Leenarts, Ellen; Martinez Lavanchy, Paula Maria; Newbold, Elizabeth; Nurnberger, Amy; Plomp, Esther; Vaira, Lucia; van Gelder, Celia W G; Whyte, Angus licensed under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode).
+
+The metadata schema that also defines the type of each element, the allowed values, and constraints is available on the RDA website: [RDA Minimal Metadata for Learning Resources Professional and Informal Education Examples](https://www.rd-alliance.org/system/files/Copy%20of%20Examples%20for%20Professional%20and%20Informal%20Education.pdf)

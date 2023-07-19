@@ -65,56 +65,93 @@ The skills required to start producing FAIR learning materials can be divided in
 
 ## FAIR guiding principles
 
-| This section of the learning unit is from "[FAIR principles](https://www.go-fair.org/fair-principles/)" by [GOFAIR](https://www.go-fair.org/). The website content is licensed under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/). |
-|---|
+The ‘[FAIR Guiding Principles for scientific data management and stewardship](https://doi.org/10.1038/sdata.2016.18)’ are published in Scientific Data in 2016. The main goal of this work is to provide guidelines on how to improve the
+- **F**indability, 
+- **A**ccessibility, 
+- **I**nteroperability, and 
+- **R**eusability of digital objects. 
 
-In 2016, the ‘[FAIR Guiding Principles for scientific data management and stewardship](https://doi.org/10.1038/sdata.2016.18)’ were published in Scientific Data. The authors intended to provide guidelines to improve the Findability, Accessibility, Interoperability, and Reuse of digital assets. The principles emphasise machine-actionability (i.e., the capacity of computational systems to find, access, interoperate, and reuse data with none or minimal human intervention) because humans increasingly rely on computational support to deal with data as a result of the increase in volume, complexity, and creation speed of data.
+One of the main points is enabling FAIR not only from human, but also machine perspective, enabling automated actions on various digital objects.
 
-A practical “how to” guidance to go FAIR can be found in the [Three-point FAIRification Framework](https://www.go-fair.org/how-to-go-fair/).
+As digital learning materials are a type of digital objects, the general FAIR principles can also be applied to them. Note that the FAIR principles refer to three entities: 
+    - the digital object
+    - the metadata (information that describes the digital object), and 
+    - the infrastructure that stores or indexes the digital object (e.g. repository and catalogue). 
 
-**Findable**
-The first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services, so this is an essential component of the [FAIRification process](https://www.go-fair.org/fair-principles/fairification-process/).
+### Findable
+To ensure a digital object is findable 
+- the object should be accompanied with sufficiently detailed descriptive metadata
+- a unique and persistent identifier (PID) such as a digital object identifier (DOI) should be used to point to the digital object.
 
-[F1. (Meta)data are assigned a globally unique and persistent identifier](https://www.go-fair.org/fair-principles/fair-data-principles-explained/f1-meta-data-assigned-globally-unique-persistent-identifiers/)
+### Accessible
+For the digital object to be accessible
+- the metadata and the object content should be understandable to both humans and machines, and 
+- the digital object should be stored in a trusted repository.
+- clear authentication and authorization procedures should be defined and outlined
+- although the access to the digital object can be restricted, the access metadata should always be open
 
-[F2. Data are described with rich metadata (defined by R1 below)](https://www.go-fair.org/fair-principles/fair-data-principles-explained/f2-data-described-rich-metadata/)
+### Interoperable
+The digital object is considered interoperable if
+- the metadata should follow a commonly accepted metadata schema combined with agreed-upon controlled vocabularies
+- formal, accessible, shared, and broadly applicable language(s) and format(s) should be used for the digital object representation
 
-[F3. Metadata clearly and explicitly include the identifier of the data they describe](https://www.go-fair.org/fair-principles/f3-metadata-clearly-explicitly-include-identifier-data-describe/)
+### Reusable
+To be reusable a digital object should have
+- a clear usage license 
+- accurate information on provenance.
 
-[F4. (Meta)data are registered or indexed in a searchable resource](https://www.go-fair.org/fair-principles/f4-metadata-registered-indexed-searchable-resource/)
 
-**Accessible**
-Once the user finds the required data, she/he/they need to know how they can be accessed, possibly including authentication and authorisation.
+More information about the FAIR principles and the general FAIRification process can be found on the [GOFAIR website](https://www.go-fair.org/fair-principles/fairification-process/).
 
-[A1. (Meta)data are retrievable by their identifier using a standardised communications protocol](https://www.go-fair.org/fair-principles/542-2/)
+## FAIR Learning Objects
 
-- [A1.1 The protocol is open, free, and universally implementable](https://www.go-fair.org/fair-principles/a1-1-protocol-open-free-universally-implementable/)
+When applying the FAIR guiding principles to learning materials there are several aspects that need to be considered.
 
-- [A1.2 The protocol allows for an authentication and authorisation procedure, where necessary](https://www.go-fair.org/fair-principles/a1-2-protocol-allows-authentication-authorisation-required/)
+### Perspective
 
-[A2. Metadata are accessible, even when the data are no longer available] (https://www.go-fair.org/fair-principles/a2-metadata-accessible-even-data-no-longer-available/)
+Are the learning materials FAIR from a learner perspective or from the trainer/instructor perspective, or both? Using the FAIR-by-design methodology we aim to make the learning materials FAIR from both perspectives.
 
-**Interoperable**
-The data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing.
+This means that we aim to make the learning materials FAIR for both learners and other trainers and instructional designers.
 
-[I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.](https://www.go-fair.org/fair-principles/i1-metadata-use-formal-accessible-shared-broadly-applicable-language-knowledge-representation/)
+### Granularity
 
-[I2. (Meta)data use vocabularies that follow FAIR principles](https://www.go-fair.org/fair-principles/i2-metadata-use-vocabularies-follow-fair-principles/)
+What is the level of granularity when applying the FAIR principles? Should the course be FAIR as a whole, or should each course module be FAIR on its own? 
 
-[I3. (Meta)data include qualified references to other (meta)data](https://www.go-fair.org/fair-principles/i3-metadata-include-qualified-references-metadata/)
+The highest granularity level where we can apply the FAIR principles is the level of the learning object.
 
-**Reusable**
-The ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings.
+![Hierarchical representation of the granularity of different learning materials aggregations](./img/learning_content.jpg)
 
-[R1. (Meta)data are richly described with a plurality of accurate and relevant attributes](https://www.go-fair.org/fair-principles/r1-metadata-richly-described-plurality-accurate-relevant-attributes/)
+We define a **FAIR learning object** as any FAIR digital resource that supports learning developed around a single learning objective. At the very core of this approach is the idea that the learning object, accompanied with suitable descriptive metadata, can be used as a common building block for the development of more complex learning content by reusing it, re-purposing it, and potentially revising it.
 
-- [R1.1. (Meta)data are released with a clear and accessible data usage license](https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/)
+The best practice is to define a learning object as a package of: 
+- concrete learning outcome
+- lesson plan
+- lesson content 
+- one or more activities
+- assessment 
+- facilitation guide. 
 
-- [R1.2. (Meta)data are associated with detailed provenance](https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/)
+### Characteristics of FAIR learning objects
 
-- [R1.3. (Meta)data meet domain-relevant community standards](https://www.go-fair.org/fair-principles/r1-3-metadata-meet-domain-relevant-community-standards/)
+- **Findable** – the learning object is the lowest hierarchical level of findability of learning materials in the EOSC ecosystem and is thus the lowest hierarchical level that can be described with metadata and catalogued
+- **Accessible** – the full scope (content, tools and implementation resources) of the learning object should be accessible to both learning producers and consumers in the EOSC ecosystem
+- **Interoperable** – with a well-chosen scope (content, tools and implementation resources), the learning object can be consumed on multiple platforms
+- **Re-usable** – each learning object can be put in a wider context based on the specific learning requirements of a particular aggregate course, unit or module in the EOSC ecosystem.
 
-The principles refer to three types of entities: data (or any digital object), metadata (information about that digital object), and infrastructure. For instance, principle F4 defines that both metadata and data are registered or indexed in a searchable resource (the infrastructure component).
+In summary:
+- Learning objects are digital
+- Learning objects contain learning content and information on tools and implementation resources
+- Learning objects have an explicit learning objective
+- Learning objects tend to be, but are not necessarily, small or granular in nature
+- Learning objects tend to be, but are not necessarily, disassociated from context
+- Learning objects are stored in a repository
+- Learning objects are described using a metadata specification
+- Learning objects are findable by searching a catalogue
+- Learning objects are interoperable in that they can be used in multiple learning environments
+- Learning objects are reusable by both other instructors and learners
+- Learning objects can be repurposed for different learning contexts
+- Learning object are composable into aggregates.
+
 
 ## Metadata and Metadata Schema
 

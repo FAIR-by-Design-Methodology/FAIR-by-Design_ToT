@@ -187,6 +187,7 @@ Example learning materials:
 
 As strict definitions are still lacking while doing this assessment, the FAIRness is assessed based on the general understanding of the concepts of FAIR and learning objects. Thus, all opinions are valid as long as they relate to the listed FAIR learning objects objective.
 
+## Summary
 Think about:
 - What information is missing to make the material FAIR?
 - On what granularity level have you assessed the FAIRness?
@@ -194,15 +195,8 @@ Think about:
 
 [Get more detailed information on the activity](../Activities/Assessing%20FAIRness%20of%20Learning%20Materials.md).
 
-## Summary
-
-At the end provide a short summary of the main points of the learning unit (these are the key takeaways that help reflect on the learning outcomes)
-
 ## Suggested Reading
 - [Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016).](https://doi.org/10.1038/sdata.2016.18)
 - [OECD, Giving Knowledge for Free, The Emergence of Open Educational Resources, 2007](https://www.oecd.org/education/ceri/givingknowledgeforfreetheemergenceofopeneducationalresources.htm)
 - [Wiley, The Instructional Use of Learning Objects, 2002](https://members.aect.org/publications/InstructionalUseofLearningObjects.pdf)
 - [Balatsoukas P, Morris A, O'Brien A. Learning objects update: Review and critical approach to content aggregation. Journal of Educational Technology & Society, 11(2):119-30, 2008.](https://eric.ed.gov/?id=EJ814100)
-- provide a list of references for further reading that should help clarify the content of the learning unit and elevate the knowledge level
-- [Markdown guide](https://www.markdownguide.org/), free and open-source reference guide that explains how to use Markdown.
-

@@ -1,20 +1,20 @@
 ---
 # RDA learning materials metadata minimal set
-Title: "The human readable name of the learning resource."
-Author: "Name of entity(ies) authoring the resource."
-Tags: "Keywords or tags used to describe the resource."
+title: "The human readable name of the learning resource."
+author: "Name of entity(ies) authoring the resource."
+tags: "Keywords or tags used to describe the resource."
 
-Abstract/Description: "A brief synopsis about or description of the learning resource."
-Primary_Language: "two letter code, Language in which the resource was originally published or made available."
-License: "A license document that applies to this content, typically indicated by URL"
-Version_Date: "YYYY-MM-DD Version date for the most recently published or broadcast resource."
+abstract/description: "A brief synopsis about or description of the learning resource."
+primary_language: "two letter code, Language in which the resource was originally published or made available."
+license: "A license document that applies to this content, typically indicated by URL"
+version_Date: "YYYY-MM-DD Version date for the most recently published or broadcast resource."
 URL_to_Resource: "URL to learning platform course / URL that resolves to the learning resource or to a "landing page" for the resource that contains important contextual information including the direct resolvable link to the resource, if applicable. Should be a PID, if possible."
-Resource_URL_Type: "URL"
-Target_Group_(Audience): "Principle users(s) for which the resource was designed."
-Learning_Resource_Type: "The predominant type or kind that characterizes the learning resource."
-Learning_Outcome(s): "Descriptions of what knowledge, skills or abilities students should acquire on completion of the resource."
-Access_Cost: "Choice stating whether or not there is a fee for use of the resource (CV = Y/N/Maybe with recommendation that further explanation of “Maybe” goes in the Description field"
-Expertise_Level_(Skill_Level): "Target skill level in the topic being taught; example values include: beginner, intermediate, advanced"
+resource_URL_type: "URL"
+target_group_(audience): "Principle users(s) for which the resource was designed."
+learning_resource_type: "The predominant type or kind that characterizes the learning resource."
+learning_outcome(s): "Descriptions of what knowledge, skills or abilities students should acquire on completion of the resource."
+access_cost: "Choice stating whether or not there is a fee for use of the resource (CV = Y/N/Maybe with recommendation that further explanation of “Maybe” goes in the Description field"
+expertise_level_(skill_level): "Target skill level in the topic being taught; example values include: beginner, intermediate, advanced"
 ---
 
 # Title of training 

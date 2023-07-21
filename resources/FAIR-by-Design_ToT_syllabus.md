@@ -61,9 +61,9 @@ The training will take place in the course of three days in the half day + full 
 FAIR, learning objects, methodology, practical implementation
 
 ## Agenda: Training Schedule - Training Structure
-start time is given in CEST
+Note: start time is given in CEST
 
-**Day 1: FAIR-by-Design Preparation and Discovery**
+### Day 1: FAIR-by-Design Preparation and Discovery
 |     Start    |     Step        |     Topic                                      |     Duration    |
 |--------------|-----------------|------------------------------------------------|-----------------|
 |     9:00     |                 |     Introduction                               |     30 mins     |
@@ -73,7 +73,7 @@ start time is given in CEST
 |     11:15    |                 |     = coffee break =                           |     15 mins     |
 |     11:30    |     Discover    |     Discovering existing learning materials    |     60 mins     |
 
-**Day 2: Designing and Producing Learning Materials**
+### Day 2: Designing and Producing Learning Materials
 |     Start    |     Step       |     Topic                        |     Duration    |
 |--------------|----------------|----------------------------------|-----------------|
 |     9:00     |     Design     |     Conceptualisation            |     30 mins     |
@@ -92,7 +92,8 @@ start time is given in CEST
 |     16:45    |     Produce    |     Metadata                     |     30 mins     |
 |     17:15    |     Produce    |     Initial Quality Assurance    |     15 mins     |
 
-**Day 3: Finalising FAIR-by-Design Learning Materials**
+
+### Day 3: Finalising FAIR-by-Design Learning Materials
 |     Start    |     Step       |     Topic                 |     Duration    |
 |--------------|----------------|---------------------------|-----------------|
 |     9:00     |     Publish    |     Depositing            |     60 mins     |

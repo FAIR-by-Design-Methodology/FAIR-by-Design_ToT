@@ -1,6 +1,8 @@
-[_metadata_:author]:- "Skills4EOSC T2.3"
-[_metadata_:title]:- "Training Syllabus Template"
-[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, syllabus template"
+---
+author: "Skills4EOSC T2.3"
+RDAmetadata_title: "Training Syllabus Template"
+RDAmetadata_tags]: "FAIR-by-Design learning materials, FAIR learning objects, syllabus template"
+---
 
 # Name of training course/workshop/webinar
 

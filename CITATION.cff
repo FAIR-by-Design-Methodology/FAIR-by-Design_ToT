@@ -10,7 +10,7 @@ authors:
   - family-names: Kjorveziroski
     given-names: Vojdan
     orcid: https://orcid.org/0000-0003-0419-4300  
-title: "FAIR-by-Desing Learning Materials Methodology Training of Trainers"
+title: "FAIR-by-Design Learning Materials Methodology Training of Trainers"
 abstract: "TThe main goal of this ToT is to provide guidance and instructions on how to use the proposed FAIR-by-Design Methodology for development of FAIR learning materials in practice. The training will take you through all steps in the methodology and showcase their implementation using practical examples and developed templates."
 version: 1.0.0
 doi: 10.5281/zenodo.1234
@@ -22,4 +22,4 @@ keywords:
  - "FAIR-by-Design"
  - "Methodology"
  - "FAIR learning objects"
-repository: "https://github.com/sonjafiliposka/FAIR-by-Design_ToT"
+repository: "https://github.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT"

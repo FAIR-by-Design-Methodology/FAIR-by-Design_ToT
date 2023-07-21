@@ -3,7 +3,7 @@
 Title: "The human readable name of the learning resource."
 Abstract/Description: "A brief synopsis about or description of the learning resource."
 Author(s): "Name of entity(ies) authoring the resource."
-Primary_Language: "Language in which the resource was originally published or made available."
+Primary_Language: "two letter code, Language in which the resource was originally published or made available."
 Keyword(s): "Keywords or tags used to describe the resource."
 License: "A license document that applies to this content, typically indicated by URL"
 Version_Date: "YYYY-MM-DD Version date for the most recently published or broadcast resource."
@@ -19,9 +19,8 @@ Expertise_Level_(Skill_Level): "Target skill level in the topic being taught; ex
 # Title of training 
 # Type (Course/Workshop/Webinar)
 
-## Date/Time
-- when it will be offered
-- replace with online if it is self-paced
+## Date/Time: when it will be offered
+- put available from date if it is self-paced
 
 ## Location
 - where it will be available
@@ -32,17 +31,13 @@ Expertise_Level_(Skill_Level): "Target skill level in the topic being taught; ex
 - what is the main goal/purpose of this training
 - short training description
 
-## Target audience
-- target audience description
+## Target audience: target audience description
 
-## Expertise Level / Skill Level
-- beginner / intermediate / advanced
+## Expertise Level / Skill Level: Beginner / Intermediate / Advanced
 
-## Primary Language
-English
+## Primary Language: English
 
-## Access Cost
-N
+## Access Cost: N
 
 ## Prerequisites
 - if any

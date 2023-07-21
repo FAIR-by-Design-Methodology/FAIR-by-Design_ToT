@@ -1,19 +1,27 @@
 ---
 # RDA learning materials metadata minimal set
 Title: "FAIR-by-Design Methodology for Learning Materials Training of Trainers"
-Abstract/Description: "A brief synopsis about or description of the learning resource."
-Author(s): "Name of entity(ies) authoring the resource."
-Primary_Language: "Language in which the resource was originally published or made available."
-Keyword(s): "Keywords or tags used to describe the resource."
-License: "A license document that applies to this content, typically indicated by URL"
+Abstract/Description: "The main goal of this ToT is to provide guidance and instructions on how to use the proposed FAIR-by-Design Methodology for development of FAIR learning materials in practice. The training will take you through all steps in the methodology and showcase their implementation using practical examples and developed templates."
+Author(s): "Sonja Filiposka, Dominique Green, Anastas Mishev, Vojdan Kjorveziroski, Andrea Corleto, Eleornora Napolitano, Gabriella Paolini, Sara di Giorgio, Joanna Janik, Luca Schirru, Arnaud Gingold, Christine Chardosek, Irakleitos Souyioultzoglou, Carolin Leister, Emma Lazzeri"
+Primary_Language: "EN"
+Keyword(s): "FAIR, learning objects, methodology, practical implementation"
+License: "https://creativecommons.org/licenses/by/4.0/"
 Version_Date: "2023-10-17"
-URL_to_Resource: "URL to learning platform course / URL that resolves to the learning resource or to a "landing page" for the resource that contains important contextual information including the direct resolvable link to the resource, if applicable. Should be a PID, if possible."
+URL_to_Resource: "https://learning.skills4eosc.eu/course/view.php?id=19"
 Resource_URL_Type: "URL"
-Target_Group_(Audience): "Principle users(s) for which the resource was designed."
-Learning_Resource_Type: "The predominant type or kind that characterizes the learning resource."
-Learning_Outcome(s): "Descriptions of what knowledge, skills or abilities students should acquire on completion of the resource."
-Access_Cost: "Choice stating whether or not there is a fee for use of the resource (CV = Y/N/Maybe with recommendation that further explanation of “Maybe” goes in the Description field"
-Expertise_Level_(Skill_Level): "Target skill level in the topic being taught; example values include: beginner, intermediate, advanced"
+Target_Group_(Audience): "All Skills4EOSC project members that will need to develop learning materials for any type of project-related training."
+Learning_Resource_Type: "other"
+Learning_Outcome(s): "- Define FAIR learning objects
+- Adapt and mix FAIR learning objects
+- Identify licenses and attribute correspondingly 
+- Structure comprehensive learning materials
+- Manage file formats and tools 
+- Define metadata using a schema
+- Create and publish FAIR-by-Design learning materials
+- Collaborate with other instructors
+- Assess FAIR-ness of existing learning objects"
+Access_Cost: "N"
+Expertise_Level_(Skill_Level): "Beginner"
 ---
 
 ![Skills4EOSC WP2 Training of Trainers](./attachments/header.png)
@@ -46,7 +54,7 @@ No prior knowledge is required to follow the training, however see Resources and
 ## Duration
 The training will take place in the course of three days in the half day + full day + half day format. The total length of the training is 12 hours.
 
-## Training objectives
+## Learning Objectives
 - Define FAIR learning objects
 - Adapt and mix FAIR learning objects
 - Identify licenses and attribute correspondingly 

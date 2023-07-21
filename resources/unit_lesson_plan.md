@@ -38,5 +38,5 @@ Although unit lesson plans tend to follow a systematic approach, there is some f
 ## Learning method(s)
 One or more preferred teaching methods that should be utilised during the training for maximum effect.
 Some typical teaching methods that can be employed are presented in the following image
-![teaching methods comparison based on level od technology involved (low to high) and type of centeredness (teacher vs student)](/img/2u-teach-teaching-styles-v4_2.png)
+![teaching methods comparison based on level od technology involved (low to high) and type of centeredness (teacher vs student)](attachments/2u-teach-teaching-styles-v4_2.png)
 Image by [edX](https://www.edx.org) from [teach.com](https://teach.com/what/teachers-know/teaching-methods/), &copy; 2U

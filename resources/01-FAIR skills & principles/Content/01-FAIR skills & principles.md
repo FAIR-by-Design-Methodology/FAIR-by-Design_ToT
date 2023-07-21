@@ -142,7 +142,7 @@ What is the level of granularity when applying the FAIR principles? Should the c
 
 The highest granularity level where we can apply the FAIR principles is the level of the learning object.
 
-![Hierarchical representation of the granularity of different learning materials aggregations](./img/learning_content.jpg)
+![Hierarchical representation of the granularity of different learning materials aggregations](attachments/learning_content.jpg)
 
 |FAIR learning object|Any FAIR digital resource that supports learning developed around a single learning objective|
 |---|

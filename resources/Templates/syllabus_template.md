@@ -1,7 +1,9 @@
 ---
 # RDA learning materials metadata minimal set
 title: "The human readable name of the learning resource."
-author: "Name of entity(ies) authoring the resource."
+author: 
+    - Name of entity(ies) 
+    - authoring the resource
 tags: 
     - Keywords or 
     - tags 

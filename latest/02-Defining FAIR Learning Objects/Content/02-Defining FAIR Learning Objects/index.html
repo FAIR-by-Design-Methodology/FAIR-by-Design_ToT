@@ -474,21 +474,28 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#controlled-vocabularies" class="md-nav__link">
+    Controlled Vocabularies
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#persistent-identifiers" class="md-nav__link">
-    Persistent Identifiers
+  <a href="#learning-materials-repositories" class="md-nav__link">
+    Learning materials repositories
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#learning-materials-repositories" class="md-nav__link">
-    Learning materials repositories
+  <a href="#persistent-identifiers" class="md-nav__link">
+    Persistent Identifiers
   </a>
   
 </li>
@@ -665,21 +672,28 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#controlled-vocabularies" class="md-nav__link">
+    Controlled Vocabularies
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#persistent-identifiers" class="md-nav__link">
-    Persistent Identifiers
+  <a href="#learning-materials-repositories" class="md-nav__link">
+    Learning materials repositories
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#learning-materials-repositories" class="md-nav__link">
-    Learning materials repositories
+  <a href="#persistent-identifiers" class="md-nav__link">
+    Persistent Identifiers
   </a>
   
 </li>
@@ -801,22 +815,16 @@
 
 
 <h1 id="fair-skills-principles">FAIR Skills &amp; Principles</h1>
-<p>To be able to successfully design FAIR learning objects an instructional designer must expand the traditional skill set with additional FAIR related skills. Using these newly acquired skills, the instructor can then incorporate additional actions in the backward instructional design process in order to produce FAIR-by-design learning objects. </p>
-<p>Thus, becoming familiar with the FAIR principles and their implementation is an essential step in the Prepare stage of the FAIR-by-Design methodology.</p>
+<p>The purpose of this learning unit is to introduce all relevant FAIR concepts that are necessary when developing learning objects such as metadata, PIDs, repo, licenses, attribution, etc. Once these concepts are adopted, the instructional designer is then ready to start with the backwards instructional process. The first step is ideation wherein the main aspects of the learning materials such as learning objects need to be defined.</p>
 <h2 id="learning-objectives">Learning Objectives</h2>
 <ul>
-<li>Describe the FAIR-by-Design instructional design skills</li>
-<li>Summarize the FAIR guiding principles</li>
-<li>
-<p>Define FAIR learning objects</p>
-</li>
-<li>
-<p>Recognize metadata</p>
-</li>
+<li>Recognize metadata</li>
 <li>Identify Permanent Identifiers (PIDs)</li>
 <li>Compare licenses</li>
 <li>Write attribution</li>
+<li>Categorizing learning repositories</li>
 <li>Interpret the instructional design process</li>
+<li>Preparing learning objectives</li>
 </ul>
 <h2 id="target-audience">Target Audience</h2>
 <ul>
@@ -825,15 +833,29 @@
 <h2 id="duration">Duration</h2>
 <p>30 mins</p>
 <h2 id="prerequisites">Prerequisites</h2>
-<p>none</p>
+<ul>
+<li><a href="../../../01-FAIR%20skills%20%26%20principles/Content/01-FAIR%20skills%20%26%20principles/">01-FAIR Skills &amp; Principles</a></li>
+</ul>
 <h2 id="learning-tools">Learning Tools</h2>
 <ul>
-<li>list any tools that are necessary to be used to complete the learning unit</li>
-<li>examples include required software, access to resources, etc.</li>
+<li>Training BBB room</li>
+<li>Browser</li>
+<li>Menti access or BBB quiz interaction</li>
 </ul>
 <h2 id="metadata-and-metadata-schema">Metadata and Metadata Schema</h2>
+<p>Metadata is one of the key ingredients to making learning resources findable, accessible, and reusable. In essence, metadata consists of structured information that describes, explains and locates a resource.</p>
+<p>The main purpose of the (meta)data about the learning resource is to enable cataloguing and discovery by providing a standard means to report on:
+- WHO created the resource
+- WHAT is the content of the resource
+- WHEN was the data resource
+- WHERE is the location of the resource
+- WHY the data was resource</p>
+<p>Using this information a learner or instructor should be able to:
+- Search and retrieve the information about a learning resource 
+- Determine if the learning resource meets certain learning requirements
+- Discover how to acquire and use the learning resource</p>
 <h3 id="rda-minimal-metadata-for-learning-resources">RDA Minimal Metadata for Learning Resources</h3>
-<p>The RDA Education And Training On Handling Of Research Data Interest Group has defined a minimal metadata seta for learning resources that has become a de facto standard for describing FAIR learning materials.</p>
+<p>The <a href="https://www.rd-alliance.org/groups/education-and-training-handling-research-data.html">RDA Education And Training On Handling Of Research Data Interest Group</a> has defined a <a href="https://zenodo.org/record/6769695#.YrrP9-xBybQ">minimal metadata seta for learning resources</a> that has become a de facto standard for describing FAIR learning materials.</p>
 <p>The following table describes the minimal metadata set elements and their definitions:</p>
 <table>
 <thead>
@@ -902,9 +924,32 @@
 </tbody>
 </table>
 <p>This table is taken from <a href="https://doi.org/10.15497/RDA00073">RDA Minimal Metadata for Learning Resources</a> by Hoebelheinrich, Nancy J; Biernacka, Katarzyna; Brazas, Michelle; Castro, Leyla Jael; Fiore, Nicola; Hellström, Margareta; Lazzeri, Emma; Leenarts, Ellen; Martinez Lavanchy, Paula Maria; Newbold, Elizabeth; Nurnberger, Amy; Plomp, Esther; Vaira, Lucia; van Gelder, Celia W G; Whyte, Angus licensed under the <a href="https://creativecommons.org/licenses/by/4.0/legalcode">CC BY 4.0 license</a>.</p>
-<p>The metadata schema that also defines the type of each element, the allowed values, and constraints is available on the RDA website: <a href="https://www.rd-alliance.org/system/files/Copy%20of%20Examples%20for%20Professional%20and%20Informal%20Education.pdf">RDA Minimal Metadata for Learning Resources Professional and Informal Education Examples</a></p>
-<h2 id="persistent-identifiers">Persistent Identifiers</h2>
+<p>These elements need to be standardized so that they are useful when used in practice. This is done by defining a metadata schema that describes the structure of the metadata elements. The metadata schema defines the standards for describing the metadata elements.</p>
+<p>The metadata schema for learning resources that also defines the type of each element, the allowed values, and constraints is available on the RDA website: <a href="https://www.rd-alliance.org/system/files/Copy%20of%20Examples%20for%20Professional%20and%20Informal%20Education.pdf">RDA Minimal Metadata for Learning Resources Professional and Informal Education Examples</a></p>
+<h3 id="controlled-vocabularies">Controlled Vocabularies</h3>
+<p>Some of the fields in the proposed RDA metadata schema are based on fixed or suggested controlled vocabularies (CV). The use of controlled vocabularies is to help humans and machines categorize the information while helping to reduce duplication and errors. </p>
+<p>In essence, controlled vocabularies should be used for any metadata elements with predefined value(s), where in the vocabulary is presented as a list of prescribed items. </p>
+<p>Such examples are 
+- Access Cost with possible values of Y, N and Maybe
+- Primary Language that can be a two letter code from the <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">ISO 639-1:2002 codeset</a></p>
+<p>Note that in many cases controlled vocabularies are suggested, but at this stage they are not strictly defined.</p>
+<p>Later on during this training, you will learn how and where to define the metadata for your learning resources.</p>
 <h2 id="learning-materials-repositories">Learning materials repositories</h2>
+<p>The learning materials need to be stored in a learning repository so that they are made available to others. 
+As the two perspective on learning materials (learners and instructors) have different needs regarding the type and content of the learning materials, to ensure FAIRness for both perspective the learning materials should be stored in two separate repositories:
+- training repository that hosts editable learning materials for instructors
+- learning repository that stores final learning materials to be consumed by learners.</p>
+<p>In Skills4EOSC the suggested choices for the repositories are as follows:
+- learning materials for instructors should be stored on Zenodo (from GitHub)
+- learning materials for learners should be stored on the Skills4EOSC learning platform </p>
+<h2 id="persistent-identifiers">Persistent Identifiers</h2>
+<p>A persistent identifier (PID) is a type of metadata. Its purpose is to uniquely tag a digital object and ensure that this tag is not going to change over time (remains persistent).</p>
+<p>Using a PID one should be able to land on an accessible page with the listed digital object and its metadata. The actual access to the digital object from this page may be restricted. </p>
+<p>PIDs are machine readable and help distinguish between 
+- different materials
+- different versions of the same material.</p>
+<p>Multiple kinds of PIDs exist such as DOI (digital object identifier), Handle (HNDL), ARK (Archival Resources Key).</p>
+<p>For the purposes of creating FAIR learning materials we will be using a Zenodo provided DOI to generate a PID for the trainers learning material kit and the internal IDs system of the Skills4EOSC learning platform for identifying learning resources for learners. </p>
 <h2 id="ipr">IPR</h2>
 <h3 id="licensing">Licensing</h3>
 <h3 id="attribution">Attribution</h3>
@@ -920,8 +965,8 @@
 <h2 id="suggested-reading">Suggested Reading</h2>
 <ul>
 <li><a href="https://doi.org/10.15497/RDA00073">Hoebelheinrich, Nancy J, Biernacka, Katarzyna, Brazas, Michelle, Castro, Leyla Jael, Fiore, Nicola, Hellström, Margareta, Lazzeri, Emma, Leenarts, Ellen, Martinez Lavanchy, Paula Maria, Newbold, Elizabeth, Nurnberger, Amy, Plomp, Esther, Vaira, Lucia, van Gelder, Celia W G, &amp; Whyte, Angus. (2022). Recommendations for a minimal metadata set to aid harmonised discovery of learning resources (1.0).</a></li>
-<li>provide a list of references for further reading that should help clarify the content of the learning unit and elevate the knowledge level</li>
-<li><a href="https://www.markdownguide.org/">Markdown guide</a>, free and open-source reference guide that explains how to use Markdown.</li>
+<li><a href="https://transportation.libguides.com/persistent_identifiers">Jesse Long, Lisa Curtin, Persistent Identifiers, NTL Guide to DOIs &amp; ORCID iDs for DOT Researchers, National Transportation Library (2022)</a></li>
+<li></li>
 </ul>
 
 

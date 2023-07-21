@@ -1,6 +1,14 @@
-[_metadata_:author]:- "Skills4EOSC T2.3"
-[_metadata_:title]:- "Assessment Template"
-[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, assessment template"
+---
+author: "Skills4EOSC T2.3"
+title: "Assessment Template"
+tags: 
+    - FAIR-by-Design learning materials
+    - FAIR learning objects
+    - assessment template
+---
+
+
+
 
 # Training Assessment Quiz Template
 

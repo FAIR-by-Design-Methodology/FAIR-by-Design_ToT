@@ -1,6 +1,11 @@
-[_metadata_:author]:- "Skills4EOSC T2.3"
-[_metadata_:title]:- "FAIR Instructor Challenges Activity"
-[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, FAIR design challenges"
+---
+author: "Skills4EOSC T2.3"
+title: "FAIR Instructor Challenges Activity"
+tags: 
+    - FAIR-by-Design learning materials
+    - FAIR learning objects
+    - FAIR design challenges
+---
 
 # Challenges
 Start a group discussion on the challenges that people would like to overcome by taking the training. Create a safe environment where attendants can share their doubts, fears and difficulties and reassure them that they will be addressed during the training. 

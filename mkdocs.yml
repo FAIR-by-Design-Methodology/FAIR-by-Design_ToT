@@ -1,4 +1,4 @@
-site_name: FAIR by Design Training of Trainers
+site_name: FAIR-by-Design Training of Trainers
 docs_dir: resources
 theme:
  name: material
@@ -7,9 +7,14 @@ plugins:
   - exclude:
       glob:
         - "*Activities/*"
-        
+        - "*Assessment/*"
+        - "*Templates/*"
         - "*.tmp"
         - "*.pdf"
         - "*.gz"
+        - "*.pptx"
+        - "*_plan.md"
+        - "*_facilitator_guide.md"
+        - "FAIR-by-Design_ToT_syllabus.md"
       regex:
         - '.*\.(tmp|bin|tar)$'

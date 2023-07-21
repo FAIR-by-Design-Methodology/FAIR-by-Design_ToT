@@ -1,6 +1,11 @@
-[_metadata_:author]:- "Skills4EOSC T2.3"
-[_metadata_:title]:- "Welcome"
-[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, welcome"
+---
+author: "Skills4EOSC T2.3"
+title: "Welcome"
+tags: 
+    - FAIR-by-Design learning materials
+    - FAIR learning objects
+    - Welcome
+---
 
 # Welcome Unit Plan
 

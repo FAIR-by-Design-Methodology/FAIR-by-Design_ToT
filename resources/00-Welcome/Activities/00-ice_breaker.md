@@ -1,6 +1,11 @@
-[_metadata_:author]:- "Skills4EOSC T2.3"
-[_metadata_:title]:- "Ice Breaking Activity"
-[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, ice breaker"
+---
+title: "Ice Breaking Activity"
+author: "Skills4EOSC T2.3"
+tags: 
+    - FAIR-by-Design learning materials
+    - FAIR learning objects
+    - Ice breaker
+---
 
 # Ice Breaker
 

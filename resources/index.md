@@ -1,7 +1,1 @@
----
-title: Home Page
----
-
-# Welcome
-
-Lorem ipsum...
+FAIR-by-Design_ToT_syllabus.md

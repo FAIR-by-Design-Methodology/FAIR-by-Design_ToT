@@ -1,6 +1,13 @@
-[_metadata_:author]:- "Skills4EOSC T2.3"
-[_metadata_:title]:- "FAIR Skills & Principles Plan"
-[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, FAIR Skills, FAIR principles, plan"
+---
+title: "FAIR Skills & Principles Plan"
+author: "Skills4EOSC T2.3"
+tags: 
+    - FAIR-by-Design learning materials
+    - FAIR learning objects
+    - FAIR Skills
+    - FAIR principles
+    - Plan
+---
 
 # FAIR Skills & Principles
 

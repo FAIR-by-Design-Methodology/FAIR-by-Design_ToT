@@ -1,8 +1,11 @@
-[_metadata_:author]:- "Skills4EOSC T2.3"
-[_metadata_:title]:- "Welcome"
-[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, welcome"
-
-
+---
+title: "Welcome"
+author: "Skills4EOSC T2.3"
+tags: 
+    - FAIR-by-Design learning materials
+    - FAIR learning objects
+    - Welcome
+---
 
 # Welcome
 

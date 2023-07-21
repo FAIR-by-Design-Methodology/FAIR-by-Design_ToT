@@ -1,6 +1,11 @@
-[_metadata_:author]:- "Skills4EOSC T2.3"
-[_metadata_:title]:- "Assessing FAIRness of Learning Materials"
-[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, Assessing FAIRness of Learning Materials"
+---
+title: "Assessing FAIRness of Learning Materials"
+author: "Skills4EOSC T2.3"
+tags: 
+    - FAIR-by-Design learning materials
+    - FAIR learning objects
+    - Assessing FAIRness of Learning Materials
+---
 
 # Assessing FAIRness of Learning Materials
 

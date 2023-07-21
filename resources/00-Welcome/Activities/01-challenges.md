@@ -1,6 +1,6 @@
 ---
-author: "Skills4EOSC T2.3"
 title: "FAIR Instructor Challenges Activity"
+author: "Skills4EOSC T2.3"
 tags: 
     - FAIR-by-Design learning materials
     - FAIR learning objects

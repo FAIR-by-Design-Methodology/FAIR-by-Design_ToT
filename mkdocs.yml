@@ -15,5 +15,6 @@ plugins:
         - "*.pptx"
         - "*_plan.md"
         - "*_facilitator_guide.md"
+        - "FAIR-by-Design_ToT_syllabus.md"
       regex:
         - '.*\.(tmp|bin|tar)$'

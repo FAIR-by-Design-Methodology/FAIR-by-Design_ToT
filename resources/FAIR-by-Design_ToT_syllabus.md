@@ -1,13 +1,14 @@
 ---
 # RDA learning materials metadata minimal set
 Title: "FAIR-by-Design Methodology for Learning Materials Training of Trainers"
+Author: "Skills4EOSC T2.3"
 Abstract/Description: "A brief synopsis about or description of the learning resource."
 Author(s): "Name of entity(ies) authoring the resource."
 Primary_Language: "Language in which the resource was originally published or made available."
 Keyword(s): "Keywords or tags used to describe the resource."
 License: "A license document that applies to this content, typically indicated by URL"
 Version_Date: "2023-10-17"
-URL_to_Resource: "URL to learning platform course / URL that resolves to the learning resource or to a "landing page" for the resource that contains important contextual information including the direct resolvable link to the resource, if applicable. Should be a PID, if possible."
+URL_to_Resource: "URL to learning platform course / URL that resolves to the learning resource or to a “landing page” for the resource that contains important contextual information including the direct resolvable link to the resource, if applicable. Should be a PID, if possible."
 Resource_URL_Type: "URL"
 Target_Group_(Audience): "Principle users(s) for which the resource was designed."
 Learning_Resource_Type: "The predominant type or kind that characterizes the learning resource."

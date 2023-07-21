@@ -64,8 +64,16 @@ The trainers materials latest version is taken from the GitHub repo.
 
 ## Learning Units Activities
 
-### Learning Unit
-1. [activity link]()
+### 00-Welcome
+1. [Ice Breaker](./00-Welcome/Activities/00-ice_breaker.md)
+2. [Challenges](./00-Welcome/Activities/01-challenges.md)
+
+### 01-FAIR Skills & Principles
+1. [Assessing FAIRness of Learning Materials](./01-FAIR%20skills%20&%20principles/Activities/Assessing%20FAIRness%20of%20Learning%20Materials.md)
+
+### 02-Defining FAIR Learning Objects
+1.
+2. 
 
 ### 
 

@@ -48,7 +48,7 @@ A mini [ice breaker](../Activities/00-ice_breaker.md) is used to setup and test 
 The main goal of the training is the practical implementation of the FAIR-by-Design learning materials methodology that has been developed by T2.3 and published in [D2.2](https://zenodo.org/record/7875541).
 The methodology extends the backward instructional design process with the FAIR principles aiming to ensure that the learning materials will be findable, accessible, interoperable and reusable from their conception and throughout their lifetime including updates, new versions, reuse, etc. 
 
-![FAIR-by-Design Learning Materials Methodology](img/methodology.png)
+![FAIR-by-Design Learning Materials Methodology](attachments/methodology.png)
 
 The methodology is composed of 6 main steps that are iteratively repeated within a continuous improvement loop:
 - Prepare

@@ -1,0 +1,15 @@
+site_name: FAIR by Design Training of Trainers
+docs_dir: resources
+theme:
+ name: material
+plugins:
+  - tags
+  - exclude:
+      glob:
+        - "*Activities/*"
+        
+        - "*.tmp"
+        - "*.pdf"
+        - "*.gz"
+      regex:
+        - '.*\.(tmp|bin|tar)$'

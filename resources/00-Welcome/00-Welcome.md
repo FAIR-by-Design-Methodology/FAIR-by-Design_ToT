@@ -1,5 +1,5 @@
 ---
-title: "Welcome"
+title: "General Information"
 author: "Skills4EOSC T2.3"
 tags: 
     - FAIR-by-Design Learning Materials
@@ -54,6 +54,7 @@ The methodology extends the backward instructional design process with the FAIR 
 ![FAIR-by-Design Learning Materials Methodology](attachments/methodology.png)
 
 The methodology is composed of 6 main steps that are iteratively repeated within a continuous improvement loop:
+
 - Prepare
     - develop FAIR skills that will augment the traditional instructional design skills. These include FAIR principles, Intellectual Property Rights, licensing, attribution, permanent identifiers (PIDs) and metadata. 
     - define the purpose, learning objectives and audience targets
@@ -76,12 +77,15 @@ The methodology is composed of 6 main steps that are iteratively repeated within
     - list in relevant catalogues
 - Verify
     - go through a quality assurance (QA) process to verify FAIRness
+
 Continuous improvement should be implemented to ensure the learning materials are up-to-date and gathered internal and external input has been incorporated. This includes: 
+
     - analyze gathered feedback
     - initiate a new version development when necessary
 
 ## Training objectives
 Upon successfully completing the training the attendees should be able to:
+
 - Define FAIR learning objects
 - Adapt and mix FAIR learning objects
 - Identify licenses and attribute correspondingly
@@ -94,6 +98,7 @@ Upon successfully completing the training the attendees should be able to:
 
 ## Materials
 The final formats of all materials are available on the Skill4EOSC learning platform within the FAIR-by-Design course. These include:
+
 - presentation slides 
 - presentation notes
 - related templates

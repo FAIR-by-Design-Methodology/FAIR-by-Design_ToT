@@ -1,18 +1,18 @@
 ---
-title: "FAIR Skills & Principles"
+title: "Preparing & Ideating"
 author: "Skills4EOSC T2.3"
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects
-    - FAIR Skills
-    - FAIR Principles
+    - Instructional design process
 ---
 
-# FAIR Skills & Principles
+# Defining FAIR Learning Objects
 
 The purpose of this learning unit is to introduce all relevant FAIR concepts that are necessary when developing learning objects such as metadata, PIDs, repo, licenses, attribution, etc. Once these concepts are adopted, the instructional designer is then ready to start with the backwards instructional process. The first step is ideation wherein the main aspects of the learning materials such as learning objects need to be defined.
 
 ## Learning Objectives
+
 - Recognize metadata
 - Identify Permanent Identifiers (PIDs)
 - Compare licenses

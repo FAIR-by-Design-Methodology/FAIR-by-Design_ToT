@@ -1,5 +1,5 @@
 ---
-title: FAIR Skills & Principles
+title: FAIR Skills for Instructional Designers
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects

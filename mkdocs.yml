@@ -14,5 +14,6 @@ plugins:
         - "*.gz"
         - "*.pptx"
         - "*_plan.md"
+        - "*_facilitator_guide.md"
       regex:
         - '.*\.(tmp|bin|tar)$'

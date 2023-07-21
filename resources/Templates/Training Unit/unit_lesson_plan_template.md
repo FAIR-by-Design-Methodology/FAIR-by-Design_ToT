@@ -1,10 +1,10 @@
 ---
-Title: "FAIR Learning Unit Lesson Plan Template"
-Author: "Skills4EOSC T2.3"
-Tags: 
-    - FAIR-by-Design learning materials
-    - FAIR learning objects
-    - FAIR learning unit lesson plan template
+title: "FAIR Learning Unit Lesson Plan Template"
+author: "Skills4EOSC T2.3"
+tags: 
+    - FAIR-by-Design Learning Materials
+    - FAIR Learning Objects
+    - FAIR Learning Unit Lesson Plan Template
 ---
 
 # Unit Lesson Plan Template

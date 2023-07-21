@@ -1,10 +1,10 @@
 ---
-Title: "Training Evaluation Template"
-Author: "Skills4EOSC T2.3"
-Tags: 
-    - FAIR-by-Design learning materials
-    - FAIR learning objects
-    - training evaluation template
+title: "Training Evaluation Template"
+author: "Skills4EOSC T2.3"
+tags: 
+    - FAIR-by-Design Learning Materials
+    - FAIR Learning Objects
+    - Training Evaluation Template
 ---
 
 # Training Evaluation Form

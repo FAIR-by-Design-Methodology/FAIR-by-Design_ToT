@@ -2,10 +2,10 @@
 title: "FAIR Skills & Principles Plan"
 author: "Skills4EOSC T2.3"
 tags: 
-    - FAIR-by-Design learning materials
-    - FAIR learning objects
+    - FAIR-by-Design Learning Materials
+    - FAIR Learning Objects
     - FAIR Skills
-    - FAIR principles
+    - FAIR Principles
     - Plan
 ---
 

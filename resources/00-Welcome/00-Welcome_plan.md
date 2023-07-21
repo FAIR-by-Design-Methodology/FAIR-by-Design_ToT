@@ -2,8 +2,8 @@
 author: "Skills4EOSC T2.3"
 title: "Welcome"
 tags: 
-    - FAIR-by-Design learning materials
-    - FAIR learning objects
+    - FAIR-by-Design Learning Materials
+    - FAIR Learning Objects
     - Welcome
 ---
 

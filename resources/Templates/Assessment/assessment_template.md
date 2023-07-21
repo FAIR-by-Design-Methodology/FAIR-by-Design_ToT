@@ -2,9 +2,9 @@
 author: "Skills4EOSC T2.3"
 title: "Assessment Template"
 tags: 
-    - FAIR-by-Design learning materials
-    - FAIR learning objects
-    - assessment template
+    - FAIR-by-Design Learning Materials
+    - FAIR Learning Objects
+    - Assessment Template
 ---
 
 # Training Assessment Quiz Template

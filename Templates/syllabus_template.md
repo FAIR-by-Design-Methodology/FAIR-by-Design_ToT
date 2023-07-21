@@ -1,6 +1,6 @@
 ---
 # RDA learning materials metadata minimal set
-1author: "Skills4EOSC T2.3"
+Title: "Skills4EOSC T2.3"
 2RDAmetadata_title: "Training Syllabus Template"
 3RDAmetadata_tags: "FAIR-by-Design learning materials, FAIR learning objects, syllabus template"
 4author: "Skills4EOSC T2.3"

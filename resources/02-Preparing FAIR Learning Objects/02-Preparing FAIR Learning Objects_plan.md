@@ -1,5 +1,5 @@
 ---
-title: "Defining FAIR Learning Objects"
+title: "Preparing FAIR Learning Objects Plan"
 author: "Skills4EOSC T2.3"
 tags: 
     - FAIR-by-Design Learning Materials
@@ -7,7 +7,7 @@ tags:
     - ideate the learning object
 ---
 
-# Defining FAIR Learning Objects
+# Preparing FAIR Learning Objects
 
 The purpose of this learning unit is to introduce all relevant FAIR concepts that are necessary when developing learning objects such as metadata, PIDs, repo, licenses, attribution, etc. Once these concepts are adopted, the instructional designer is then ready to start with the backwards instructional process by defining the main aspects of the learning materials such as learning objects.
 

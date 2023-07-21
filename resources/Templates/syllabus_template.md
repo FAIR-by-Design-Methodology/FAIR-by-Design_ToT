@@ -1,32 +1,23 @@
 ---
 # RDA learning materials metadata minimal set
-Title: "Skills4EOSC T2.3"
-2RDAmetadata_title: "Training Syllabus Template"
-3RDAmetadata_tags: "FAIR-by-Design learning materials, FAIR learning objects, syllabus template"
-4author: "Skills4EOSC T2.3"
-5RDAmetadata_title: "Training Syllabus Template"
-6RDAmetadata_tags: "FAIR-by-Design learning materials, FAIR learning objects, syllabus template"
-7author: "Skills4EOSC T2.3"
-8RDAmetadata_title: "Training Syllabus Template"
-9RDAmetadata_tags: "FAIR-by-Design learning materials, FAIR learning objects, syllabus template"
-10author: "Skills4EOSC T2.3"
-11RDAmetadata_title: "Training Syllabus Template"
-12RDAmetadata_tags: "FAIR-by-Design learning materials, FAIR learning objects, syllabus template"
-13author: "Skills4EOSC T2.3"
-14RDAmetadata_title: "Training Syllabus Template"
-15RDAmetadata_tags: "FAIR-by-Design learning materials, FAIR learning objects, syllabus template"
-16author: "Skills4EOSC T2.3"
-17RDAmetadata_title: "Training Syllabus Template"
-18RDAmetadata_tags: "FAIR-by-Design learning materials, FAIR learning objects, syllabus template"
-19author: "Skills4EOSC T2.3"
-20RDAmetadata_title: "Training Syllabus Template"
-21RDAmetadata_tags: "FAIR-by-Design learning materials, FAIR learning objects, syllabus template"
-22author: "Skills4EOSC T2.3"
-23RDAmetadata_title: "Training Syllabus Template"
-23RDAmetadata_tags: "FAIR-by-Design learning materials, FAIR learning objects, syllabus template"
+Title: "The human readable name of the learning resource."
+Abstract/Description: "A brief synopsis about or description of the learning resource."
+Author(s): "Name of entity(ies) authoring the resource."
+Primary_Language: "Language in which the resource was originally published or made available."
+Keyword(s): "Keywords or tags used to describe the resource."
+License: "A license document that applies to this content, typically indicated by URL"
+Version_Date: "YYYY-MM-DD Version date for the most recently published or broadcast resource."
+URL_to_Resource: "URL to learning platform course / URL that resolves to the learning resource or to a "landing page" for the resource that contains important contextual information including the direct resolvable link to the resource, if applicable. Should be a PID, if possible."
+Resource_URL_Type: "URL"
+Target_Group_(Audience): "Principle users(s) for which the resource was designed."
+Learning_Resource_Type: "The predominant type or kind that characterizes the learning resource."
+Learning_Outcome(s): "Descriptions of what knowledge, skills or abilities students should acquire on completion of the resource."
+Access_Cost: "Choice stating whether or not there is a fee for use of the resource (CV = Y/N/Maybe with recommendation that further explanation of “Maybe” goes in the Description field"
+Expertise_Level_(Skill_Level): "Target skill level in the topic being taught; example values include: beginner, intermediate, advanced"
 ---
 
-# Name of training course/workshop/webinar
+# Title of training 
+# Type (Course/Workshop/Webinar)
 
 ## Date/Time
 - when it will be offered
@@ -34,14 +25,24 @@ Title: "Skills4EOSC T2.3"
 
 ## Location
 - where it will be available
-- physical location or link to virtual room
+- physical location
+- URL link to  resources (and virtual room if online)
 
-## Training Overview
+## Training Description
 - what is the main goal/purpose of this training
 - short training description
 
 ## Target audience
 - target audience description
+
+## Expertise Level / Skill Level
+- beginner / intermediate / advanced
+
+## Primary Language
+English
+
+## Access Cost
+N
 
 ## Prerequisites
 - if any
@@ -51,6 +52,9 @@ Title: "Skills4EOSC T2.3"
 
 ## Training objectives
 - list of specific training objectives
+
+## Keywords
+Keywords or tags used to describe the training.
 
 ## Agenda: Training Schedule - Training Structure
 | Date/Time | Topic             |
@@ -68,6 +72,10 @@ Title: "Skills4EOSC T2.3"
 
 ## Certification Information
 - if any
+
+## Author(s)
+- List of people involved in preparing and delivering the training
+- format Name Surname, comma separated
 
 ## Contact information
 - how to reach out to training organizers

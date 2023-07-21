@@ -2,7 +2,10 @@
 # RDA learning materials metadata minimal set
 title: "The human readable name of the learning resource."
 author: "Name of entity(ies) authoring the resource."
-tags: "Keywords or tags used to describe the resource."
+tags: 
+    - Keywords or 
+    - tags 
+    - used to describe the resource
 
 abstract: "A brief synopsis about or description of the learning resource."
 primaryLanguage: "two letter code, Language in which the resource was originally published or made available."
@@ -12,7 +15,11 @@ urlToResource: "URL to learning platform course / URL that resolves to the learn
 resourceURLType: "URL"
 targetGroup: "Principle users(s) for which the resource was designed."
 learningResourceType: "The predominant type or kind that characterizes the learning resource."
-learningOutcome: "Descriptions of what knowledge, skills or abilities students should acquire on completion of the resource."
+learningOutcome: 
+    - Descriptions of what knowledge, 
+    - skills or 
+    - abilities 
+    - students should acquire on completion of the resource.
 accessCost: "Choice stating whether or not there is a fee for use of the resource (CV = Y/N/Maybe with recommendation that further explanation of “Maybe” goes in the Description field"
 expertiseLevel: "Target skill level in the topic being taught; example values include: beginner, intermediate, advanced"
 ---

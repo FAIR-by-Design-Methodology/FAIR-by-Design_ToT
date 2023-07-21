@@ -2,7 +2,11 @@
 # RDA learning materials metadata minimal set
 title: "FAIR-by-Design Methodology for Learning Materials Training of Trainers"
 author: "Sonja Filiposka, Dominique Green, Anastas Mishev, Vojdan Kjorveziroski, Andrea Corleto, Eleornora Napolitano, Gabriella Paolini, Sara di Giorgio, Joanna Janik, Luca Schirru, Arnaud Gingold, Christine Chardosek, Irakleitos Souyioultzoglou, Carolin Leister, Emma Lazzeri"
-tags: "FAIR, learning objects, methodology, practical implementation"
+tags: 
+    - FAIR
+    - learning objects
+    - methodology
+    - practical implementation
 
 abstract: "The main goal of this ToT is to provide guidance and instructions on how to use the proposed FAIR-by-Design Methodology for development of FAIR learning materials in practice. The training will take you through all steps in the methodology and showcase their implementation using practical examples and developed templates."
 primaryLanguage: "EN"
@@ -12,15 +16,16 @@ urlToResource: "https://learning.skills4eosc.eu/course/view.php?id=19"
 resourceURLType: "URL"
 targetGroup: "All Skills4EOSC project members that will need to develop learning materials for any type of project-related training."
 learningResourceType: "other"
-learningOutcome: "- Define FAIR learning objects
-- Adapt and mix FAIR learning objects
-- Identify licenses and attribute correspondingly 
-- Structure comprehensive learning materials
-- Manage file formats and tools 
-- Define metadata using a schema
-- Create and publish FAIR-by-Design learning materials
-- Collaborate with other instructors
-- Assess FAIR-ness of existing learning objects"
+learningOutcome: 
+    - Define FAIR learning objects
+    - Adapt and mix FAIR learning objects
+    - Identify licenses and attribute correspondingly 
+    - Structure comprehensive learning materials
+    - Manage file formats and tools 
+    - Define metadata using a schema
+    - Create and publish FAIR-by-Design learning materials
+    - Collaborate with other instructors
+    - Assess FAIR-ness of existing learning objects
 accessCost: "N"
 expertiseLevel: "Beginner"
 ---

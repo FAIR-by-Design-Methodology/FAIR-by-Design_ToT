@@ -55,3 +55,12 @@ The trainers materials latest version is taken from the GitHub repo.
 - [ ] Write down reflection comments for each training unit
 - [ ] Analyze gathered feedback
 - [ ] Initiate work on a new version of the training materials 
+
+
+## Learning Units Activities
+
+### Learning Unit
+1. [activity link]()
+
+### 
+

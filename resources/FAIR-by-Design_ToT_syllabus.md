@@ -19,9 +19,9 @@ author:
     - Emma Lazzeri
 tags: 
     - FAIR
-    - learning objects
-    - methodology
-    - practical implementation
+    - Learning Objects
+    - Methodology
+    - Practical Implementation
 
 abstract: "The main goal of this ToT is to provide guidance and instructions on how to use the proposed FAIR-by-Design Methodology for development of FAIR learning materials in practice. The training will take you through all steps in the methodology and showcase their implementation using practical examples and developed templates."
 primaryLanguage: "EN"

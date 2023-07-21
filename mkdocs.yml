@@ -1,7 +1,10 @@
 site_name: FAIR-by-Design Training of Trainers
 docs_dir: resources
 theme:
- name: material
+  name: material
+  palette:
+    primary: custom
+  logo: attachments/logo-white.png
 plugins:
   - tags
   - mike:
@@ -23,3 +26,5 @@ plugins:
 extra:
   version:
     provider: mike
+extra_css:
+  - stylesheets/extra.css

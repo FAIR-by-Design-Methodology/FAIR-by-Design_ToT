@@ -1,27 +1,25 @@
 ---
-title: "FAIR Learning Unit Lesson Plan Template"
+title: "Defining FAIR Learning Objects"
 author: "Skills4EOSC T2.3"
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects
-    - FAIR Learning Unit Lesson Plan Template
+    - prepare for FAIR
 ---
 
-# Unit Lesson Plan Template
+# Defining FAIR Learning Objects
 
-## Unit Name
-
-Aim/Goal of unit
+The purpose of this learning unit is to introduce all relevant FAIR concepts that are necessary when developing learning objects such as metadata, PIDs, repo, licenses, attribution, etc. Once these concepts are adopted, the instructional designer is then ready to start with the backwards instructional process by defining the main aspects of the learning materials such as learning objects.
 
 ### Location
-- is it going to be online or physical
-- if physical any special room type should be noted (e.g. classroom, IT lab, ...)
+- online
+- BBB course room
 
 ### Total duration
+60 mins
 
 ### Number of attendees
-- important to know the max group size
-- can be a number range (e.g. 20-30)
+- any (< 100)
 
 ### Learning objectives
 - list the learning objectives that are to be achieved
@@ -37,17 +35,13 @@ Aim/Goal of unit
 |          | Guided practice        | trainer acts as facilitator                                            | exercise or activity    | e.g. posters and markers   |
 |          | Summary                | key takeaways                                                          | reinforcement assignment | e.g. cards                 |
 
-Note: If the training is relying heavily on presentations then another option for the plan layout is to provided in a slide by slide using slide thumbnails in the topic column. In this case each row in the table should refer to a separate slide in the presentation.
+- summative assessment
+- quiz available on the learning platform
+- can be completed at any time
+- auto-graded upon submission, with final marks and pass criteria information provided by the LMS
 
-
-### Assessment
-- what, how, when
-- is it going to be formative (throughout) or summative (in the end)
-- results how and when
-
-### Certificate or Badge
-- micro-credentials for the unit
-- if certificate or badge is issued then explain how it can be gained
+### Badge
+- successful quiz completion counts towards the FAIR Instructor badge
 
 ### Reflection
 - how did it go

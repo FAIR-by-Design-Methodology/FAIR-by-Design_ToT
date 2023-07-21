@@ -1,8 +1,8 @@
 ---
 # RDA learning materials metadata minimal set
 Title: "FAIR-by-Design Methodology for Learning Materials Training of Trainers"
+Author: "Sonja Filiposka, Dominique Green, Anastas Mishev, Vojdan Kjorveziroski, Andrea Corleto, Eleornora Napolitano, Gabriella Paolini, Sara di Giorgio, Joanna Janik, Luca Schirru, Arnaud Gingold, Christine Chardosek, Irakleitos Souyioultzoglou, Carolin Leister, Emma Lazzeri"
 Abstract/Description: "The main goal of this ToT is to provide guidance and instructions on how to use the proposed FAIR-by-Design Methodology for development of FAIR learning materials in practice. The training will take you through all steps in the methodology and showcase their implementation using practical examples and developed templates."
-Author(s): "Sonja Filiposka, Dominique Green, Anastas Mishev, Vojdan Kjorveziroski, Andrea Corleto, Eleornora Napolitano, Gabriella Paolini, Sara di Giorgio, Joanna Janik, Luca Schirru, Arnaud Gingold, Christine Chardosek, Irakleitos Souyioultzoglou, Carolin Leister, Emma Lazzeri"
 Primary_Language: "EN"
 Keyword(s): "FAIR, learning objects, methodology, practical implementation"
 License: "https://creativecommons.org/licenses/by/4.0/"

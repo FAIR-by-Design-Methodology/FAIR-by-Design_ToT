@@ -70,7 +70,7 @@ Keywords or tags used to describe the training.
 
 ## Author(s)
 - List of people involved in preparing and delivering the training
-- format Name Surname, comma separated
+- format: Name Surname, comma separated
 
 ## Contact information
 - how to reach out to training organizers

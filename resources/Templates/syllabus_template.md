@@ -2,9 +2,10 @@
 # RDA learning materials metadata minimal set
 Title: "The human readable name of the learning resource."
 Author: "Name of entity(ies) authoring the resource."
+Tags: "Keywords or tags used to describe the resource."
+
 Abstract/Description: "A brief synopsis about or description of the learning resource."
 Primary_Language: "two letter code, Language in which the resource was originally published or made available."
-Keyword(s): "Keywords or tags used to describe the resource."
 License: "A license document that applies to this content, typically indicated by URL"
 Version_Date: "YYYY-MM-DD Version date for the most recently published or broadcast resource."
 URL_to_Resource: "URL to learning platform course / URL that resolves to the learning resource or to a "landing page" for the resource that contains important contextual information including the direct resolvable link to the resource, if applicable. Should be a PID, if possible."

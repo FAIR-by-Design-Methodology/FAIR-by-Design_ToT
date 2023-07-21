@@ -37,6 +37,7 @@ none
 ## FAIR Instructional Design Skills
 
 The skills required to start producing FAIR learning materials can be divided into two groups:
+
 - FAIR oriented skills
     - Expertise in advocacy and promotion of the FAIR guiding principles
     - Expertise in curating and sharing FAIR data enabling
@@ -67,6 +68,7 @@ The skills required to start producing FAIR learning materials can be divided in
 ## FAIR guiding principles
 
 The ‘[FAIR Guiding Principles for scientific data management and stewardship](https://doi.org/10.1038/sdata.2016.18)’ are published in Scientific Data in 2016. The main goal of this work is to provide guidelines on how to improve the
+
 - **F**indability, 
 - **A**ccessibility, 
 - **I**nteroperability, and 
@@ -75,6 +77,7 @@ The ‘[FAIR Guiding Principles for scientific data management and stewardship](
 One of the main points is enabling FAIR not only from human, but also machine perspective, enabling automated actions on various digital objects.
 
 As digital learning materials are a type of digital objects, the general FAIR principles can also be applied to them. Note that the FAIR principles refer to three entities: 
+
     - the digital object
     - the metadata (information that describes the digital object), and 
     - the infrastructure that stores or indexes the digital object (e.g. repository and catalogue). 
@@ -84,6 +87,7 @@ As digital learning materials are a type of digital objects, the general FAIR pr
 
 ### Findable
 To ensure a digital object is findable 
+
 - the object should be accompanied with sufficiently detailed descriptive metadata
 - a unique and persistent identifier (PID) such as a digital object identifier (DOI) should be used to point to the digital object.
 
@@ -92,6 +96,7 @@ To ensure a digital object is findable
 
 ### Accessible
 For the digital object to be accessible
+
 - the metadata and the object content should be understandable to both humans and machines, and 
 - the digital object should be stored in a trusted repository.
 - clear authentication and authorization procedures should be defined and outlined
@@ -105,6 +110,7 @@ For the digital object to be accessible
 
 ### Interoperable
 The digital object is considered interoperable if
+
 - the metadata should follow a commonly accepted metadata schema combined with agreed-upon controlled vocabularies
 - formal, accessible, shared, and broadly applicable language(s) and format(s) should be used for the digital object representation
 
@@ -113,6 +119,7 @@ The digital object is considered interoperable if
 
 ### Reusable
 To be reusable a digital object should have
+
 - a clear usage license 
 - accurate information on provenance.
 
@@ -150,6 +157,7 @@ The highest granularity level where we can apply the FAIR principles is the leve
 We define a **FAIR learning object** as any FAIR digital resource that supports learning developed around a single learning objective. At the very core of this approach is the idea that the learning object, accompanied with suitable descriptive metadata, can be used as a common building block for the development of more complex learning content by reusing it, re-purposing it, and potentially revising it.
 
 The best practice is to define a learning object as a package of: 
+
 - concrete learning outcome
 - lesson plan
 - lesson content 
@@ -165,6 +173,7 @@ The best practice is to define a learning object as a package of:
 - **Re-usable** – each learning object can be put in a wider context based on the specific learning requirements of a particular aggregate course, unit or module in the EOSC ecosystem.
 
 In summary:
+
 - Learning objects are digital
 - Learning objects contain learning content and information on tools and implementation resources
 - Learning objects have an explicit learning objective
@@ -185,6 +194,7 @@ Take the time to do a short exercise that aims to explore the understanding of t
 For each of the provided examples of learning materials, one should individually decide whether they are F+A+I+R from learners and from trainers/instructional designers perspective. 
 
 Example learning materials:
+
 - https://opensciency.github.io/sprint-content/ and https://zenodo.org/record/7662732
 - https://www.ebi.ac.uk/training/online/courses/covid-19-data-portal/#vf-tabs__section--overview
 - https://www.markdownguide.org/ 
@@ -197,7 +207,6 @@ Think about:
 - On what granularity level have you assessed the FAIRness?
 - What type of detailed information is needed so that you can perform a real FAIR assessment?
 
-[Get more detailed information on the activity](../Activities/Assessing%20FAIRness%20of%20Learning%20Materials.md).
 
 ## Suggested Reading
 - [Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016).](https://doi.org/10.1038/sdata.2016.18)

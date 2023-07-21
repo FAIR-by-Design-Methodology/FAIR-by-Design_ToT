@@ -1,7 +1,10 @@
 ---
 Title: "FAIR-by-Design Training of Trainers Facilitator Guide"
 Author: "Skills4EOSC T2.3"
-Tags: "FAIR-by-Design learning materials, FAIR learning objects, facilitator guide"
+Tags:
+    - FAIR-by-Design Learning Materials
+    - FAIR Learning Objects
+    - Facilitator Guide
 ---
 
 

@@ -4,7 +4,7 @@ author: "Skills4EOSC T2.3"
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects
-    - prepare for FAIR
+    - ideate the learning object
 ---
 
 # Defining FAIR Learning Objects
@@ -22,9 +22,14 @@ The purpose of this learning unit is to introduce all relevant FAIR concepts tha
 - any (< 100)
 
 ### Learning objectives
-- list the learning objectives that are to be achieved
-- learning objectives should be devised using the verbs from the Bloom's Taxonomy
-- learning objectives should be SMART
+- Recognize metadata
+- Identify Permanent Identifiers (PIDs)
+- Compare licenses
+- Write attribution
+- Categorizing learning repositories
+- Interpret the instructional design process
+- Preparing learning objectives
+
 
 ### Plan
 | Duration | Topic                  | Key points/Teaching Method/Questions                                   | Activities               | Resources                  |
@@ -35,6 +40,7 @@ The purpose of this learning unit is to introduce all relevant FAIR concepts tha
 |          | Guided practice        | trainer acts as facilitator                                            | exercise or activity    | e.g. posters and markers   |
 |          | Summary                | key takeaways                                                          | reinforcement assignment | e.g. cards                 |
 
+### Assessment
 - summative assessment
 - quiz available on the learning platform
 - can be completed at any time

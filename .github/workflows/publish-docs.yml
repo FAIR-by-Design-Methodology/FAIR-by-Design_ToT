@@ -32,4 +32,5 @@ jobs:
 
       - name: Deploy with mike
         run: |
+          mike set-default --rebase latest
           mike deploy --rebase --push --update-aliases latest

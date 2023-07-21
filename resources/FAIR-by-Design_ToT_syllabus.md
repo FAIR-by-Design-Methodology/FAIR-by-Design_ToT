@@ -46,6 +46,7 @@ expertiseLevel: "Beginner"
 ---
 
 ![Skills4EOSC WP2 Training of Trainers](./attachments/header.png)
+
 # FAIR-by-Design Methodology for Learning Materials Training of Trainers
  
 # Webinar
@@ -53,14 +54,17 @@ expertiseLevel: "Beginner"
 ## Date/Time: 17-19 October 2023
 
 ## Location
+
 - [Skills4EOSC Learning Platform](https://learning.skills4eosc.eu/course/view.php?id=19)
 - [BBB room](https://learning.skills4eosc.eu/mod/bigbluebuttonbn/view.php?id=25) 
 
 ## Training Description
+
 The main goal of this ToT is to provide guidance and instructions on how to use the proposed FAIR-by-Design Methodology for development of FAIR learning materials in practice. The training will take you through all steps in the methodology and showcase their implementation using practical examples and developed templates.
 ![Diagram of the FAIR-by-Design methodology with its stages: prepare, discover, design, produce, publish, verify](./attachments/methodology.png)
 
 ## Target audience
+
 All Skills4EOSC project members that will need to develop learning materials for any type of project-related training.
 
 ## Expertise Level / Skill Level: Beginner
@@ -70,12 +74,15 @@ All Skills4EOSC project members that will need to develop learning materials for
 ## Access Cost: No
 
 ## Prerequisites
+
 No prior knowledge is required to follow the training, however see Resources and Materials to prepare beforehand
 
 ## Duration
+
 The training will take place in the course of three days in the half day + full day + half day format. The total length of the training is 12 hours.
 
 ## Learning Objectives
+
 - Define FAIR learning objects
 - Adapt and mix FAIR learning objects
 - Identify licenses and attribute correspondingly 
@@ -87,12 +94,15 @@ The training will take place in the course of three days in the half day + full 
 - Assess FAIR-ness of existing learning objects
 
 ## Keywords
+
 FAIR, learning objects, methodology, practical implementation
 
 ## Agenda: Training Schedule - Training Structure
+
 Note: start time is given in CEST
 
 ### Day 1: FAIR-by-Design Preparation and Discovery
+
 |     Start    |     Step        |     Topic                                      |     Duration    |
 |--------------|-----------------|------------------------------------------------|-----------------|
 |     9:00     |                 |     Introduction                               |     30 mins     |
@@ -103,6 +113,7 @@ Note: start time is given in CEST
 |     11:30    |     Discover    |     Discovering existing learning materials    |     60 mins     |
 
 ### Day 2: Designing and Producing Learning Materials
+
 |     Start    |     Step       |     Topic                        |     Duration    |
 |--------------|----------------|----------------------------------|-----------------|
 |     9:00     |     Design     |     Conceptualisation            |     30 mins     |
@@ -133,21 +144,26 @@ Note: start time is given in CEST
 |     11:30    |     Verify     |     FAIR verification     |     60 mins     |
 
 ## Resources and Materials
+
 All training resources will be available on the FAIR-by-Design methodology course on the learning platform. You will need to self-enrol in the course to gain access to the materials. Additional equipment and software needed to take full advantage of the training activities:
+
 - Headset with microphone
 - GitHub account: [GitHub SignUp](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
 - Zenodo account: [Zenodo SignUp](https://zenodo.org/signup/)
 - Installed Git client: [Git Editor](https://desktop.github.com/)
 - Installed MD editor: [Obsidian](https://obsidian.md/)
-    - or you can also use an online demo version such as https://demo.hedgedoc.org/ (for testing purposes only)
+    - or you can also use an online demo version such as [https://demo.hedgedoc.org/](https://demo.hedgedoc.org/) (for testing purposes only)
 
 ## Certification Information
+
 All trainees that will successfully pass all training unit assessments available on the course on the learning platform will obtain the “FAIR Instructor” badge.
 
 ## Author(s)
+
 Sonja Filiposka, Dominique Green, Anastas Mishev, Vojdan Kjorveziroski, Andrea Corleto, Eleornora Napolitano, Gabriella Paolini, Sara di Giorgio, Joanna Janik, Luca Schirru, Arnaud Gingold, Christine Chardosek, Irakleitos Souyioultzoglou, Carolin Leister, Emma Lazzeri
 
 ## Contact information
+
 For more information regarding the training please contact the T2.3 FAIR-by-Design Methodology Task Leader Sonja Filiposka using [sonja.filiposka@finki.ukim.mk](mailto:sonja.filiposka@finki.ukim.mk). 
 
 ![Skills4EOSC logo](./attachments/skills4eosc.png)

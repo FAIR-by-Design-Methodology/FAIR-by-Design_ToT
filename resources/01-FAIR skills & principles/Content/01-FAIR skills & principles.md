@@ -1,13 +1,12 @@
 ---
 title: FAIR Skills & Principles
 tags: 
-    - FAIR-by-Design learning materials
-    - FAIR learning objects
-    - FAIR skills
-    - FAIR principles
+    - FAIR-by-Design Learning Materials
+    - FAIR Learning Objects
+    - FAIR Skills
+    - FAIR Principles
 author: Sonja Filiposka
 ---
-
 
 # FAIR Skills & Principles
 

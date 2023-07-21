@@ -2,9 +2,9 @@
 title: "Ice Breaking Activity"
 author: "Skills4EOSC T2.3"
 tags: 
-    - FAIR-by-Design learning materials
-    - FAIR learning objects
-    - Ice breaker
+    - FAIR-by-Design Learning Materials
+    - FAIR Learning Objects
+    - Ice Breaker
 ---
 
 # Ice Breaker

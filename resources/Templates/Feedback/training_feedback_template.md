@@ -1,6 +1,11 @@
-[_metadata_:author]:- "Skills4EOSC T2.3"
-[_metadata_:title]:- "Training Evaluation Template"
-[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, training evaluation template"
+---
+title: "Training Evaluation Template"
+author: "Skills4EOSC T2.3"
+tags: 
+    - FAIR-by-Design Learning Materials
+    - FAIR Learning Objects
+    - Training Evaluation Template
+---
 
 # Training Evaluation Form
 In Skills4EOSC we strive to provide high quality training and continuous improve our training activities. 

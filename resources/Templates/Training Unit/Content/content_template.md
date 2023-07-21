@@ -1,8 +1,11 @@
-[_metadata_:author]:- "Skills4EOSC T2.3"
-[_metadata_:title]:- "FAIR Learning Unit Learning Content Structure Template"
-[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, FAIR learning unit template"
-
-
+---
+title: "FAIR Learning Unit Learning Content Structure Template"
+author: "Skills4EOSC T2.3"
+tags: 
+    - FAIR-by-Design Learning Materials
+    - FAIR Learning Objects
+    - FAIR Learning Unit Template
+---
 
 # Learning Unit Template
 

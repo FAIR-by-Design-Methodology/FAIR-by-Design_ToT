@@ -1,6 +1,11 @@
-[_metadata_:author]:- "Skills4EOSC T2.3"
-[_metadata_:title]:- "FAIR-by-Design Training of Trainers Facilitator Guide"
-[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, facilitator guide"
+---
+title: "FAIR-by-Design Training of Trainers Facilitator Guide"
+author: "Skills4EOSC T2.3"
+tags: 
+    - FAIR-by-Design Learning Materials
+    - FAIR Learning Objects
+    - Facilitator Guide
+---
 
 # FAIR-by-Design Training Facilitator Guide
 

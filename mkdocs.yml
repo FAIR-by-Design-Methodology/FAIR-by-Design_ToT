@@ -4,6 +4,8 @@ theme:
  name: material
 plugins:
   - tags
+  - mike:
+      version_selector: true
   - exclude:
       glob:
         - "*Activities/*"
@@ -18,3 +20,6 @@ plugins:
         - "FAIR-by-Design_ToT_syllabus.md"
       regex:
         - '.*\.(tmp|bin|tar)$'
+extra:
+  version:
+    provider: mike

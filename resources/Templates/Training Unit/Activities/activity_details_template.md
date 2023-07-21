@@ -1,6 +1,11 @@
-[_metadata_:author]:- "Skills4EOSC T2.3"
-[_metadata_:title]:- "Training Activity Setup"
-[_metadata_:tags]:- "FAIR-by-Design learning materials, FAIR learning objects, training activity template"
+---
+Title: "Training Activity Setup"
+Author: "Skills4EOSC T2.3"
+Tags: 
+    - FAIR-by-Design learning materials
+    - FAIR learning objects
+    - training activity template
+---
 
 # Activity name
 This document serves as a guide on how to deliver the specific training activity.

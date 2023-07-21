@@ -7,9 +7,6 @@ tags:
     - assessment template
 ---
 
-
-
-
 # Training Assessment Quiz Template
 
 ## Quiz Strategy

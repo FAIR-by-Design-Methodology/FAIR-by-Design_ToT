@@ -1,3 +1,10 @@
+---
+Title: "FAIR-by-Design Training of Trainers Facilitator Guide"
+Author: "Skills4EOSC T2.3"
+Tags: "FAIR-by-Design learning materials, FAIR learning objects, facilitator guide"
+---
+
+
 ## Unit Lesson Plan
 
 an effective lesson plan for online trainees is not the same as for traditional students.

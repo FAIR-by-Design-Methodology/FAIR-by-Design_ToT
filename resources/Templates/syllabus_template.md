@@ -1,8 +1,8 @@
 ---
 # RDA learning materials metadata minimal set
 Title: "The human readable name of the learning resource."
+Author: "Name of entity(ies) authoring the resource."
 Abstract/Description: "A brief synopsis about or description of the learning resource."
-Author(s): "Name of entity(ies) authoring the resource."
 Primary_Language: "two letter code, Language in which the resource was originally published or made available."
 Keyword(s): "Keywords or tags used to describe the resource."
 License: "A license document that applies to this content, typically indicated by URL"

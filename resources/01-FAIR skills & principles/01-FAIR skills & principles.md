@@ -78,12 +78,15 @@ One of the main points is enabling FAIR not only from human, but also machine pe
 
 As digital learning materials are a type of digital objects, the general FAIR principles can also be applied to them. Note that the FAIR principles refer to three entities: 
 
-    - the digital object
-    - the metadata (information that describes the digital object), and 
-    - the infrastructure that stores or indexes the digital object (e.g. repository and catalogue). 
+- the digital object
+- the metadata (information that describes the digital object), and 
+- the infrastructure that stores or indexes the digital object (e.g. repository and catalogue). 
 
 |Metadata|A set of data that describes and gives information about other data.|
 |---|
+
+![Short definition of FAIR characteristics and compliance rules](./attachments/FAIR_principles.png)
+Image taken from [Climate Change, Agriculture and Food Security website](https://ccafs.cgiar.org/open-access-and-fair-principles) licensed under the [CC BY NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/). 
 
 ### Findable
 To ensure a digital object is findable 
@@ -149,6 +152,7 @@ What is the level of granularity when applying the FAIR principles? Should the c
 The highest granularity level where we can apply the FAIR principles is the level of the learning object.
 
 ![Hierarchical representation of the granularity of different learning materials aggregations](attachments/learning_content.jpg)
+Aggregation levels of learning materials
 
 |FAIR learning object|Any FAIR digital resource that supports learning developed around a single learning objective|
 |---|
@@ -202,7 +206,15 @@ Example learning materials:
 As strict definitions are still lacking while doing this assessment, the FAIRness is assessed based on the general understanding of the concepts of FAIR and learning objects. Thus, all opinions are valid as long as they relate to the listed FAIR learning objects objective.
 
 ## Summary
+
+It is important to understand that there are different levels of FAIRness depending on how the main idea of the FAIR guiding principles is translated into a specific discipline such as the instructional design of learning materials. 
+
+It is up to you to decide if you will implement the bare minimum or you will strive to go a step beyond and make your materials not only FAIR but also Open Educational Resources (OER) that will be available to all at no cost.
+
+In this training we take the later approach where when putting together all showcases and examples you will end up with creating not only FAIR but also open learning objects.
+
 Think about:
+
 - What information is missing to make the material FAIR?
 - On what granularity level have you assessed the FAIRness?
 - What type of detailed information is needed so that you can perform a real FAIR assessment?

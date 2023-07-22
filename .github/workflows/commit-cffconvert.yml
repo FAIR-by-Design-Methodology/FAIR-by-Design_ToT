@@ -1,9 +1,10 @@
 name: cffconvert
-
 on:
   push:
+    branches:
+      - "main"
     paths:
-      - CITATION.cff
+      - "CITATION.cff"
 jobs:
   validate:
     name: cffconvert validate and update .zenodo.json

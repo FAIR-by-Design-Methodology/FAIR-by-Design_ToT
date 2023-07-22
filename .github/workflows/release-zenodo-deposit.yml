@@ -26,3 +26,4 @@ jobs:
           upsert-location: doi
           sandbox: true
           verbose: true
+          # collection: 123456789 # Docs: https://github.com/marketplace/actions/zenodraft#collection

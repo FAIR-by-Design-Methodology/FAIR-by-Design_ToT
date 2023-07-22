@@ -20,7 +20,7 @@ jobs:
           ZENODO_SANDBOX_ACCESS_TOKEN: ${{ secrets.ZENODO_SANDBOX_ACCESS_TOKEN }}
         with:
           compression: zip
-          # metadata: .zenodo.json
+          metadata: .zenodo.json
           publish: false
           upsert-doi: true
           upsert-location: doi

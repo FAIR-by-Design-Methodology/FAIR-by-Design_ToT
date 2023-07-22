@@ -1,0 +1,31 @@
+name: cffconvert
+
+on:
+  push:
+    paths:
+      - CITATION.cff
+jobs:
+  validate:
+    name: cffconvert validate and update .zenodo.json
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out a copy of the repository
+        uses: actions/checkout@v3
+
+      - name: Check whether the citation metadata from CITATION.cff is valid
+        uses: citation-file-format/cffconvert-github-action@2.0.0
+        with:
+          args: "--validate"
+
+      - name: Convert CITATION.cff to Zenodo metadata format
+        uses: citation-file-format/cffconvert-github-action@2.0.0
+        with:
+          args: "--infile ./CITATION.cff --format zenodo --outfile .zenodo.json"
+
+      - name: Commit and push Zenodo metadata
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .zenodo.json
+          git commit -m "Automated update of Zenodo metadata"
+          git push

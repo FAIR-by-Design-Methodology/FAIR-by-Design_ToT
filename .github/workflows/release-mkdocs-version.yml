@@ -1,4 +1,4 @@
-name: Release
+name: Release a new version of the Git book.
 on:
   workflow_dispatch:
   release:
@@ -33,28 +33,28 @@ jobs:
       - name: Deploy with mike
         run: |
           mike deploy --rebase --push --update-aliases ${{ github.event.release.tag_name }}
-  zenodo_publish:
-    name: Publish on Zenodo
-    runs-on: ubuntu-20.04
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+  # zenodo_publish:
+  #   name: Publish on Zenodo
+  #   runs-on: ubuntu-20.04
+  #   steps:
+  #     - name: Checkout repository
+  #       uses: actions/checkout@v3
+  #       with:
+  #         fetch-depth: 0
 
-      - name: Create a draft on Zenodo Sandbox
-        uses: zenodraft/action@0.10.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ZENODO_SANDBOX_ACCESS_TOKEN: ${{ secrets.ZENODO_SANDBOX_ACCESS_TOKEN }}
-        with:
-          compression: zip
-          # metadata: .zenodo.json
-          publish: false
-          upsert-doi: true
-          upsert-location: doi
-          sandbox: true
-          verbose: true
+  #     - name: Create a draft on Zenodo Sandbox
+  #       uses: zenodraft/action@0.10.0
+  #       env:
+  #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  #         ZENODO_SANDBOX_ACCESS_TOKEN: ${{ secrets.ZENODO_SANDBOX_ACCESS_TOKEN }}
+  #       with:
+  #         compression: zip
+  #         # metadata: .zenodo.json
+  #         publish: false
+  #         upsert-doi: true
+  #         upsert-location: doi
+  #         sandbox: true
+  #         verbose: true
 
       # - name: Create a draft on Zenodo Sandbox
       #   uses: megasanjay/upload-to-zenodo@v2.0.1

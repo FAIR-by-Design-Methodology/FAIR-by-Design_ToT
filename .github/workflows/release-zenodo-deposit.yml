@@ -1,0 +1,28 @@
+name: Deposit on Zenodo
+on:
+  release:
+    types:
+      - published
+jobs:
+  zenodo_publish:
+    name: Publish on Zenodo
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Create a draft on Zenodo Sandbox
+        uses: zenodraft/action@0.10.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ZENODO_SANDBOX_ACCESS_TOKEN: ${{ secrets.ZENODO_SANDBOX_ACCESS_TOKEN }}
+        with:
+          compression: zip
+          # metadata: .zenodo.json
+          publish: false
+          upsert-doi: true
+          upsert-location: doi
+          sandbox: true
+          verbose: true

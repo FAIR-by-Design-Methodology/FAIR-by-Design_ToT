@@ -3,7 +3,11 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - "main"
+    paths:
+      - "resources/**"
+      - "mkdocs.yml"
+      - "requirements.txt"
 
 jobs:
   deploy_docs:

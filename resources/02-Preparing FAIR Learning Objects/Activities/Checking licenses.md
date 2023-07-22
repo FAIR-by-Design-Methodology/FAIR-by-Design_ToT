@@ -81,12 +81,12 @@ Answers:
     - CC BY + CC BY-NC-SA
 so the answer is yes, as all are CC licenses allowing for reuse under given conditions.
 
-2. Yes the content can be combined as is, as combination of whole resources does not constitute adaptation
+2. Yes the content can be combined as is
 
 3. The first remix can be done as long as your own content is not licensed using ND. The last adaptation can also be done, so the final answer is yes
 
 4. the license of the last adaptation must be CC BY-NC-SA
-the license of the first one can be CC BY. If one license needs to be provided for the whole resource then it must be CC BY-NC-SA.
+the license of the first two can be CC BY. If one license needs to be provided for the whole resource then it must be CC BY-NC-SA.
 
 ## Tips and Tricks
 - if done physically, provide sheets and pens for taking notes and project the content of each URL on a canvas so that everyone can see it

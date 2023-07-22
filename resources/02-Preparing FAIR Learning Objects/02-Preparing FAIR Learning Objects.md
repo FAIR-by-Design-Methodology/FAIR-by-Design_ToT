@@ -150,17 +150,36 @@ In absence of exceptions or limitations, one can reuse an existing work if it is
 
 ### Licensing
 
-    - parts of the content in this section are taken from the [CC FAQ website](https://creativecommons.org/faq/#can-i-combine-material-under-different-creative-commons-licenses-in-my-work) licensed under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode). 
+    The content in this section is adapted from the [CC FAQ website](https://creativecommons.org/faq/#can-i-combine-material-under-different-creative-commons-licenses-in-my-work) licensed under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode). 
 
 A license allows you to define additional rights and obligations regarding your work that go beyond the copyright you own, and it can protect yourself.
 
 One of the best sources of information for licensing reusable learning materials is [Creative Commons](https://creativecommons.org/). 
 
-Their [Licence Chooser tool](https://creativecommons.org/choose/) helps authors share their work in a standardised way providing copyright licenses that enable sharing and reuse of the creative work under the chosen conditions. 
 
-There are many available [CC Licence options](https://creativecommons.org/about/cclicenses/). It is recommended that the least restrictive **[CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)**, requiring only that credit is given to the creator when reusing, is used when creating new learning materials. 
+There are many available [CC License options](https://creativecommons.org/about/cclicenses/) which are based on the four baseline rights.
+![list of CC baseline rights](./attachments/rights.png)
+Image taken from [Creative Commons license](https://en.wikipedia.org/wiki/Creative_Commons_license) (2023, June 21) in Wikipedia licensed under the [Creative Commons Attribution-ShareAlike License 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 
+![List of possible CC licenses](./attachments/licenses.png)
+Image taken from [Creative Commons license](https://en.wikipedia.org/wiki/Creative_Commons_license) (2023, June 21) in Wikipedia licensed under the [Creative Commons Attribution-ShareAlike License 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+It is recommended that the least restrictive **[CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)**, requiring only that credit is given to the creator when reusing, is used when creating new learning materials. 
+
+Their [License Chooser tool](https://creativecommons.org/choose/) helps authors share their work in a standardised way providing copyright licenses that enable sharing and reuse of the creative work under the chosen conditions. 
+
+To apply a license all you have to do is indicate which CC license you are applying to your work. It is strongly recommended to include a link to the relevant CC license deed (e.g., https://creativecommons.org/licenses/by/4.0). 
+
+Example is provided below:
+
+![CC BY button](./attachments/by-1.png)
+
+Except where otherwise noted, content on this site is licensed under a [Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
+
+Note that the ND right falls into the opposite extreme and is not recommended for FAIR learning materials licensing as it severely limits their reusability in adaptations.
+
+Now is a good time to test out the [License Chooser tool](https://creativecommons.org/choose/) and compare licenses.
 
 #### Combining and Remixing CCs
 
@@ -173,7 +192,7 @@ If you want to combine material in a way that results in the creation of an adap
 | adaptation | A modification rises to the level of an adaptation under copyright law when the modified work is based on the prior work but manifests sufficient new creativity to be copyrightable. |
 |---|---|
 
-This means that simple combining of readily available learning resources (using a resource as is) does not constitute an adaptation. In this case the rules of simple combining apply.
+Generally, no derivative work is made of the original from which the excerpt was taken when the excerpt is used to illuminate an idea or provide an example in another larger work. However, when excerpts are combined with other material in a way that creates some new version of the original from which the excerpt is taken we have a situation of adaptation.
 
 It is essential to understand that when reusing existing learning materials, one must ensure that the licenses of the included and adapted materials are compatible with each other. For these purposes, the CC license compatibility chart can be used.
 
@@ -206,7 +225,7 @@ The content that you would like to reuse is:
 
 3. For the content that will be adapted, you need to check how the remix may be used.
 
-3. Finally, you need to decide on the license of your work.
+4. Finally, you need to decide on the license of your work.
 
 
 ## Attribution and Citing
@@ -236,4 +255,4 @@ At the end provide a short summary of the main points of the learning unit (thes
 ## Suggested Reading
 - [Hoebelheinrich, Nancy J, Biernacka, Katarzyna, Brazas, Michelle, Castro, Leyla Jael, Fiore, Nicola, Hellström, Margareta, Lazzeri, Emma, Leenarts, Ellen, Martinez Lavanchy, Paula Maria, Newbold, Elizabeth, Nurnberger, Amy, Plomp, Esther, Vaira, Lucia, van Gelder, Celia W G, & Whyte, Angus. (2022). Recommendations for a minimal metadata set to aid harmonised discovery of learning resources (1.0).](https://doi.org/10.15497/RDA00073)
 - [Jesse Long, Lisa Curtin, Persistent Identifiers, NTL Guide to DOIs & ORCID iDs for DOT Researchers, National Transportation Library (2022)](https://transportation.libguides.com/persistent_identifiers)
-- 
+- [Creative Commons Certificate for Educators, Academic Librarians and GLAM](https://certificates.creativecommons.org/cccertedu/)

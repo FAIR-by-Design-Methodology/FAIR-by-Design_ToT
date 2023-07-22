@@ -47,6 +47,9 @@ The main purpose of the (meta)data about the learning resource is to enable cata
 - WHERE is the location of the resource
 - WHY the data was resource
 
+![example metadata for an image](./attachments/image_metadata.png)Example metadata for an image
+
+
 Using this information a learner or instructor should be able to:
 
 - Search and retrieve the information about a learning resource 
@@ -129,9 +132,67 @@ For the purposes of creating FAIR learning materials we will be using a Zenodo p
 
 ## IPR
 
+Intellectual property refers to the creation of intellectual activity. Intellectual Property Rights (IPR) protects the interests of the creators and owners by providing them with rights over their creation. 
+
+For the purposes of creation of learning materials, the copyright and related rights branches of IPR are used. They are defined to protect literary and artistic creations, performances, phonograms by defining the authors’, owners’, performers’, producers’ and broadcasters’ rights.
+
+### Copyright
+
+Original work can be protected by copyright law that grants the owner **exclusive right** to control certain rights such as reproduction. The copyright is owned jointly by all authors, or it may be owned by the employing institution.
+
+Any work that you create by default makes you the copyright holder of it.
+
+In general, **use of copyright protected work requires permission from the owner**.  
+
+That means only you are allowed to distribute whatever you created. If you want to transfer this right to other people as well, you can do that via a license.
+
+In absence of exceptions or limitations, one can reuse an existing work if it is licensed to the user or it is licensed to the public using a public license such as the [Creative Commons (CC) licenses](https://creativecommons.org/licenses/) or [Free-Libre / Open Source Software (FLOSS) licenses](https://dwheeler.com/essays/floss-license-slide.html).
+
 ### Licensing
 
-### Attribution
+    - parts of the content in this section are taken from the [CC FAQ website](https://creativecommons.org/faq/#can-i-combine-material-under-different-creative-commons-licenses-in-my-work) licensed under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode). 
+
+A license allows you to define additional rights and obligations regarding your work that go beyond the copyright you own, and it can protect yourself.
+
+One of the best sources of information for licensing reusable learning materials is [Creative Commons](https://creativecommons.org/). 
+
+Their [Licence Chooser tool](https://creativecommons.org/choose/) helps authors share their work in a standardised way providing copyright licenses that enable sharing and reuse of the creative work under the chosen conditions. 
+
+There are many available [CC Licence options](https://creativecommons.org/about/cclicenses/). It is recommended that the least restrictive **[CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)**, requiring only that credit is given to the creator when reusing, is used when creating new learning materials. 
+
+
+
+#### Combining and Remixing CCs
+
+When reusing learning materials there is sometimes need to combine learning materials from different sources available under different licenses, i.e. combining.
+
+If the combination does not create an adaptation, then you may combine any CC-licensed content so long as you provide attribution and comply with the NonCommercial restriction if it applies. 
+
+If you want to combine material in a way that results in the creation of an adaptation (i.e. a “remix”), then you must pay attention to the particular license that applies to the content you want to combine.
+
+| adaptation | A modification rises to the level of an adaptation under copyright law when the modified work is based on the prior work but manifests sufficient new creativity to be copyrightable. |
+|---|---|
+
+This means that simple combining of readily available learning resources into a higher level aggregation does not constitute an adaptation where you would claim ownership and define a license.
+
+It is essential to understand that when reusing existing learning materials, one must ensure that the licences of the included and adapted materials are compatible with each other. For these purposes, the CC license compatibility chart can be used.
+
+![Table showing which CC licenses can be remixed together](./attachments/CC_License_Compatibility_Chart.png)
+
+
+### Adapter's License
+
+If you make adaptations of material under a CC license (i.e. “remix”), the original CC license always applies to the material you are adapting even once adapted. The license you may choose for your own contribution (called your “adapter’s license”) depends on which license applies to the original material.
+
+The chart below details the CC license(s) you may use as your adapter’s license. When creating an adaptation of material under the license identified in the lefthand column, you may license your contributions to the adaptation under one of the licenses indicated on the top row if the corresponding box is green. CC does not recommend using a license if the corresponding box is yellow, although doing so is technically permitted by the terms of the license. If you do, you should take additional care to mark the adaptation as involving multiple copyrights under different terms so that downstream users are aware of their obligations to comply with the licenses from all rights holders. Dark gray boxes indicate those licenses that you may not use as your adapter’s license.
+
+![Table defining the CC license(s) one may use as adapter’s license](./attachments/adapters_license.png)
+
+### Licensing exercise 
+
+
+
+## Attribution and Citing
 
 ## Backward instructional design process
 

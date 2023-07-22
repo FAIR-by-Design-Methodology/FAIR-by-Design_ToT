@@ -10,3 +10,8 @@
 h1, h2, h3, h4 {
   color:  #285F86 !important;
 }
+
+.md-typeset__table thead {
+  background-color: #285F86;
+  color: white;
+}

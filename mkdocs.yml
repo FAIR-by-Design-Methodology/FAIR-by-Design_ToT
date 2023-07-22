@@ -5,8 +5,10 @@ theme:
   palette:
     primary: custom
   logo: attachments/logo-white.png
+  custom_dir: resources/overrides
 plugins:
   - tags
+  - macros
   - mike:
       version_selector: true
   - exclude:
@@ -28,3 +30,5 @@ extra:
     provider: mike
 extra_css:
   - stylesheets/extra.css
+citation:
+  author: hello

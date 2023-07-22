@@ -20,11 +20,10 @@ abstract: >-
 version: 1.0.0
 doi: 10.5072/zenodo.1223997
 date-released: 2023-10-17
-license: CC0 1.0 Universal
+license: CC0-1.0
 license-url: https://creativecommons.org/publicdomain/zero/1.0/legalcode
-type: generic
 keywords:
   - FAIR-by-Design
   - Methodology
-  - FAIR learning objects
+  - FAIR Learning Objects
 repository: https://github.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT

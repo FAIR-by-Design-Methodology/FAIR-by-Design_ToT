@@ -28,7 +28,7 @@ The purpose of this learning unit is to introduce all relevant FAIR concepts tha
 30 mins
 
 ## Prerequisites
-- [01-FAIR Skills & Principles](../../01-FAIR%20skills%20&%20principles/Content/01-FAIR%20skills%20&%20principles.md)
+- [01-FAIR Skills & Principles](../01-FAIR%20skills%20&%20principles/01-FAIR%20skills%20&%20principles.md)
 
 ## Learning Tools
 - Training BBB room
@@ -40,6 +40,7 @@ The purpose of this learning unit is to introduce all relevant FAIR concepts tha
 Metadata is one of the key ingredients to making learning resources findable, accessible, and reusable. In essence, metadata consists of structured information that describes, explains and locates a resource.
 
 The main purpose of the (meta)data about the learning resource is to enable cataloguing and discovery by providing a standard means to report on:
+
 - WHO created the resource
 - WHAT is the content of the resource
 - WHEN was the data resource
@@ -47,6 +48,7 @@ The main purpose of the (meta)data about the learning resource is to enable cata
 - WHY the data was resource
 
 Using this information a learner or instructor should be able to:
+
 - Search and retrieve the information about a learning resource 
 - Determine if the learning resource meets certain learning requirements
 - Discover how to acquire and use the learning resource
@@ -87,6 +89,7 @@ Some of the fields in the proposed RDA metadata schema are based on fixed or sug
 In essence, controlled vocabularies should be used for any metadata elements with predefined value(s), where in the vocabulary is presented as a list of prescribed items. 
 
 Such examples are 
+
 - Access Cost with possible values of Y, N and Maybe
 - Primary Language that can be a two letter code from the [ISO 639-1:2002 codeset](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 
@@ -98,10 +101,12 @@ Later on during this training, you will learn how and where to define the metada
 
 The learning materials need to be stored in a learning repository so that they are made available to others. 
 As the two perspective on learning materials (learners and instructors) have different needs regarding the type and content of the learning materials, to ensure FAIRness for both perspective the learning materials should be stored in two separate repositories:
+
 - training repository that hosts editable learning materials for instructors
 - learning repository that stores final learning materials to be consumed by learners.
 
 In Skills4EOSC the suggested choices for the repositories are as follows:
+
 - learning materials for instructors should be stored on Zenodo (from GitHub)
 - learning materials for learners should be stored on the Skills4EOSC learning platform 
 
@@ -113,6 +118,7 @@ A persistent identifier (PID) is a type of metadata. Its purpose is to uniquely 
 Using a PID one should be able to land on an accessible page with the listed digital object and its metadata. The actual access to the digital object from this page may be restricted. 
 
 PIDs are machine readable and help distinguish between 
+
 - different materials
 - different versions of the same material.
 

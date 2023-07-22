@@ -173,9 +173,9 @@ If you want to combine material in a way that results in the creation of an adap
 | adaptation | A modification rises to the level of an adaptation under copyright law when the modified work is based on the prior work but manifests sufficient new creativity to be copyrightable. |
 |---|---|
 
-This means that simple combining of readily available learning resources into a higher level aggregation does not constitute an adaptation where you would claim ownership and define a license.
+This means that simple combining of readily available learning resources (using a resource as is) does not constitute an adaptation. In this case the rules of simple combining apply.
 
-It is essential to understand that when reusing existing learning materials, one must ensure that the licences of the included and adapted materials are compatible with each other. For these purposes, the CC license compatibility chart can be used.
+It is essential to understand that when reusing existing learning materials, one must ensure that the licenses of the included and adapted materials are compatible with each other. For these purposes, the CC license compatibility chart can be used.
 
 ![Table showing which CC licenses can be remixed together](./attachments/CC_License_Compatibility_Chart.png)
 
@@ -190,6 +190,23 @@ The chart below details the CC license(s) you may use as your adapter’s licens
 
 ### Licensing exercise 
 
+You are preparing a new course on Open Science and have decided to combine some already available content (images or even whole learning units) and also create your own learning content (additional learning units). 
+
+The content that you would like to reuse is:
+
+- Your adaptation of [Lesson 1 - What is Open Data from OpenSciency](https://github.com/opensciency/sprint-content/blob/main/open-data/Lesson1-WhatIsOpenData.md)
+- [M1 - Open Science Ambassador Training from EURODOC](https://eurodoc.net/open-science-ambassadors-training/m1-open-science) 
+- [slide 3 from Why open science? presentation by Sarah Jones](https://slideplayer.com/slide/12073970/)
+- [slide 10 from Why open science? presentation by Sarah Jones](https://slideplayer.com/slide/12073970/)
+- [slide 5 from Why open science? presentation by Sarah Jones](https://slideplayer.com/slide/12073970/) combined with [the badges image and text from Center for Open Science](https://www.cos.io/initiatives/badges) into a new adaptation
+
+1. The first thing you need to check is if reuse is allowed, i.e. check the licenses under which the content is released.
+
+2. If this is so, then you need to determine if it is allowed to combine together these contents.
+
+3. For the content that will be adapted, you need to check how the remix may be used.
+
+3. Finally, you need to decide on the license of your work.
 
 
 ## Attribution and Citing

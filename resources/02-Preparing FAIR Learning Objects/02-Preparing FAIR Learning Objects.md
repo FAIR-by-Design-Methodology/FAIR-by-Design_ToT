@@ -1,10 +1,13 @@
 ---
-title: "Preparing & Ideating"
+title: "Preparing"
 author: "Skills4EOSC T2.3"
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects
-    - Instructional design process
+    - Metadata
+    - PIDs
+    - Repositories
+    - IPR
 ---
 
 # Preparing FAIR Learning Objects
@@ -150,36 +153,40 @@ In absence of exceptions or limitations, one can reuse an existing work if it is
 
 ### Licensing
 
-    The content in this section is adapted from the [CC FAQ website](https://creativecommons.org/faq/#can-i-combine-material-under-different-creative-commons-licenses-in-my-work) licensed under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode). 
+    The content in this section is adapted from:
+    - [CC FAQ website](https://creativecommons.org/faq/#can-i-combine-material-under-different-creative-commons-licenses-in-my-work) licensed under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode)
+    - [Creative Commons license Wikipage](https://en.wikipedia.org/wiki/Creative_Commons_license) (2023, June 21) in Wikipedia licensed under the [Creative Commons Attribution-ShareAlike License 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 A license allows you to define additional rights and obligations regarding your work that go beyond the copyright you own, and it can protect yourself.
 
 One of the best sources of information for licensing reusable learning materials is [Creative Commons](https://creativecommons.org/). 
 
-
 There are many available [CC License options](https://creativecommons.org/about/cclicenses/) which are based on the four baseline rights.
-![list of CC baseline rights](./attachments/rights.png)
-Image taken from [Creative Commons license](https://en.wikipedia.org/wiki/Creative_Commons_license) (2023, June 21) in Wikipedia licensed under the [Creative Commons Attribution-ShareAlike License 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
+![list of CC baseline rights](./attachments/rights.png)
 
 ![List of possible CC licenses](./attachments/licenses.png)
-Image taken from [Creative Commons license](https://en.wikipedia.org/wiki/Creative_Commons_license) (2023, June 21) in Wikipedia licensed under the [Creative Commons Attribution-ShareAlike License 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
-It is recommended that the least restrictive **[CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)**, requiring only that credit is given to the creator when reusing, is used when creating new learning materials. 
+It is **recommended** that the least restrictive **[CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)**, requiring only that credit is given to the creator when reusing, is used when creating new learning materials. 
 
-Their [License Chooser tool](https://creativecommons.org/choose/) helps authors share their work in a standardised way providing copyright licenses that enable sharing and reuse of the creative work under the chosen conditions. 
+The ND right falls into the opposite extreme and is not recommended for FAIR learning materials licensing as it severely limits their reusability in adaptations.
 
-To apply a license all you have to do is indicate which CC license you are applying to your work. It is strongly recommended to include a link to the relevant CC license deed (e.g., https://creativecommons.org/licenses/by/4.0). 
+Public domain licensing is also not recommended as different rules apply in different countries.
+
+The [CC License Chooser tool](https://creativecommons.org/choose/) helps authors share their work in a standardised way providing copyright licenses that enable sharing and reuse of the creative work under the chosen conditions. 
+
+**To apply a license** all you have to do is indicate which CC license you are applying to your work. It is strongly recommended to include a link to the relevant CC license deed (e.g., https://creativecommons.org/licenses/by/4.0). 
 
 Example is provided below:
 
-![CC BY button](./attachments/by-1.png)
-
-Except where otherwise noted, content on this site is licensed under a [Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
-
-Note that the ND right falls into the opposite extreme and is not recommended for FAIR learning materials licensing as it severely limits their reusability in adaptations.
+>![CC BY button](./attachments/by-1.png)
+>Except where otherwise noted, content on this site is licensed under a [Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
 
 Now is a good time to test out the [License Chooser tool](https://creativecommons.org/choose/) and compare licenses.
+
+In the Creative Commons Wiki page: [Marking your work with a CC license](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license) there are numerous examples on how license can be applied to different document types.
+
+Throughout this training you will be able to practice the approach adopted for the creation of these learning materials.
 
 #### Combining and Remixing CCs
 
@@ -194,9 +201,13 @@ If you want to combine material in a way that results in the creation of an adap
 
 Generally, no derivative work is made of the original from which the excerpt was taken when the excerpt is used to illuminate an idea or provide an example in another larger work. However, when excerpts are combined with other material in a way that creates some new version of the original from which the excerpt is taken we have a situation of adaptation.
 
+This section of the learning unit is an example of such an adaptation of two materials that have been combined together and further adapted by editing the text.
+
 It is essential to understand that when reusing existing learning materials, one must ensure that the licenses of the included and adapted materials are compatible with each other. For these purposes, the CC license compatibility chart can be used.
 
 ![Table showing which CC licenses can be remixed together](./attachments/CC_License_Compatibility_Chart.png)
+
+Another moral right is the right of integrity which provides the author with the right to object to any modifications of the work that can be considered as prejudicial to the authors’ honour or reputation. Thus, even when reuse and modifications are permitted, they should be done in such a way that does not include a derogatory treatment of the work.
 
 
 ### Adapter's License
@@ -230,27 +241,54 @@ The content that you would like to reuse is:
 
 ## Attribution and Citing
 
-## Backward instructional design process
+The right to attribution is a moral right of the authors that protects the personal relationship between the author and the created work even if the creator does not own the copyright.
 
-purpose 
+In other words, acknowledgement of the reused materials through attribution is **always strongly recommended** (even if it is not a requirement of the license, such as the public domain licenses). One condition that is **required for all CC licenses** is attribution. 
 
-target audience
+The **ideal attribution** follows the TASL approach
+- Title - what is the name of the work
+- Author - who allows you to use the work (name and link)
+- Source - where can the work be found (link added to title)
+- License - how can the work be used (name and link to the license)
 
-scope 
+If your work is a modification or adaptation of another work, indicate this and provide attribution to the creator of the original work. You should also include a link to the work you modified and indicate what license applies to that work.
 
-prerequisites
+For work created by others that you are incorporating into your own work you want to make it easy for others to know who created what parts of the work using the TASL approach. For an example see the attribution in the previous section of this document.
 
-### Learning Objectives
+Creative Commons offer a wiki page with the [Recommended practices for attribution](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution).
 
-#### Bloom's Taxonomy
+### Attribution examples
 
+Creative Commons offer a wiki page with the [Recommended practices for attribution](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution).
 
+Some examples on great attribution provided on the Creative Commons wiki page are:
 
+- Image attribution
+> "[Creative Commons 10th Birthday Celebration San Francisco](http://www.flickr.com/photos/sixteenmilesofstring/8256206923/in/set-72157632200936657)" by [Timothy Vollmer](http://www.flickr.com/photos/sixteenmilesofstring/) is licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 
+- Adapted image attribution
+>  "[Creative Commons 10th Birthday Celebration San Francisco](http://www.flickr.com/photos/sixteenmilesofstring/8256206923/in/set-72157632200936657)" by [Timothy Vollmer](http://www.flickr.com/photos/sixteenmilesofstring/) is licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) / Cropped from original
 
-## Summary
+- Text attribution
+> This chapter is from “[You Don't Know JS Yet (2nd Edition)](https://github.com/getify/You-Dont-Know-JS)” by [Kyle Simpson](https://github.com/getify). The book is licensed under the [CC BY-NC-ND 4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/). © 2019-2022 Kyle Simpson.
 
-At the end provide a short summary of the main points of the learning unit (these are the key takeaways that help reflect on the learning outcomes)
+Other sites with other type of licensing may request a different form of attribution. Such is the case with Pixabay that offers royalty-free images where the suggested attribution style is:
+
+> Image by AUTHOR(link) from Pixabay(link)
+
+The Pixabay license allows use of content:
+
+- for free
+- without attribution (although recommended)
+- for modification adn adaptation into new work
+
+### Citing
+
+Citing can be used for including and **referencing restricted works with limited copyright**. 
+
+However, in the case of using direct quotations with citing, it is essential that the amount of information referenced is very limited (e.g. 200-300 words from a book-length work). In addition, it is recommended to quote works that were already made available to the public in a lawful way and, when possible, to provide the original source and the author's name.
+
+Depending on the country, the reproduction and communication of a protected work may be carried out for the sole purpose of illustration for teaching or scientific research, as long as the source, including the author's name, is indicated, unless this turns out to be impossible and to the extent justified by the non-commercial purpose to be achieved. This falls under the so-called "fair use" of copyright law.
 
 ## Suggested Reading
 - [Hoebelheinrich, Nancy J, Biernacka, Katarzyna, Brazas, Michelle, Castro, Leyla Jael, Fiore, Nicola, Hellström, Margareta, Lazzeri, Emma, Leenarts, Ellen, Martinez Lavanchy, Paula Maria, Newbold, Elizabeth, Nurnberger, Amy, Plomp, Esther, Vaira, Lucia, van Gelder, Celia W G, & Whyte, Angus. (2022). Recommendations for a minimal metadata set to aid harmonised discovery of learning resources (1.0).](https://doi.org/10.15497/RDA00073)

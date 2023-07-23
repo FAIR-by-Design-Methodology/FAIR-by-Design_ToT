@@ -257,8 +257,6 @@ If your work is a modification or adaptation of another work, indicate this and 
 
 For work created by others that you are incorporating into your own work you want to make it easy for others to know who created what parts of the work using the TASL approach. For an example see the attribution in the previous section of this document.
 
-Creative Commons offer a wiki page with the [Recommended practices for attribution](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution).
-
 #### Attribution examples
 
 Creative Commons offer a wiki page with the [Recommended practices for attribution](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution).

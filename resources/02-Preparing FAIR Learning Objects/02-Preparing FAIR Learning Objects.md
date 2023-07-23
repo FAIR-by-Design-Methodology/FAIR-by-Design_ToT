@@ -303,7 +303,7 @@ Write attribution for the following learning resources that you have decided to 
 
 Are you able to find all TASL elements for each example?
 
-In the [following example document](./Activities/attribution_example.html) there are several points where attribution and citation is provided. Are they correctly stated?
+In the [following example document](./attachments/attribution_example.html) there are several points where attribution and citation is provided. Are they correctly stated?
 
 What are the pitfalls of not using attribution?
 Take a look at these two examples:

@@ -210,7 +210,7 @@ It is essential to understand that when reusing existing learning materials, one
 Another moral right is the right of integrity which provides the author with the right to object to any modifications of the work that can be considered as prejudicial to the authors’ honour or reputation. Thus, even when reuse and modifications are permitted, they should be done in such a way that does not include a derogatory treatment of the work.
 
 
-### Adapter's License
+#### Adapter's License
 
 If you make adaptations of material under a CC license (i.e. “remix”), the original CC license always applies to the material you are adapting even once adapted. The license you may choose for your own contribution (called your “adapter’s license”) depends on which license applies to the original material.
 
@@ -218,7 +218,7 @@ The chart below details the CC license(s) you may use as your adapter’s licens
 
 ![Table defining the CC license(s) one may use as adapter’s license](./attachments/adapters_license.png)
 
-### Licensing exercise 
+#### Licensing exercise 
 
 You are preparing a new course on Open Science and have decided to combine some already available content (images or even whole learning units) and also create your own learning content (additional learning units). 
 
@@ -239,7 +239,7 @@ The content that you would like to reuse is:
 4. Finally, you need to decide on the license of your work.
 
 
-## Attribution and Citing
+### Attribution and Citing
 
 The right to attribution is a moral right of the authors that protects the personal relationship between the author and the created work even if the creator does not own the copyright.
 
@@ -257,7 +257,7 @@ For work created by others that you are incorporating into your own work you wan
 
 Creative Commons offer a wiki page with the [Recommended practices for attribution](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution).
 
-### Attribution examples
+#### Attribution examples
 
 Creative Commons offer a wiki page with the [Recommended practices for attribution](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution).
 
@@ -282,13 +282,33 @@ The Pixabay license allows use of content:
 - without attribution (although recommended)
 - for modification adn adaptation into new work
 
-### Citing
+#### Citing
 
 Citing can be used for including and **referencing restricted works with limited copyright**. 
 
 However, in the case of using direct quotations with citing, it is essential that the amount of information referenced is very limited (e.g. 200-300 words from a book-length work). In addition, it is recommended to quote works that were already made available to the public in a lawful way and, when possible, to provide the original source and the author's name.
 
 Depending on the country, the reproduction and communication of a protected work may be carried out for the sole purpose of illustration for teaching or scientific research, as long as the source, including the author's name, is indicated, unless this turns out to be impossible and to the extent justified by the non-commercial purpose to be achieved. This falls under the so-called "fair use" of copyright law.
+
+#### Attribution exercise
+
+Write attribution for the following learning resources that you have decided to incorporate in your learning materials:
+
+- image from https://creativecommons.org/2021/12/02/unesco-recommendation-on-open-science-ratified/
+- TRIPLE TRAINING on Open Research Europe slides from https://project.gotriple.eu/triple-open-science-training-series/
+- [slide 3 from Why open science? presentation by Sarah Jones](https://slideplayer.com/slide/12073970/)
+- Lesson 1: The What from https://github.com/opensciency/sprint-content/blob/main/ethos-of-open/lesson1-intro-to-open-science.md
+
+Are you able to find all TASL elements for each example?
+
+In the [following example document](./Activities/attribution_example.md) there are several points where attribution and citation is provided. Are they correctly stated?
+
+What are the pitfalls of not using attribution?
+Take a look at these two examples:
+
+- image from https://www.openscience-twente.com/open-science/#open-scientific-knowledge
+- image from https://unesdoc.unesco.org/ark:/48223/pf0000383323
+
 
 ## Suggested Reading
 - [Hoebelheinrich, Nancy J, Biernacka, Katarzyna, Brazas, Michelle, Castro, Leyla Jael, Fiore, Nicola, Hellström, Margareta, Lazzeri, Emma, Leenarts, Ellen, Martinez Lavanchy, Paula Maria, Newbold, Elizabeth, Nurnberger, Amy, Plomp, Esther, Vaira, Lucia, van Gelder, Celia W G, & Whyte, Angus. (2022). Recommendations for a minimal metadata set to aid harmonised discovery of learning resources (1.0).](https://doi.org/10.15497/RDA00073)

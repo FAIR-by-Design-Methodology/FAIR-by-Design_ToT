@@ -14,7 +14,7 @@ The activity provides an opportunity to practice writing attribution and citing 
 
 ## Activity duration
 
-15 mins
+10 mins
 
 ## Number of people that it can be performed with
 

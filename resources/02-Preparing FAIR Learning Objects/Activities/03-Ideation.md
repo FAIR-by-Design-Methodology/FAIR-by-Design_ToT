@@ -14,7 +14,7 @@ The activity provides an opportunity to practice stage 1 of the backward instruc
 
 ## Activity duration
 
-15 mins
+10 mins
 
 ## Number of people that it can be performed with
 

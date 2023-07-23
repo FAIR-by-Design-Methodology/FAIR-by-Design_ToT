@@ -13,7 +13,7 @@ The activity provides an opportunity to understand the concepts of combining, ad
 
 ## Activity duration
 
-15 mins
+10 mins
 
 ## Number of people that it can be performed with
 

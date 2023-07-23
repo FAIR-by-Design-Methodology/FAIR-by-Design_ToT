@@ -32,13 +32,16 @@ The purpose of this learning unit is to introduce all relevant FAIR concepts tha
 
 
 ### Plan
-| Duration | Topic                  | Key points/Teaching Method/Questions                                   | Activities               | Resources                  |
-|----------|------------------------|------------------------------------------------------------------------|--------------------------|----------------------------|
-| 10       | Welcome / Introduction | - housekeeping  - introduce trainer and trainees - learning objectives | ice breaker              | e.g. name tags, flip chart |
-| 5        | The hook               | - focus attention - provide framework                                  | brainstorm expectations  | e.g. post-it notes         |
-|          | Training               | information + examples                                                 | check for understanding  | e.g. pptx + handouts       |
-|          | Guided practice        | trainer acts as facilitator                                            | exercise or activity    | e.g. posters and markers   |
-|          | Summary                | key takeaways                                                          | reinforcement assignment | e.g. cards                 |
+| Duration | Topic              | Key points/Teaching Method/Questions                                                                                      | Activities                              | Resources                  |
+|----------|--------------------|---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|----------------------------|
+| 2        | The hook           | - focus attention - provide framework                                                                                     | brainstorm expectations                 | pptx                       |
+| 10       | Training           | metadata, PID, repo, IPR, licenses                                                                                        | check for understanding with discussion | pptx + handouts            |
+| 10       | Guided practice    | trainer acts as facilitator                                                                                               | [licensing activity](./Activities/01-Checking%20licenses.md)                      | pptx, menti + shared notes |
+| 5        | Attribution/Citing | how to write attribution when to cite                                                                                     | best practices examples by CC           | pptx, links                |
+| 10       | Guided practice    | trainer acts as facilitator, solutions to be pasted in shared notes                                                       | [attribution activity](./Activities/02-Attribution.md)                    | pptx, chat + shared notes  |
+| 10       | Training           | instructional design process, learning objectives, bloom's taxonomy relate with examples from the used learning materials | check for understanding with discussion | pptx + handouts            |
+| 10       | Guided practice    | trainer acts as facilitator, solutions to be pasted in shared notes                                                       | [ideation activity](./Activities/03-Ideation.md)                       | pptx, chat + shared notes  |
+| 3        | Summary            | key takeaways, what's next                                                                                                | quiz                                    | pptx                       |
 
 ### Assessment
 - summative assessment

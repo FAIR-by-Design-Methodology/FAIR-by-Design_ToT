@@ -50,7 +50,8 @@ The main purpose of the (meta)data about the learning resource is to enable cata
 - WHERE is the location of the resource
 - WHY the data was resource
 
-![example metadata for an image](./attachments/image_metadata.png)Example metadata for an image
+![example metadata for an image](./attachments/image_metadata.png)
+Example metadata for an image
 
 
 Using this information a learner or instructor should be able to:
@@ -153,9 +154,9 @@ In absence of exceptions or limitations, one can reuse an existing work if it is
 
 ### Licensing
 
-    The content in this section is adapted from:
-    - [CC FAQ website](https://creativecommons.org/faq/#can-i-combine-material-under-different-creative-commons-licenses-in-my-work) licensed under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode)
-    - [Creative Commons license Wikipage](https://en.wikipedia.org/wiki/Creative_Commons_license) (2023, June 21) in Wikipedia licensed under the [Creative Commons Attribution-ShareAlike License 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+>The content in this section is adapted from:
+- [CC FAQ website](https://creativecommons.org/faq/#can-i-combine-material-under-different-creative-commons-licenses-in-my-work) licensed under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode)
+- [Creative Commons license Wikipage](https://en.wikipedia.org/wiki/Creative_Commons_license) (2023, June 21) in Wikipedia licensed under the [Creative Commons Attribution-ShareAlike License 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 A license allows you to define additional rights and obligations regarding your work that go beyond the copyright you own, and it can protect yourself.
 
@@ -180,6 +181,7 @@ The [CC License Chooser tool](https://creativecommons.org/choose/) helps authors
 Example is provided below:
 
 >![CC BY button](./attachments/by-1.png)
+
 >Except where otherwise noted, content on this site is licensed under a [Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
 
 Now is a good time to test out the [License Chooser tool](https://creativecommons.org/choose/) and compare licenses.
@@ -301,7 +303,7 @@ Write attribution for the following learning resources that you have decided to 
 
 Are you able to find all TASL elements for each example?
 
-In the [following example document](./Activities/attribution_example.md) there are several points where attribution and citation is provided. Are they correctly stated?
+In the [following example document](./Activities/attribution_example.html) there are several points where attribution and citation is provided. Are they correctly stated?
 
 What are the pitfalls of not using attribution?
 Take a look at these two examples:

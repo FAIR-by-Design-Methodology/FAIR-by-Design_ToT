@@ -1,15 +1,16 @@
 ---
-title: "Checking CC licenses"
+title: "Writing attributions"
 author: "Skills4EOSC T2.3"
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects
-    - Remixing and adapting licensed materials
+    - Attribution
+    - Citing
 ---
 
 # Checking CC licenses
 
-The activity provides an opportunity to understand the concepts of combining, adapting and remixing CC licensed resources as well as defining the final license. 
+The activity provides an opportunity to practice writing attribution and citing for different media. 
 
 ## Activity duration
 
@@ -22,77 +23,49 @@ any
 ## Goal of activity
 
 - Identify the license of a resource.
-- Determine if resources can be combined
-- Determine if adaptation can be created by combining materials
-- Determine the adapter license
+- Determine if it can be reused or only cited
+- Write the attribution
+- Write citation
 
 ## Materials
-- list of example URLs of learning materials that need to be combined
-- multi-check response sheet or Menti slides setup as:
-    1. Reuse of resource is allowed?
-        - Yes / No
-    2. Content can be combined?
-        - Yes / No
-    3. Can you make the intended remixes?
-        - Yes / No
-    4. What will be the final license of your work?
-        - CC 0
-        - CC BY
-        - CC BY-NC
-        - CC BY-NC-ND
-        - CC BY-NC-SA
-        - CC BY-ND
-        - CC BY-SA
-
+- list of example URLs of learning materials that need to be attributed 
+- notepad for writing down the attribution
 
 ## Instructions
 
-Trainees are provided with a URL link to an example learning material and are asked to fill out the multi-check response having in mind the CC licensing rules that are introduced earlier. 
+1. Trainees are provided with a URL link to an example learning material and are asked to write down the appropriate attribution. 
 
-After collecting the responses, the trainer can start a group discussion that should lead to the conclusion that there are multiple correct answers for the final question.
+After collecting the responses, the trainer can start a group discussion on many of the TASL elements have been present in the examples.
 
 The information provided to the trainees is:
 
-You are preparing a new course on Open Science and have decided to combine some already available content (images or even whole learning units) and also create your own learning content (additional learning units). 
+Write attribution for the following learning resources that you have decided to incorporate in your learning materials:
 
-The content that you would like to reuse is:
-
-- Your adaptation of [Lesson 1 - What is Open Data from OpenSciency](https://github.com/opensciency/sprint-content/blob/main/open-data/Lesson1-WhatIsOpenData.md)
-- [M1 - Open Science Ambassador Training from EURODOC](https://eurodoc.net/open-science-ambassadors-training/m1-open-science) 
+- image from https://creativecommons.org/2021/12/02/unesco-recommendation-on-open-science-ratified/
+- TRIPLE TRAINING on Open Research Europe slides from https://project.gotriple.eu/triple-open-science-training-series/
 - [slide 3 from Why open science? presentation by Sarah Jones](https://slideplayer.com/slide/12073970/)
-- [slide 10 from Why open science? presentation by Sarah Jones](https://slideplayer.com/slide/12073970/)
-- [slide 5 from Why open science? presentation by Sarah Jones](https://slideplayer.com/slide/12073970/) combined with [the badges image and text from Center for Open Science](https://www.cos.io/initiatives/badges) into a new adaptation
+- Lesson 1: The What from https://github.com/opensciency/sprint-content/blob/main/ethos-of-open/lesson1-intro-to-open-science.md
 
-1. The first thing you need to check is if reuse is allowed, i.e. check the licenses under which the content is released.
+2. In the second stage of the exercise, the trainees need to check if attribution and citing are correct for a given resource.
 
-2. If this is so, then you need to determine if it is allowed to combine together these contents.
+Trainer provides a URL to example resource
 
-3. For the content that will be adapted, you need to check how the remix may be used.
+- [source example learning material that can be adapted](./attribution_example.md)
 
-3. Finally, you need to decide on the license of your work.
+3. In the final stage trainer starts a group discussion on possible attribution problems by providing ambiguous examples
 
-Answers:
+Take a look at these two examples:
 
-1. Licenses are 
-    - CC BY
-    - CC BY
-    - CC BY-NC-SA
-    - CC BY-SA
-    - CC BY + CC BY-NC-SA
-so the answer is yes, as all are CC licenses allowing for reuse under given conditions.
+- image from https://www.openscience-twente.com/open-science/#open-scientific-knowledge
+- image from https://unesdoc.unesco.org/ark:/48223/pf0000383323
 
-2. Yes the content can be combined as is
-
-3. The first remix can be done as long as your own content is not licensed using ND. The last adaptation can also be done, so the final answer is yes
-
-4. the license of the last adaptation must be CC BY-NC-SA
-the license of the first two can be CC BY. If one license needs to be provided for the whole resource then it must be CC BY-NC-SA.
+The problem here is that the original image source is the second link but there is no attribution available in the first link. Yet when searching open science in Google with Creative Commons licenses filter, the first link is also the first to appear.
 
 ## Tips and Tricks
 - if done physically, provide sheets and pens for taking notes and project the content of each URL on a canvas so that everyone can see it
 
 ## Related sources
-- [CC FAQ page](https://creativecommons.org/faq/)
+- [Best practices for attribution](https://wiki.creativecommons.org/wiki/best_practices_for_attribution)
 
 ## Comments
 - how did it go

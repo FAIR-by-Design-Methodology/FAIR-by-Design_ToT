@@ -49,7 +49,7 @@ any
 
 Trainees are provided with a URL link to an example learning material and are asked to fill out the multi-check response having in mind the CC licensing rules that are introduced earlier. 
 
-After collecting the responses, the trainer can start a group discussion that should lead to the conclusion that there are multiple correct answers for the final question.
+After collecting the responses, the trainer can start a group discussion on approaches to license identification.
 
 The information provided to the trainees is:
 

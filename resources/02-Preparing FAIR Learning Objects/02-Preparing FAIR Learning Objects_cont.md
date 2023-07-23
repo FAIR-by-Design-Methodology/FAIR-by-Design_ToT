@@ -61,15 +61,23 @@ The number of learning objectives depends on the aggregation level of the learni
 
 ### Ideation exercise
 
+You are creating an Open Science training course for policy makers. You just learned the essentials of the FAIR principles and the backward instructional design process and are now in the initial ideating stage.
 
+Define the essential elements of your training:
 
+- purpose
+- target audience
+- prerequisites
+- scope
+- learning objectives (min 3 using verbs from the Bloom's taxonomy)
 
-
-
+Discuss any challenges you faced during this exercise. 
+Which of these elements are going to be part of the metadata describing your newly created learning materials?
 
 ## Summary
 
-At the end provide a short summary of the main points of the learning unit (these are the key takeaways that help reflect on the learning outcomes)
+Before starting with the design process, a FAIR instructor needs to get familiar with the main elements needed to implement the FAIR guiding principles: metadata, PIDs, repos, licensing and attribution.
+Then the instructional design can begin following a backward approach: define the learning objectives you want to achieve so that they can guide you to properly structure the learning materials.
 
 ## Suggested Reading
 - [Where to start: Backward Design by MIT Teaching and Learning Lab](https://tll.mit.edu/teaching-resources/course-design/backward-design/)

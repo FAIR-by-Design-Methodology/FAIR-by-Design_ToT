@@ -8,7 +8,7 @@ tags:
     - Citing
 ---
 
-# Checking CC licenses
+# Writing attribution
 
 The activity provides an opportunity to practice writing attribution and citing for different media. 
 

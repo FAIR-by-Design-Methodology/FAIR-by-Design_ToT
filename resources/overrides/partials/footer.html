@@ -71,8 +71,10 @@
             {% set name = author['given-names'] %}
             {% if loop.first %}
               {{ surname }}, {{ name }}
-            {% else %}
+            {% elif loop.last %}
               , {{ surname }}, {{ name }}.
+            {% else %}
+              , {{ surname }}, {{ name }}
             {% endif %}
           {% endfor %}
           ({{ config.citation['date-released'].strftime('%Y') }}). {{ config.citation.title }} ({{ config.citation.version }}). 

@@ -9,6 +9,8 @@ jobs:
   validate:
     name: cffconvert validate and update .zenodo.json
     runs-on: ubuntu-latest
+    outputs:
+      changes: ${{ steps.check_changes.outputs.changes }}
     steps:
       - name: Check out a copy of the repository
         uses: actions/checkout@v3
@@ -24,6 +26,7 @@ jobs:
           args: "--infile ./CITATION.cff --format zenodo --outfile .zenodo.json"
       
       - name: Check for changes
+        id: check_changes
         run: |
           git diff-index --quiet HEAD || echo "changes=true" >> $GITHUB_ENV
 

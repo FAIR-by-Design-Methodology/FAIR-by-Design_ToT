@@ -31,7 +31,7 @@ jobs:
         uses: mikefarah/yq@v4.34.2
         with:
           cmd: |
-            yq eval-all 'select(fileIndex == 0) * {"citation": select(fileIndex == 1)}' mkdocs.yml CITATION.cff > mkdocs.yml
+            yq eval-all -i 'select(fileIndex == 0) * {"citation": select(fileIndex == 1)}' mkdocs.yml CITATION.cff
 
       - name: Commit and push Zenodo metadata
         if: env.changes == 'true'

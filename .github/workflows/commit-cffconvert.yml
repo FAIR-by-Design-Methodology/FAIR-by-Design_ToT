@@ -49,8 +49,3 @@ jobs:
     needs: validate
     if: ${{ needs.validate.outputs.pushed == 'true' }}
     uses: ./.github/workflows/commit-publish-docs.yml
-    # runs-on: ubuntu-latest
-    # steps:
-      # - env:
-          # TEST: ${{ needs.validate.outputs.changes }}
-        # run: echo "$TEST"

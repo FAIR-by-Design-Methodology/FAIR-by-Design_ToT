@@ -50,6 +50,6 @@ jobs:
     # uses: ./.github/workflows/commit-publish-docs.yml
     runs-on: ubuntu-latest
     steps:
-      - name: echo var
-        run: |
-          echo ${{ needs.validate.outputs.changes }}
+      - env:
+          TEST: ${{ needs.validate.outputs.changes }}
+        run: echo "$TEST"

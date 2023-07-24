@@ -17,7 +17,7 @@ abstract: >-
   materials in practice. The training will take you through all steps in the
   methodology and showcase their implementation using practical examples and
   developed templates.
-version: 1.0.10
+version: 1.0.11
 doi: 10.5072/zenodo.1224005
 date-released: 2023-10-17
 license: CC0-1.0

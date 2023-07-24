@@ -10,7 +10,7 @@ jobs:
     name: cffconvert validate and update .zenodo.json
     runs-on: ubuntu-latest
     outputs:
-      changes: ${{ steps.check_changes.outputs.changes }}
+      pushed: ${{ steps.commit.outputs.pushed }}
     steps:
       - name: Check out a copy of the repository
         uses: actions/checkout@v3
@@ -26,7 +26,6 @@ jobs:
           args: "--infile ./CITATION.cff --format zenodo --outfile .zenodo.json"
       
       - name: Check for changes
-        id: check_changes
         run: |
           git diff-index --quiet HEAD || echo "changes=true" >> $GITHUB_ENV
 
@@ -37,19 +36,21 @@ jobs:
 
       - name: Commit and push Zenodo metadata
         if: env.changes == 'true'
+        id: commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add .zenodo.json mkdocs.yml
           git commit -m "Automated update of Zenodo metadata"
           git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
   
   publish:
     needs: validate
-    # if: ${{ needs.validate.outputs.changes == 'true' }}
-    # uses: ./.github/workflows/commit-publish-docs.yml
-    runs-on: ubuntu-latest
-    steps:
-      - env:
-          TEST: ${{ needs.validate.outputs.changes }}
-        run: echo "$TEST"
+    if: ${{ needs.validate.outputs.pushed == 'true' }}
+    uses: ./.github/workflows/commit-publish-docs.yml
+    # runs-on: ubuntu-latest
+    # steps:
+      # - env:
+          # TEST: ${{ needs.validate.outputs.changes }}
+        # run: echo "$TEST"

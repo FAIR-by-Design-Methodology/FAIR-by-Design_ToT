@@ -28,7 +28,7 @@ jobs:
           git diff-index --quiet HEAD || echo "changes=true" >> $GITHUB_ENV
 
       - name: Update mkdocs.yml with new CITATION.cff values
-        uses: mikefarah/yq@4.34.2
+        uses: mikefarah/yq@v4.34.2
         with:
           cmd: |
             yq eval-all 'select(fileIndex == 0) * {"citation": select(fileIndex == 1)}' mkdocs.yml CITATION.cff > mkdocs.yml

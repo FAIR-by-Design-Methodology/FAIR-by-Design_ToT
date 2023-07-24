@@ -40,3 +40,8 @@ jobs:
           git add .zenodo.json mkdocs.yml
           git commit -m "Automated update of Zenodo metadata"
           git push
+  
+  publish:
+    needs: validate
+    if: ${{ needs.validate.outputs.changes == 'true' }}
+    uses: ./.github/workflows/commit-publish-docs.yml

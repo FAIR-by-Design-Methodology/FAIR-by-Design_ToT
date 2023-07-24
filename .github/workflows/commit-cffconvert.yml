@@ -43,7 +43,9 @@ jobs:
           git add .zenodo.json mkdocs.yml
           git commit -m "Automated update of Zenodo metadata"
           git push
+          SHA=$(git rev-parse HEAD)
           echo "pushed=true" >> "$GITHUB_OUTPUT"
+          echo "commitid=$SHA" >> "$GITHUB_OUTPUT"
   
   publish:
     needs: validate

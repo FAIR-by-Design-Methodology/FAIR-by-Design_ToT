@@ -162,6 +162,10 @@ All trainees that will successfully pass all training unit assessments available
 
 Sonja Filiposka, Dominique Green, Anastas Mishev, Vojdan Kjorveziroski, Andrea Corleto, Eleornora Napolitano, Gabriella Paolini, Sara di Giorgio, Joanna Janik, Luca Schirru, Arnaud Gingold, Christine Chardosek, Irakleitos Souyioultzoglou, Carolin Leister, Emma Lazzeri
 
+# Trainers 
+
+Sonja Filiposka, Anastas Mishev, Vojdan Kjorveziroski, Andrea Corleto
+
 ## Contact information
 
 For more information regarding the training please contact the T2.3 FAIR-by-Design Methodology Task Leader Sonja Filiposka using [sonja.filiposka@finki.ukim.mk](mailto:sonja.filiposka@finki.ukim.mk). 

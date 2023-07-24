@@ -79,7 +79,11 @@ Keywords or tags used to describe the training.
 - if any
 
 ## Author(s)
-- List of people involved in preparing and delivering the training
+- List of people involved in preparing the training
+- format: Name Surname, comma separated
+
+# Trainer(s)
+- List of people involved in delivering the training
 - format: Name Surname, comma separated
 
 ## Contact information

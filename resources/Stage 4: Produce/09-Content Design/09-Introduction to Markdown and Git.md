@@ -1,5 +1,5 @@
 ---
-title: "Working Environment Setup"
+title: "Introduction to Markdown and Git"
 author: "Skills4EOSC T2.3"
 tags: 
     - FAIR-by-Design Learning Materials
@@ -11,7 +11,7 @@ tags:
     - Git
 ---
 
-# Working Environment Setup
+# Introduction to Markdown and Git
 
 The purpose of this learning unit is to introduce relevant tools and file formats required for developing FAIR-by-Design learning objects. Once a working environment consisting of the recommended tools is in place and the initial concepts regarding the underlying file formats have been adopted, the instructional designer is then ready to start with production of the learning objects themvselves. The first step on this journey is the introduction to an open text format – Markdown, and a robust version management system, Git.
 
@@ -134,6 +134,15 @@ We recommend to create and use a dedicated organization on GitHub for hosting re
     ![GitHub Screenshot - Forking the Template Repository](attachments/05-repository-forking.png)
 
 10. After a few moments the forking process will be completed and you will be redirected to the homepage of your new repository.
+11. The final step before we can start working on the development of learning objects is to clone the repository locally. To do so, we will use the [GitHub Desktop Client](https://google.com) that should already be installed as part of the preparation steps before attending the training. Open the application and authenticate using your GitHub credentials.
+12. Once logged in, you will be asked what name and email address you would like to associate with your future commits. You can either accept the defaults which are your GitHub username as the name and your GitHub provided email, or you can customize them as you see fit.
+12. Using either the first run wizard that should start automatically after logging-in for the first time (`Clone a repository on your hard drive...` button) or by manually selecting `File -> Clone repository`, make a local copy of the forked repository. If the repository is not yet visible, make sure to click the refresh button. Make sure to specify the desired location on your filesystem where to place the data from the cloned repository.
+
+    ![GitHub Desktop Client - Cloning the Forked Repository](attachments/06-cloning-repository.png)
+
+At this point we have created our own fork of the FAIR-by-Design templates repository and we have also cloned (downloaded) all of its contents locally, so we are ready to start producing our very own FAIR learning objects. However, one final step remains, and that is to go over how to work with Markdown files. 
+
+
 
 ## Suggested Reading
 - [Hoebelheinrich, Nancy J, Biernacka, Katarzyna, Brazas, Michelle, Castro, Leyla Jael, Fiore, Nicola, Hellström, Margareta, Lazzeri, Emma, Leenarts, Ellen, Martinez Lavanchy, Paula Maria, Newbold, Elizabeth, Nurnberger, Amy, Plomp, Esther, Vaira, Lucia, van Gelder, Celia W G, & Whyte, Angus. (2022). Recommendations for a minimal metadata set to aid harmonised discovery of learning resources (1.0).](https://doi.org/10.15497/RDA00073)

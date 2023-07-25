@@ -164,7 +164,7 @@ Sonja Filiposka, Dominique Green, Anastas Mishev, Vojdan Kjorveziroski, Andrea C
 
 # Trainers 
 
-Sonja Filiposka, Anastas Mishev, Vojdan Kjorveziroski, Andrea Corleto
+Sonja Filiposka [![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-0034-2855), Anastas Mishev [![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0001-7271-6655), Vojdan Kjorveziroski [![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-0419-4300)
 
 ## Contact information
 

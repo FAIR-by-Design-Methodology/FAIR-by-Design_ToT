@@ -34,14 +34,14 @@ The purpose of this learning unit is to introduce all relevant FAIR concepts tha
 ### Plan
 | Duration | Topic              | Key points/Teaching Method/Questions                                                                                      | Activities                              | Resources                  |
 |----------|--------------------|---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|----------------------------|
-| 2        | The hook           | - focus attention - provide framework                                                                                     | brainstorm expectations                 | pptx                       |
-| 10       | Training           | metadata, PID, repo, IPR, licenses                                                                                        | check for understanding with discussion | pptx + handouts            |
-| 10       | Guided practice    | trainer acts as facilitator                                                                                               | [licensing activity](./Activities/01-Checking%20licenses.md)                      | pptx, menti + shared notes |
-| 5        | Attribution/Citing | how to write attribution when to cite                                                                                     | best practices examples by CC           | pptx, links                |
-| 10       | Guided practice    | trainer acts as facilitator, solutions to be pasted in shared notes                                                       | [attribution activity](./Activities/02-Attribution.md)                    | pptx, chat + shared notes  |
-| 10       | Training           | instructional design process, learning objectives, bloom's taxonomy relate with examples from the used learning materials | check for understanding with discussion | pptx + handouts            |
-| 10       | Guided practice    | trainer acts as facilitator, solutions to be pasted in shared notes                                                       | [ideation activity](./Activities/03-Ideation.md)                       | pptx, chat + shared notes  |
-| 3        | Summary            | key takeaways, what's next                                                                                                | quiz                                    | pptx                       |
+| 2 mins        | The hook           | - focus attention - provide framework                                                                                     | brainstorm expectations                 | pptx                       |
+| 10 mins       | Training           | metadata, PID, repo, IPR, licenses                                                                                        | check for understanding with discussion | pptx + handouts            |
+| 10 mins       | Guided practice    | trainer acts as facilitator                                                                                               | [licensing activity](./Activities/01-Checking%20licenses.md)                      | pptx, menti + shared notes |
+| 5 mins        | Attribution/Citing | how to write attribution when to cite                                                                                     | best practices examples by CC           | pptx, links                |
+| 10 mins       | Guided practice    | trainer acts as facilitator, solutions to be pasted in shared notes                                                       | [attribution activity](./Activities/02-Attribution.md)                    | pptx, chat + shared notes  |
+| 10 mins       | Training           | instructional design process, learning objectives, bloom's taxonomy relate with examples from the used learning materials | check for understanding with discussion | pptx + handouts            |
+| 10 mins       | Guided practice    | trainer acts as facilitator, solutions to be pasted in shared notes                                                       | [ideation activity](./Activities/03-Ideation.md)                       | pptx, chat + shared notes  |
+| 3 mins        | Summary            | key takeaways, what's next                                                                                                | quiz                                    | pptx                       |
 
 ### Assessment
 - summative assessment

@@ -31,11 +31,11 @@ Aim/Goal of unit
 ### Plan
 | Duration | Topic                  | Key points/Teaching Method/Questions                                   | Activities               | Resources                  |
 |----------|------------------------|------------------------------------------------------------------------|--------------------------|----------------------------|
-| 10       | Welcome / Introduction | - housekeeping  - introduce trainer and trainees - learning objectives | ice breaker              | e.g. name tags, flip chart |
-| 5        | The hook               | - focus attention - provide framework                                  | brainstorm expectations  | e.g. post-it notes         |
-|          | Training               | information + examples                                                 | check for understanding  | e.g. pptx + handouts       |
-|          | Guided practice        | trainer acts as facilitator                                            | exercise or activity    | e.g. posters and markers   |
-|          | Summary                | key takeaways                                                          | reinforcement assignment | e.g. cards                 |
+| X mins   | Welcome / Introduction | - housekeeping  - introduce trainer and trainees - learning objectives | ice breaker              | e.g. name tags, flip chart |
+| X mins   | The hook               | - focus attention - provide framework                                  | brainstorm expectations  | e.g. post-it notes         |
+| X mins   | Training               | information + examples                                                 | check for understanding  | e.g. pptx + handouts       |
+| X mins   | Guided practice        | trainer acts as facilitator                                            | exercise or activity     | e.g. posters and markers   |
+| X mins   | Summary                | key takeaways                                                          | reinforcement assignment | e.g. cards                 |
 
 Note: If the training is relying heavily on presentations then another option for the plan layout is to provided in a slide by slide using slide thumbnails in the topic column. In this case each row in the table should refer to a separate slide in the presentation.
 

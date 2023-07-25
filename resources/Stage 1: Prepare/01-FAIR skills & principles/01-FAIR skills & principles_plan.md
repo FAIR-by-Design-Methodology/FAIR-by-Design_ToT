@@ -34,11 +34,11 @@ Discuss the skills relevant for FAIR-by-Design learning materials development. I
 ### Plan
 | **Duration** | **Topic**             | **Key points/Teaching Method/Questions**                                                                                         | **Activities**                                | **Resources**  |
 |--------------|-----------------------|----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|----------------|
-| 3            | FAIR skills           | focus attention on the marriage of two skillsets  (FAIR + instructional design)                                                  | brainstorm expectations                       | pptx           |
-| 4            | FAIR principles       | - introduce main concepts - human vs machine - data, metadata, infrastructure - what is FAIR in different fields and disciplines | FAIRification framework                       | pptx           |
-| 8            | FAIR Learning objects | - perspective - granularity  - what's inside a learning object - characteristics of FAIR LO                                      | discuss effort needed to increase granularity | pptx           |
-| 10           | Guided practice       | trainer acts as facilitator                                                                                                      | [Assess FAIRness activity](./Activities/Assessing%20FAIRness%20of%20Learning%20Materials.md)                      | browser, Menti |
-| 5            | Summary               | key takeaways                                                                                                                    | group discussion after the activity quiz      | pptx           |
+| 3 mins            | FAIR skills           | focus attention on the marriage of two skillsets  (FAIR + instructional design)                                                  | brainstorm expectations                       | pptx           |
+| 4 mins            | FAIR principles       | - introduce main concepts - human vs machine - data, metadata, infrastructure - what is FAIR in different fields and disciplines | FAIRification framework                       | pptx           |
+| 8 mins            | FAIR Learning objects | - perspective - granularity  - what's inside a learning object - characteristics of FAIR LO                                      | discuss effort needed to increase granularity | pptx           |
+| 10 mins           | Guided practice       | trainer acts as facilitator                                                                                                      | [Assess FAIRness activity](./Activities/Assessing%20FAIRness%20of%20Learning%20Materials.md)                      | browser, Menti |
+| 5 mins            | Summary               | key takeaways                                                                                                                    | group discussion after the activity quiz      | pptx           |
 
 ### Assessment
 - summative assessment

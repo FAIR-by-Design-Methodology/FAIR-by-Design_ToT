@@ -26,6 +26,8 @@ accessCost: "Choice stating whether or not there is a fee for use of the resourc
 expertiseLevel: "Target skill level in the topic being taught; example values include: beginner, intermediate, advanced"
 ---
 
+![Header with Skills4EOSC funding information](./attachments/header.png)
+
 # Title of training 
 # Type (Course/Workshop/Webinar)
 

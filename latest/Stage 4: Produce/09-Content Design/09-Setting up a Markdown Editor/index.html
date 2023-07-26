@@ -738,7 +738,19 @@
 <p><img alt="Obsidian - Showcasing the Editor Toolbar Plugin" src="../attachments/14-editing-toolbar-plugin-in-action.png" /></p>
 </li>
 <li>
-<p>Before moving forward, it would be beneficial to configure Obsidian to follow the recommended file hierarchy when working with attachments. The forked template repository assumes that all images will be stored in an attachments folder created at the same location where the Markdown files is stored. Obsidian supports automatic export of copy/pasted images, but we need to perform an extra step as to configure it to respect this file hierarchy.</p>
+<p>Before moving forward, it would be beneficial to configure Obsidian to follow the recommended file hierarchy when working with attachments. The forked template repository assumes that all images will be stored in an attachments folder created at the same location where the Markdown files is stored. Obsidian supports automatic export of copy/pasted images, but we need to perform an extra step as to configure it to respect this file hierarchy. To do so, reopen the Obsidian settings window by using the cog icon in the bottom left hand corner.</p>
+</li>
+<li>
+<p>Choose the <code>Files &amp; Links</code> menu and set <code>Default location for new attachments</code> to <code>In subfolder under current folder</code>. Enter <code>attachments</code> in the <code>Subfolder name</code> input field.</p>
+<p><img alt="Obsidian - Configuring Attachment Behavior" src="../attachments/15-obsidian-attachment-configuration.png" /></p>
+</li>
+<li>
+<p>To be compliant with the base Markdown specification, make sure to also set the <code>New link format</code> option to <code>Relative path to file</code> on the same settings page.</p>
+<p><img alt="Obsidian - Enabling Relative Locations for new Attachments" src="../attachments/16-obisidian-relative-path-to-file.png" /></p>
+</li>
+<li>
+<p>To test the new configuration you can go ahead and copy an arbitrary image and directly paste it into a Markdown document open on Obsidian. The image should automatically appear in the preview, and a newly created <code>attachments</code> folder will also be present in the navigation tree on the left sde.</p>
+<p><img alt="Obsidian - Pasted Image" src="../attachments/17-pasted-image.png" /></p>
 </li>
 </ol>
 

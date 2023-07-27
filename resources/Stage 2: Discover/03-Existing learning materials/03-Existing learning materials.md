@@ -113,7 +113,9 @@ For the purposes of understanding the diversity of the existing learning materia
 
 > You have been tasked to develop a new course on the topic of Open Science for policy makers. You already went through step 1 of the backward instructional process and defined the essential information including learning objectives. 
 
-Spend some time thinking how can you assess if someone has managed to reach the defined learning objectives? This should help you identify the main concepts that you need to cover in your courses and develop content and activities around. Now it is time to start searching through repositories and catalogues and find materials you could possibly reuse or be inspired with.
+> Spend some time thinking how can you assess if someone has managed to reach the defined learning objectives? This should help you identify the main concepts that you need to cover in your courses and develop content and activities around. 
+
+> Now it is time to start searching through repositories and catalogues and find materials you could possibly reuse or be inspired with.
 
 1. Start from [Zenodo](https://zenodo.org/) with the "open science training" keywords
     - notice the **type Lesson** available in the filter on the left
@@ -141,10 +143,15 @@ Spend some time thinking how can you assess if someone has managed to reach the 
         - in MERLOT you should be able to find online course [Open Science: Sharing Your Research with the World](https://www.merlot.org/merlot/viewMaterial.htm?id=1377011)
             - are you able to access the materials which are licensed under CC BY-NC-SA 4.0?
 
-4. The final stop is [FORTT](https://forrt.org/) and its [Educational Nexus](https://forrt.org/nexus/)
+4. The next stop is [FORTT](https://forrt.org/) and its [Educational Nexus](https://forrt.org/nexus/)
     - try to find an Open Science lesson plan here
     - you should be able to get to the [Lesson plan 4: Intro to Open Science lesson plan](https://osf.io/x3m9k) hosted on OSF
     - note that there are links to other learning resources in the lesson plan
+
+5. The final stop is the [EOSC training catalogue](https://search.marketplace.eosc-portal.eu/search/training?q=*)
+    - notice that there are resource types such as lesson plan, activity plan and assessment
+    - also note that the same resource can have multiple types
+    - you should be able to find the "Toolkit for policy makers on Open Access and Open Science"(https://www.openaire.eu/toolkit-for-policy-makers-on-open-science-and-open-access)
 
 Now that you are armed and inspired with what you have managed to find, you are ready to proceed to the next stage Design.
 

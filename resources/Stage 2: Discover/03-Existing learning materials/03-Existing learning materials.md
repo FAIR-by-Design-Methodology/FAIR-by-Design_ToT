@@ -65,7 +65,7 @@ This is a short list of some of the most popular OER repositories and catalogues
 - [Community of Online Research Assignments (CORA)](https://www.projectcora.org/) - Website with many assignments on many different topics including necessary materials to do each assignment
 - [GALILEO Open Learning Materials](https://oer.galileo.usg.edu/) - administrated by Affordable Learning Georgia, an initiative of GALILEO and the University System of Georgia which aims to reduce the cost of textbooks to students and contribute to their retention, progression, and graduation.
 - [FORRT (Framework for Open and Reproducible Research Training)](https://forrt.org/) - provides a pedagogical infrastructure & didactic resources designed to recognize and support the teaching and mentoring of open and reproducible science offering FAIR teaching and mentoring resources
-- and many others...
+- and many others ...
 
 ## EOSC projects related training materials and catalogues
 
@@ -78,15 +78,20 @@ Many EOSC projects have created their own learning platforms with integrated cat
 - [EOSC-Nordic Training Library](https://eosc-nordic.eu/knowledge-hub/training-library/)
 - [OpenAIRE Open Plato](https://openplato.eu/)
 - [Elixir Training Platform](https://elixir-europe.org/platforms/training)
-- and many others...
+- and many others ...
 
 Note that the EOSC Training catalogue that is part of the EOSC Marketplace is planned to become the focal point for the discovery of these types of learning resources. This catalogue is however still under development, and at the moment only a handful of resources are available. 
 
 ## General repositories and platforms
 
+The general repositories and platforms host all types of resources including learning material. Lately they have become an increasingly favorite location for hosting instructor facing learning materials. However searching within should be done with greater care as the filtering options are general and it is difficult to search for a specific learning resource type.
+
+A short illustrative list is:
+
 - [Creative Commons Search](https://search.creativecommons.org/) - engine that helps find content that you can share, use and remix as it is provided under a CC license.
 - [Zenodo](https://zenodo.org/) - a multi-disciplinary open repository maintained by CERN
 - [OSF](https://osf.io/) - a free, open platform to support your research and enable collaboration.
+- and others ...
 
 ### Learning Resources discovered within Skills4EOSC
 

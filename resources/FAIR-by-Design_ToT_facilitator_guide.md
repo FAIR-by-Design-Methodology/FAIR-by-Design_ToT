@@ -72,8 +72,9 @@ The trainers materials latest version is taken from the GitHub repo.
 1. [Assessing FAIRness of Learning Materials](./01-FAIR%20skills%20&%20principles/Activities/Assessing%20FAIRness%20of%20Learning%20Materials.md)
 
 ### 02-Defining FAIR Learning Objects
-1.
-2. 
+1. [Checking licenses](./Activities/01-Checking%20licenses.md)  
+2. [ideation](./Activities/03-Ideation.md)  
 
-### 
+### 03 - Existing Learning Materials
+1. [Finding Learning Materials](./Activities/Finding%20Learning%20Materials.md)
 

@@ -5,7 +5,7 @@ tags:
     - FAIR Learning Objects
     - FAIR Skills
     - FAIR Principles
-author: Sonja Filiposka
+author: Skills4EOSC T2.3
 ---
 
 # FAIR Skills & Principles

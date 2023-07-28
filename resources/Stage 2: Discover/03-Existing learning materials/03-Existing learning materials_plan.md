@@ -1,6 +1,6 @@
 ---
-title: "Existing Learning Materials Plan"
-author: "Skills4EOSC T2.3"
+title: Existing Learning Materials Plan
+author: Skills4EOSC T2.3
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects
@@ -13,7 +13,7 @@ tags:
 
 ## Goal
 
-Discuss the skills relevant for FAIR-by-Design learning materials development. Introduce the FAIR principles and define the FAIR learning objects characteristics.
+Discuss the step 2 of backward instructional process. Discover existing learning material that can serve for inspiration and potential reuse.
 
 ### Location
 - online
@@ -26,16 +26,18 @@ Discuss the skills relevant for FAIR-by-Design learning materials development. I
 - any (< 100)
 
 ### Learning objectives
-- Describe 
+- Collect existing learning materials
+- Compare learning materials repositories
+- Discover learning materials catalogues
 
 ### Plan
-| **Duration** | **Topic**             | **Key points/Teaching Method/Questions**                                                                                         | **Activities**                                | **Resources**  |
-|--------------|-----------------------|----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|----------------|
-| 3            | FAIR skills           | focus attention on the marriage of two skillsets  (FAIR + instructional design)                                                  | brainstorm expectations                       | pptx           |
-| 4            | FAIR principles       | - introduce main concepts - human vs machine - data, metadata, infrastructure - what is FAIR in different fields and disciplines | FAIRification framework                       | pptx           |
-| 8            | FAIR Learning objects | - perspective - granularity  - what's inside a learning object - characteristics of FAIR LO                                      | discuss effort needed to increase granularity | pptx           |
-| 10           | Guided practice       | trainer acts as facilitator                                                                                                      | [Assess FAIRness activity](./Activities/Assessing%20FAIRness%20of%20Learning%20Materials.md)                      | browser, Menti |
-| 5            | Summary               | key takeaways                                                                                                                    | group discussion after the activity quiz      | pptx           |
+| **Duration** | **Topic**                               | **Key points/Teaching Method/Questions**       | **Activities**                                                                               | **Resources**               |
+|--------------|-----------------------------------------|------------------------------------------------|----------------------------------------------------------------------------------------------|-----------------------------|
+| 5            | Objectives and agenda                   | set the scene                                  | brainstorm expectations                                                                      | pptx                        |
+| 5            | Backward Instructional design process 2 | how assessment leads to thinking about content |                                                                                              | pptx                        |
+| 15           | Learning materials repos                | different types, pros & cons                   | share experience and other examples, co-creation                                             | pptx                        |
+| 30           | Guided practice                         | trainer acts as facilitator                    | [Finding Learning Materials activity](./Activities/Finding%20Learning%20Materials.md) | browser, chat, shared notes |
+| 5            | Summary                                 | key takeaways: not easy but may be worth it    | group discussion after the activity, reflection                                              | pptx                        |
 
 ### Assessment
 - summative assessment

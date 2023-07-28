@@ -1,6 +1,6 @@
 ---
-title: "Preparing"
-author: "Skills4EOSC T2.3"
+title: Preparing
+author: Skills4EOSC T2.3
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects

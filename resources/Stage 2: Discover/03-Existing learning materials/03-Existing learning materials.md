@@ -5,7 +5,7 @@ tags:
     - FAIR Learning Objects
     - Learning materials
     - Repositories
-author: Sonja Filiposka
+author: Skills4EOSC T2.3
 ---
 
 # Existing Learning Materials

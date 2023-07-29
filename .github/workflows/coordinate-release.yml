@@ -12,6 +12,10 @@ jobs:
     uses: ./.github/workflows/commit-cffconvert.yml
     needs: release_update_citation_file
 
+  # helper_get_current_doi:
+  #   uses: ./.github/workflows/helper-get-current-doi.yml
+  #   needs: release_validate_citation_file
+
   release_zenodo_deposit:
     uses: ./.github/workflows/release-zenodo-deposit.yml
     needs: release_validate_citation_file
@@ -22,9 +26,18 @@ jobs:
     needs: release_zenodo_deposit
     uses: ./.github/workflows/release-update-mkdocs-citation.yml
 
+  update_doi_syllabus:
+    needs:
+      - reconcile_mkdocs
+    uses: ./.github/workflows/helper-update-dois-in-content.yml
+
+  update_doi_in_pptx:
+    needs: update_doi_syllabus
+    uses: ./.github/workflows/helper-update-doi-pptx.yml
+
   release_update_latest_docs_version:
     uses: ./.github/workflows/commit-publish-docs.yml
-    needs: reconcile_mkdocs
+    needs: update_doi_in_pptx
 
   release_create_mike_release:
     uses: ./.github/workflows/release-mkdocs-version.yml

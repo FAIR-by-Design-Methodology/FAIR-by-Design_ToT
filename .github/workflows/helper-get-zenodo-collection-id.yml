@@ -4,11 +4,11 @@ on:
   workflow_call:
 
 jobs:
-  deploy_docs:
+  get_collection_id:
     name: Get collection
     runs-on: ubuntu-22.04
     outputs:
-      pushed: ${{ steps.zenodo_api.outputs.COLLECTION }}
+      collection_id: ${{ steps.zenodo_api.outputs.COLLECTION }}
     steps:
       - name: Checkout master
         uses: actions/checkout@v3

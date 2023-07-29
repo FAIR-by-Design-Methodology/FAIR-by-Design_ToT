@@ -50,7 +50,7 @@ citation:
   version: 1.0.13
   doi: 10.5072/zenodo.1224005
   date-released: 2023-10-17
-  license: CC0-1.0
+  license: CC-BY-4.0
   license-url: https://creativecommons.org/publicdomain/zero/1.0/legalcode
   keywords:
     - FAIR-by-Design

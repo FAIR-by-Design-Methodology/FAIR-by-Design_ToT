@@ -1,17 +1,22 @@
 name: Deposit on Zenodo
 on:
-  release:
-    types:
-      - published
+  workflow_call:
+    secrets:
+      ZENODO_SANDBOX_ACCESS_TOKEN:
+        required: true
+  # release:
+  #   types:
+  #     - published
 jobs:
   zenodo_publish:
     name: Publish on Zenodo
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
+          ref: main
 
       - name: Create a draft on Zenodo Sandbox
         uses: zenodraft/action@0.10.0

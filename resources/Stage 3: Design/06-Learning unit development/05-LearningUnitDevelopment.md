@@ -1,16 +1,31 @@
 ---
-title: Conceptualisation
+title: Learning Unit Development
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects
-    - Content concept map
-    - Syllabus
+    - Learning unit
+    - Unit plan
     - Templating
 author: Skills4EOSC T2.3
 ---
 
-# Conceptualisation
+# Learning Unit Development
 
+## Rich learning experience 
+
+Effective learning experience is crucial for application of the obtained knowledge and skills in real world context. To achieve this end, not only the learning objectives, but all content, activities, assignments and assessments must be learner-centered. 
+
+Learners perform best when they are engaged in authentic activities, collaborate with peers to share and deepen their understanding, and apply their existing skills to different contexts and new problems. 
+
+Rich learning experiences can be supported by 
+
+- inquiry-based learning structures, such as projects and performance tasks
+- thoughtfully interwoven direct instruction
+- opportunities to practice and apply learning
+
+It is important that learners are given meaningful tasks that build on their prior knowledge together with a safe positive environment in which they can receive timely and helpful feedback.
+
+Units should be well structured so as to reduce the unnecessary cognitive load, and based on multiple modalities and tools for accessing information and expressing learning to support different types of learners.
 
 
 # Next units

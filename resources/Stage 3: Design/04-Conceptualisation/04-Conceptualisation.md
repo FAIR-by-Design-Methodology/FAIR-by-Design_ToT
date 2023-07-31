@@ -16,8 +16,7 @@ Once the discovery stage is completed, the third step of the backward instructio
 ## Learning Objectives
 - Preparing a syllabus
 - Structuring the learning materials
-- Composing an instructor kit
-- Building content based on templates
+- Defining content based on templates
 
 ## Target Audience
 - attendees of the FAIR-by-Design ToT live webinar
@@ -99,35 +98,27 @@ Note that you don't need to strictly follow the represented breakdown, for an ex
 
 ## Rich learning experience 
 
+Effective learning experience is crucial for application of the obtained knowledge and skills in real world context. To achieve this end, not only the learning objectives, but all content, activities, assignments and assessments must be learner-centered. 
+
+Learners perform best when they are engaged in authentic activities, collaborate with peers to share and deepen their understanding, and apply their existing skills to different contexts and new problems. 
+
+Rich learning experiences can be supported by 
+
+- inquiry-based learning structures, such as projects and performance tasks
+- thoughtfully interwoven direct instruction
+- opportunities to practice and apply learning
+
+It is important that learners are given meaningful tasks that build on their prior knowledge together with a safe positive environment in which they can receive timely and helpful feedback.
+
+Units should be well structured so as to reduce the unnecessary cognitive load, and based on multiple modalities and tools for accessing information and expressing learning to support different types of learners.
 
 
-### Content templates
-- HTML content template
-- PPTX content template
-- Quarto template
 
 
 
-# Next units
-## Licensing and Attribution
 
-	- compatibility
-	- final license
 
-## Instruction facilitation
 
-	- instructor kit
-		- plan
-		- activity details
-		- assessment & strategy
-		- facilitation guide
-
-## Materials structure
-
-	- folder organisation
-	- metadata in syllabus
-	- license file
-	- citation file
 
 
 
@@ -137,4 +128,8 @@ sssss
 
 
 ## Suggested Reading
-- ....
+- [Concept maps and course blueprints](https://www.uvic.ca/til/onlinelearning/home/for_instructors/concepts_maps_and_course_blueprints/index.php)
+- [Concept Mapping and Curriculum Design](https://www.utc.edu/academic-affairs/walker-center-for-teaching-and-learning/teaching-resources/pedagogical-strategies-and-techniques/concept-mapping-and-curriculum-design)
+- [Syllabus Design](https://poorvucenter.yale.edu/SyllabusDesign)
+- [About Universal Design for Learning](https://www.cast.org/impact/universal-design-for-learning-udl)
+....

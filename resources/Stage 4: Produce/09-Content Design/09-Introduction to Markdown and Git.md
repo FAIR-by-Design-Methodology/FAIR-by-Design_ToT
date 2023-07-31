@@ -140,6 +140,10 @@ We recommend to create and use a dedicated organization on GitHub for hosting re
 
     ![GitHub Desktop Client - Cloning the Forked Repository](attachments/06-cloning-repository.png)
 
+13. If asked whether you would like to contribute to the original repository or continue working independently on the forked one, choose the second option, `For my own purposes`.
+
+    ![GitHub Desktop - Selecting Repository Purpose](attachments/100-repository-purpose.png)
+
 At this point we have created our own fork of the FAIR-by-Design templates repository and we have also cloned (downloaded) all of its contents locally, so we are ready to start producing our very own FAIR learning objects. However, one final step remains, and that is to go over how to work with Markdown files. 
 
 

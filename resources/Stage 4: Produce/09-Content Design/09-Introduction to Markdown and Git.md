@@ -105,7 +105,7 @@ When using GitHub, repositories can either be hosted under the personal profile,
 
 We recommend to create and use a dedicated organization on GitHub for hosting repositories related to the development of FAIR-by-Design materials. Follow these steps to complete the initial Git setup for your new FAIR-by-Design repository
 
-1. Login to [Github](https://github.com).
+1. Login to [GitHub](https://github.com).
 2. Click on the profile picture in the right hand corner and select `Your organizations`.
 3. Create a new organization by clicking on the `New organization` button. 
 

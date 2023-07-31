@@ -102,7 +102,7 @@ Below is a list of common Git related terminology which will be useful for the r
 
 As part of the preparation for this training, participants should already have downloaded and installed the [GitHub Desktop Client](https://desktop.github.com/), and created a free personal account on [GitHub](https://github.com/).
 
-To simulate the preparation of FAIR-by-Design learning objects, you are going to create a fork of the [FAIR-by-Design Learning Object Templates](https://google.com) repository, and then clone it locally as to continue working on the materials.
+To simulate the preparation of FAIR-by-Design learning objects, you are going to create a fork of the [FAIR-by-Design Learning Object Templates](https://github.com/FAIR-by-Design-Methodology/templates) repository, and then clone it locally as to continue working on the materials.
 
 When using GitHub, repositories can either be hosted under the personal profile, or under an organization. Hosting a repository under an organization provides greater flexibility, since the organization name can be customized, and multiple owners can be added to an organizational repositories, unlike personal ones. Repository owners can edit the settings of the repository, such as enable third-party integrations or change its visibility level.
 
@@ -128,13 +128,13 @@ We recommend to create and use a dedicated organization on GitHub for hosting re
 
     ![GitHub Screenshot - Modifying the Organization's Privacy Settings](attachments/04-repository-privacy-settings.png)
 
-8. The next step is to create our first repository in the organization by creating a fork of the [FAIR-by-Design Learning Object Templates](https://google.com) repository. To do so, navigate to its page and click the `Fork` button in the right-hand corner.
+8. The next step is to create our first repository in the organization by creating a fork of the [FAIR-by-Design Learning Object Templates](https://github.com/FAIR-by-Design-Methodology/templates) repository. To do so, navigate to its page and click the `Fork` button in the right-hand corner.
 9. Make sure to set your newly created organization as the owner of the repository. Finish filling-out the forking form by entering the desired repository name and its description. By default forks are created with the same name as the original (upstream) repository, but this can be customized directly on the form.
 
     ![GitHub Screenshot - Forking the Template Repository](attachments/05-repository-forking.png)
 
 10. After a few moments the forking process will be completed and you will be redirected to the homepage of your new repository.
-11. The final step before we can start working on the development of learning objects is to clone the repository locally. To do so, we will use the [GitHub Desktop Client](https://google.com) that should already be installed as part of the preparation steps before attending the training. Open the application and authenticate using your GitHub credentials.
+11. The final step before we can start working on the development of learning objects is to clone the repository locally. To do so, we will use the [GitHub Desktop Client](https://desktop.github.com/) that should already be installed as part of the preparation steps before attending the training. Open the application and authenticate using your GitHub credentials.
 12. Once logged in, you will be asked what name and email address you would like to associate with your future commits. You can either accept the defaults which are your GitHub username as the name and your GitHub provided email, or you can customize them as you see fit.
 12. Using either the first run wizard that should start automatically after logging-in for the first time (`Clone a repository on your hard drive...` button) or by manually selecting `File -> Clone repository`, make a local copy of the forked repository. If the repository is not yet visible, make sure to click the refresh button. Make sure to specify the desired location on your filesystem where to place the data from the cloned repository.
 

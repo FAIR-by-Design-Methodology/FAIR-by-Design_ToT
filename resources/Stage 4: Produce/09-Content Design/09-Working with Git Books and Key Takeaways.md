@@ -17,7 +17,7 @@ The main goal would be to achieve a "set it and forget it" scenario, where once 
 
 To make the process of initial set up easier, the already forked `templates` repository [at the beginning of this unit](./09-Introduction%20to%20Markdown%20and%20Git.md) can be reused, instead of setting up everything from scratch. In the exercise that we will make the necessary adjustments to the forked repository, create an example page, and push our very content to the Git book.
 
-## Exercise: Setting up a Git book with MkDocs
+## Exercise: Setting up a Git Book with MkDocs
 
 As part of this exercise we will be working on the already forked template repository [FAIR-by-Design-Methodology/templates](https://github.com/FAIR-by-Design-Methodology/templates), reusing its content. As a reminder, the process of `forking` an existing repository results in the creation of a new repository which is an identical copy of the original, and the owner is the user/organization who initiated the fork. Since at this point we already forked the repository in [Introduction to Markdown and Git](./09-Introduction%20to%20Markdown%20and%20Git.md), we will only change the GitHub settings for the new repository to allow for automatic building of the MkDocs Git book. Finally we will edit some of the existing Markdown files so that the first version of our Git book can be built.
 
@@ -92,7 +92,7 @@ To test the Git book functionality, let's edit some of the existing content in t
 
     Should the workflow complete successfully, the brown dot will be changed to a green checkmark as shown in the picture above. If an error is encountered during the workflow's execution, a red cross will be shown.
 
-### Step 3: Enabling Free Hosting of the Git book on GitHub
+### Step 3: Enabling Free Hosting of the Git Book on GitHub
 
 Since this is the first time that the Git book has been rendered using one of the automatic workflows, we need to enable free website hosting provided by GitHub. This action needs to be performed only once. Any subsequent changes to the markdown files can simply be committed and pushed, after which they will appear "automatically" on the live website.
 

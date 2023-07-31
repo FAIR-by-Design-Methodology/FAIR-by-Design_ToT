@@ -15,7 +15,7 @@
     
     
       
-        <title>Working with Git books and key takeaways - FAIR-by-Design Training of Trainers</title>
+        <title>Working with Git Books and Key Takeaways - FAIR-by-Design Training of Trainers</title>
       
     
     
@@ -69,6 +69,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#exercise-setting-up-a-git-book-with-mkdocs" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -101,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Working with Git books and key takeaways
+              Working with Git Books and Key Takeaways
             
           </span>
         </div>
@@ -530,9 +535,72 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Working with Git Books and Key Takeaways
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
-        Working with Git books and key takeaways
+        Working with Git Books and Key Takeaways
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-setting-up-a-git-book-with-mkdocs" class="md-nav__link">
+    Exercise: Setting up a Git book with MkDocs
+  </a>
+  
+    <nav class="md-nav" aria-label="Exercise: Setting up a Git book with MkDocs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-making-the-necessary-changes-to-the-repositorys-configuration" class="md-nav__link">
+    Step 1: Making the Necessary Changes to the Repository's Configuration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-making-local-changes-to-the-repository" class="md-nav__link">
+    Step 2: Making Local Changes to the Repository
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-enabling-free-hosting-of-the-git-book-on-github" class="md-nav__link">
+    Step 3: Enabling Free Hosting of the Git book on GitHub
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    Key Takeaways
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -569,6 +637,55 @@
   
   
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-setting-up-a-git-book-with-mkdocs" class="md-nav__link">
+    Exercise: Setting up a Git book with MkDocs
+  </a>
+  
+    <nav class="md-nav" aria-label="Exercise: Setting up a Git book with MkDocs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-making-the-necessary-changes-to-the-repositorys-configuration" class="md-nav__link">
+    Step 1: Making the Necessary Changes to the Repository's Configuration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-making-local-changes-to-the-repository" class="md-nav__link">
+    Step 2: Making Local Changes to the Repository
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-enabling-free-hosting-of-the-git-book-on-github" class="md-nav__link">
+    Step 3: Enabling Free Hosting of the Git book on GitHub
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    Key Takeaways
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -625,9 +742,108 @@
 
 
 
-  <h1>Working with Git books and key takeaways</h1>
+  <h1>Working with Git Books and Key Takeaways</h1>
 
-
+<p>The production of a Git book would allow all of the written Markdown documents to be automatically converted to a more visually appealing HTML representation that could be viewed using a web browser. Additionally, existing Git book frameworks today are capable of producing complete websites, following a navigation strategy designed by the authors themselves. We will have a look at a popular Git book framework called <a href="https://www.mkdocs.org/">MkDocs</a> and we will show the necessary steps to configure it, below.</p>
+<p>The main goal would be to achieve a "set it and forget it" scenario, where once set up, MkDocs will not require any additional interaction or reconfiguration during the remaining stages of the FAIR-by-Design methodology. All new Markdown files should automatically be converted to an HTML representation and be visible in the rendered Git book.</p>
+<p>To make the process of initial set up easier, the already forked <code>templates</code> repository <a href="../09-Introduction%20to%20Markdown%20and%20Git/">at the beginning of this unit</a> can be reused, instead of setting up everything from scratch. In the exercise that we will make the necessary adjustments to the forked repository, create an example page, and push our very content to the Git book.</p>
+<h2 id="exercise-setting-up-a-git-book-with-mkdocs">Exercise: Setting up a Git book with MkDocs</h2>
+<p>As part of this exercise we will be working on the already forked template repository <a href="https://github.com/FAIR-by-Design-Methodology/templates">FAIR-by-Design-Methodology/templates</a>, reusing its content. As a reminder, the process of <code>forking</code> an existing repository results in the creation of a new repository which is an identical copy of the original, and the owner is the user/organization who initiated the fork. Since at this point we already forked the repository in <a href="../09-Introduction%20to%20Markdown%20and%20Git/">Introduction to Markdown and Git</a>, we will only change the GitHub settings for the new repository to allow for automatic building of the MkDocs Git book. Finally we will edit some of the existing Markdown files so that the first version of our Git book can be built.</p>
+<h3 id="step-1-making-the-necessary-changes-to-the-repositorys-configuration">Step 1: Making the Necessary Changes to the Repository's Configuration</h3>
+<ol>
+<li>
+<p>Navigate to <a href="https://github.com">GitHub</a> and open the fork created previously. The page at this point should look similar to the picture below. Note that some of the files might differ, depending on when you are following this guide.</p>
+<p><img alt="Preview of the Forked Repository in the Previous Exercise" src="../attachments/18-forked-repository.png" /></p>
+</li>
+<li>
+<p>The first configuration step is to allow the existing workflows which were defined in the template repository to run in the forked one as well. Workflows are automated scripts written as a sequence of steps which need to be executed upon a certain event (e.g., file modification). The template repository, and as a result any forked repositories, heavily rely on such workflows to automate the continuous updating of the Git book, but also to facilitate easy publishing on Zenodo, discussed in more details in the next Stage. The workflows are generic and do not require extensive manual modification before they can be applied to forked repositories as well. Note that workflows are run only when the content is <code>pushed</code> to GitHub, and do not execute on local changes made to the locally cloned repository.</p>
+<p>To enable the workflows, click on the Actions tab and then choose <code>I understand my workflows, go ahead and enable them</code>.</p>
+<p><img alt="Enabling GitHub Workflows in the Forked Repository" src="../attachments/19-enable-workflows.png" /></p>
+</li>
+<li>
+<p>Once enabled, we need to allow the workflows to make automated changes to files present in the repository. This is needed so that the workflows can automatically update the Git book with information such as the license, attribution, and metadata. By default workflow scripts are only allowed read only access to the repository content.</p>
+<p>Navigate to your organization's landing page. Note that this page is different than the repository landing page. One way of opening the organization's page is by clicking on the profile picture on the top right hand corner, selecting <code>Your organizations</code> and then choosing the organization's name from the list. From the landing page, choose <code>Settings</code></p>
+<p><img alt="Landing Page of the GitHub Organization" src="../attachments/20-organization-landing-page.png" /></p>
+</li>
+<li>
+<p>Select <code>Actions -&gt; General</code> from the left hand navigation menu.</p>
+<p><img alt="General Actions Settings at the GitHub Organization Level" src="../attachments/21-actions-page-organization-settings.png" /></p>
+</li>
+<li>
+<p>Scroll down until the section titled <code>Workflow permissions</code> becomes visible and click on the <code>Read and write permissions</code> options, before saving the changes using the <code>Save</code> button.</p>
+<p><img alt="Read and Write Permissions for Workflows" src="../attachments/22-workflow-permissions.png" /></p>
+</li>
+<li>
+<p>The change that we just made was at the GitHub Organization level. It was required so that individual repositories within the organization could also enable <code>Read and write permissions</code> for workflows. The next step is to verify that the extra permissions have been assigned to the forked repository as well.</p>
+<p>Navigate to the repository Settings page (reminder that these Settings are independent from the Organization settings that we just altered), choose <code>Actions -&gt; General</code>, scroll down until the <code>Workflow permissions</code> section appears, and verify that <code>Read and Write Permissions</code> is selected. If it is not selected, select it and save the changes.</p>
+</li>
+</ol>
+<h3 id="step-2-making-local-changes-to-the-repository">Step 2: Making Local Changes to the Repository</h3>
+<p>To test the Git book functionality, let's edit some of the existing content in the syllabus template available in <code>resources/syllabus.md</code> and verify that it will be rendered to HTML and made publicly accessibly from any web browser on the planet.</p>
+<ol>
+<li>
+<p>Open the GitHub Desktop client and verify that all of the commits from the upstream repo are downloaded locally by clicking on the <code>Fetch origin</code> button.</p>
+<p><img alt="GitHub Desktop - Fetch Latest Changes from GitHub" src="../attachments/23-fetch-origin.png" /></p>
+</li>
+<li>
+<p>Open Obsidian.</p>
+<p><img alt="Obsidian Vault" src="../attachments/24-syllabus-in-obsidian.png" /></p>
+</li>
+<li>
+<p>Using the left hand file tree open the <code>syllabus</code> file in the <code>resources</code> directory.</p>
+</li>
+<li>
+<p>Make an arbitrary change to its content, e.g. change the <code>Target audience</code>.</p>
+<p><img alt="Making an Arbitrary Change to the Syllabus using Obsidian" src="../attachments/25-obsidian-change.png" /></p>
+</li>
+<li>
+<p>Switch back to GitHub Desktop and verify that the change has been registered.</p>
+<p><img alt="Verifying the change in GitHub Desktop" src="../attachments/26-github-desktop-diff.png" /></p>
+<p>The above picture shows one of the great advantages of Markdown, the ability to have a detailed representation of what has been changed in each of the files. Lines that have been removed are shown in red with a <code>-</code> prefix, while lines that have been added are shown in green with a <code>+</code> prefix.</p>
+</li>
+<li>
+<p>We can commit the changes so that they are part of the official history of the repository by adding a commit title and an optional description.</p>
+<p><img alt="Committing the Changed Files" src="../attachments/27-pushing-changes-to-github.png" /></p>
+</li>
+<li>
+<p>Local commits are not automatically pushed to GitHub. To do so, we have to explicitly select the <code>Push origin</code> button that should also show a small icon with an arrow at this point, signalling that there is one local commit which has not been uploaded.</p>
+<p><img alt="Pushing the Changes to GitHub" src="../attachments/28-pushing-the-changes.png" /></p>
+</li>
+<li>
+<p>Once the changes are pushed to GitHub, the corresponding workflow script for building the Git book will be triggered. You can verify this by going to the landing page of the repository on GitHub and checking the workflow status.</p>
+<p><img alt="Workflow in Progress" src="../attachments/29-workflow-in-progress.png" /></p>
+<p>While the workflow is in progress there will be a small brown button next to the unique commit identifier (<code>4719aa1</code> in the picture above).</p>
+<p><img alt="Workflow Completed Successfully" src="../attachments/30-workflow-completed.png" /></p>
+<p>Should the workflow complete successfully, the brown dot will be changed to a green checkmark as shown in the picture above. If an error is encountered during the workflow's execution, a red cross will be shown.</p>
+</li>
+</ol>
+<h3 id="step-3-enabling-free-hosting-of-the-git-book-on-github">Step 3: Enabling Free Hosting of the Git book on GitHub</h3>
+<p>Since this is the first time that the Git book has been rendered using one of the automatic workflows, we need to enable free website hosting provided by GitHub. This action needs to be performed only once. Any subsequent changes to the markdown files can simply be committed and pushed, after which they will appear "automatically" on the live website.</p>
+<ol>
+<li>
+<p>Go to the repository settings by clicking on the <code>Settings</code> button and navigate to the <code>Pages</code> section.</p>
+<p><img alt="GitHub Pages Settings" src="../attachments/31-pages-settings.png" /></p>
+</li>
+<li>
+<p>In the <code>Branch</code> section, click on the dropdown menu and select <code>gh-pages</code>.</p>
+<p><img alt="Enable GitHub Pages" src="../attachments/32-gh-pages.png" /></p>
+<p>Once <code>gh-pages</code> has been selected, another field will appear that will be pre-populated with the option <code>/ (root)</code>. Leave that field as is. Save the changes using the <code>Save</code> button.</p>
+<p><img alt="Save GitHub Pages Changes" src="../attachments/33-branch-selection.png" /></p>
+</li>
+<li>
+<p>Wait a couple of moments and refresh the page. A new section titled <code>Your site is live at...</code> should be visible at the top.</p>
+<p><img alt="GitHub Pages Generated URL" src="../attachments/34-url.png" /></p>
+<p>The URL is generated automatically based on the GitHub organization name and the repository title.</p>
+</li>
+<li>
+<p>Clicking on the URL should open the Git book in your web browser. The change made in the previous steps should also be visible.</p>
+<p><img alt="Preview of the Arbitrary Change from the Previous Steps" src="../attachments/35-url-preview.png" /></p>
+</li>
+</ol>
+<p>Any future changes, after being committed and pushed to GitHub using the GitHub Desktop client will automatically be shown on the live web page. In the next exercises we will systematically edit each Markdown template one by one, and preview our changes in the same way as we did now.</p>
+<h2 id="key-takeaways">Key Takeaways</h2>
+<p>At this point we have a functional environment which we can use to practice the FAIR-by-Design methodology. We set up the required tools (Obsidian and GitHub Desktop), got introduced to GitHub and Markdown, and created our very own Git book. We also tackled the difference between the various intermediate and final output formats, giving recommendations on which ones to choose.</p>
+<p>We will use these newly obtained skills in the sections that follow, gradually building our FAIR-by-Design course, starting with the development of a Unit Plan.</p>
 
 
 

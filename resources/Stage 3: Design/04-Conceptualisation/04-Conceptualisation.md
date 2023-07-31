@@ -46,6 +46,8 @@ An example concept map for Open Science is presented in the image below.
 
 Once you have identified your learning concepts, the next step is to sequence them into an instructional sequence (agenda). This instructional sequence will become your blueprint for the organisation of the learning materials and the definition of the syllabus.
 
+## Syllabus 
+
 In essence the blueprint takes the input from the creative concept map and organizes it into a more formal outline. Formally, we call this learning materials outline syllabus. Each syllabus should provide information regarding a number of elements (including the ones defined in the step 1 of the backward instructional design):
 
 - clear, descriptive title 
@@ -76,13 +78,13 @@ The [syllabus template](https://github.com/FAIR-by-Design-Methodology/templates/
 
 As syllabus is one of the required documents for the FAIR-by-Design learning materials, you must ensure that your syllabus has been developed based on this template, i.e. contains all elements provided in the template.
 
-#### Activity
+### Activity
 
 Review the [FAIR-by-Design Methodology for Learning Materials Training of Trainers](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/) syllabus that has been developed based on the provided template as a complete example.
 
 Try to develop your own syllabus for the Open Science for policy makers training. Use the information you gathered and defined in the previous activities.
 
-### Hierarchical structure
+## Hierarchical structure
 
 Once the higher level outline is defined in the syllabus it is time to flesh out the rest while applying the same approach and concepts only on lower aggregation levels. You want to end up with a hierarchical structure that will define the lowest level elements (learning objects) of your learning materials as depicted in the image below.
 
@@ -96,30 +98,11 @@ Note that you don't need to strictly follow the represented breakdown, for an ex
 
 **Flexibility is key!** Learning materials broken down into flexible self-contained learning units can more easily be reused by fitting them and adapting them in other learning structures.
 
-## Rich learning experience 
+### Activity
 
-Effective learning experience is crucial for application of the obtained knowledge and skills in real world context. To achieve this end, not only the learning objectives, but all content, activities, assignments and assessments must be learner-centered. 
+Try to develop your own hierarchical structure for the Open Science for Policy Makers course. Use the information you gathered in the Discovery step as inspiration keeping in mind its potential for reuse.
 
-Learners perform best when they are engaged in authentic activities, collaborate with peers to share and deepen their understanding, and apply their existing skills to different contexts and new problems. 
-
-Rich learning experiences can be supported by 
-
-- inquiry-based learning structures, such as projects and performance tasks
-- thoughtfully interwoven direct instruction
-- opportunities to practice and apply learning
-
-It is important that learners are given meaningful tasks that build on their prior knowledge together with a safe positive environment in which they can receive timely and helpful feedback.
-
-Units should be well structured so as to reduce the unnecessary cognitive load, and based on multiple modalities and tools for accessing information and expressing learning to support different types of learners.
-
-
-
-
-
-
-
-
-
+Mark the learning objects or learning units that you can reuse from what you have already discovered. 
 
 
 ## Summary

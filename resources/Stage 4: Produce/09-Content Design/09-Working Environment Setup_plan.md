@@ -28,14 +28,11 @@ The purpose of this learning unit is to introduce relevant tools and file format
 
 ### Learning objectives
 
-- Use a version management system for versioning file contents
 - Recognize and use open file formats for producing FAIR learning objects
-- Use freely accessible software tools for working with the file formats
-- Setup an automated publishing workflow for processing any changes made to the learning materials
-- Evaluate the accessibility of learning objects
-- Categorizing learning repositories
-- Write reusable self-assessment quizes
-- Perform quality assurance check
+- Use a version management system for versioning file contents
+- Select freely accessible software tools for working with the file formats
+- Operate an already created automated publishing workflow for processing any changes made to the learning materials
+- Explain the process of making changes to the learning objects and publishing them as a Git book
 
 ### Plan
 

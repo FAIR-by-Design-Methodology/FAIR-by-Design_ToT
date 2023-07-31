@@ -14,18 +14,17 @@ author: Skills4EOSC T2.3
 Once the discovery stage is completed, the third step of the backward instructional process is activated. In this step the instructional designer needs to define the content concept map of the learning materials defining the sections, modules, units and learning objects it is going to contain. When the learning materials syllabus is defined in this way, the design continues by creating a blueprint of the organisation of the learning materials, including additional documents that serve as an instructor facilitator kit promoting reuse by enabling others fully understand the learning content and its delivery.
 
 ## Learning Objectives
+- Composing a content concept map
 - Preparing a syllabus
-- Structuring the learning materials
-- Defining content based on templates
 
 ## Target Audience
 - attendees of the FAIR-by-Design ToT live webinar
 
 ## Duration
-45 mins
+30 mins
 
 ## Prerequisites
-none
+completed [Prepare](../../Stage%201:%20Prepare/) stage of the FAIR-by-Design methodology training
 
 ## Learning Tools
 - Training BBB room
@@ -44,9 +43,23 @@ An example concept map for Open Science is presented in the image below.
 
 [Open Science concept map based on a keyword co-occurrence network analysis](https://www.researchgate.net/publication/343663327_The_Uptake_of_Open_Science_Mapping_the_Results_of_a_Systematic_Literature_Review/figures?lo=2) in the [The Uptake of Open Science: Mapping the Results of a Systematic Literature Review](http://dx.doi.org/10.1051/itmconf/20203301001) by Hanna Shmagun, Charles Oppenheim, Jangsup Shim and Jaesoo Kim available under [CC BY license](http://creativecommons.org/licenses/by/)
 
-Once you have identified your learning concepts, the next step is to sequence them into an instructional sequence (agenda). This instructional sequence will become your blueprint for the organisation of the learning materials and the definition of the syllabus.
+### Activity
+
+Try building a concept map about your upcoming training. You can start with the most simple approach. Use the topic of the training as a core concept in the middle, and then just link the concepts you think are important to cover to it. With this you will get a star shaped concept map design, also known as the spider concept map. You can continue adding layers to the concept map by defining subconcepts of the defined concepts. 
+
+Sometimes it is best if you do this exercise on a piece of paper as the process will follow your design thinking more naturally. If you want to work on a digital concept map you can use almost any tool for graphical modelling. An example is [draw.io](http://draw.io/) that offers several templates with different concepts maps design (you will find them in the category Maps when choosing to create a new diagram from template).
+
+Your final result may look simple or complicated. This depends on the focus of the training, the length of the training and the level of details that you want to represent.
+
+Another example is presented below.
+
+![UNESCO Open Science concept map](./attachments/Osc2021-unesco-open-science-no-gray.png)
+
+[Open science elements based on UNESCO presentation of 17 February 2021](https://commons.wikimedia.org/wiki/File:Osc2021-unesco-open-science-no-gray.png) by [RobbieIanMorrison](https://commons.wikimedia.org/wiki/User:RobbieIanMorrison) provided under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/deed.en)
 
 ## Syllabus 
+
+Once you have identified your learning concepts, the next step is to sequence them into an instructional sequence (agenda). This instructional sequence will become your blueprint for the organisation of the learning materials and the definition of the syllabus.
 
 In essence the blueprint takes the input from the creative concept map and organizes it into a more formal outline. Formally, we call this learning materials outline syllabus. Each syllabus should provide information regarding a number of elements (including the ones defined in the step 1 of the backward instructional design):
 
@@ -82,37 +95,18 @@ As syllabus is one of the required documents for the FAIR-by-Design learning mat
 
 Review the [FAIR-by-Design Methodology for Learning Materials Training of Trainers](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/) syllabus that has been developed based on the provided template as a complete example.
 
-Try to develop your own syllabus for the Open Science for policy makers training. Use the information you gathered and defined in the previous activities.
-
-## Hierarchical structure
-
-Once the higher level outline is defined in the syllabus it is time to flesh out the rest while applying the same approach and concepts only on lower aggregation levels. You want to end up with a hierarchical structure that will define the lowest level elements (learning objects) of your learning materials as depicted in the image below.
-
-![Hierarchical learning content structure](./attachments/learning_content.jpg)
-
-Typically syllabus is defined on the level of a course (whole training) and depending on the size of the training it outlines the sections and/or modules in the syllabus instructional sequence.
-
-It is recommended to go down to the level of a unit, where a unit will have no more than 4 learning objectives. As discussed previously best reuse is achieved if you manage to break down the unit into single learning objects around each specific learning objectives, however take into account that this process is extremely time consuming.
-
-Note that you don't need to strictly follow the represented breakdown, for an example you can skip the sections and work with modules and units only.
-
-**Flexibility is key!** Learning materials broken down into flexible self-contained learning units can more easily be reused by fitting them and adapting them in other learning structures.
-
-### Activity
-
-Try to develop your own hierarchical structure for the Open Science for Policy Makers course. Use the information you gathered in the Discovery step as inspiration keeping in mind its potential for reuse.
-
-Mark the learning objects or learning units that you can reuse from what you have already discovered. 
-
+Try to develop your own syllabus for the Open Science for policy makers training. Use the information you gathered and defined in the previous activities. To edit the template you can download the file and use a simple text editor for now.
 
 ## Summary
 
-sssss
+Building a concept map of your training is a creative way of organising your ideas and inspiration gathered from the discovery step. Armed with this knowledge you are able to define the concepts and sub-concepts that you need to provide learners with to ensure achieving their learning objectives. 
+
+Once you have a more clear idea of the concepts you wish to cover and how they relate to each other, you are ready to create a high-level outline of the training, i.e. define the syllabus. To ensure that you have covered all essential information in your syllabus we provide a template that you can follow.
+
+Remember that the syllabus contains all of the information you need to share with the potential trainees. Thus, it should be shared with them when sending out the call for training. 
 
 
 ## Suggested Reading
 - [Concept maps and course blueprints](https://www.uvic.ca/til/onlinelearning/home/for_instructors/concepts_maps_and_course_blueprints/index.php)
 - [Concept Mapping and Curriculum Design](https://www.utc.edu/academic-affairs/walker-center-for-teaching-and-learning/teaching-resources/pedagogical-strategies-and-techniques/concept-mapping-and-curriculum-design)
 - [Syllabus Design](https://poorvucenter.yale.edu/SyllabusDesign)
-- [About Universal Design for Learning](https://www.cast.org/impact/universal-design-for-learning-udl)
-....

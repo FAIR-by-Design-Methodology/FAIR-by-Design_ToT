@@ -116,8 +116,8 @@ Note: start time is given in CEST
 
 |     Start    |     Step       |     Topic                        |     Duration    |
 |--------------|----------------|----------------------------------|-----------------|
-|     9:00     |     Design     |     Conceptualisation            |     30 mins     |
-|     9:30     |     Design     |     Licensing and Attribution    |     45 mins     |
+|     9:00     |     Design     |     Conceptualisation            |     35 mins     |
+|     9:35     |     Design     |     Licensing and Attribution    |     40 mins     |
 |     10:15    |                |     = coffee break =             |     15 mins     |
 |     10:30    |     Design     |     Instruction facilitation     |     30 mins     |
 |     11:00    |     Design     |     Materials structure          |     30 mins     |

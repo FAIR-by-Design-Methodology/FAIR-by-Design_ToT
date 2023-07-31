@@ -1,5 +1,5 @@
 ---
-title: FAIR Skills & Principles Plan
+title: Conceptualisation Plan
 author: Skills4EOSC T2.3
 tags: 
     - FAIR-by-Design Learning Materials
@@ -9,36 +9,34 @@ tags:
     - Plan
 ---
 
-# FAIR Skills & Principles
+# Conceptualisation
 
 ## Goal
 
-Discuss the skills relevant for FAIR-by-Design learning materials development. Introduce the FAIR principles and define the FAIR learning objects characteristics.
+Introducing the creative process of concept map for visualising the learning content concepts and ideas. Defining a syllabus that will convey all essential information.
 
 ### Location
 - online
 - BBB course room
 
 ### Total duration
-30 mins
+35 mins
 
 ### Number of attendees
 - any (< 100)
 
 ### Learning objectives
-- Describe the FAIR-by-Design instructional design skills
-- Summarize the FAIR guiding principles
-- Define FAIR learning objects
-- Determining FAIRness of learning objects 
+- Composing a content concept map
+- Preparing a syllabus
 
 ### Plan
-| **Duration** | **Topic**             | **Key points/Teaching Method/Questions**                                                                                         | **Activities**                                | **Resources**  |
-|--------------|-----------------------|----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|----------------|
-| 3 mins            | FAIR skills           | focus attention on the marriage of two skillsets  (FAIR + instructional design)                                                  | brainstorm expectations                       | pptx           |
-| 4 mins            | FAIR principles       | - introduce main concepts - human vs machine - data, metadata, infrastructure - what is FAIR in different fields and disciplines | FAIRification framework                       | pptx           |
-| 8 mins            | FAIR Learning objects | - perspective - granularity  - what's inside a learning object - characteristics of FAIR LO                                      | discuss effort needed to increase granularity | pptx           |
-| 10 mins           | Guided practice       | trainer acts as facilitator                                                                                                      | [Assess FAIRness activity](./Activities/Assessing%20FAIRness%20of%20Learning%20Materials.md)                      | browser, Menti |
-| 5 mins            | Summary               | key takeaways                                                                                                                    | group discussion after the activity quiz      | pptx           |
+| **Duration** | **Topic**       | **Key points/Teaching Method/Questions**             | **Activities**                                                                               | **Resources**         |
+|--------------|-----------------|------------------------------------------------------|----------------------------------------------------------------------------------------------|-----------------------|
+| 5 mins       | Concept map     | introduce higher level content design                | discuss any experiences                                                                      | pptx                  |
+| 10 mins      | Guided practice | trainer acts as facilitator                          | [concept map activity](./Activities/Creating_concept_map.md) activity                                                                         | pptx, draw.io         |
+| 5 mins       | Syllabus        | why, who is it important for, introduce the template | go over this syllabus as an example                                                          | pptx, template        |
+| 10 mins      | Guided practice | trainer acts as facilitator                          | [syllabus activity](./Activities/Defining_a_syllabus.md) | template, text editor |
+| 5 mins       | Summary         | key takeaways                                        | group discussion                                                                             | pptx                  |
 
 ### Assessment
 - summative assessment

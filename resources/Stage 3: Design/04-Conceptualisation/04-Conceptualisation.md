@@ -5,13 +5,12 @@ tags:
     - FAIR Learning Objects
     - Content concept map
     - Syllabus
-    - Templating
 author: Skills4EOSC T2.3
 ---
 
 # Conceptualisation
 
-Once the discovery stage is completed, you enter the third step of the backward instructional process. In this step the instructional designer needs to define the content concept map of the learning materials defining the sections, modules, units and learning objects it is going to contain. Once the learning materials syllabus is completed, the design continues by creating a blueprint of the complete structure of the learning materials, including additional documents that serve as an instructor facilitator kit promoting reuse by enabling others fully understand the learning content and its delivery.
+Once the discovery stage is completed, you enter the third step of the backward instructional process. In this step the instructional designer needs to define the content concept map of the learning materials defining the sections, modules, units and learning objects it is going to contain. When the learning materials syllabus is completed, the design continues by creating a blueprint of the complete structure of the learning materials, including additional documents that serve as an instructor facilitator kit promoting reuse by enabling others fully understand the learning content and its delivery.
 
 ## Learning Objectives
 - Composing a content concept map
@@ -80,22 +79,46 @@ Remember that:
 - The defined agenda should not be very rigid thus preventing changing the sequence of topics or adding or deleting topics at a later stage.
 - The syllabus is sent to the learners and should provide them with all necessary information to help them decide if they want to follow the training related to the learning materials.
 
-### Syllabus Template
+### Syllabus Elements
 
-Within this training we provide a template for developing a training syllabus that contains all elements discussed so far:
+Within this training we recommend the development of a training syllabus that consists of two groups of information:
 
-- essential syllabus information
+- typical syllabus information
 - additional information related to the RDA minimal metadata schema
 
-The [syllabus template](https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/syllabus.md) is part of the whole Templates package developed for your use. You can access this specific document using the link, however take into account that in the next stage of the training you will be given a detailed guide on how to obtain and use all developed templates. At this moment you can simply ignore the metadata in the file header (between the set of ---) and focus on the content only. 
+The following is a list of all required syllabus fields:
+- Clear descriptive Title of the training 
+- Type (Course/Workshop/Webinar)
+- Date/Time: when it will be offered (available from date if it is self-paced)
+- Location - where it will be available
+    - physical location
+    - URL link to resources (and virtual room if online) should lead to the learning Skills4EOSC platform
+- Training Description - what is the main goal/purpose of this training
+- Target audience: target audience description 
+- Expertise Level / Skill Level: Beginner / Intermediate / Advanced
+- Primary Language: English
+- Access Cost: N 
+- Prerequisites - if any
+- Duration - total training duration
+- Training objectives - list of specific training objectives
+- Keywords - Keywords or tags used to describe the training
+- Agenda: Training Schedule - Training Structure  (time, topic)
+- Resources and Materials - list with locations of available/required resources for the training
+- Certification Information - if any
+- Author(s) - Comma separated List of people involved in preparing the training (Name Surname)
+- Trainer(s) - Comma separated list of people involved in delivering the training (Name Surname ORCID logo link)
+- Contact information - how to reach out to training organizers
+- License
+- PID
+- Accessibility Mission
 
-As syllabus is one of the required documents for the FAIR-by-Design learning materials, you must ensure that your syllabus has been developed based on this template, i.e. contains all elements provided in the template.
+As syllabus is one of the required documents for the FAIR-by-Design learning materials, you must ensure that your syllabus contains **all elements** provided in this section. Only in this way you will ensure that your learning materials contain all necessary metadata information together with the traditional syllabus information that is provided.
 
 ### Activity
 
 Review the [FAIR-by-Design Methodology for Learning Materials Training of Trainers](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/) syllabus that has been developed based on the provided template as a complete example.
 
-Try to develop your own syllabus for the Open Science for policy makers training. Use the information you gathered and defined in the previous activities. To edit the template you can download the file and use a simple text editor for now.
+Think how you would change this example to adapt it so that it can become your own syllabus for the Open Science for policy makers training. Use the information you gathered and defined in the previous activities.
 
 ## Summary
 

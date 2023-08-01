@@ -24,20 +24,20 @@ any
 Create an example syllabus, understand the essential information that is required as part of the syllabus.
 
 ## Materials
-- [syllabus template](https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/syllabus.md)
+- [syllabus example](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/)
 - text (md) editor
 
 ## Instructions
 
-Trainees are asked to try to fill out the syllabus template for an example course on Open Science for policy makers for which they already have defined the essential information in step 1 of the backward instructional design process. 
+Trainees are asked to analyse the provided Syllabus Example so that they can understand the information that needs to be provided for all required syllabus elements.
+Then they should try to define the syllabus for an example course on Open Science for policy makers for which they already have defined the essential information in step 1 of the backward instructional design process. 
 
 Notice the fields are overlapping with the RDA minimal schema. What is the additional information provided?
 How difficult it was to complete this task?
 Remember: it is the syllabus that you will share with your potential trainees when sending out the call for training
 
 ## Tips and Tricks
-- if done physically, provide the template as a handout 
-- instruct to ignore the header for now (the stuff between the set of ---)
+- if done physically, provide the example as a handout
 
 ## Comments
 - how did it go

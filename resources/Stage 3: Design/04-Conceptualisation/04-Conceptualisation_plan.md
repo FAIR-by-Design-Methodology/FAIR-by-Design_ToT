@@ -4,8 +4,8 @@ author: Skills4EOSC T2.3
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects
-    - FAIR Skills
-    - FAIR Principles
+    - Syllabus
+    - Concept map
     - Plan
 ---
 

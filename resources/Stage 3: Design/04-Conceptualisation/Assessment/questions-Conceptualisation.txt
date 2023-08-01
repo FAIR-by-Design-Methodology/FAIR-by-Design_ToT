@@ -13,7 +13,7 @@
 	~%100.00%all of the offered answers
 }
 
-::template::All fields provided in the syllabus template are required to be filled out.{TRUE}
+::elements::All fields provided in the syllabus elements list are required to be filled out.{TRUE}
 
 ::schema::The syllabus template incorporates all fields defined in the RDA minimal metadata schema.{TRUE}
 

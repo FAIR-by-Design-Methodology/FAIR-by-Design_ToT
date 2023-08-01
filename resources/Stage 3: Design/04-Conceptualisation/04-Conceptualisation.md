@@ -21,7 +21,7 @@ Once the discovery stage is completed, you enter the third step of the backward 
 - attendees of the FAIR-by-Design ToT live webinar
 
 ## Duration
-30 mins
+35 mins
 
 ## Prerequisites
 completed [Prepare](../../Stage%201:%20Prepare/) stage of the FAIR-by-Design methodology training

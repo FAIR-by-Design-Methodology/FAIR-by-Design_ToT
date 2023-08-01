@@ -1,11 +1,6 @@
-// question: 15  name: adaptation
-::adaptation::Using a modified combination of two complete learning objects to create a new full lesson on OS constitutes an adaptation of the original work and requires that the licenses of the two resources are compatible for combining.{TRUE}
-
-
-
 
 // question: 3  name: FAIR principles
-::FAIR principles::Match the right principle based on the provided requirements:{
+::FAIR principles::Match the right principle based on the provided requirements{
    =Findable -> clear authentication and authorization procedures should be defined and outlined
    =Accessible  -> a unique and persistent identifier (PID) such as a digital object identifier (DOI) should be used to point to the digital object
    =Interoperable  -> the metadata should follow a commonly accepted metadata schema combined with agreed-upon controlled vocabularies
@@ -55,7 +50,7 @@
 
 
 // question: 5  name: Learning object
-::Learning object::According to best practices a learning object is a package of:{
+::Learning object::According to best practices a learning object is a package of{
 	~%16.66667%learning outcome
 	~%16.66667%lesson plan
 	~%16.66667%content

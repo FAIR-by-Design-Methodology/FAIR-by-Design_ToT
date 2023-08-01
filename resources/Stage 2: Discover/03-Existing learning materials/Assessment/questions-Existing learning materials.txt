@@ -1,6 +1,6 @@
 
 // question: 3  name: repos
-::FAIR principles::Match the type of repository/catalogue:{
+::repos::Match the type of repository/catalogue{
    =Zenodo -> general repository
    =Skills4EOSC learning platform  -> EOSC project learning materials repository
    =GALILEO  -> OER repository

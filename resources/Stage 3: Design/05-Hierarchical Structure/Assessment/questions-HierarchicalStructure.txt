@@ -1,0 +1,19 @@
+::adaptation::Using a modified combination of two complete learning objects to create a new full lesson on OS constitutes an adaptation of the original work and requires that the licenses of the two resources are compatible for combining.{TRUE}
+
+::adapter::If the licenses of the original work that you would like to reuse are BY and BY-SA, what could be the license of your adapter's work ?{
+	~BY
+	~%100%BY-SA
+	~BY-NC
+	~BY-ND
+	~Any of the provided answers
+}
+
+::attribution::Attribution is a moral right and should be provided even when not explicitly necessary (such as CC0 license)?{TRUE}
+
+::structure::Order the granularity of the learning resources from 1 - highest to 5 - lowest.{
+	=Course -> 1
+	=Section -> 2
+	=Module -> 3
+	=Unit -> 4
+	=Learning Object -> 5
+}

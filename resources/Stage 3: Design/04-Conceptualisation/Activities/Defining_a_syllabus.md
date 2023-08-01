@@ -9,7 +9,7 @@ tags:
 
 # Define a syllabus
 
-The activity aims at getting a hands on experience on using the syllabus template to define a syllabus.
+The activity aims at getting a hands on experience on creating a syllabus.
 
 ## Activity duration
 

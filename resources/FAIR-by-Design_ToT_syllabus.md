@@ -119,8 +119,8 @@ Note: start time is given in CEST
 |     9:00     |     Design     |     Conceptualisation            |     35 mins     |
 |     9:35     |     Design     |     Hierarchical structure       |     40 mins     |
 |     10:15    |                |     = coffee break =             |     15 mins     |
-|     10:30    |     Design     |     Learning Unit development    |     30 mins     |
-|     11:00    |     Design     |     Instruction facilitation     |     30 mins     |
+|     10:30    |     Design     |     Learning Unit development    |     35 mins     |
+|     11:05    |     Design     |     Instruction facilitation     |     25 mins     |
 |     11:30    |                |     = coffee break =             |     15 mins     |
 |     11:45    |     Produce    |     Content design               |     60 mins     |
 |     12:45    |                |     = Lunch break =              |     60 mins     |

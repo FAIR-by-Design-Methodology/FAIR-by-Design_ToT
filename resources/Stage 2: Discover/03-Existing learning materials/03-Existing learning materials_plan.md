@@ -40,7 +40,7 @@ Discuss the step 2 of backward instructional process. Discover existing learning
 | 5            | Summary                                 | key takeaways: not easy but may be worth it    | group discussion after the activity, reflection                                              | pptx                        |
 
 ### Assessment
-- summative assessment
+- formative assessment
 - quiz available on the learning platform
 - can be completed at any time
 - auto-graded upon submission, with final marks and pass criteria information provided by the LMS

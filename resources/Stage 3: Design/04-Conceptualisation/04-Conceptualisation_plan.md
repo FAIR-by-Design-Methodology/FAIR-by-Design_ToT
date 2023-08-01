@@ -39,7 +39,7 @@ Introducing the creative process of concept map for visualising the learning con
 | 5 mins       | Summary         | key takeaways                                        | group discussion                                                                             | pptx                  |
 
 ### Assessment
-- summative assessment
+- formative assessment
 - quiz available on the learning platform
 - can be completed at any time
 - auto-graded upon submission, with final marks and pass criteria information provided by the LMS

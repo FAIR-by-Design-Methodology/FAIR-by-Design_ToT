@@ -41,7 +41,7 @@ Discuss the hierarchical structure of the learning content. Define the rules for
 | 5 min        | Attribution            | reminder for attribution TASL rules and best practices, attribute everything | check for understanding                                                                      | pptx           |
 | 5 mins       | Summary                | key takeaways                                                                | group discussion                                                                             | pptx           |
 ### Assessment
-- summative assessment
+- formative assessment
 - quiz available on the learning platform
 - can be completed at any time
 - auto-graded upon submission, with final marks and pass criteria information provided by the LMS

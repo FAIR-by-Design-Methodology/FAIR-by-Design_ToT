@@ -41,7 +41,7 @@ Discuss the skills relevant for FAIR-by-Design learning materials development. I
 | 5 mins            | Summary               | key takeaways                                                                                                                    | group discussion after the activity quiz      | pptx           |
 
 ### Assessment
-- summative assessment
+- formative assessment
 - quiz available on the learning platform
 - can be completed at any time
 - auto-graded upon submission, with final marks and pass criteria information provided by the LMS

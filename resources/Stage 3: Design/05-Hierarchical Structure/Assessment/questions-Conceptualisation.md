@@ -1,3 +1,8 @@
+// question: 15  name: adaptation
+::adaptation::Using a modified combination of two complete learning objects to create a new full lesson on OS constitutes an adaptation of the original work and requires that the licenses of the two resources are compatible for combining.{TRUE}
+
+
+
 
 // question: 3  name: FAIR principles
 ::FAIR principles::Match the right principle based on the provided requirements:{

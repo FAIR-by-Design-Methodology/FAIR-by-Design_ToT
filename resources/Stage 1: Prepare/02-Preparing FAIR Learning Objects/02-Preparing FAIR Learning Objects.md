@@ -184,61 +184,13 @@ Example is provided below:
 
 >Except where otherwise noted, content on this site is licensed under a [Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
 
+#### Activity
+
 Now is a good time to test out the [License Chooser tool](https://creativecommons.org/choose/) and compare licenses.
 
 In the Creative Commons Wiki page: [Marking your work with a CC license](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license) there are numerous examples on how license can be applied to different document types.
 
-Throughout this training you will be able to practice the approach adopted for the creation of these learning materials.
-
-#### Combining and Remixing CCs
-
-When reusing learning materials there is sometimes need to combine learning materials from different sources available under different licenses, i.e. combining.
-
-If the combination does not create an adaptation, then you may combine any CC-licensed content so long as you provide attribution and comply with the NonCommercial restriction if it applies. 
-
-If you want to combine material in a way that results in the creation of an adaptation (i.e. a “remix”), then you must pay attention to the particular license that applies to the content you want to combine.
-
-| adaptation | A modification rises to the level of an adaptation under copyright law when the modified work is based on the prior work but manifests sufficient new creativity to be copyrightable. |
-|---|---|
-
-Generally, no derivative work is made of the original from which the excerpt was taken when the excerpt is used to illuminate an idea or provide an example in another larger work. However, when excerpts are combined with other material in a way that creates some new version of the original from which the excerpt is taken we have a situation of adaptation.
-
-This section of the learning unit is an example of such an adaptation of two materials that have been combined together and further adapted by editing the text.
-
-It is essential to understand that when reusing existing learning materials, one must ensure that the licenses of the included and adapted materials are compatible with each other. For these purposes, the CC license compatibility chart can be used.
-
-![Table showing which CC licenses can be remixed together](./attachments/CC_License_Compatibility_Chart.png)
-
-Another moral right is the right of integrity which provides the author with the right to object to any modifications of the work that can be considered as prejudicial to the authors’ honour or reputation. Thus, even when reuse and modifications are permitted, they should be done in such a way that does not include a derogatory treatment of the work.
-
-
-#### Adapter's License
-
-If you make adaptations of material under a CC license (i.e. “remix”), the original CC license always applies to the material you are adapting even once adapted. The license you may choose for your own contribution (called your “adapter’s license”) depends on which license applies to the original material.
-
-The chart below details the CC license(s) you may use as your adapter’s license. When creating an adaptation of material under the license identified in the lefthand column, you may license your contributions to the adaptation under one of the licenses indicated on the top row if the corresponding box is green. CC does not recommend using a license if the corresponding box is yellow, although doing so is technically permitted by the terms of the license. If you do, you should take additional care to mark the adaptation as involving multiple copyrights under different terms so that downstream users are aware of their obligations to comply with the licenses from all rights holders. Dark gray boxes indicate those licenses that you may not use as your adapter’s license.
-
-![Table defining the CC license(s) one may use as adapter’s license](./attachments/adapters_license.png)
-
-#### Licensing exercise 
-
-You are preparing a new course on Open Science and have decided to combine some already available content (images or even whole learning units) and also create your own learning content (additional learning units). 
-
-The content that you would like to reuse is:
-
-- Your adaptation of [Lesson 1 - What is Open Data from OpenSciency](https://github.com/opensciency/sprint-content/blob/main/open-data/Lesson1-WhatIsOpenData.md)
-- [M1 - Open Science Ambassador Training from EURODOC](https://eurodoc.net/open-science-ambassadors-training/m1-open-science) 
-- [slide 3 from Why open science? presentation by Sarah Jones](https://slideplayer.com/slide/12073970/)
-- [slide 10 from Why open science? presentation by Sarah Jones](https://slideplayer.com/slide/12073970/)
-- [slide 5 from Why open science? presentation by Sarah Jones](https://slideplayer.com/slide/12073970/) combined with [the badges image and text from Center for Open Science](https://www.cos.io/initiatives/badges) into a new adaptation
-
-1. The first thing you need to check is if reuse is allowed, i.e. check the licenses under which the content is released.
-
-2. If this is so, then you need to determine if it is allowed to combine together these contents.
-
-3. For the content that will be adapted, you need to check how the remix may be used.
-
-4. Finally, you need to decide on the license of your work.
+Throughout this training you will be able to practice combining and applying licenses.
 
 
 ### Attribution and Citing

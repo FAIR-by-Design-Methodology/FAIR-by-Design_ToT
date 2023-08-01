@@ -11,7 +11,7 @@ author: Skills4EOSC T2.3
 
 # Conceptualisation
 
-Once the discovery stage is completed, the third step of the backward instructional process is activated. In this step the instructional designer needs to define the content concept map of the learning materials defining the sections, modules, units and learning objects it is going to contain. When the learning materials syllabus is defined in this way, the design continues by creating a blueprint of the organisation of the learning materials, including additional documents that serve as an instructor facilitator kit promoting reuse by enabling others fully understand the learning content and its delivery.
+Once the discovery stage is completed, you enter the third step of the backward instructional process. In this step the instructional designer needs to define the content concept map of the learning materials defining the sections, modules, units and learning objects it is going to contain. Once the learning materials syllabus is completed, the design continues by creating a blueprint of the complete structure of the learning materials, including additional documents that serve as an instructor facilitator kit promoting reuse by enabling others fully understand the learning content and its delivery.
 
 ## Learning Objectives
 - Composing a content concept map

@@ -163,7 +163,6 @@ The slide deck should follow the stages of the HUNTER model:
 - Wrap up
 	- key takeaways
 	- final Q&A
-	- what's next
 	- assessment information
 	- feedback gathering
 

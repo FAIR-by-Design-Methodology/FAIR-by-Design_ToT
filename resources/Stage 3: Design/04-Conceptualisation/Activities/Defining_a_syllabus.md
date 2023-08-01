@@ -37,6 +37,7 @@ Remember: it is the syllabus that you will share with your potential trainees wh
 
 ## Tips and Tricks
 - if done physically, provide the template as a handout 
+- instruct to ignore the header for now (the stuff between the set of ---)
 
 ## Comments
 - how did it go

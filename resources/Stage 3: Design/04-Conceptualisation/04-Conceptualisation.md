@@ -87,7 +87,7 @@ Within this training we provide a template for developing a training syllabus th
 - essential syllabus information
 - additional information related to the RDA minimal metadata schema
 
-The [syllabus template](https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/syllabus.md) is part of the whole Templates package developed for your use. You can access this specific document using the link, however take into account that in the next stage of the training you will be given a detailed guide on how to obtain and use all developed templates. 
+The [syllabus template](https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/syllabus.md) is part of the whole Templates package developed for your use. You can access this specific document using the link, however take into account that in the next stage of the training you will be given a detailed guide on how to obtain and use all developed templates. At this moment you can simply ignore the metadata in the file header (between the set of ---) and focus on the content only. 
 
 As syllabus is one of the required documents for the FAIR-by-Design learning materials, you must ensure that your syllabus has been developed based on this template, i.e. contains all elements provided in the template.
 

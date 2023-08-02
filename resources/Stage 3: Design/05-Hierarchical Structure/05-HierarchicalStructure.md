@@ -102,6 +102,8 @@ The content that you would like to reuse is:
 - [slide 10 from Why open science? presentation by Sarah Jones](https://slideplayer.com/slide/12073970/)
 - [slide 5 from Why open science? presentation by Sarah Jones](https://slideplayer.com/slide/12073970/) combined with [the badges image and text from Center for Open Science](https://www.cos.io/initiatives/badges) into a new adaptation
 
+---
+
 1. The first thing you need to check is if reuse is allowed, i.e. check the licenses under which the content is released.
 2. If this is so, then you need to determine if it is allowed to combine together these contents.
 3. For the content that will be adapted, you need to check how the remix may be used.

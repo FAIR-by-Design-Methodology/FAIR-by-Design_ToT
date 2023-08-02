@@ -286,18 +286,17 @@ Before starting, make sure that the local clone of the repository is up-to-date 
 
 After validating the state of the local repository, continue by executing the following actions:
 
-1. Open the `resources/syllabus.md` file using the directory explorer on the left-hand side of the Obsidian window.
-2. Start by filling out the necessary metadata information present at the top of the document between the `---` lines. Make sure to set the `title`, `authors`, and `tags` at a minimum at this stage.
-3. Change the heading 1 (recognizable by having a single `#` as prefix) with the title of your training.
-4. Edit the unordered list in the `Date/Time` section.
+1. Make a copy of the `resources/Learning Unit/template_unit_lesson_plan.md` in the same directory, naming the new file `demo_plan.md`.
+2. Open the `resources/Learning Unit/demo_plan.md` file using the directory explorer on the left-hand side of the Obsidian window.
+2. Start by filling out the necessary metadata information present at the top of the document between the `---` lines. Make sure to set the `title`, `authors`, and `tags` fields.
+3. Change the heading 1 (recognizable by having a single `#` as prefix) with the title of the unit.
+4. Change the heading 2 to `Goals` and create an unordered list containing at least 3 goals for the lesson.
 5. Edit the unordered list in the `Location` section.
-6. Edit the `Training Description` section and convert the unordered list to an ordered one. Make sure to add at least one nested element.
-7. Convert the `Target Audience` heading so that the target audience description is no longer given after the colon, and instead it is put on a new line, but formatted as both a bold and italic text.
-8. Edit the `Primary Language`, `Access Cost`, and `Prerequisites` by providing the required information.
-9. Provide an unordered list of training objectives in the `Training Objectives` section, but make sure that each training objective is shown in bold.
-10. Provide keywords describing the training. Keywords should be represented by an unordered list, where each element is shown in italic.
-11. Edit the sample agenda table in the `Agenda` section using the table editing plugin in Obsidian. Remove any unneeded rows, while making sure to add an additional column titled `Location`. You can enter an arbitrary locations to fill out the new column.
-12. Finish filling out the rest of the sections: `Resources and Materials`, `Certification Information`, and `Authors`.
-13. Edit the `Trainer(s)` section, so that each trainer's name is formatted as a link to their personal website, while the ORCID logo is a link pointing to their ORCID profile. Use imaginary locations as the personal website URLs, if required. Finally provide pictures of each of the trainers at the end of the section (arbitrary pictures can be used here as well).
-14. Provide the necessary contact information as an unordered list, where each line will contain the first name and last name of the responsible person and will be formatted as an email link.
-15. Open the GitHub Desktop application, enter a commit title and an optional commit message and commit the changes by clicking on the `Commit to main` button. Upload the changed files to GitHub.com by clicking on the blue `Push origin` button.
+6. Fill out the estimated total duration of the lesson by inputting a new line in the `Total duration` section. Format the duration text as both bold and italic.
+7. Provide the recommended number of attendees in the `Number of Attendees` section.
+8. Convert the unordered list in the `Learning Objectives` section to an ordered list and enter 3 learning objectives at a minimum.
+9. Edit the sample plan table in the `Plan` section using the table editing plugin in Obsidian. Remove any unneeded rows as needed. Enter at least one arbitrary link in the Activities section.
+10. Provide `Assessment` information. Make sure to add at least one nested list (either ordered or unordered) to an existing element.
+11. Alter the `Certificate or Badge` section by providing an image of the Badge that can be obtained by completing the lesson. An arbitrary image can also be used.
+12. Complete the lesson plan by filling out the `Reflection` and `Comments` sections.
+13. Open the GitHub Desktop application, enter a commit title and an optional commit message and commit the changes by clicking on the `Commit to main` button. Upload the changed files to GitHub.com by clicking on the blue `Push origin` button.

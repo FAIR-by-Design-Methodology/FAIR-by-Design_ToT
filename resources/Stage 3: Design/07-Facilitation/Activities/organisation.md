@@ -24,7 +24,8 @@ any
 Analyze an example learning materials repo on GitHub, understand the logical organization and rules that need to be followed so that the process of publishing can be automated.
 
 ## Materials
-- [example repo]https://github.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT)
+- [example repo](https://github.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT)
+- [final HTML](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/)
 
 ## Instructions
 
@@ -36,9 +37,15 @@ However, they must understand that the rest of the structure is fixed (including
 Discuss, why two separate sets of metadata in syllabus? Human and machine friendly version...
 Is there a more elegant way to accomplish the desired effect?
 
+Compare the folder tree layout with the final HTML layout and discuss differences.
+
 ## Tips and Tricks
 - Note that the structure is very similar to other similar repositories, such as the one of NASA Open Science.
 - if done physically, project the example and give a virtual tour soliciting comments
+
+## Related materials
+- you can do this with any learning materials stores
+    - other GitHub, OSF, etc.
 
 ## Comments
 - how did it go

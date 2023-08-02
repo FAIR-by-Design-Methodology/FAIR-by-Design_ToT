@@ -11,7 +11,9 @@ tags:
 
 # Working Environment Setup
 
-The purpose of this learning unit is to introduce relevant tools and file formats required for developing FAIR-by-Design learning objects. Once a working environment consisting of the recommended tools is in place and the initial concepts regarding the underlying file formats have been adopted, the instructional designer is then ready to start with production of the learning objects themvselves.
+## Goal
+
+The purpose of this learning unit is to introduce relevant tools and file formats required for developing FAIR-by-Design learning objects. Once a working environment consisting of the recommended tools is in place and the initial concepts regarding the underlying file formats have been adopted, the instructional designer is then ready to start with production of the learning objects themselves.
 
 ### Location
 
@@ -40,9 +42,9 @@ The purpose of this learning unit is to introduce relevant tools and file format
 |----------|--------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|-----------------------|
 | 5        | Introduction | Focus attention on the importance of open file formats, version control, accessibility            | Brainstorm expectations                                                | pptx                  |
 | 5        | File Formats | Markdown as an intermediary file format and its benefits for FAIR learning objects. Alternatives. | Reflection on existing experience                                      | pptx, Menti           |
-| 15       | Training     | Version management with Git and GitHub                                                            | Forking and locally cloning the FAIR-by-Design templates repository    | pptx, handouts        |
-| 10       | Training     | Working with Markdown files, exploring freely accessible editors                                  | Setting up Obsidian                                                    | pptx, handouts, Menti |
-| 20       | Training     | Live preview of changes, creating and configuring a public Git book website                       | Configuring MkDocs and connecting it with the Git repository           | pptx, handouts        |
+| 15       | Guided Practice     | Version management with Git and GitHub                                                            | Forking and locally cloning the FAIR-by-Design templates repository    | pptx, handouts        |
+| 10       | Guided Practice    | Working with Markdown files, exploring freely accessible editors                                  | Setting up Obsidian                                                    | pptx, handouts, Menti |
+| 20       | Guided Practice    | Live preview of changes, creating and configuring a public Git book website                       | Configuring MkDocs and connecting it with the Git repository           | pptx, handouts        |
 | 5        | Summary      | Key takeaways, what's next                                                                        | Quiz                                                                   | pptx                  |
 
 ### Assessment

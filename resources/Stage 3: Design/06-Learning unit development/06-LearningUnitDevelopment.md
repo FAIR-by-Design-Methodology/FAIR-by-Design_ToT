@@ -234,7 +234,7 @@ Detailed instructions on how to write quiz questions in the GIFT format can be f
 
 You can use the [GIFT Question Editor](https://fuhrmanator.github.io/GIFT-grammar-PEG.js/editor/editor.html) to validate or generate your own GIFT formatted quiz questions.
 
-#### Create a quiz
+### Create a quiz
 
 Try to create a quiz that has at least 3 different questions of different types for one of the learning units of your Open Science course. Validate your quiz using the [GIFT Question Editor](https://fuhrmanator.github.io/GIFT-grammar-PEG.js/editor/editor.html).
 

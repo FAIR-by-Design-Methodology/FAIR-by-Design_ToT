@@ -1,48 +1,46 @@
 ---
-title: Learning Unit Development Plan
+title: Facilitation Plan
 author: Skills4EOSC T2.3
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects
-    - Unit Plan
-    - Learning experience
-    - Assessment
+    - Instructor Kit
+    - Logical Organization
+    - Supporting elements
     - Plan
 ---
 
-# Learning Unit Development
+# Facilitation
 
 ## Goal
 
-Define the learning unit plan. Discuss how to achieve rich learning experience and how that affects the definition of learning content. Introduce templates for the creation of assessment quizzes and define the assessment strategy.
+Define the content of the instructor kit, discuss the last new pieces: faciliation guide and feedback form. Describe the logical organisation of all files in folders using a tree structure. Define the supporting elements such as citation, license, code of conduct and readme files.
 
 ### Location
 - online
 - BBB course room
 
 ### Total duration
-30 mins
+25 mins
 
 ### Number of attendees
 - any (< 100)
 
 ### Learning objectives
-- Define a learning unit plan
-- Reflecting on rich learning experience
-- Extending activities with facilitation details
-- Building assessment quiz and strategy
+- Extend the instructor kit
+- Structure learning materials
+- Gather supporting elements
 
 ### Plan
-| **Duration** | **Topic**           | **Key points/Teaching Method/Questions**                | **Activities**                                                                               | **Resources** |
-|--------------|---------------------|---------------------------------------------------------|----------------------------------------------------------------------------------------------|---------------|
-| 5 mins       | Unit Plan           | define required elements, recognise overlaps            | discuss reuse potential                                                                      | pptx          |
-| 10 mins      | Guided practice     | analyse example and extrapolate with facilitation       |   [Create a plan](./Activities/Defining_a_plan.md)                                                                                           | html          |
-| 3 mins       | Learning experience | multimodal approach, activities, creating opportunities | brainstorm expectations                                                                      | pptx          |
-| 3 mins       | Activities          | required activity details                               | discuss facilitation issues                                                                  | pptx          |
-| 2 mins       | Assessment          | relate to Bloom's taxonomy, use of quizzes              | discuss reuse potential                                                                      | pptx          |
-| 10 mins      | Guided practice     | trainer acts as facilitator                             | [Create a quiz](./Activities/Defining_a_quiz.md) | txt           |
-| 2 mins       | Summary             | key takeaways                                           | group discussion on learning unit elements                                                   | pptx          |
-
+| **Duration** | **Topic**           | **Key points/Teaching Method/Questions**             | **Activities**                                   | **Resources** |
+|--------------|---------------------|------------------------------------------------------|--------------------------------------------------|---------------|
+| 2 mins       | Kit                 | define required elements, recognise overlaps         | discuss reuse potential                          | pptx          |
+| 2 mins       | Guide               | free design                                          | brainstorm content                               | pptx          |
+| 3 mins       | Feedback            | template feedback form                               | discuss openness of results                      | pptx, Moodle  |
+| 7 mins       | Organisation        | folder tree structure with optional elements         | discuss rules for automation                     | pptx          |
+| 3 mins       | Supporting elements | metadata, citation, license, code of conduct, readme | discuss reuse potential and standardisation      | pptx          |
+| 7 mins       | Guided practice     | trainer acts as facilitator                          | [organisation](./Activities/organisation.md) | github        |
+| 1 mins       | Summary             | key takeaways                                        | group discussion on learning unit elements       | pptx          |
 ### Assessment
 - formative assessment
 - quiz available on the learning platform

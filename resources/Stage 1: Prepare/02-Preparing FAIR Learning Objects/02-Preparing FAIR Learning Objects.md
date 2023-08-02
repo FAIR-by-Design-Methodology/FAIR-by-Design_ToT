@@ -50,7 +50,7 @@ The main purpose of the (meta)data about the learning resource is to enable cata
 - WHERE is the location of the resource
 - WHY the data was resource
 
-![example metadata for an image](./attachments/image_metadata.png){: style="height:150px;"}
+![example metadata for an image](./attachments/image_metadata.png){: style="height:350px;"}
 
 Example metadata for an image
 

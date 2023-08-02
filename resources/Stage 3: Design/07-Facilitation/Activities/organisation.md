@@ -1,5 +1,5 @@
 ---
-title: Define a unit plan
+title: Logical organization
 author: Skills4EOSC T2.3
 tags: 
     - FAIR-by-Design Learning Materials
@@ -7,13 +7,13 @@ tags:
     - Leaning unit plan
 ---
 
-# Define a learning unit plan
+# Logical organization of learning materials
 
-The activity aims at getting a hands on experience on creating a learning unit plan.
+The activity aims at visualizing the logical organization of learning materials development and its implications. 
 
 ## Activity duration
 
-10 mins
+7 mins
 
 ## Number of people that it can be performed with
 
@@ -21,22 +21,24 @@ any
 
 ## Goal of activity
 
-Create an example learning unit plan, understand the essential information that is required as part of the plan.
+Analyze an example learning materials repo on GitHub, understand the logical organization and rules that need to be followed so that the process of publishing can be automated.
 
 ## Materials
-- [plan example](../attachments/02-Preparing%20FAIR%20Learning%20Objects_plan.html)
-- text (md) editor
+- [example repo]https://github.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT)
 
 ## Instructions
 
-Trainees are asked to analyse the provided Unit Plan Example so that they can understand the information that needs to be provided for all required plan elements.
-Then they should try to define the learning plan for an example course on Open Science for policy makers for which they already have defined the learning structure with identified learning units. 
+Trainees are asked to analyze the provided Example Learning Materials GitHub Reoo so that they can understand the logical organization in folders that needs to be followed.
 
-How difficult it was to complete this task?
-You might need to refine the detailed plan schedule in several iterations as the learning content is being developed.
+Ensure that they understand the optional depth of learning content folders and quiz strategy placement.
+However, they must understand that the rest of the structure is fixed (including naming of folders and files) as this will reflect on the automated workflow for publishing. 
+
+Discuss, why two separate sets of metadata in syllabus? Human and machine friendly version...
+Is there a more elegant way to accomplish the desired effect?
 
 ## Tips and Tricks
-- if done physically, provide the example as a handout
+- Note that the structure is very similar to other similar repositories, such as the one of NASA Open Science.
+- if done physically, project the example and give a virtual tour soliciting comments
 
 ## Comments
 - how did it go

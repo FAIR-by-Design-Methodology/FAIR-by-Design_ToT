@@ -71,10 +71,26 @@ The trainers materials latest version is taken from the GitHub repo.
 ### 01-FAIR Skills & Principles
 1. [Assessing FAIRness of Learning Materials](./01-FAIR%20skills%20&%20principles/Activities/Assessing%20FAIRness%20of%20Learning%20Materials.md)
 
-### 02-Defining FAIR Learning Objects
-1. [Checking licenses](./Activities/01-Checking%20licenses.md)  
-2. [ideation](./Activities/03-Ideation.md)  
+### 02-Preparing FAIR Learning Objects
+1. [Checking licenses](./Stage%201:%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/Activities/01-Checking%20licenses.md)  
+2. [Attribution](./Stage%201:%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/Activities/02-Attribution.md)
+3. [ideation](./Stage%201:%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/Activities/03-Ideation.md)  
 
-### 03 - Existing Learning Materials
-1. [Finding Learning Materials](./Activities/Finding%20Learning%20Materials.md)
+### 03-Existing Learning Materials
+1. [Finding Learning Materials](./Stage%202:%20Discover/03-Existing%20learning%20materials/Activities/Finding%20Learning%20Materials.md)
 
+### 04-Conceptualisation
+1. [Creating a concept map](./Stage%203:%20Design/04-Conceptualisation/Activities/Creating_concept_map.md)
+2. [Defining a syllabus](./Stage%203:%20Design/04-Conceptualisation/Activities/Defining_a_syllabus.md)
+
+### 05-Hierarchical Structure
+1. [Combining licenses](./Stage%203:%20Design/05-Hierarchical%20Structure/Activities/CombiningLicenses.md)
+
+### 06-Learning Unit Development
+1. [Defining a plan](./Stage%203:%20Design/06-Learning%20unit%20development/Activities/Defining_a_plan.md)
+2. [Defining a quiz](./Stage%203:%20Design/06-Learning%20unit%20development/Activities/Defining_a_quiz.md)
+
+### 07-Facilitation
+1. [Organisation](./Stage%203:%20Design/07-Facilitation/Activities/organisation.md)
+
+### 08-

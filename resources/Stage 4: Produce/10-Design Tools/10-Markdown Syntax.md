@@ -278,9 +278,9 @@ It is worth nothing that some fields have a specific syntax in the metadata. The
 The metadata section can also support arbitrary fields, besides those shown in the example, as needed.
 
 
-## Exercise: Editing the Syllabus Template
+## Exercise: Editing the Lesson Plan Template
 
-Using the knowledged obtained in the previous section, our task is now to fill out the syllabus template with the necessary information.
+Using the knowledged obtained in the previous section, our task is now to fill out the lesson plan template with the necessary information.
 
 Before starting, make sure that the local clone of the repository is up-to-date with the latest changes that might have been made by your other collaborators. This can be accomplished using the `Pull origin` button in the GitHub Desktop client. In case any changes have been detected which have not been synced locally, a new `Pull origin` blue button will appear which needs to be clicked.
 

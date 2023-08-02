@@ -97,6 +97,7 @@ Please take a moment of your time to fill out the evaluation of the [insert trai
 
 ##### Training rating
 Overall, the training provided was
+
 - Excellent
 - Very good
 - Good

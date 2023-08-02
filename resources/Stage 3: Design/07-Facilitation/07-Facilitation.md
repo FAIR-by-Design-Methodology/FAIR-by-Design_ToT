@@ -210,4 +210,4 @@ It is imperative that you follow the rules of the logical organisation if you ar
 - [Best Feedback Forms For Training Sessions: 6 Templates](https://quenza.com/blog/feedback-form-training/)
 - [Code of Conduct](https://en.wikipedia.org/wiki/Code_of_conduct)
 - [Make a README](https://www.makeareadme.com/)
-- [CFF] (https://citation-file-format.github.io/about/)
+- [CFF](https://citation-file-format.github.io/about/)

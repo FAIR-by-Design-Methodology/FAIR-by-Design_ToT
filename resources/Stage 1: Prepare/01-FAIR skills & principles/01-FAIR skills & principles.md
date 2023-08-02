@@ -82,9 +82,8 @@ As digital learning materials are a type of digital objects, the general FAIR pr
 - the metadata (information that describes the digital object), and 
 - the infrastructure that stores or indexes the digital object (e.g. repository and catalogue). 
 
-|---|
-|Metadata|A set of data that describes and gives information about other data.|
-|---|
+| Metadata | A set of data that describes and gives information about other data. |
+|----------|----------------------------------------------------------------------|
 
 ![Short definition of FAIR characteristics and compliance rules](./attachments/FAIR_principles.png)
 Image taken from [Climate Change, Agriculture and Food Security website](https://ccafs.cgiar.org/open-access-and-fair-principles) licensed under the [CC BY NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/). 
@@ -95,9 +94,8 @@ To ensure a digital object is findable
 - the object should be accompanied with sufficiently detailed descriptive metadata
 - a unique and persistent identifier (PID) such as a digital object identifier (DOI) should be used to point to the digital object.
 
-|---|
-|PID|A persistent identifier (PI or PID) is a long-lasting reference to a document, file, web page, or other object.|
-|---|
+| PID | A persistent identifier (PI or PID) is a long-lasting reference to a document, file, web page, or other object. |
+|---|---|
 
 ### Accessible
 For the digital object to be accessible
@@ -107,13 +105,11 @@ For the digital object to be accessible
 - clear authentication and authorization procedures should be defined and outlined
 - although the access to the digital object can be restricted, the access metadata should always be open
 
-|---|
-|Authentication|The process or action of verifying the identity of a user or process|
-|---|
+| Authentication | The process or action of verifying the identity of a user or process |
+|---|---|
 
-|---|
-|Authorization|To give official permission for something to happen, or to give someone official permission to do something|
-|---|
+| Authorization | To give official permission for something to happen, or to give someone official permission to do something |
+|---|---|
 
 ### Interoperable
 The digital object is considered interoperable if
@@ -121,9 +117,8 @@ The digital object is considered interoperable if
 - the metadata should follow a commonly accepted metadata schema combined with agreed-upon controlled vocabularies
 - formal, accessible, shared, and broadly applicable language(s) and format(s) should be used for the digital object representation
 
-|---|
-|Controlled vocabulary|A carefully selected list of words and phrases, which are used to tag units of information|
-|---|
+| Controlled vocabulary | A carefully selected list of words and phrases, which are used to tag units of information |
+|---|---|
 
 ### Reusable
 To be reusable a digital object should have
@@ -131,11 +126,11 @@ To be reusable a digital object should have
 - a clear usage license 
 - accurate information on provenance.
 
-|License|Formal or official permission to do something|
-|---|
+| License | Formal or official permission to do something |
+|---|---|
 
-|Provenance|A record of ownership of a work of art or an antique, used as a guide to authenticity or quality|
-|---|
+| Provenance | A record of ownership of a work of art or an antique, used as a guide to authenticity or quality |
+|---|---|
 
 
 More information about the FAIR principles and the general FAIRification process can be found on the [GOFAIR website](https://www.go-fair.org/fair-principles/fairification-process/).
@@ -159,8 +154,8 @@ The highest granularity level where we can apply the FAIR principles is the leve
 ![Hierarchical representation of the granularity of different learning materials aggregations](attachments/learning_content.jpg)
 Aggregation levels of learning materials
 
-|FAIR learning object|Any FAIR digital resource that supports learning developed around a single learning objective|
-|---|
+| FAIR learning object | Any FAIR digital resource that supports learning developed around a single learning objective |
+|---|---|
 
 
 We define a **FAIR learning object** as any FAIR digital resource that supports learning developed around a single learning objective. At the very core of this approach is the idea that the learning object, accompanied with suitable descriptive metadata, can be used as a common building block for the development of more complex learning content by reusing it, re-purposing it, and potentially revising it.

@@ -22,6 +22,7 @@ By following this process, the learner becomes the focal point of the training, 
 According to best practices for the [instructional design process](https://www.skillcast.com/blog/instructional-design-best-practices) in the initial preparation phase (step 1) there should be a clear definition of the **overarching aspects and considerations** related to the learning materials that are going to be created. 
 
 The aspects that need to be defined first are:
+
 - **Purpose** of learning material
     - when and how the learning materials can be used and for what purposes
 - **Target Audience**

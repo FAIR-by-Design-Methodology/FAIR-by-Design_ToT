@@ -55,7 +55,7 @@ To ensure rich learning experience it is imperative to develop a learning unit p
 
 Note that an effective lesson plan for online trainees may not be the same to the one for traditional workshop settings.
 
-Formally, a unit plan refers to a detailed step-by-step guide for a trainer to understand what materials to give to students and how to provide them so students would accomplish their learning goals during the course.
+Formally, a unit plan refers to a detailed step-by-step guide for a trainer to understand what materials to give to students and how to provide them so students would accomplish their learning goals.
 
 There may be different detail levels of the learning unit plan:
 
@@ -118,7 +118,7 @@ When developing the plan you will need to think about the teaching methods that 
 
 One or more preferred teaching methods should be utilised during the training for maximum effect. Some typical teaching methods that can be employed are presented in the following image
 
-![teaching methods comparison based on level od technology involved (low to high) and type of centeredness (teacher vs student)](attachments/2u-teach-teaching-styles-v4_2.png)
+![teaching methods comparison based on level od technology involved (low to high) and type of centeredness (teacher vs student)](./attachments/2u-teach-teaching-styles-v4_2.png)
 
 Image by [edX](https://www.edx.org) from [teach.com](https://teach.com/what/teachers-know/teaching-methods/), &copy; 2U
 

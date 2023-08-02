@@ -82,6 +82,7 @@ As digital learning materials are a type of digital objects, the general FAIR pr
 - the metadata (information that describes the digital object), and 
 - the infrastructure that stores or indexes the digital object (e.g. repository and catalogue). 
 
+|---|
 |Metadata|A set of data that describes and gives information about other data.|
 |---|
 
@@ -94,6 +95,7 @@ To ensure a digital object is findable
 - the object should be accompanied with sufficiently detailed descriptive metadata
 - a unique and persistent identifier (PID) such as a digital object identifier (DOI) should be used to point to the digital object.
 
+|---|
 |PID|A persistent identifier (PI or PID) is a long-lasting reference to a document, file, web page, or other object.|
 |---|
 
@@ -105,9 +107,11 @@ For the digital object to be accessible
 - clear authentication and authorization procedures should be defined and outlined
 - although the access to the digital object can be restricted, the access metadata should always be open
 
+|---|
 |Authentication|The process or action of verifying the identity of a user or process|
 |---|
 
+|---|
 |Authorization|To give official permission for something to happen, or to give someone official permission to do something|
 |---|
 
@@ -117,6 +121,7 @@ The digital object is considered interoperable if
 - the metadata should follow a commonly accepted metadata schema combined with agreed-upon controlled vocabularies
 - formal, accessible, shared, and broadly applicable language(s) and format(s) should be used for the digital object representation
 
+|---|
 |Controlled vocabulary|A carefully selected list of words and phrases, which are used to tag units of information|
 |---|
 
@@ -199,9 +204,9 @@ For each of the provided examples of learning materials, one should individually
 
 Example learning materials:
 
-- https://opensciency.github.io/sprint-content/ and https://zenodo.org/record/7662732
-- https://www.ebi.ac.uk/training/online/courses/covid-19-data-portal/#vf-tabs__section--overview
-- https://www.markdownguide.org/ 
+- [https://opensciency.github.io/sprint-content/](https://opensciency.github.io/sprint-content/) and [https://zenodo.org/record/7662732](https://zenodo.org/record/7662732)
+- [https://www.ebi.ac.uk/training/online/courses/covid-19-data-portal/#vf-tabs__section--overview](https://www.ebi.ac.uk/training/online/courses/covid-19-data-portal/#vf-tabs__section--overview)
+- [https://www.markdownguide.org/](https://www.markdownguide.org/) 
 
 As strict definitions are still lacking while doing this assessment, the FAIRness is assessed based on the general understanding of the concepts of FAIR and learning objects. Thus, all opinions are valid as long as they relate to the listed FAIR learning objects objective.
 

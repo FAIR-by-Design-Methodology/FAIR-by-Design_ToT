@@ -31,7 +31,7 @@ Completed [Stage 1: Prepare](../../Stage%201:%20Prepare/)
 ## Learning Tools
 - Training BBB room
 - Browser
-- Menti access or BBB quiz interaction
+- Text editor
 
 ## Rich learning experience 
 
@@ -58,10 +58,12 @@ Note that an effective lesson plan for online trainees may not be the same to th
 Formally, a unit plan refers to a detailed step-by-step guide for a trainer to understand what materials to give to students and how to provide them so students would accomplish their learning goals during the course.
 
 There may be different detail levels of the learning unit plan:
+
 - Detailed: a detailed plan that includes what will be the trainer step-by-step plan and learning activities.
 - Semi-detailed: a semi-detailed plan is less complex and offers a general game plan of what will be covered in the unit.
 
 It is recommended that you follow the Hunter's model for developing a learning unit plan:
+
 1. Set the learning objectives
     - These are lower level learning objectives for the particular learning unit. Combining all learning objectives from all units should lead to the high level learning objectives defined in the syllabus.
 	- Ensure these are clear and follow a logical order that is easy to understand and help identify meaningful concepts and ideas.

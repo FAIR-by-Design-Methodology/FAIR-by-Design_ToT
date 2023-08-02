@@ -156,6 +156,7 @@ In absence of exceptions or limitations, one can reuse an existing work if it is
 ### Licensing
 
 >The content in this section is adapted from:
+
 - [CC FAQ website](https://creativecommons.org/faq/#can-i-combine-material-under-different-creative-commons-licenses-in-my-work) licensed under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode)
 - [Creative Commons license Wikipage](https://en.wikipedia.org/wiki/Creative_Commons_license) (2023, June 21) in Wikipedia licensed under the [Creative Commons Attribution-ShareAlike License 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
@@ -200,7 +201,8 @@ The right to attribution is a moral right of the authors that protects the perso
 
 In other words, acknowledgement of the reused materials through attribution is **always strongly recommended** (even if it is not a requirement of the license, such as the public domain licenses). One condition that is **required for all CC licenses** is attribution. 
 
-The **ideal attribution** follows the TASL approach
+The **ideal attribution** follows the TASL approach:
+
 - Title - what is the name of the work
 - Author - who allows you to use the work (name and link)
 - Source - where can the work be found (link added to title)

@@ -8,6 +8,8 @@ theme:
   custom_dir: resources/overrides
   features:
     - navigation.footer
+markdown_extensions:
+  - attr_list
 plugins:
   - tags
   - mike:

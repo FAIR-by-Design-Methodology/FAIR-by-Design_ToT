@@ -23,7 +23,7 @@ Once the structure is defined and the reused content is identified and attribute
 - attendees of the FAIR-by-Design ToT live webinar
 
 ## Duration
-60 mins
+35 mins
 
 ## Prerequisites
 Completed [Stage 1: Prepare](../../Stage%201:%20Prepare/)
@@ -264,20 +264,6 @@ The assessment strategy needs to describe the following items:
 - grading method
 - completion rules
 - results publication guide
-
-
-## 07 - Instruction facilitation
-
-	- instructor kit
-		- activity details
-		- facilitation guide
-
-	- folder organisation
-	- metadata in syllabus
-	- license file
-	- citation file
-
-
 
 ## Summary
 

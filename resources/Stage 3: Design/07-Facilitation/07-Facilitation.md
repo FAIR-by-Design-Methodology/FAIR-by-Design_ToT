@@ -5,7 +5,7 @@ tags:
     - FAIR Learning Objects
     - Instructor kit
     - Folder structure
-    - Special files
+    - Supporting elements
 author: Skills4EOSC T2.3
 ---
 

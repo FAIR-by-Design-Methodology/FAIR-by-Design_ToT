@@ -62,7 +62,7 @@ There may be different detail levels of the learning unit plan:
 - Detailed: a detailed plan that includes what will be the trainer step-by-step plan and learning activities.
 - Semi-detailed: a semi-detailed plan is less complex and offers a general game plan of what will be covered in the unit.
 
-It is recommended that you follow the Hunter's model for developing a learning unit plan:
+It is recommended that you follow the **Hunter's model** for developing a learning unit plan:
 
 1. Set the learning objectives
     - These are lower level learning objectives for the particular learning unit. Combining all learning objectives from all units should lead to the high level learning objectives defined in the syllabus.
@@ -96,7 +96,7 @@ It is recommended that you follow the Hunter's model for developing a learning u
 
 ### Learning Unit Plan Development
 
-In a nutshell, the required information that you need to provide in your learning plan is:
+In a nutshell, the **required information** that you need to provide in your learning plan is:
 
 - Unit Name
 - Purpose of the unit
@@ -134,7 +134,7 @@ Note that the development process is iterative. As you develop the content later
 
 Once you have a plan, it is time to start developing the learning content. Remember to design the content so that it appeals learners with different modalities (verbal, audio, read/write, kinesthetic) including different multimedia. 
 
-The learners notebook is the main learning content that you are aiming to introduce the learners to. The content of each learning unit notebook should include:
+The learners notebook is the main learning content that you are aiming to introduce the learners to. The content of each **learning unit notebook** should include:
 
 - brief introduction
 - learning objectives
@@ -154,7 +154,7 @@ For pure self-based learning the complete notebook should be enough to present a
 
 However, for trainer led environments, usually a slide deck is also necessary so that the trainer can lead the trainees across the learning content and work with them through the activities. 
 
-The slide deck should follow the stages of the HUNTER model:
+The **slide deck should follow the stages of the HUNTER model**:
 
 - title slide
 - introduction (trainers and trainees)
@@ -177,7 +177,7 @@ All activities that are planned to be performed with or by the learners as part 
 
 In addition, this additional documentation related to activity description can serve as a personal reminder long after the training has been completed and it allows for keeping notes on how the activity was implemented as well as any external community feedback.
 
-Based on the best practices, each activity should be described in a separate document that contains:
+Based on the best practices, **each activity** should be described in a separate document that contains:
 
 - activity name
 - short description
@@ -252,7 +252,7 @@ In the first case, a separate strategy document needs to be developed for each l
 
 If each learning unit has its own quiz strategy then it should be provided together with the learning unit. 
 
-The assessment strategy needs to describe the following items:
+The **assessment strategy** needs to describe the following items:
 
 - how many questions should be used from the questions pool
 - is there any weight that should be given to the questions
@@ -267,7 +267,7 @@ The assessment strategy needs to describe the following items:
 
 ## Summary
 
-A complete learning unit consists of several parts:
+A **complete learning unit** consists of several parts:
 
 - learning unit plan
 - learning unit content

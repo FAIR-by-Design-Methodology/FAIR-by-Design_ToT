@@ -62,15 +62,15 @@ Once you have identified your learning concepts, the next step is to sequence th
 
 In essence the blueprint takes the input from the creative concept map and organizes it into a more formal outline. Formally, we call this learning materials outline syllabus. Each syllabus should provide information regarding a number of elements (including the ones defined in the step 1 of the backward instructional design):
 
-- clear, descriptive title 
-- description of the purpose or goal 
-- target audience
-- prerequisites
-- duration
-- learning objectives
-- agenda (instructional sequence)
-- resources and materials
-- certification information
+- clear, descriptive **title** 
+- description of the **purpose** or goal 
+- **target audience**
+- **prerequisites**
+- **duration**
+- **learning objectives**
+- **agenda** (instructional sequence)
+- **resources and materials**
+- **certification** information
 
 Remember that:
 
@@ -86,7 +86,8 @@ Within this training we recommend the development of a training syllabus that co
 - typical syllabus information
 - additional information related to the RDA minimal metadata schema
 
-The following is a list of all required syllabus fields:
+The following is a **list of all required syllabus fields**:
+
 - Clear descriptive Title of the training 
 - Type (Course/Workshop/Webinar)
 - Date/Time: when it will be offered (available from date if it is self-paced)

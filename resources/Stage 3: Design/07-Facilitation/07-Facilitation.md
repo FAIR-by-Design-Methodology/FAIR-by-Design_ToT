@@ -143,7 +143,7 @@ All of the introduced documents that create the full set of learning materials s
 - potential reusers that will quickly find their way around
 - automated publishing of the main learning content for learners (more on this later)
 
-The logical structure that must be followed is as follows:
+The **logical structure** that **must** be followed is as follows:
 
 - Root folder
 	- resources

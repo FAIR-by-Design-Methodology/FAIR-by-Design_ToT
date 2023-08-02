@@ -50,7 +50,8 @@ The main purpose of the (meta)data about the learning resource is to enable cata
 - WHERE is the location of the resource
 - WHY the data was resource
 
-![example metadata for an image](./attachments/image_metadata.png)
+![example metadata for an image](./attachments/image_metadata.png){: style="height:150px;"}
+
 Example metadata for an image
 
 
@@ -180,7 +181,7 @@ The [CC License Chooser tool](https://creativecommons.org/choose/) helps authors
 
 Example is provided below:
 
->![CC BY button](./attachments/by-1.png)
+>![CC BY button](./attachments/by-1.png){: style="height:50px;"}
 
 >Except where otherwise noted, content on this site is licensed under a [Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
 
@@ -246,10 +247,10 @@ Depending on the country, the reproduction and communication of a protected work
 
 Write attribution for the following learning resources that you have decided to incorporate in your learning materials:
 
-- image from https://creativecommons.org/2021/12/02/unesco-recommendation-on-open-science-ratified/
-- TRIPLE TRAINING on Open Research Europe slides from https://project.gotriple.eu/triple-open-science-training-series/
+- [image from https://creativecommons.org/2021/12/02/unesco-recommendation-on-open-science-ratified/](https://creativecommons.org/2021/12/02/unesco-recommendation-on-open-science-ratified/)
+- [TRIPLE TRAINING on Open Research Europe slides from https://project.gotriple.eu/triple-open-science-training-series/](https://project.gotriple.eu/triple-open-science-training-series/)
 - [slide 3 from Why open science? presentation by Sarah Jones](https://slideplayer.com/slide/12073970/)
-- Lesson 1: The What from https://github.com/opensciency/sprint-content/blob/main/ethos-of-open/lesson1-intro-to-open-science.md
+- [Lesson 1: The What from https://github.com/opensciency/sprint-content/blob/main/ethos-of-open/lesson1-intro-to-open-science.md](https://github.com/opensciency/sprint-content/blob/main/ethos-of-open/lesson1-intro-to-open-science.md)
 
 Are you able to find all TASL elements for each example?
 
@@ -258,8 +259,8 @@ In the [following example document](./attachments/attribution_example.html) ther
 What are the pitfalls of not using attribution?
 Take a look at these two examples:
 
-- image from https://www.openscience-twente.com/open-science/#open-scientific-knowledge
-- image from https://unesdoc.unesco.org/ark:/48223/pf0000383323
+- [image from https://www.openscience-twente.com/open-science/#open-scientific-knowledge](https://www.openscience-twente.com/open-science/#open-scientific-knowledge)
+- [image from https://unesdoc.unesco.org/ark:/48223/pf0000383323](https://unesdoc.unesco.org/ark:/48223/pf0000383323)
 
 
 ## Suggested Reading

@@ -105,6 +105,7 @@ Overall, the training provided was
 
 ##### Training aspects rating
 Let us know what was your experience regarding different training aspects:
+
 |                                                     | Strongly disagree | Disagree | Neutral | Agree | Strongly agree |
 |-----------------------------------------------------|-------------------|----------|---------|-------|----------------|
 | I achieved the learning objectives.                 |                   |          |         |       |                |
@@ -125,6 +126,7 @@ How would you rate your level of knowledge on the topic before and after the tra
 
 ##### Insights
 In your opinion 
+
 - the most useful part of the training is [free text]
 - the least useful part of the training is [free text]
 - the training could have been improved by [free text]

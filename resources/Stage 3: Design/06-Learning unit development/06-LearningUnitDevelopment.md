@@ -5,8 +5,8 @@ tags:
     - FAIR Learning Objects
     - Learning unit
     - Unit plan
-	- Learning content
-	- Assessment
+    - Learning content
+    - Assessment
 author: Skills4EOSC T2.3
 ---
 
@@ -155,6 +155,7 @@ For pure self-based learning the complete notebook should be enough to present a
 However, for trainer led environments, usually a slide deck is also necessary so that the trainer can lead the trainees across the learning content and work with them through the activities. 
 
 The slide deck should follow the stages of the HUNTER model:
+
 - title slide
 - introduction (trainers and trainees)
 - Housekeeping information

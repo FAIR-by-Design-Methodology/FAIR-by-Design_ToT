@@ -36,7 +36,7 @@ A hierarchical organisation of the learning structure helps create granular lear
 - Browser
 - Menti access or BBB quiz interaction
 
-# Learning structure
+## Learning structure
 
 Once the higher level outline is defined in the syllabus it is time to flesh out the rest while applying the same approach and concepts only on lower aggregation levels. You want to end up with a hierarchical structure that will define the lowest level elements (learning objects) of your learning materials as depicted in the image below.
 

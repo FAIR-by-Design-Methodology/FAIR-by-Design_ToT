@@ -44,7 +44,7 @@ Introduce the basic Markdown syntax necessary for producing FAIR-by-Design learn
 | 15       | Guided Practice | Editing the Unit Plan template                         | Creating a Unit Plan              | pptx, handouts |
 | 5        | Material Reuse  | Things to keep in mind when reusing existing materials | Check for understanding           | pptx           |
 | 15       | Guided Practice | Material reuse in practice                             | Reusing existing materials        | pptx, handouts |
-| 10       | Guided Practice | Reflect on changes which have been made                                | Preview changes using the GitBook | pptx, handouts |
+| 10       | Guided Practice | Reflect on changes which have been made                | Preview changes using the GitBook | pptx, handouts |
 | 5        | Summary         | Key takeaways, what's next                             | Quiz                              | pptx, Menti    |
 
 ### Assessment

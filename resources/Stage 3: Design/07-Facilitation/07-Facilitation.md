@@ -36,7 +36,7 @@ Completed [06 - Learning Unit Development](../06-Learning%20unit%20development/0
 The main goal of the instructor kit is to support the trainers and instructors in the delivery of the learning materials.
 It is also essential for high quality reusability of the learning materials by other trainers and/or instructional designers. 
 
-The complete instructor kit consists of learning materials that are developed and used to support the learning process, but are not directly visible by learners. These include the following items:
+The **complete instructor kit** consists of learning materials that are developed and used to support the learning process, but are not directly visible by learners. These include the following items:
 
 - learning unit plan
 - activity details
@@ -51,7 +51,7 @@ Most of the items were already introduced and discussed in [06 - Learning Unit D
 
 As the syllabus represents the learner's view of the learning materials, the facilitation guide is a document that represents the trainers view and aims to enable a smooth and efficient training. Thus the guide aims to help with the general activities regarding the organisation of the training, what needs to be done before, during and after the training, how to setup the training environment, prepare any props and materials, etc. 
 
-A well defined facilitation guide should include the following elements:
+A well-defined **facilitation guide** should include the following elements:
 
 - what to do 
 	- before
@@ -82,7 +82,7 @@ At the end of the learning process you should gather feedback from the learners 
 
 An example Training Evaluation form is presented in the next subsection. A similar evaluation form can be created using the feedback tool in the Skills4EOSC platform. 
 
-Do not forget to set the following characteristics of the defined feedback used for training evaluation:
+Do not forget to set the following **settings** of the defined feedback used for training evaluation:
 
 - availability from - to
 - anonymous
@@ -143,7 +143,7 @@ All of the introduced documents that create the full set of learning materials s
 - potential reusers that will quickly find their way around
 - automated publishing of the main learning content for learners (more on this later)
 
-The logical structure that must be followed is as follows:
+The **logical structure** that **must** be followed is as follows:
 
 - Root folder
 	- resources
@@ -184,19 +184,19 @@ Take a look at the logical organisation of the learning materials for this train
 
 To complete the full set of learning materials and abide by the FAIR principles that require that the metadata be both human and machine readable, the fields from the RDA minimal metadata schema need to be filled out in a machine-readable format.
 
-As this information has been stored in the syllabus, it is recommended that the machine-readable format is also stored in the header of the syllabus file so that both versions are found in one place making it easier to keep in sync. How to enter this information in the syllabus file will be presented in the learning units that follow.
+As this information has been stored in the syllabus, it is recommended that the machine-readable format is also stored in the **header of the syllabus** file so that both versions are found in one place making it easier to keep in sync. How to enter this information in the syllabus file will be presented in the learning units that follow.
 
 ## Supporting elements
 
 There are a few supporting elements that makeup the learning materials set. In addition to the ones that are required for the technical implementation of the publishing workflow (to be discussed later), the following files are necessary to be defined by the instructional designers:
 
-- license
+- **license**
 	- this is a text oriented version of the CC license of your choice. You can find a list of all text license 4.0 files at https://creativecommons.org/2014/01/07/plaintext-versions-of-creative-commons-4-0-licenses/. You just need to choose the one based on your license decision you made in [04 Conceptualisation](../04-Conceptualisation/04-Conceptualisation.md).
-- citation
+- **citation**
 	- the structure of this file is a machine readable description of how your learning materials should be cited based on the [Citation File Format - CFF](https://citation-file-format.github.io/). You will learn how to fill out this file in the Publish stage
-- code of conduct
+- **code of conduct**
 	- the purpose of this document is to define the rules of play when working in a collaborative environment. It is typically defined using a template that supports ope collaboration. The details on how to use the template are provided in the Publish stage.
-- readme
+- **readme**
 	- think of the content of this file as the landing page for other trainers and instructional designers that seek to reuse your materials. So provide them with a meaningful description and information on how to do this. 
 
 ## Summary

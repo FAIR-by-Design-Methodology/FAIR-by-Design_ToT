@@ -820,9 +820,47 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Reusing Existing Markdown Materials
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Reusing Existing Markdown Materials
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-reusing-existing-content" class="md-nav__link">
+    Exercise: Reusing Existing Content
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    Next Steps
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -876,6 +914,28 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-reusing-existing-content" class="md-nav__link">
+    Exercise: Reusing Existing Content
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    Next Steps
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -927,6 +987,71 @@
 
 
 <h1 id="reusing-existing-markdown-materials">Reusing Existing Markdown Materials</h1>
+<p>As discussed in <a href="../../../Stage%202%3A%20Discover/03-Existing%20learning%20materials/03-Existing%20learning%20materials/">Stage 2: Discover</a>, discovering existing learning materials instead of writing from scratch is an important aspect of the FAIR-by-Design methodology. From the production perspective, reusing existing materials is similar to modifying the Markdown templates in the same way as if the material was written just now. This includes ensuring that the correct information is present in the Markdown header and that the relevant sections have been filled out, as discussed in the <a href="../09-Markdown%20Syntax/">previous section</a>.</p>
+<p>Before reusing existing content, careful attention needs to be paid to its original license, and whether it is compatible with the assigned license of the newly developed materials. Potential license incompatibilities can prevent the reuse of the discovered content in a new context. Furthermore, even if the licenses are compatible, attribution for the original content needs to be provided (recommended even if the original license is CC-0), crediting its original authors.</p>
+<p>Since the discovered content can be in any file format, additional effort might be required to convert it to a Markdown representation. Additionally, it is worth mentioning that even if the content is available in Markdown, there are multiple Markdown flavors available today, some of which introduce specific formatting options (such as tab display, annotations, modal windows). These formatting options might not be compatible with the wider Markdown eco-system, including MkDocs, so it is best to use only basic Markdown formatting, ensuring compatibility with the widest set of tools.</p>
+<h2 id="exercise-reusing-existing-content">Exercise: Reusing Existing Content</h2>
+<p>The goal of this exercise is to put to practical use the concepts learned from the previous stages regarding discovery, material reuse, licensing, attribution, and Markdown formatting. Having already discovered relevant material for reuse in Stage 2, while also performing a license compatibility check and defining attribution in Stage 3, we are now ready to incorporate the content according to the FAIR-by-Design Methodology.</p>
+<p>Throughout the exercise we assume that you are writing a new course on Open Data and plan to reuse <a href="https://github.com/opensciency/OpenData/blob/main/lessons/lesson5.md">Lesson 5: Planning for Open Data</a>. The following steps will need to be performed:</p>
+<ul>
+<li>create a lesson plan</li>
+<li>create an activity</li>
+<li>create an assessment</li>
+<li>modify the existing content so that it is compliant to the provided Markdown templates</li>
+</ul>
+<p>The questions bellow can act as a guide through the above steps.</p>
+<ol>
+<li>Take a moment to scroll through the <a href="https://github.com/opensciency/OpenData/blob/main/lessons/lesson5.md">document</a>, skimming its content.</li>
+<li>Is the assumption which was made regarding the content sound, and is it indeed possible to reuse this content in your learning unit? Where can you see its license?</li>
+<li>Open the GitHub Desktop client and make sure that the local copy of the repository is up-to-date.</li>
+<li>
+<p>Open Obsidian. Our goal will be to make a copy of the <code>Learning Unit</code> directory, rename it to an appropriate name, download the original file, and systematically edit the necessary Markdown templates.</p>
+<ul>
+<li>
+<p>To copy the <code>Learning Unit</code> directory, expand the navigation tree on the left hand side in Obsidian, and right click on <code>Learning Unit</code>. Choose <code>Show in system explorer</code>.</p>
+<p><img alt="Obsidian - Show in Explorer" src="../attachments/11-show-in-explorer.png" /></p>
+</li>
+<li>
+<p>Copy and paste the <code>Learning Unit</code> directory using your file manager, renaming it in the process. A good name is <code>Open Data</code>, but you are of course free to choose.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Download the found content into the newly created directory.</p>
+<ul>
+<li>
+<p>There are multiple ways in which a file can be downloaded from GitHub. In this case perhaps the simplest one is to choose the <code>Raw</code> option.</p>
+<p><img alt="GitHub - Raw Option for Downloading Files" src="../attachments/12-raw-option-github.png" /></p>
+</li>
+<li>
+<p>In the window that opens simply right click and choose the option <code>Save as</code> or <code>Save Page As</code> (the available option depends on the browser being used).</p>
+<p><img alt="GitHub - Downloading the File to a Local Directory" src="../attachments/13-save-as.png" /></p>
+</li>
+<li>
+<p>Save the file to the newly created directory in Step 4. Make sure to change its name and use an <code>.md</code> extension.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Go back to Obsidian and make sure that the file is visible and can be freely edited. </p>
+</li>
+<li>Having completed the majority of the technical aspects, we are now ready to follow the Backwards Design Model. Since we already defined a lesson plan in the previous exercise, you can move it to the new directory. Verify that the content in it reflects the current scenario.</li>
+<li>The next step is to define the assessment questions, according to the template provided in the <code>Assessment</code> directory.</li>
+<li>Having defined the Assessments, describe the Activities that will be undertaken using the <code>assessment_template</code> in the <code>Assessment</code> directory.</li>
+<li>
+<p>We are now ready to start working on adapting the downloaded lesson file. </p>
+<ul>
+<li>Add the necessary metadata in the Markdown heading: <code>title</code>, <code>author</code>, <code>tags</code>.</li>
+<li>Reorder the existing content, so that the <code>Learning Objectives</code>, <code>Target Audience</code>, <code>Duration</code>, <code>Prerequisites</code>, and <code>Learning Tools</code> sections are filled out. </li>
+<li>Go over the remaining content and make sure that all headings are defined appropriately. Note that MkDocs supports only one level 1 heading in a given document, so <code>#</code> can be used only once in the Markdown file.</li>
+<li>Ensure that any linked images are visible. If they are not, download them to the <code>attachments</code> directory, and relink them in the document.</li>
+<li>Ensure that images have an alt text.</li>
+<li>Provide attribution to the original document.</li>
+</ul>
+</li>
+</ol>
+<h2 id="next-steps">Next Steps</h2>
+<p>We have edited all of the required files for our new learning unit. The next and final step would be to verify the changes by uploading the files to GitHub and letting the automated workflow render them to HTML using MkDocs. We will cover this activity in the next section.</p>
 
 
 

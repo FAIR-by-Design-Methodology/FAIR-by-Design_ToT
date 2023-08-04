@@ -122,9 +122,9 @@ Note: start time is given in CEST
 |     10:30    |     Design     |     Learning Unit development    |     35 mins     |
 |     11:05    |     Design     |     Instruction facilitation     |     25 mins     |
 |     11:30    |                |     = coffee break =             |     15 mins     |
-|     11:45    |     Produce    |     Content design               |     60 mins     |
+|     11:45    |     Produce    |     Development Tools            |     60 mins     |
 |     12:45    |                |     = Lunch break =              |     60 mins     |
-|     13:45    |     Produce    |     Design tools                 |     60 mins     |
+|     13:45    |     Produce    |     Content Development           |     60 mins     |
 |     14:45    |                |     = coffee break =             |     15 mins     |
 |     15:00    |     Produce    |     Accessibility                |     60 mins     |
 |     16:00    |                |     = coffee break =             |     15 mins     |
@@ -134,6 +134,7 @@ Note: start time is given in CEST
 
 
 ### Day 3: Finalising FAIR-by-Design Learning Materials
+
 |     Start    |     Step       |     Topic                 |     Duration    |
 |--------------|----------------|---------------------------|-----------------|
 |     9:00     |     Publish    |     Depositing            |     60 mins     |

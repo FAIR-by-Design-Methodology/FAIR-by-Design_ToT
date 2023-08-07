@@ -124,12 +124,12 @@ Note: start time is given in CEST
 |     11:30    |                |     = coffee break =             |     15 mins     |
 |     11:45    |     Produce    |     Development Tools            |     60 mins     |
 |     12:45    |                |     = Lunch break =              |     60 mins     |
-|     13:45    |     Produce    |     Content Development           |     60 mins     |
+|     13:45    |     Produce    |     Content Development          |     60 mins     |
 |     14:45    |                |     = coffee break =             |     15 mins     |
-|     15:00    |     Produce    |     Accessibility                |     60 mins     |
+|     15:00    |     Produce    |     Content Mix                  |     60 mins     |
 |     16:00    |                |     = coffee break =             |     15 mins     |
-|     16:15    |     Produce    |     Formats                      |     30 mins     |
-|     16:45    |     Produce    |     Metadata                     |     30 mins     |
+|     16:15    |     Produce    |     Accessibility                |     40 mins     |
+|     16:55    |     Produce    |     Content finalisation         |     20 mins     |
 |     17:15    |     Produce    |     Initial Quality Assurance    |     15 mins     |
 
 

@@ -196,3 +196,4 @@ The structure of the slide deck should follow the HUNTER model.
 ## Suggested Reading
 - [Blog of the Presentation Training Institute](https://www.presentationtraininginstitute.com/blog/)
 - [Quarto Guide - Presentations](https://quarto.org/docs/presentations/)
+- [Marp - Markdown Presentation Ecosystem](https://marp.app/)

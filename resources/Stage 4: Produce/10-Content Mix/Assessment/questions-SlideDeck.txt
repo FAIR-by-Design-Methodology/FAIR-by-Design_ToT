@@ -1,0 +1,25 @@
+::experience::The slide design is an important factor when it comes to rich learning experience{TRUE}
+
+::presentation::Slide decks are an important learning resource for what types of learning processes?{
+	~self-paced
+	~%33.33333%webinar
+	~%33.33333%workshop
+	~%33.33333%instructor-led
+	~instructor-less
+}
+
+::slides::Slide deck is required learning material for all learning units.{FALSE}
+
+::model::The slides sequence in the presentation should follow the ___ model. {
+	=HUNTER
+	~DEER
+	~80-20
+	~Quarto
+}
+
+::MD::Using MD to define slides means focusing on {
+	=content
+	~visual appealing
+	~design and layout
+	~color palette
+}

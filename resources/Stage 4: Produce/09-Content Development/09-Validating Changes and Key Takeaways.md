@@ -36,3 +36,7 @@ We will go through each of these steps in more details below.
 ## Key Takeaways
 
 In this unit we have learned the basics of Markdown, while continuing on our journey working with the Obsidian and GitHub desktop tools. We have put to use the newly learned Markdown syntax by creating our very own learning unit along with all of the supporting content that this entails: we wrote a learning plan, defining objectives, assessments, and activities. We also reused an existing learning content, adapting it to the FAIR-by-Design templates, and published it as part of the Git book. However, what is missing is a presentation that can be used to showcase the key points of our learning unit to a given audience. We will cover options for creating presentations in the next section.
+
+## Suggested Reading
+
+- [Excluding Files in MkDocs](https://github.com/apenwarr/mkdocs-exclude)

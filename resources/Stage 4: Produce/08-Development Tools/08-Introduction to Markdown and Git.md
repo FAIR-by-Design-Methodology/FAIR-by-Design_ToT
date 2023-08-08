@@ -143,9 +143,6 @@ We recommend to create and use a dedicated organization on GitHub for hosting re
 
 At this point we have created our own fork of the FAIR-by-Design templates repository and we have also cloned (downloaded) all of its contents locally, so we are ready to start producing our very own FAIR learning objects. However, one final step remains, and that is to go over how to work with Markdown files. 
 
-
-
 ## Suggested Reading
-- [Hoebelheinrich, Nancy J, Biernacka, Katarzyna, Brazas, Michelle, Castro, Leyla Jael, Fiore, Nicola, Hellström, Margareta, Lazzeri, Emma, Leenarts, Ellen, Martinez Lavanchy, Paula Maria, Newbold, Elizabeth, Nurnberger, Amy, Plomp, Esther, Vaira, Lucia, van Gelder, Celia W G, & Whyte, Angus. (2022). Recommendations for a minimal metadata set to aid harmonised discovery of learning resources (1.0).](https://doi.org/10.15497/RDA00073)
-- [Jesse Long, Lisa Curtin, Persistent Identifiers, NTL Guide to DOIs & ORCID iDs for DOT Researchers, National Transportation Library (2022)](https://transportation.libguides.com/persistent_identifiers)
-- [Creative Commons Certificate for Educators, Academic Librarians and GLAM](https://certificates.creativecommons.org/cccertedu/)
+- [Getting Started with GitHub Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop)
+- [Git Terminology Glossary](https://www.atlassian.com/git/glossary/terminology)

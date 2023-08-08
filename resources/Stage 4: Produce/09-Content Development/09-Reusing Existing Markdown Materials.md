@@ -71,3 +71,9 @@ The questions bellow can act as a guide through the above steps.
 ## Next Steps
 
 We have edited all of the required files for our new learning unit. The next and final step would be to verify the changes by uploading the files to GitHub and letting the automated workflow render them to HTML using MkDocs. We will cover this activity in the next section.
+
+## Suggested Reading
+
+- [Markdown Flavors](https://www.markdownguide.org/getting-started/#flavors-of-markdown)
+- [Extended Markdown Syntax](https://www.markdownguide.org/extended-syntax/)
+- [Extended Markdown Syntax for MkDocs – Admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)

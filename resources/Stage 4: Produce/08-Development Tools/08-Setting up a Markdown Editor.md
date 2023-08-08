@@ -88,3 +88,9 @@ The goal of this exercise is to configure Obsidian to work with the cloned repos
 Since Obsidian supports the concept of *vaults*, whenever relaunching the software, it will reopen the previously used vault. If for any reason you would like to switch to another vault (e.g., work on a different Git repository), you can do so by clicking the vault icon in the bottom left hand corner, which would launch the vault selection wizard.
 
 ![Obsidian - Launching the Vault Selection Wizard](attachments/37-vault-selection.png)
+
+## Suggested Reading
+
+- [Getting Started with Obsidian](https://help.obsidian.md/Getting+started/Download+and+install+Obsidian)
+- [Obsidian Core Plugins](https://help.obsidian.md/Plugins/Core+plugins)
+- [Obsidian Community Plugins](https://help.obsidian.md/Extending+Obsidian/Community+plugins)

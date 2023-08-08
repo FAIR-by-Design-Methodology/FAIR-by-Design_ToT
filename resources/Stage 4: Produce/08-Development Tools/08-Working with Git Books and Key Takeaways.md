@@ -125,3 +125,9 @@ Any future changes, after being committed and pushed to GitHub using the GitHub 
 At this point we have a functional environment which we can use to practice the FAIR-by-Design methodology. We set up the required tools (Obsidian and GitHub Desktop), got introduced to GitHub and Markdown, and created our very own Git book. We also tackled the difference between the various intermediate and final output formats, giving recommendations on which ones to choose.
 
 We will use these newly obtained skills in the sections that follow, gradually building our FAIR-by-Design course, starting with the development of a Unit Plan.
+
+## Suggested Reading
+
+- [Getting Started with MkDocs](https://www.mkdocs.org/getting-started/)
+- [GitHub Pages Quickstart](https://docs.github.com/en/pages/quickstart)
+- [Setting the Permissions of the GITHUB_TOKEN for your Organization](https://docs.github.com/en/organizations/managing-organization-settings/disabling-or-limiting-github-actions-for-your-organization#setting-the-permissions-of-the-github_token-for-your-organization)

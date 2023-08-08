@@ -73,7 +73,13 @@ The goal of this exercise is to configure Obsidian to work with the cloned repos
 
     ![Obsidian - Enabling Relative Locations for new Attachments](attachments/16-obisidian-relative-path-to-file.png)
 
-14. To test the new configuration you can go ahead and copy an arbitrary image and directly paste it into a Markdown document open on Obsidian. The image should automatically appear in the preview, and a newly created `attachments` folder will also be present in the navigation tree on the left sde.
+14. Even though the repository contains files in different formats than Markdown (for example `CITATION.CFF`, or `LICENSE`), by default they are not shown in the Obsidian directory tree. To force Obsidian to show all files, despite their format, navigate to the `Files & Links` section of the settings page and make sure to enable `Detect all file extensions`. Once this option is toggled, new files will appear in the Obsidian sidebar. Note that files other than Markdown (files with no `.md` extension) will not be natively opened in Obsidian, and you may be prompted to select an alternative editor instead when trying to edit them.
+
+    ![Obsidian - Enabling Visibility of All File Extensions](attachments/39-all-file-extensions.png)
+
+    ![Obsidian - Verifying that All File Extensions are Visible](attachments/38-additional-files.png)
+
+15. To test the new configuration you can go ahead and copy an arbitrary image and directly paste it into a Markdown document open on Obsidian. The image should automatically appear in the preview, and a newly created `attachments` folder will also be present in the navigation tree on the left sde.
 
     ![Obsidian - Pasted Image](attachments/17-pasted-image.png)
 
@@ -82,3 +88,9 @@ The goal of this exercise is to configure Obsidian to work with the cloned repos
 Since Obsidian supports the concept of *vaults*, whenever relaunching the software, it will reopen the previously used vault. If for any reason you would like to switch to another vault (e.g., work on a different Git repository), you can do so by clicking the vault icon in the bottom left hand corner, which would launch the vault selection wizard.
 
 ![Obsidian - Launching the Vault Selection Wizard](attachments/37-vault-selection.png)
+
+## Suggested Reading
+
+- [Getting Started with Obsidian](https://help.obsidian.md/Getting+started/Download+and+install+Obsidian)
+- [Obsidian Core Plugins](https://help.obsidian.md/Plugins/Core+plugins)
+- [Obsidian Community Plugins](https://help.obsidian.md/Extending+Obsidian/Community+plugins)

@@ -300,3 +300,9 @@ After validating the state of the local repository, continue by executing the fo
 11. Alter the `Certificate or Badge` section by providing an image of the Badge that can be obtained by completing the lesson. An arbitrary image can also be used.
 12. Complete the lesson plan by filling out the `Reflection` and `Comments` sections.
 13. Open the GitHub Desktop application, enter a commit title and an optional commit message and commit the changes by clicking on the `Commit to main` button. Upload the changed files to GitHub.com by clicking on the blue `Push origin` button.
+
+## Suggested Reading
+
+- [Markdown Metadata in MkDocs](https://www.mkdocs.org/user-guide/writing-your-docs/#meta-data)
+- [Markdown Basic Formatting Syntax](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax)
+- [Organizing Information with Tables](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)

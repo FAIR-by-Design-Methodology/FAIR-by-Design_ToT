@@ -250,19 +250,64 @@ Note that when exporting a Power Point presentation to PDF on Windows and on Mac
 
 ### Accessibility tips and tricks
 
-- alt text
-- md accessibility
-- check accessibility of reused material
+As the main learning content is being developed in MD, the following are the best practices when it comes to MD accessibility:
+
+- use headings to outline content
+- provide meaningful alternative text for images
+- use descriptive text for links
+- use plain language
+
+For tip on how to write alternative text for images study the [Alternative text guide by WebAIM](https://webaim.org/techniques/alttext/). The key takeaways in the guide include:
+
+- alternative text should be accurate and equivalent in representing content and function
+- alternative text should be succinct
+- alternative text should not be redundant
+- alternative text should not include phrases such as "image of ..." or "graphic of ..."
+
+Decorative images should have blank alternative text. A decorative image is an image that
+
+- does not present important content
+- is used for layout or non-informative purposes
+- does not have a function (e.g. is not a link)
+
+When dealing with colors and layouts, there are online tools that can help experiment with color combinations. One such example is the [Elements must have sufficient color contrast](https://dequeuniversity.com/rules/axe/4.6/color-contrast) checking tool developed by Deque University. Using this tool you can check if you satisfy the AA or AAA levels for WCAG 2.1.
+
+When you are reusing existing learning material, make sure to check the accessibility of this material as well. If there are any issues they should be fixed.
 
 ### Accessibility statement
 
+If you are fully committed to accessibility and your complete web site provides accessible content, then you should develop an accessibility statement wherein you will provide details about your accessibility efforts.
+
+The accessibility statement is usually presented as a link on the homepage that leads to separate accessibility policy page. There are many accessibility statement templates online that can be used to generate the accessibility statement. 
+
+One of the best tools is the policy development guide developed by W3C: [Developing an Accessibility Statement](https://www.w3.org/WAI/planning/statements/) that defines all sections and information that should be present in the statement. It also offers a generator tool that will guide you through the steps and help you create your accessibility statement including all important aspects such as:
+
+- mission
+- measures to support accessibility
+- conformance status
+- feedback gathering
+- compatibility
+- technical specification
+- limitations and alternatives
+- assessment approach
+- evaluation report and statement
+- complaints response
+
+The site also provides an [Example of Complete Accessibility Statement](https://www.w3.org/WAI/planning/statements/complete-example/).
+
+Given that the learning materials that are to be developed within the Skills4EOSC project may need to conform to different country regulations and standards, and taking into account the inability to ensure PDF/UA compliance and WCAG compliance of the PPTX content, the approach to accessibility of the developed learning materials is best effort. This approach is stated within the accessibility mission provided in the syllabus.
 
 ## Summary
 
-.
+Checking and ensuring accessibility as much as possible using available tools and best practices is a requirement when aiming to achieve accessibility for FAIR learning materials.
+
+It is important to adhere to standards such as the WCAG, but also follow the recommendations and rules defined on the country level. 
+
+There are many options for using a WCAG accessibility checking tool, many of them freely available, and many editing tools and software such as Power Point come with integrated Accessibility Checkers that help produce inclusive learning materials starting from the design stage.
 
 ## Suggested Reading
 - [Universal Design for Learning, Center for Teaching Innovation, Cornell University](https://teaching.cornell.edu/teaching-resources/designing-your-course/universal-design-learning)
 - [WCAG Understanding Levels of Conformance](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-levels-head)
 - [Make your PowerPoint presentations accessible to people with disabilities](https://support.microsoft.com/en-us/office/make-your-powerpoint-presentations-accessible-to-people-with-disabilities-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25#bkmk_acwin)
 - [CENTERING DIVERSITY AND INCLUSION, THE OER STARTER KIT, Iowa State University Digital Press](https://iastate.pressbooks.pub/oerstarterkit/chapter/diversity-inclusion/)
+- [WCAG conformance levels: How high should you aim?](https://www.levelaccess.com/blog/ada-compliance-levels/)

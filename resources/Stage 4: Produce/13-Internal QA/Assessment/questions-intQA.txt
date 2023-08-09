@@ -1,0 +1,32 @@
+::metadata::In which document do you store the machine-readable metadata related to the learning materials?{
+	=syllabus
+	=syllabus.md
+}
+
+::license::In what format is the LICENSE file in the repo?{
+	=plaintext
+	~YAML
+	~JSON
+	~md
+	~HTML
+}
+
+::update::The syllabus content should be double-checked and updated once all learning units are developed.{TRUE}
+
+::CC0::When using a clone of the templates repo the LICENSE file must not be changed.{FALSE}
+
+::finalising::What are the last files that need to be edited so that the learning content is finalised once the learning units are completed?{
+	~%33.3333%syllabus
+	~%33.3333%license
+	~%33.3333%facilitation guide
+	~quiz
+	~learning plan
+	~activity description
+}
+
+::license info::License information must be provided in?{
+	~%50.0%syllabus
+	~learning plan
+	~%50.0%LICENSE file
+	~facilitation guide
+}

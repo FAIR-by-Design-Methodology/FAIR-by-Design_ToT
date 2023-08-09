@@ -35,9 +35,9 @@ Accessibility is one of the FAIR pillars and for learning materials it goes beyo
 |---|---|---|---|---|
 | 2 mins | Intro | importance of accessibility, requirement | revert back to the A of FAIR | pptx |
 | 10 mins | Accessibility | best practices and standards, problems and solutions | how much of this is already familiar | pptx |
-| 10 mins | Guided practice | using LERA for web content accessibility checking |  | chrome, LERA |
+| 10 mins | Guided practice | using LERA for web content accessibility checking | [using LERA](./Activities/LERA.md) | chrome, LERA |
 | 5 mins | Accessible slides | accessibility of slides and presentations | discuss the accessibility cons when using quarto | pptx |
-| 10 mins | Guided practice | using power point accessibility checker | test the accessibility of an example presentation | pptx, browser, power point |
+| 10 mins | Guided practice | using power point accessibility checker | [test the accessibility of an example presentation](./Activities/PowerPointAccessibility.md) | pptx, browser, power point |
 | 6 mins | Statement | Accessibility statement | contemplate best effort approach | pptx |
 | 2 mins | Summary | key takeaways | group discussion on learning unit elements | pptx |
 

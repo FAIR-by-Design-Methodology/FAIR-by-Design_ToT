@@ -1,15 +1,16 @@
 ---
-title: Checking accessibility of web content
+title: Metadata and License
 author: Skills4EOSC T2.3
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects
-    - Accessibility checking
+    - Metadata
+    - License file
 ---
 
-# Checking the accessibility of web content
+# Adding machine-readable metadata and LICENSE file
 
-Showcase how to use and what to expect from tools for accessibility evaluation that automate the WCAG success criteria. 
+Practice on how to fill out the YAML based metadata in syllabus and change the license file in the repo. 
 
 ## Activity duration
 
@@ -21,31 +22,47 @@ any
 
 ## Goal of activity
 
-Analyze the accessibility of an example learning web content, understand the limitations of the tools and their differences, as well as the meaning of WCAG compliance.
+Understand the YAML syntax of the MD metadata. Validate that the GitHub repo presents the correct license.
 
 ## Materials
-- Chrome + LERA extension
-- [example HTML 1](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/)
-- [example HTML 2](https://nasa.github.io/Transform-to-Open-Science/)
-- [Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/ER/tools/?q=wcag-21-w3c-web-content-accessibility-guidelines-21)
+- Obsidian
+- [syllabus template](https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/syllabus.md)
+- GitHub
 
 ## Instructions
 
-Trainees are asked to analyze the accessibility of the provided Example Learning Materials HTML 1 and HTML 2 using LERA and another tool of their own choice from the W3C Web Accessibility Evaluation Tools List.
+Trainees are asked to try and fill out some of the metadata fields in the syllabus template file based on the already defined content of the syllabus main body. 
 
-Ensure that they understand that different tools might generate different lists of issues and that some success criteria must be manually checked. 
+Point out some specifics of the YAML syntax:
 
-Discuss, are the tools listed as free software completely free for use? Do they have any limitations?
-Is there a more elegant way to accomplish the desired effect?
+- using spaces not tabs
+- using quotation marks
+- using tags instead of keywords
+- using # to mark comments
 
+Discuss the necessity of doubling the information in the syllabus file.
+
+Once the syllabus is completed, the license of the REPO needs to be changed with:
+
+1. Find and download the correct plaintext version of your license
+    - [Plaintext versions of Creative Commons 4.0 licenses](https://creativecommons.org/2014/01/07/plaintext-versions-of-creative-commons-4-0-licenses/)
+2. Open the downloaded legalcode.txt file
+3. Select All and Copy its content
+4. Open the LICENSE file in your repo
+5. Select All and Paste the content of the legalcode.txt overwriting the old content
+6. Save the new content of the LICENSE file
+7. Commit and Push the changes
+7. Go to your repo on GitHub
+8. Check the license information on the right-hand side in About
+
+Is the new license information correct? How is it presented?
+Check with other repos, e.g. opensciency.
 
 ## Tips and Tricks
-- many of the listed tools offer limited amounts of tests per day
-- many of the tools do not work properly and show errors when trying to use them
-- compare the results with the results obtained when using Chrome Lighthouse which is not WCAG compliant
+- YAML is quite sensitive when it comes to the use of spaces
 
 ## Related materials
-- try this with any type of web content and compare the results
+- how will this preparation reflect in the learning platform and the metadata description of courses
 
 ## Comments
 - how did it go

@@ -248,6 +248,14 @@ As it can be seen in the images where an example PDF file has been used, the rep
 
 Note that when exporting a Power Point presentation to PDF on Windows and on Mac, you will get a different output that will produce a different report in the tool. Accessible Power Point presentations (according to the built in checker) are usually converted into a PDF wherein all of the basic requirements for accessibility are fulfilled (as in the image above). This is the minimum that is required for the developed learning materials.
 
+#### Moodle accessibility checks
+
+The Skills4EOSC learning platform is based on the Moodle Learning Management System (LMS). If you are going to be adding content directly in the training course on the platform (not just linking to external resources such as the learner's notebook) then you need to make sure you check the accessibility of this content as well.
+
+To perform this step you can use the integrated accessibility checker tool that is part of the ribbon of tools available when editing content in Moodle. This is usually the second icon from right to left that looks similar to the vitruvian man, as presented in the image below.
+
+![location of the accessibility checker icon when editing content in Moodle](./attachments/moodle.png)
+
 ### Accessibility tips and tricks
 
 As the main learning content is being developed in MD, the following are the best practices when it comes to MD accessibility:

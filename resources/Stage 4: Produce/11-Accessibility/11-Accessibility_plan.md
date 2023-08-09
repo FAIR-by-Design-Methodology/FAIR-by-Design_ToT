@@ -4,9 +4,9 @@ author: Skills4EOSC T2.3
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects
-    - 
-    - 
-    - Slide deck
+    - Accessibility
+    - Standards
+    - Tools
     - Plan
 ---
 
@@ -14,7 +14,7 @@ tags:
 
 ## Goal
 
-
+Accessibility is one of the FAIR pillars and for learning materials it goes beyond simple access that is regulated using authentication and authorization. The design of inclusive learning materials ensures that the learning content will be accessible to anyone no matter their learning styles, background or impairments. The goal of this learning unit is to introduce the best practices for inclusive learning materials and tools that can be used to check their accessibility based on developed standards. 
 
 ### Location
 - online
@@ -27,16 +27,19 @@ tags:
 - any (< 100)
 
 ### Learning objectives
-- 
-- 
-- Create supporting slide deck
+- Facilitating access to the learning content
+- Validating accessibility of the learning materials
 
 ### Plan
-| **Duration** | **Topic**           | **Key points/Teaching Method/Questions**             | **Activities**                                   | **Resources** |
-|--------------|---------------------|------------------------------------------------------|--------------------------------------------------|---------------|
-| X mins       |              |                                         |        |           |
-| 20 mins       | Slide deck preparation     | power point vs enhanced md approach, pros and cons, visually appealing vs clean and simple                          | experience with Quarto like tools | pptx        |
-| 3 mins       | Summary             | key takeaways                                        | group discussion on learning unit elements       | pptx          |
+| **Duration** | **Topic** | **Key points/Teaching Method/Questions** | **Activities** | **Resources** |
+|---|---|---|---|---|
+| 2 mins | Intro | importance of accessibility, requirement | revert back to the A of FAIR | pptx |
+| 10 mins | Accessibility | best practices and standards, problems and solutions | how much of this is already familiar | pptx |
+| 10 mins | Guided practice | using LERA for web content accessibility checking |  | chrome, LERA |
+| 5 mins | Accessible slides | accessibility of slides and presentations | discuss the accessibility cons when using quarto | pptx |
+| 10 mins | Guided practice | using power point accessibility checker | test the accessibility of an example presentation | pptx, browser, power point |
+| 6 mins | Statement | Accessibility statement | contemplate best effort approach | pptx |
+| 2 mins | Summary | key takeaways | group discussion on learning unit elements | pptx |
 
 ### Assessment
 - formative assessment

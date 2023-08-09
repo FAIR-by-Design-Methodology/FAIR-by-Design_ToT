@@ -232,7 +232,7 @@ Check the accessibility of the Power Point presentation on Open Science availabl
 Have you identified all accessibility issues?
 Are you able to solve them all?
 
-####	PDF accessibility checking tool
+#### PDF accessibility checking tool
 
 The best way to ensure PDF accessibility is to use Acrobat Pro that has an integrated accessibility checker. Adobe has published a full [guide on creating and verifying PDF accessibility with Acrobat Pro](https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html). 
 

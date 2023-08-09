@@ -1,42 +1,39 @@
 ---
-title: Content Finalisation
+title: Internal QA
 author: Skills4EOSC T2.3
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects
     - Iterative development
-    - License
-    - Metadata
+    - QA
+    - quality
     - Plan
 ---
 
 # Accessibility of learning materials
 
 ## Goal
-Once the iterative process of learning content development for all learning units is completed, the learning materials content needs to be finalised by ensuring that the syllabus is up-to-date, metadata is complete, the license is correct and the facilitation guide is available. 
+When the learning content development process is finished, it is time to perform a quick internal quality assurance check to make sure that all necessary bits and pieces are in place and nothing is overlooked. 
 
 ### Location
 - online
 - BBB course room
 
 ### Total duration
-20 mins
+15 mins
 
 ### Number of attendees
 - any (< 100)
 
 ### Learning objectives
-- create machine-readable metadata in syllabus
-- generate overall license
-- develop facilitation guide
+- assess learning content
+- review learning materials
 
 ### Plan
 | **Duration** | **Topic** | **Key points/Teaching Method/Questions** | **Activities** | **Resources** |
 |---|---|---|---|---|
-| 3 mins | Metadata | machine readable metadata in md files | be midful of YAML rules | pptx |
-| 3 mins | License | change the license in the repo | steps | pptx |
-| 2 mins | Guide | the importance of facilitation guide | guide template | pptx |
-| 10 mins | Guided practice | metadata, license and guide |  | obsidian, github |
+| 6 mins | What | list documents that are required | distinguish between requirements vs recommendations | pptx |
+| 7 mins | Check | perform QA checks | layout vs content | pptx |
 | 2 mins | Summary | key takeaways | group discussion on learning unit elements | pptx |
 
 ### Assessment

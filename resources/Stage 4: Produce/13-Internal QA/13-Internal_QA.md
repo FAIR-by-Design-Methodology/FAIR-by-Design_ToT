@@ -1,18 +1,16 @@
 ---
-title: Finalising the learning materials
+title: Internal QA check
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects
-    - Metadata
-    - Iterations
+    - QA
+    - Review
 author: Skills4EOSC T2.3
 ---
 
-# Finalising content development
+# Internal Quality Assurance
 
-Using the tools and skills obtained in the previous learning units from this stage, you should be able to develop all learning materials that constitute a learning unit. The process is then iteratively repeated in order to develop all learning units in a similar fashion. Don't forget that you can combine learning units into modules and/or sections by placing them together in a folder. This organisation will be then visible in the learners' notebook. 
-
-Once all learning units are completed it is time to complete the learning materials development cycle by finalising the last items: syllabus with metadata, license and facilitation guide.
+After the learning content has been fully developed and finalised, it is time to perform an initial internal Quality Assurance (QA). This will help ensure that all required documents are present, and that the structure, layout and content are valid. Both are needed before starting the publication process, as after publication the visibility of the repo will increase massively.  
 
 ## Learning Objectives
 - create machine-readable metadata in syllabus
@@ -34,76 +32,102 @@ Completed [11-Accessibility](../11-Accessibility/11-Checking_accessibility.md)
 - Obsidian
 
 
-## Final learning content editing 
+## Who should perform the internal QA?
 
-The final touches when it comes to learning content definition are to be done once all learning units are fully completed. These last steps include:
+The internal QA can be performed by the same people that have done the development. If the work has been done collaboratively, it is preferred that the checks are done in such a way that the person that checks the learning unit is not the same person that developed the learning unit. This approach will improve the chance of catching some small bugs and errors. The overall check of structure and presence of all required elements should be done by the main collaborator. The checks of authorship, citation and similar should be done by all collaborators. 
 
-- review of the syllabus and adding machine-readable metadata
-- replacing the license file (if needed)
-- defining the facilitation guide
+## Required elements
 
-### Syllabus and machine-readable metadata
+The internal QA should start with an initial sweep that will check if the hierarchical structure of the learning content is correct and all learning units have been fully developed.
 
-The content of the syllabus was defined during the Design stage. If you have not entered this content into the provided syllabus template file then it is time to do so. While editing the main content of syllabus file in Obsidian ensure that any changes or adaptations you have done during the iterative process of development of learning units is reflected in the final content of the syllabus.
+The easiest way to perform this step is to check the Table of Content (TOC) of the learner's notebook (Git Book) and see if the structure matches the design.
 
-Remember that the syllabus contains all fields defined with the RDA minimal metadata schema thus providing all required information in a human-readable format.
+Next, an overall check should be done to identify if all required elements (files) are present. For these purposes the following checklist can be used:
 
-Now it is time to provide the same information in a machine-readable format. For these purposes you need to edit the metadata of the syllabus md file. 
+- Root folder
+    - [ ] Syllabus
+    - [ ] Facilitation Guide
+    - [ ] LICENSE
+    - [ ] Feedback form
+- resources folder
+    - [ ] Section folders
+    - [ ] Module folders
+    - [ ] Learning Unit folders
+- for each Learning Unit folder
+    - [ ] Activities
+    - [ ] Assessment
+    - [ ] Learning Plan
+    - [ ] Learning Content
+    - [ ] Slide Deck (if instructor-led)
 
-The metadata portion of the file is at the top of the document between the set of ---. It consists of a list of keywords and values where each keyword represents a field from the RDA minimal metadata schema.
+Note: We assume that you have not changed any of the rest of the files in the Templates repo that was cloned in the beginning. 
 
-![screenshot of an example syllabus metadata](./attachments/syllabus_header.png)
+Once the structure is confirmed, the QA lead then continues with checking content and layout. 
 
-Note that # is used to represent a comment, and that the first three keywords are named a little bit differently (tags are keywords) so that they are compliant with the md metadata standards and recognised by the system that generates the web content.
+- [ ] All required fields are present in Syllabus body
+- [ ] Syllabus content is correct and clearly described
+- [ ] Syllabus layout is correct in learners' notebook (HTML view)
+- [ ] Syllabus accessibility check reports no issues
+- [ ] All required fields are present in Syllabus metadata (MD file)
+- [ ] Facilitation Guide describes the training setup (before, during and after)
+- [ ] Correct LICENSE file is used
 
-Fields that have one value only, should have that value represented between quotation marks. For fields that can have multiple values, each value is supplied in a separate row using 4 spaces and - in front. Don't mix spaces and tabs as this will break the format and the content will not be machine parsable.
+The QA lead then assigns different people to check different learning units.
 
-To fill out the syllabus md file metadata you can simply copy and then paste the corresponding content from the main syllabus body below.
+### Learning Unit QA 
 
-### Updating the License
+For each learning unit a thorough check of the learning content needs to be performed:
 
-If you have been creating your own repo from scratch or cloned the templates repo, most probably the current license you have in your repo at the moment is CC0. If this is the license that you have decided to use during the Design stage all is ok and you can skip this subsection.
+- [ ] Learning plan content adheres to template
+- [ ] Learning plan is aligned with the information provided in the Syllabus
+- [ ] Learning plan links to activities
+- [ ] Learning content adheres to template
+- [ ] Learning content layout is correct in learners' notebook (HTML view)
+- [ ] Learning content is clearly written, easy to follow and understand
+- [ ] Learning content is well aligned with the learning objectives defined in the plan
+- [ ] Learning content accessibility check reports no issues
+- [ ] All planned activities have description
+- [ ] Planned activities are relevant for the unit content
+- [ ] Activities description adhere to template
+- [ ] Assessment quiz questions are relevant for the unit content
+- [ ] Assessment quiz adheres to GIFT format
+- [ ] Slide deck is aligned with the learning content
+- [ ] Slide deck accessibility check reports no issues
 
-If during Design you have decided that you will use another license (compatible with the reused material, derived using the adapter's license rules, etc.) then you need to replace the LICENSE file in your repository with the correct one. We are assuming that you already wrote the correct license in the syllabus file while working in the previous section. 
+Don't forget that this QA check, although most probably performed as self-assessment must still be done with a critical eye. The QA check should focus on all aspects of the produced learning materials, including the qualitative evaluation of the content.
 
-To do this you need to perform the following steps:
+For these purposes, the [Saide tool for reviewing course material](https://www.oerafrica.org/sites/default/files/course_design/8.%20Reviewing%20course%20materials%20tool%20.doc) can be used. The tool defines success criteria across a comprehensive set of elements including:
 
-1. Find and download the correct plaintext version of your license
-    - [Plaintext versions of Creative Commons 4.0 licenses](https://creativecommons.org/2014/01/07/plaintext-versions-of-creative-commons-4-0-licenses/)
-2. Open the downloaded legalcode.txt file
-3. Select All and Copy its content
-4. Open the LICENSE file in your repo
-5. Select All and Paste the content of the legalcode.txt overwriting the old content
-6. Save the new content of the LICENSE file
-7. Commit and Push the changes
-7. Go to your repo on GitHub
-8. Check the license information on the right-hand side in About
+- Orientation
+    - Introduction, aims and learning outcomes
+    - Selection and coherence of content
+- Helping learners learn
+    - Presentation of content
+    - View of knowledge and use of learners’ experience
+    - Activities and feedback
+    - Language
+- Accessibility and Layout
+    - Learning skills
+    - Access devices (making it easy for the learners to find their way through the materials)
+    - Visual aids (pictures, diagrams and cartoons)
 
-![Screenshot of GitHub repository About section](./attachments/repo_license.png)
+### All hands check
 
-### Defining the Facilitation Guide
+All authors and collaborators should check the Syllabus to verify that their personal information is correct. 
 
-The final learning content that needs to be developed is the overall Facilitation Guide. This document was introduced in the Design stage where its structure was defined. A guiding template has also been prepared for this document which can be found in the templates repository under the name [template_faciliator_guide.md](https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/template_facilitator_guide.md).
+Depending on the approach taken for authorship of different learning units, the metadata information in each file in the learning unit should also be double checked to confirm correct authorship information.
 
-Rename the file by replacing the word template with the name of your training, and edit its contents so that it can describe the specifics of the training you are preparing. 
+### Iterative changes
 
-If you are looking for inspiration, you can take a look at the [facilitation guide prepared for this training](https://github.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/blob/main/resources/FAIR-by-Design_ToT_facilitator_guide.md).
-
-### Activity
-
-Follow the steps described in this learning unit and try to:
-
-- update the metadata of your syllabus file
-- change the LICENSE
-- edit the Facilitation Guide
+If any changes are needed then the newly produced versions should be double checked by the person that performed the initial QA assessment. 
 
 ## Summary
 
-The development of learning materials is an iterative process that may include many back-and-forths between the already developed learning content and content that is currently in development. 
+The main goal of the internal QA check is to ensure that all relevant learning materials are present and fully developed before going into the publishing step.
 
-At the final end of the learning content editing stage it is necessary to ensure that the syllabus is up to date and that its metadata reflects the content defined in its body. Also make sure that the LICENSE file you use is correct and that you have prepared an overall facilitation guide for the upcoming training that is based on the developed learning materials.
+The QA should focus on both quantitative and qualitative aspects of the content: is it present, are the templates adhered to, as well as, is the content clear, comprehensive, well defined or maybe something is missing or needs to be changed and extended.
+
+Once you are satisfied that all learning materials are to your liking you can proceed to publication. 
 
 ## Suggested Reading
-- [YAML metadata in markdown](https://peterbabic.dev/blog/yaml-metadata-in-markdown/)
-- [Add or Change a license on GitHub](https://dev.to/kasuken/add-or-change-a-license-on-github-1k53#:~:text=From%20your%20repository%20on%20GitHub,https%3A%2F%2Fchoosealicense.com%2F.)
-- [How to Create a Facilitator’s Guide to Deliver Better Instructor-Led Training + Examples](https://www.workramp.com/blog/creating-facilitator-guides-to-deliver-better-instructor-led-trainings/)
+- [How can we ensure good quality learning? (Quality assurance), OER Africa](https://www.oerafrica.org/35-how-can-we-ensure-good-quality-learning-quality-assurance)

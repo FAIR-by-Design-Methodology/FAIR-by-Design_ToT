@@ -13,9 +13,8 @@ author: Skills4EOSC T2.3
 After the learning content has been fully developed and finalised, it is time to perform an initial internal Quality Assurance (QA). This will help ensure that all required documents are present, and that the structure, layout and content are valid. Both are needed before starting the publication process, as after publication the visibility of the repo will increase massively.  
 
 ## Learning Objectives
-- create machine-readable metadata in syllabus
-- generate overall license
-- develop facilitation guide
+- assess learning content
+- review learning materials
 
 ## Target Audience
 - attendees of the FAIR-by-Design ToT live webinar
@@ -24,12 +23,11 @@ After the learning content has been fully developed and finalised, it is time to
 20 mins
 
 ## Prerequisites
-Completed [Stage 3: Design](../../Stage%203:%20Design/)
-Completed [11-Accessibility](../11-Accessibility/11-Checking_accessibility.md)
+Completed [12-Content Finalisation](../12-Content%20Finalisation/12-Content_finalisation.md)
 
 ## Learning Tools
 - Training BBB room
-- Obsidian
+- Browser
 
 
 ## Who should perform the internal QA?

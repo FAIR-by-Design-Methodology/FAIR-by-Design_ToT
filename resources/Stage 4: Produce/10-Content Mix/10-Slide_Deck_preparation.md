@@ -11,24 +11,6 @@ author: Skills4EOSC T2.3
 
 For instructor led learning environment a slide deck is used as an additional supporting learning material that helps support the training process and provides visual cues for the learners. The slide deck should be prepared in an open format so that it is reusable by other trainers. It is best if it is shared with the learners in a PDF format to ensure correct layout when opened with a variety of tools on different platforms.
 
-## Learning Objectives
-- Extend the learning content
-- Define slides in open format
-
-## Target Audience
-- attendees of the FAIR-by-Design ToT live webinar
-
-## Duration
-20 mins
-
-## Prerequisites
-Completed [Stage 3: Design](../../Stage%203:%20Design/)
-Completed [09-Content Development](../09-Content%20Development/)
-
-## Learning Tools
-- Training BBB room
-- optional: Obsidian & Quarto
-
 ## Using a slide deck
 
 When developing learning content for self-paced online courses, the HTML content that is obtained from the markdown based learning notebook should be sufficient when combined with all of its attached multimedia.
@@ -187,13 +169,12 @@ For more information on how to make Power Point presentations using Quarto, refe
 
 ## Summary
 
-The slide deck is an important tool for instructor led learning. Its content should enrich the learning experience of the learners that follow the training. 
+In this unit we have learned the basics of Markdown, while continuing on our journey working with the Obsidian and GitHub desktop tools. We have put to use the previously discussed Markdown syntax by creating our very own learning unit along with all of the supporting content that this entails: we wrote a learning plan, defined objectives, assessments, and activities. We also reused existing learning content, adapting it to the FAIR-by-Design templates, and published it as part of the Git book. We also discussed new tools which can be used for creating presentations that can be used to showcase the key points of a learning unit to a given audience. 
 
-To improve reuse use an open file format for the slide deck such as Power Point pptx, Quarto qmd or similar. 
-
-The structure of the slide deck should follow the HUNTER model.
+Slide decks are an important tool for instructor led learning. Their content should enrich the learning experience of the learners that follow the training. To improve reuse use an open file format for the slide deck such as Power Point pptx, Quarto qmd or similar. The structure of the slide deck should follow the HUNTER model.
 
 ## Suggested Reading
+
 - [Blog of the Presentation Training Institute](https://www.presentationtraininginstitute.com/blog/)
 - [Quarto Guide - Presentations](https://quarto.org/docs/presentations/)
 - [Marp - Markdown Presentation Ecosystem](https://marp.app/)

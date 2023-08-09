@@ -23,3 +23,12 @@
 	~design and layout
 	~color palette
 }
+
+// question: 1339  name: Steps to publish changes
+::Steps to publish changes::What steps must be undertaken explicitly by an author in order to publish changes to the Git book? Actions which are triggered automatically should not be selected.{
+	~%33.33333%Relevant changes need to be done to the source Markdown files.
+	~%33.33333%Using a Git client, the changes need to be committed to the repository.
+	~%33.33333%Using a Git client, the changes need to be pushed to the service hosting the repository (e.g., GitHub)
+	~The Git book publishing workflow needs to be manually executed by the author
+	~The Markdown files need to be exported to HTML by the author, and then uploaded to a file hosting service
+}

@@ -1,20 +1,20 @@
 ---
-title: Reusing Existing Content
+title: Observing Changes
 author: Skills4EOSC T2.3
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects
-    - Content Reuse
     - Markdown
+    - Git Book
 ---
 
-# Creating a Lesson Plan
+# Observing Changes
 
 The purpose of this activity is for the trainees to verify the changes that they have made to their training unit, once it has been converted to a Git book representation.
 
 ## Activity duration
 
-5 mins
+10 mins
 
 ## Number of people that it can be performed with
 

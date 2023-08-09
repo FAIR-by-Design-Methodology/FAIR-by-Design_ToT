@@ -1,5 +1,5 @@
 ---
-title: "Reusing Existing Markdown Materials"
+title: "Existing Markdown Materials Reuse"
 author: "Skills4EOSC T2.3"
 tags: 
     - FAIR-by-Design Learning Materials
@@ -10,13 +10,36 @@ tags:
     - Content Reuse
 ---
 
-# Reusing Existing Markdown Materials
+# Existing Markdown Materials Reuse
 
-As discussed in [Stage 2: Discover](../../Stage 2: Discover/03-Existing learning materials/03-Existing learning materials.md), discovering existing learning materials instead of writing from scratch is an important aspect of the FAIR-by-Design methodology. From the production perspective, reusing existing materials is similar to modifying the Markdown templates in the same way as if the material was written just now. This includes ensuring that the correct information is present in the Markdown header and that the relevant sections have been filled out, as discussed in the [previous section](./09-Markdown%20Syntax.md).
+As discussed in [Stage 2: Discover](../../Stage 2: Discover/03-Existing learning materials/03-Existing learning materials.md), discovering existing learning materials instead of writing from scratch is an important aspect of the FAIR-by-Design methodology. From the production perspective, reusing existing materials is similar to modifying the Markdown templates in the same way as if the material was written just now. This includes ensuring that the correct information is present in the Markdown header and that the relevant sections have been filled out, as discussed in the [Markdown syntax section](../09-Content%20Development/09-Markdown%20Syntax.md).
 
 Before reusing existing content, careful attention needs to be paid to its original license, and whether it is compatible with the assigned license of the newly developed materials. Potential license incompatibilities can prevent the reuse of the discovered content in a new context. Furthermore, even if the licenses are compatible, attribution for the original content needs to be provided (recommended even if the original license is CC-0), crediting its original authors.
 
 Since the discovered content can be in any file format, additional effort might be required to convert it to a Markdown representation. Additionally, it is worth mentioning that even if the content is available in Markdown, there are multiple Markdown flavors available today, some of which introduce specific formatting options (such as tab display, annotations, modal windows). These formatting options might not be compatible with the wider Markdown eco-system, including MkDocs, so it is best to use only basic Markdown formatting, ensuring compatibility with the widest set of tools.
+
+## Learning Objectives
+
+- Extend the learning content
+- Define slides in open format
+
+## Target Audience
+
+- attendees of the FAIR-by-Design ToT live webinar
+
+## Duration
+
+60 mins
+
+## Prerequisites
+
+- Completed [Stage 3: Design](../../Stage%203:%20Design/)
+- Completed [09-Content Development](../09-Content%20Development/09-Markdown%20Syntax.md)
+
+## Learning Tools
+
+- Training BBB room
+- optional: Obsidian & Quarto
 
 ## Exercise: Reusing Existing Content
 
@@ -67,10 +90,9 @@ The questions bellow can act as a guide through the above steps.
     - Ensure that images have an alt text.
     - Provide attribution to the original document.
 
-
 ## Next Steps
 
-We have edited all of the required files for our new learning unit. The next and final step would be to verify the changes by uploading the files to GitHub and letting the automated workflow render them to HTML using MkDocs. We will cover this activity in the next section.
+We have edited all of the required files for our new learning unit. The next step would be to verify the changes by uploading the files to GitHub and letting the automated workflow render them to HTML using MkDocs. We will cover this activity in the next section.
 
 ## Suggested Reading
 

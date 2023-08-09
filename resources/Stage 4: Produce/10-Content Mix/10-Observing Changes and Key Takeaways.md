@@ -1,5 +1,5 @@
 ---
-title: "Validating Changes and Key Takeaways"
+title: "Observing Changes and Key Takeaways"
 author: "Skills4EOSC T2.3"
 tags: 
     - FAIR-by-Design Learning Materials
@@ -11,11 +11,11 @@ tags:
     - Git book
 ---
 
-# Validating Changes and Key Takeaways
+# Observing Changes and Key Takeaways
 
 Having produced our very own learning unit, now is the time to verify that its visual appearance conforms to our expectation by viewing it directly in the Git book.
 
-## Exercise: Validating Changes
+## Exercise: Observing Changes
 
 The steps that we need to execute in order to have the content published on the already set up Git book are: 
 
@@ -32,10 +32,6 @@ We will go through each of these steps in more details below.
 5. In case something is out of place, or you have spotted an error, go back to Obsidian, make the necessary changes, commit and push them again. The workflow will also be automatically executed in this case as well, creating an updated version of your Git book in a matter of minutes.
 
 **Important Notice**: It is by design that lesson plans, activities, and assessments are not visible on the rendered Git book, as these documents, in their raw format, are solely targeted at trainers and not trainees which are expected to visit the web page of the Git book.
-
-## Key Takeaways
-
-In this unit we have learned the basics of Markdown, while continuing on our journey working with the Obsidian and GitHub desktop tools. We have put to use the newly learned Markdown syntax by creating our very own learning unit along with all of the supporting content that this entails: we wrote a learning plan, defining objectives, assessments, and activities. We also reused an existing learning content, adapting it to the FAIR-by-Design templates, and published it as part of the Git book. However, what is missing is a presentation that can be used to showcase the key points of our learning unit to a given audience. We will cover options for creating presentations in the next section.
 
 ## Suggested Reading
 

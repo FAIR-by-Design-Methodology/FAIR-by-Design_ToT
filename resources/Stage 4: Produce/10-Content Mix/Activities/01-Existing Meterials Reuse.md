@@ -1,20 +1,20 @@
 ---
-title: Reusing Existing Content
+title: Existing Materials Reuse
 author: Skills4EOSC T2.3
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects
-    - Content Reuse
+    - Materials Reuse
     - Markdown
 ---
 
-# Creating a Lesson Plan
+# Existing Materials Reuse
 
-The aim of this activity is to reuse an existing learning content and adapt it according to the FAIR-by-Design methodology, allowing its inclusion in a new learning unit.
+The aim of this activity is to reuse existing learning materials and adapt them according to the FAIR-by-Design methodology, allowing their inclusion in a new learning unit.
 
 ## Activity duration
 
-15 mins
+20 mins
 
 ## Number of people that it can be performed with
 

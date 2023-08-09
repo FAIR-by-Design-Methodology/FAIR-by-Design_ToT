@@ -58,7 +58,7 @@ UDL is based on three fundamental principles:
 The following are some general guidelines that should help develop accessible learning content:
 
 - **present the information in multiple ways and formats** - this helps support various learning styles and provides alternatives for different impairments
-- **use simple language** - the materials should be accessible for your students' varying levels of access, background, and ability
+- **use simple language** - the materials should be accessible for the learners' varying levels of access, background, and ability
 	- an option is to provide additional resources to support learners that have comprehension difficulties
 - **use headings** - assistive technologies differentiate the structural elements in the text (body text and different levels of headings). These help screen readers process the text correctly.
 - **use table of content** - helps learners navigate to the required information easily
@@ -129,7 +129,7 @@ The following are just a few of the technical requirements as set out by the PDF
 
 ### Accessibility checking
 
-Checking for accessability of all generated learning content for learners is **required** if you are following the FAIR-by-design methodology.
+Checking for accessibility of all generated learning content for learners is **required** if you are following the FAIR-by-design methodology.
 
 Most of the success criteria and requirements of the accessibility standards can be programmatically checked using a special tool for these purposes. 
 

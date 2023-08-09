@@ -119,6 +119,12 @@ Depending on the approach taken for authorship of different learning units, the 
 
 If any changes are needed then the newly produced versions should be double checked by the person that performed the initial QA assessment. 
 
+### Activity
+
+Analyse the [Saide tool for reviewing course material](https://www.oerafrica.org/sites/default/files/course_design/8.%20Reviewing%20course%20materials%20tool%20.doc).
+
+Discuss its applicability for your internal QA and its ties to the QA framework that is being developed by T2.4.
+
 ## Summary
 
 The main goal of the internal QA check is to ensure that all relevant learning materials are present and fully developed before going into the publishing step.

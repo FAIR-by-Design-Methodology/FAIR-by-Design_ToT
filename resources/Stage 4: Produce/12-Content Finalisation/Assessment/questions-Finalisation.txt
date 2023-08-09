@@ -1,0 +1,53 @@
+::web content::What standard should be followed when checking accessibility of web content?{
+	=WCAG
+	=WWeb Content Accessibility Guidelines
+}
+
+::slides::Which of the following are best practices for accessible slides design?{
+	~hide aatributions
+	~%33.33333%font size min 18pts
+	~%33.33333%slides should have a title
+	~%33.33333%all graphics should have alternative text
+	~use at least 3 colors
+}
+
+::compliance::To claim WCAG 2.1 compliance 99% of the success criteria must be passed.{FALSE}
+
+::tools::If an accessibility checker tool shows 0 issues found the content must be accessible.{FALSE}
+
+::checking::What type of learning content MUST be checked for accessibility when using the FAIR-by-Design methodology?{
+	~%25.0%learner's notebook
+	~%25.0%slide deck
+	~%25.0%presentation handouts
+	~%25.0%additional internal content on the learning platform
+	~learning plan
+	~facilitation guide
+}
+
+::alt text::What are the guidelines regarding writing alternative text?{
+	~%50.0%alternative text should be accurate and equivalent in representing content and function
+	~alternative text should be as long as possible
+	~%50.0%alternative text should not be redundant
+	~alternative text should include phrases such as "image of ..." or "graphic of ..."
+}
+
+::md::Choose the best practice for achieving accessibility when writing md documents {
+	~use headings to outline content
+	~provide meaningful alternative text for images
+	~use descriptive text for links
+	~use plain language
+	=all of the provided options
+}
+
+::pdf::Exporting a power point presentation that has been checked for accessibility to PDF will always yield to a PDF/UA compliant document.{FALSE}
+
+::impairment::Accessible learning materials are only important for learners with disabilities.{FALSE}
+
+::wcag::What are the principles on which the WCAG success criteria are based?{
+	~%25.0%Perceivable
+	~%25.0%Operable
+	~%25.0%Understandable
+	~%25.0%Robust
+	~Accessible
+	~Supporting
+}

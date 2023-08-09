@@ -103,7 +103,7 @@ Note: start time is given in CEST
 
 ### Day 1: FAIR-by-Design Preparation and Discovery
 
-|     Start    |     Step        |     Topic                                      |     Duration    |
+|     Start    |     Stage       |     Topic                                      |     Duration    |
 |--------------|-----------------|------------------------------------------------|-----------------|
 |     9:00     |                 |     Introduction                               |     30 mins     |
 |     9:30     |     Prepare     |     FAIR skills & principles                   |     30 mins     |
@@ -114,13 +114,13 @@ Note: start time is given in CEST
 
 ### Day 2: Designing and Producing Learning Materials
 
-|     Start    |     Step       |     Topic                        |     Duration    |
+|     Start    |     Stage      |     Topic                        |     Duration    |
 |--------------|----------------|----------------------------------|-----------------|
 |     9:00     |     Design     |     Conceptualisation            |     35 mins     |
-|     9:35     |     Design     |     Hierarchical structure       |     40 mins     |
+|     9:35     |     Design     |     Hierarchical Structure       |     40 mins     |
 |     10:15    |                |     = coffee break =             |     15 mins     |
-|     10:30    |     Design     |     Learning Unit development    |     35 mins     |
-|     11:05    |     Design     |     Instruction facilitation     |     25 mins     |
+|     10:30    |     Design     |     Learning Unit Development    |     35 mins     |
+|     11:05    |     Design     |     Instruction Facilitation     |     25 mins     |
 |     11:30    |                |     = coffee break =             |     15 mins     |
 |     11:45    |     Produce    |     Development Tools            |     60 mins     |
 |     12:45    |                |     = Lunch break =              |     60 mins     |
@@ -129,20 +129,22 @@ Note: start time is given in CEST
 |     15:00    |     Produce    |     Content Mix                  |     60 mins     |
 |     16:00    |                |     = coffee break =             |     15 mins     |
 |     16:15    |     Produce    |     Accessibility                |     40 mins     |
-|     16:55    |     Produce    |     Content finalisation         |     20 mins     |
+|     16:55    |     Produce    |     Content Finalisation         |     20 mins     |
 |     17:15    |     Produce    |     Initial Quality Assurance    |     15 mins     |
 
 
-### Day 3: Finalising FAIR-by-Design Learning Materials
+### Day 3: Publishing FAIR-by-Design Learning Materials
 
-|     Start    |     Step       |     Topic                 |     Duration    |
-|--------------|----------------|---------------------------|-----------------|
-|     9:00     |     Publish    |     Depositing            |     60 mins     |
-|     10:00    |                |     = coffee break =      |     15 mins     |
-|     10:15    |     Publish    |     Versioning            |     30 mins     |
-|     10:45    |                |     Feedback gathering    |     30 mins     |
-|     11:15    |     Verify     |     = coffee break =      |     15 mins     |
-|     11:30    |     Verify     |     FAIR verification     |     60 mins     |
+|     Start    |     Stage      |     Topic                  |     Duration    |
+|--------------|----------------|----------------------------|-----------------|
+|     9:00     |     Publish    |     Depositing             |     60 mins     |
+|     10:00    |                |     = coffee break =       |     15 mins     |
+|     10:15    |     Publish    |     Versioning             |     30 mins     |
+|     10:45    |     Publish    |     Feedback gathering     |     30 mins     |
+|     11:15    |                |     = coffee break =       |     15 mins     |
+|     11:30    |     Verify     |     FAIR verification      |     30 mins     |
+|     12:00    |                |     Continuous Improvement |     30 mins     |
+
 
 ## Resources and Materials
 

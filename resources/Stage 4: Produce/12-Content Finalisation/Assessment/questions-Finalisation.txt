@@ -1,53 +1,32 @@
-::web content::What standard should be followed when checking accessibility of web content?{
-	=WCAG
-	=WWeb Content Accessibility Guidelines
+::metadata::In which document do you store the machine-readable metadata related to the learning materials?{
+	=syllabus
+	=syllabus.md
 }
 
-::slides::Which of the following are best practices for accessible slides design?{
-	~hide aatributions
-	~%33.33333%font size min 18pts
-	~%33.33333%slides should have a title
-	~%33.33333%all graphics should have alternative text
-	~use at least 3 colors
+::license::In what format is the LICENSE file in the repo?{
+	=plaintext
+	~YAML
+	~JSON
+	~md
+	~HTML
 }
 
-::compliance::To claim WCAG 2.1 compliance 99% of the success criteria must be passed.{FALSE}
+::update::The syllabus content should be double-checked and updated once all learning units are developed.{TRUE}
 
-::tools::If an accessibility checker tool shows 0 issues found the content must be accessible.{FALSE}
+::CC0::When using a clone of the templates repo the LICENSE file must not be changed.{FALSE}
 
-::checking::What type of learning content MUST be checked for accessibility when using the FAIR-by-Design methodology?{
-	~%25.0%learner's notebook
-	~%25.0%slide deck
-	~%25.0%presentation handouts
-	~%25.0%additional internal content on the learning platform
+::finalising::What are the last files that need to be edited so that the learning content is finalised once the learning units are completed?{
+	~%33.3333%syllabus
+	~%33.3333%license
+	~%33.3333%facilitation guide
+	~quiz
 	~learning plan
+	~activity description
+}
+
+::license info::License information must be provided in?{
+	~%50.0%syllabus
+	~learning plan
+	~%50.0%LICENSE file
 	~facilitation guide
-}
-
-::alt text::What are the guidelines regarding writing alternative text?{
-	~%50.0%alternative text should be accurate and equivalent in representing content and function
-	~alternative text should be as long as possible
-	~%50.0%alternative text should not be redundant
-	~alternative text should include phrases such as "image of ..." or "graphic of ..."
-}
-
-::md::Choose the best practice for achieving accessibility when writing md documents {
-	~use headings to outline content
-	~provide meaningful alternative text for images
-	~use descriptive text for links
-	~use plain language
-	=all of the provided options
-}
-
-::pdf::Exporting a power point presentation that has been checked for accessibility to PDF will always yield to a PDF/UA compliant document.{FALSE}
-
-::impairment::Accessible learning materials are only important for learners with disabilities.{FALSE}
-
-::wcag::What are the principles on which the WCAG success criteria are based?{
-	~%25.0%Perceivable
-	~%25.0%Operable
-	~%25.0%Understandable
-	~%25.0%Robust
-	~Accessible
-	~Supporting
 }

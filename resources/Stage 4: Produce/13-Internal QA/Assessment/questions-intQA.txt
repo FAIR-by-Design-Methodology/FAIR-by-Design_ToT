@@ -1,0 +1,32 @@
+::metadataQA::Which file should be checked for correct metadata information?{
+	=syllabus
+	=syllabus.md
+}
+
+::when::When is it best to perform an internal QA check?{
+	=before publishing
+	~after publishing
+	~after design
+	~before producing
+	~after disovery
+}
+
+::qualitative::The internal QA check process includes qualitative check of the developed learning content.{TRUE}
+
+::req::Internal QA is not necessary when the learning content has not been developed in a collaborative fashion.{FALSE}
+
+::luqa::What are some of the checks that need to be performed on the level of a learning unit?{
+	~%33.3333%content adheres to template
+	~%33.3333%accessibility check reports no issues
+	~%33.3333%plan is aligned with syllabus
+	~facilitation guide is present
+	~metadata is correct
+	~license is defined
+}
+
+::scope::What is the scope of the internal QA?{
+	~%50.0%learners facing content
+	~workflow
+	~%50.0%instructors facing content
+	~code of conduct
+}

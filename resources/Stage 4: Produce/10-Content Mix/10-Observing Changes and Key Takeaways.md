@@ -8,7 +8,7 @@ tags:
     - File Formats
     - Markdown
     - Git
-    - Git book
+    - Git Book
 ---
 
 # Observing Changes and Key Takeaways

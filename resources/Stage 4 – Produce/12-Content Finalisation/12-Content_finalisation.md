@@ -38,7 +38,6 @@ Completed [11-Accessibility](../11-Accessibility/11-Checking_accessibility.md)
 - Training BBB room
 - Obsidian
 
-
 ## Final learning content editing 
 
 The final touches when it comes to learning content definition are to be done once all learning units are fully completed. These last steps include:

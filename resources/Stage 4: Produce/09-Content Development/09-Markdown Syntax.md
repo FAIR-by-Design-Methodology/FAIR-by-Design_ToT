@@ -173,10 +173,10 @@ When using Obsidian with the toolbar, simply write the link text, select it, and
 It is also possible to add relative links to an arbitrary heading on the existing page or a different page. The syntax for doing so is:
 
 ```md
-[See here for more details about unordered lists](10-Markdown Syntax.md#unordered-lists)
+[See here for more details about unordered lists](09-Markdown Syntax.md#unordered-lists)
 ```
 
-The above would be rendered as [See here for more details about unordered lists](10-Markdown Syntax.md#unordered-lists). Diving into more details, the syntax is: `markdown-file.md#heading`. The first part is the Markdown file name, as stored on your computer, then a single `#` sign (no matter the heading level) and finally the full name of the heading in all lowercase letters where any spaces are replaced by a `-`.
+The above would be rendered as [See here for more details about unordered lists](09-Markdown Syntax.md#unordered-lists). Diving into more details, the syntax is: `markdown-file.md#heading`. The first part is the Markdown file name, as stored on your computer, then a single `#` sign (no matter the heading level) and finally the full name of the heading in all lowercase letters where any spaces are replaced by a `-`.
 
 ### Images
 

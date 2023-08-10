@@ -8,12 +8,14 @@ tags:
 ---
 
 # Training Evaluation Form
+
 In Skills4EOSC we strive to provide high quality training and continuous improve our training activities. 
 To be able to achieve that your feedback is very important to us. 
 
 Please take a moment of your time to fill out the evaluation of the [insert training title]. It will only take a minute.
 
 ## Training rating
+
 Overall, the training provided was
 - Excellent
 - Very good
@@ -22,7 +24,9 @@ Overall, the training provided was
 - Poor
 
 ## Training aspects rating
+
 Let us know what was your experience regarding different training aspects:
+
 |                                                     | Strongly disagree | Disagree | Neutral | Agree | Strongly agree |
 |-----------------------------------------------------|-------------------|----------|---------|-------|----------------|
 | I achieved the learning objectives.                 |                   |          |         |       |                |
@@ -34,6 +38,7 @@ Let us know what was your experience regarding different training aspects:
 | The training activities were relevant.              |                   |          |         |       |                |
 
 ## Acquired knowledge rating
+
 How would you rate your level of knowledge on the topic before and after the training.
 
 |                                     | None | Newbie | Basic | Advanced | Expert |
@@ -42,6 +47,7 @@ How would you rate your level of knowledge on the topic before and after the tra
 | My skills level after the training  |      |        |       |          |        |
 
 ## Insights
+
 In your opinion 
 - the most useful part of the training is [free text]
 - the least useful part of the training is [free text]

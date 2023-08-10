@@ -1,20 +1,19 @@
 ---
-title: Internal QA check
+title: This MD stuff is nice, but it's not for me
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects
-    - QA
-    - Review
+    - File format alternative
 author: Skills4EOSC T2.3
 ---
 
-# Internal Quality Assurance
+# MD alternative
 
-After the learning content has been fully developed and finalised, it is time to perform an initial internal Quality Assurance (QA). This will help ensure that all required documents are present, and that the structure, layout and content are valid. Both are needed before starting the publication process, as after publication the visibility of the repo will increase massively.  
+The use of MD file formats for the development of the learning content is a strong recommendation, but not a strict requirement of the FAIR-by-Design methodology. Although the use of MD entails lots of additional automated steps such as publishing to Zenodo and easy integration with the learning platform, you can still produce FAIR learning materials using other open file formats. In this part we will go through one alternative scenario that replaces the use of the Templates repository and MD file formats with Workplace and Microsoft Office Word open file format.
 
 ## Learning Objectives
-- assess learning content
-- review learning materials
+- adapt to using other file formats
+- assess pros and cons of alternative approach
 
 ## Target Audience
 - attendees of the FAIR-by-Design ToT live webinar
@@ -30,108 +29,102 @@ Completed [12-Content Finalisation](../12-Content%20Finalisation/12-Content_fina
 - Browser
 
 
-## Who should perform the internal QA?
+## Win some, lose some 
 
-The internal QA can be performed by the same people that have done the development. If the work has been done collaboratively, it is preferred that the checks are done in such a way that the person that checks the learning unit is not the same person that developed the learning unit. This approach will improve the chance of catching some small bugs and errors. The overall check of structure and presence of all required elements should be done by the main collaborator. The checks of authorship, citation and similar should be done by all collaborators. 
+As discussed at the beginning of this stage, the use of markdown is recommended as it allows instructional designers to focus on content, and not worry much about the final layout of the learning materials as the produced GitBook already has a defined style that will be seamlessly replicated. This leads to development of uniform learning materials where the main focus and attention is put on the quality of the content. This approach alleviates many headaches of the produce and publish process such as:
 
-## Required elements
+- no need to follow special layout rules and styles to ensure uniform look and feel of the learning materials across learning units
+- no need to test and fix any accessibility issues related to the choice of color palette or font style and size
+- auto generation of the learners' notebook in the form of a Git Book with integrated multimedia content
+- highly dynamic collaborative environment that can easily be extended to external collaborators
+- very detailed version control that extended to the very content of each file
+- automated workflow for publishing the learning materials to Zenodo and obtaining a DOI
+- machine-readable metadata available
+- ...
 
-The internal QA should start with an initial sweep that will check if the hierarchical structure of the learning content is correct and all learning units have been fully developed.
+In addition, the level of reusability of the produced material is very high, as the content can be reused in an environment with a completely different layout styles and rules with no, to very little changes. Because when it comes to reuse, it is the content that matters, not the layout.
 
-The easiest way to perform this step is to check the Table of Content (TOC) of the learner's notebook (Git Book) and see if the structure matches the design.
+Switching to using DOCX files instead of MD files is going to **transfer the responsibility for all implemented and automated features to the instructional designers**. This means that the instructional designer will need to take care of:
 
-Next, an overall check should be done to identify if all required elements (files) are present. For these purposes the following checklist can be used:
+- implementing uniform styling and layout
+- ensuring the styling and layout choices are fully accessible according to WCAG 2.1
+- seamless integration of multimedia in the learning content
+- manual generation of the final learners content (preferably HTML to accommodate for integrated multimedia)
+- transferring to a public collaborative environment before publishing to support external collaborators
+- manual publication of the learning materials to Zenodo
+- no machine-readable metadata available
+- ...
 
-- Root folder
-    - [ ] Syllabus
-    - [ ] Facilitation Guide
-    - [ ] LICENSE
-    - [ ] Feedback form
-- resources folder
-    - [ ] Section folders
-    - [ ] Module folders
-    - [ ] Learning Unit folders
-- for each Learning Unit folder
-    - [ ] Activities
-    - [ ] Assessment
-    - [ ] Learning Plan
-    - [ ] Learning Content
-    - [ ] Slide Deck (if instructor-led)
+## DOCX alternative setup
 
-Note: We assume that you have not changed any of the rest of the files in the Templates repo that was cloned in the beginning. 
+How to proceed if you want to work with Microsoft Office open file formats (docx, pptx) while developing the learning content avoiding the use of markdown?
 
-Once the structure is confirmed, the QA lead then continues with checking content and layout. 
+1. Use the Skills4EOSC Workplace as an initial location for the internal development of the learning materials
+    - note: workplace documents can not be shared with non project members
+2. Recreate the hierarchical folder structure to logically organise your documents
+3. Create a docx template which will act as an alternative for each md template file 
+    - syllabus
+    - facilitator guide
+    - feedback form
+    - for each learning unit
+        - plan
+        - content
+        - activity description
+        - note that quizzes must stay in their GIFT plaintext format for import to the learning platform
+4. Copy all fields defined in each md template to the corresponding docx template
+5. Style each docx template using the Skills4EOSC logo, color palette and funding information
+6. Ensure the created templates are accessible
+    - export to HTML
+    - use a WCAG 2.1 checking tool
+7. Distribute the templates in their right place in your hierarchical folder structure
+8. Add the correct LICENSE plaintext file in the root of your folder structure
 
-- [ ] All required fields are present in Syllabus body
-- [ ] Syllabus content is correct and clearly described
-- [ ] Syllabus layout is correct in learners' notebook (HTML view)
-- [ ] Syllabus accessibility check reports no issues
-- [ ] All required fields are present in Syllabus metadata (MD file)
-- [ ] Facilitation Guide describes the training setup (before, during and after)
-- [ ] Correct LICENSE file is used
+You are now ready to start developing the learning content using the same basic guidelines and principles as discussed previously.
+Don't forget that you will need to export to HTML (or PDF if only static multimedia is used) and then double check for accessibility.
+**Don't keep the exported HTML in the same folder tree as the editable content.** 
 
-The QA lead then assigns different people to check different learning units.
+Once the internal QA is completed, you will need to **ensure that the correct final up-to-date version of the exported HTML is used for its publication on the learning platform** as this is now a fully manual process. 
 
-### Learning Unit QA 
+When the final content is available on the course on the learning platform, it is time to put it into a public repository so that it can be offered for external collaboration:
 
-For each learning unit a thorough check of the learning content needs to be performed:
+1. Create a new repository on GitHub
+    - or you can delete the MD stuff from the cloned template repository and replace it with the new content
+2. Copy paste ALL files and folders from workplace to the repository
+3. Commit and push the changes
+4. Double check on GitHub that the repository is a cloned image of your initial workplace structure
+5. Delete or archive the workplace content (this should not be used any longer as the GitHub repository took over this role)
 
-- [ ] Learning plan content adheres to template
-- [ ] Learning plan is aligned with the information provided in the Syllabus
-- [ ] Learning plan links to activities
-- [ ] Learning content adheres to template
-- [ ] Learning content layout is correct in learners' notebook (HTML view)
-- [ ] Learning content is clearly written, easy to follow and understand
-- [ ] Learning content is well aligned with the learning objectives defined in the plan
-- [ ] Learning content accessibility check reports no issues
-- [ ] All planned activities have description
-- [ ] Planned activities are relevant for the unit content
-- [ ] Activities description adhere to template
-- [ ] Assessment quiz questions are relevant for the unit content
-- [ ] Assessment quiz adheres to GIFT format
-- [ ] Slide deck is aligned with the learning content
-- [ ] Slide deck accessibility check reports no issues
+**From now on, any changes in the learning materials must be done directly on the GitHub repository.**
 
-Don't forget that this QA check, although most probably performed as self-assessment must still be done with a critical eye. The QA check should focus on all aspects of the produced learning materials, including the qualitative evaluation of the content.
+We don't recommend using a GitHub repository for work with Office only files from the start as this will create a lot of conflicts and requests for conflict resolution and merging, especially when more people are working on the same document. GitHub looks at all Office files as binary objects and can not keep track of the changes done within the object as it does with md files. 
 
-For these purposes, the [Saide tool for reviewing course material](https://www.oerafrica.org/sites/default/files/course_design/8.%20Reviewing%20course%20materials%20tool%20.doc) can be used. The tool defines success criteria across a comprehensive set of elements including:
+## I'm looking for yet another alternative, what now
 
-- Orientation
-    - Introduction, aims and learning outcomes
-    - Selection and coherence of content
-- Helping learners learn
-    - Presentation of content
-    - View of knowledge and use of learners’ experience
-    - Activities and feedback
-    - Language
-- Accessibility and Layout
-    - Learning skills
-    - Access devices (making it easy for the learners to find their way through the materials)
-    - Visual aids (pictures, diagrams and cartoons)
+You can choose any open file format instead of DOCX. Take care that at the moment Google file formats are not strictly considered as open, so this choice is not recommended as a viable option. 
 
-### All hands check
+The procedure would be very similar to the one described above, only a little bit adjusted to the format of your choice.
 
-All authors and collaborators should check the Syllabus to verify that their personal information is correct. 
+Sometimes other options, such as the development of SCORM based learning materials for an example, create more files in the place of a single md or docx file. In this case keep all of these files grouped together in a folder for easier building of the hierarchical logical structure. 
 
-Depending on the approach taken for authorship of different learning units, the metadata information in each file in the learning unit should also be double checked to confirm correct authorship information.
+## What can not be considered as an alternative learning content
 
-### Iterative changes
-
-If any changes are needed then the newly produced versions should be double checked by the person that performed the initial QA assessment. 
-
-### Activity
-
-Analyse the [Saide tool for reviewing course material](https://www.oerafrica.org/sites/default/files/course_design/8.%20Reviewing%20course%20materials%20tool%20.doc).
-
-Discuss its applicability for your internal QA and its ties to the QA framework that is being developed by T2.4.
+Developing only a slide deck with notes in the slides can not be considered as an alternative for the development of the learners' notebook. The main issue is that the slide notes can not convey the necessary level of information in a multi modal way. Their primary use is support for the trainers that give the presentation, not the learners that acquire the knowledge. 
 
 ## Summary
 
-The main goal of the internal QA check is to ensure that all relevant learning materials are present and fully developed before going into the publishing step.
+The use of Obsidian and/or markdown as the primary file format for developing learning content is only a strong recommendation and not a requirement of the FAIR-by-Design methodology.
 
-The QA should focus on both quantitative and qualitative aspects of the content: is it present, are the templates adhered to, as well as, is the content clear, comprehensive, well defined or maybe something is missing or needs to be changed and extended.
+Instructional designers are free to choose any open file format for the development of their learning content. Aiming to support easy reuse of the developed materials it is required that:
 
-Once you are satisfied that all learning materials are to your liking you can proceed to publication. 
+- a hierarchical logical structure is followed
+- all developed multi-modal learning content is accompanied with the instructor kit
+    - facilitation guide
+    - feedback form
+    - learning unit plans
+    - activities description
+    - assessment quizzes 
 
 ## Suggested Reading
-- [How can we ensure good quality learning? (Quality assurance), OER Africa](https://www.oerafrica.org/35-how-can-we-ensure-good-quality-learning-quality-assurance)
+- [Microsoft Make your content accessible to everyone](https://support.microsoft.com/en-us/office/make-your-content-accessible-to-everyone-ecab0fcf-d143-4fe8-a2ff-6cd596bddc6d)
+- [Convert documents to HTML format Word 365](https://www.officetooltips.com/word/tips/convert_documents_to_html_format.html)
+- [GitHub Create a repo](https://docs.github.com/en/get-started/quickstart/create-a-repo)

@@ -42,6 +42,8 @@ The final touches when it comes to learning content definition are to be done on
 - replacing the license file (if needed)
 - defining the facilitation guide
 
+Note that **we do not recommend changing the Feedback form**, so that there is uniformity of the way the feedback is gathered accross trainings. This will make the process of reporting on the training events a lot more easier. However, for national trainings it might be prudent to localise the feedback form to the native language of the trainees. For these purposes the localisation should be done on the Skills4EOSC learning platform. 
+
 ### Syllabus and machine-readable metadata
 
 The content of the syllabus was defined during the Design stage. If you have not entered this content into the provided syllabus template file then it is time to do so. While editing the main content of syllabus file in Obsidian ensure that any changes or adaptations you have done during the iterative process of development of learning units is reflected in the final content of the syllabus.

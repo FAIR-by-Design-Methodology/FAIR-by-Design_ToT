@@ -13,7 +13,7 @@ tags:
 
 # Introduction to Markdown and Git
 
-The purpose of this learning unit is to introduce relevant tools and file formats required for developing FAIR-by-Design learning objects. Once a working environment consisting of the recommended tools is in place and the initial concepts regarding the underlying file formats have been adopted, the instructional designer is then ready to start with production of the learning objects themvselves. The first step on this journey is the introduction to an open text format – Markdown, and a robust version management system, Git.
+The purpose of this learning unit is to introduce relevant tools and file formats required for developing FAIR-by-Design learning objects. Once a working environment consisting of the recommended tools is in place and the initial concepts regarding the underlying file formats have been adopted, the instructional designer is then ready to start with production of the learning objects themselves. The first step on this journey is the introduction to an open text format – Markdown, and a robust version management system, Git.
 
 ## Learning Objectives
 
@@ -33,7 +33,7 @@ The purpose of this learning unit is to introduce relevant tools and file format
 
 ## Prerequisites
 
-- **TBD**
+Completed [Stage 3: Design](../../Stage%203%20–%20Design/04-Conceptualisation/04-Conceptualisation.md)
 
 ## Learning Tools
 

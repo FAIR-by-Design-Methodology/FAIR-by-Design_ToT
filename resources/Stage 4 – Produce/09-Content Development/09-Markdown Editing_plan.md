@@ -41,7 +41,7 @@ Introduce the basic Markdown syntax necessary for producing FAIR-by-Design learn
 |----------|-----------------|--------------------------------------------------------|-----------------------------------|----------------|
 | 5        | Introduction    | Introduction to the Markdown feature set               | Brainstorm expectations           | pptx           |
 | 20       | File Formats    | Overview of the basic Markdown syntax                  | Check for understanding           | pptx, Menti    |
-| 15       | Guided Practice | Editing the Unit Plan template                         | [Creating a Unit Plan](./Activities/01-Creating%20a%20Lesson%20Plan.md)              | pptx, handouts |
+| 15       | Guided Practice | Editing the Unit Plan template                         | [Creating a Lesson Plan](./Activities/01-Creating%20a%20Lesson%20Plan.md)              | pptx, handouts |
 
 ### Assessment
 

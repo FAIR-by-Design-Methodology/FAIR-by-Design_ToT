@@ -31,7 +31,7 @@ The purpose of this learning unit is to introduce the basic Markdown syntax nece
 
 ## Prerequisites
 
-- **TBD**
+Completed [08 - Development Tools](../08-Development%20Tools/08-Introduction%20to%20Markdown%20and%20Git.md)
 
 ## Learning Tools
 

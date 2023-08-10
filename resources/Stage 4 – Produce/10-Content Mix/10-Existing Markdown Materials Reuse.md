@@ -34,7 +34,7 @@ Since the discovered content can be in any file format, additional effort might 
 ## Prerequisites
 
 - Completed [Stage 3: Design](../../Stage%203%20–%20Design/04-Conceptualisation/04-Conceptualisation.md)
-- Completed [09-Content Development](../09-Content%20Development/09-Markdown%20Syntax.md)
+- Completed [09 - Content Development](../09-Content%20Development/09-Markdown%20Syntax.md)
 
 ## Learning Tools
 

@@ -18,7 +18,7 @@ Before starting work on the production on actual FAIR-by-Design learning materia
 - Understand the need for a GitHub organization when collaborating with others
 - Differentiate between organization level and repository level repository permissions
 - Use the GitHub web portal to add collaborators to an existing organization or repository
-- Solve potential merge conflicts arising when multiple authors make changes to the same file concurrently
+- Solve potential change conflicts arising when multiple authors make changes to the same file concurrently
 
 ## Target Audience
 
@@ -73,9 +73,51 @@ The following steps are to be followed by a single contributor who will establis
     ![Adding Repository Collaborators](attachments/07-repo-collaborators.png)
 
 11. At this point all collaborators will get an email notification alerting them of their new role within the organization/repository. They can proceed by cloning the repository using the GitHub Desktop software, as discussed in [08-Introduction to Markdown and Git](../08-Development%20Tools/08-Introduction%20to%20Markdown%20and%20Git.md).
-12. Stepping away from technical matters for a moment, it is best if you take a moment to discuss with your collaborators who will be working on what learning units, dividing responsibilities as to avoid any potential conflicts. 
+12. Stepping away from technical matters for a moment, it is best if you take a moment to discuss with your collaborators who will be working on what learning units, dividing responsibilities as to avoid any potential conflicts. If Git conflicts (called merge conflicts) do happen, read the [Advanced: Resolving Git Conflicts](./14-Team%20Collaboration.md#advanced-resolving-git-conflicts) section below to learn how to resolve them.
 13. As a final step, make sure that the automated workflow will have the necessary permission to build the Git book by navigating to your organizations homepage, then choosing `Settings -> Actions -> General`. Scroll down until the `Workflow permissions` section becomes visible. Choose `Read and write permissions` and save the changes.
 
     ![Workflow Permissions](attachments/08-workflow-permissions.png)
 
 ## Advanced: Resolving Git Conflicts
+
+One of the best Git features is its ability to provide users an easy way of resolving change conflicts. A change conflict occurs when two (or more) users simultaneously edit the same portion of a given file, and then try to commit it. Note that if distinct parts of the same file are edited, and there are no conflicting changes, then Git is able to merge the changes automatically, without requiring a user intervention. A user intervention is required only when Git is not capable of reconciling the changes, and the user is asked for an input on what changes to keep and what changes to discard.
+
+In case a change conflict does occur, Git will explicitly mark all conflicting changes in the file, allowing the user to resolve them on a case-by-case basis, and then commit the latest version of the file again. Such advanced change conflict features are only available on plain text formats, such as `.md`, `.txt`, or source code files. Binary files such as `.docx` or `.pptx` cannot have conflicts resolved with the help of Git.
+
+Let's look at an example under what conditions a change conflict can occur and how to resolve it. We assume that two contributors, Bob and Alice, want to collaborate in a single repository. Both Bob and Alice start by updating the `syllabus.md` file, and they both change the metadata in the Markdown header. Bob manages to commit the changes first and pushes them to the upstream repository. When Alice is satisfied with her changes, and tries to commit and push them, she received the following error message:
+
+![Warning Regarding Commits on Remote](attachments/09-newer-commits-on-remote.png)
+
+As discussed in previous sections, this message does not necessarily mean that there is a change conflict that will require manual intervention. Maybe the changes are made do distinct, non-overlapping, parts of the files, so let's fetch (download) them.
+
+After fetching, we have the option of applying the changes using the `Pull origin` button.
+
+![Applying Remote Changes](attachments/10-applying-changes.png)
+
+At this point, if the changes are indeed in conflict with one-another, we will be presented with an error message such as the one shown below.
+
+![Conflicting Changes Error Message](attachments/11-merge-conflict.png)
+
+The `Continue merge` button will remain deactivated until all conflicts are manually resolved. Let's get back to Obsidian and see the state of our `syllabus.md` file.
+
+![Preview of Conflicts](attachments/12-obisidan-merge-conflict.png)
+
+Notice the two code blocks which have been selected using orange and blue boxes respectively. The orange block, starting with `<<<<<<< HEAD` is the change that Alice has done (the local change). The change denoted by the block starting with `=======` and ending with `>>>>>>>>` is the remote change (done by Bob), identified by the unique change number, `fcb...`.
+
+Now it is up to Alice do decide how to proceed. She can either discard her own change (removing the content in the orange box), discard Bob's change (removing the content in the blue box), or do a manual merge. Let's assume that Alice opts to do a manual merge. After editing the file, it will look similar to what is shown in the figure below.
+
+![Resolution of the Conflict](attachments/13-manual-merge-conflict-resolution.png)
+
+Note that the extra lines containing characters such as `>>>>>`, `=====`, `<<<<<<` which were used to denote the start and end of the conflicting changes have been manually removed.
+
+Going back to GitHub Desktop, we can see that the change conflict has been resolved, and we are ready to continue. 
+
+![Conflict Resolved](attachments/14-merge-conflict-resolved.png)
+
+In the background clicking on the `Continue merge` button will automatically commit our changes, so the only thing remaining now is to push these changes to GitHub.
+
+![Push Changes](attachments/15-push-changes.png)
+
+## Key Takeaways
+
+It is important to have a well-defined and clear development workflow when collaborating with multiple contributors on learning materials. Nonetheless, conflicting changes can happen in the real world, and Git with its robust change tracking can help resolve such situations. An important thing to keep in mind is that conflict resolution only works on text-based file formats, such as Markdown, which can also be seen as an additional advantage to using this open format for learning material production.

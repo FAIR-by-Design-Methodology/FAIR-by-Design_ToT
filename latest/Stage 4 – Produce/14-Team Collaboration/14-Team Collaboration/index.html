@@ -1190,6 +1190,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    Key Takeaways
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1334,6 +1341,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    Key Takeaways
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1388,7 +1402,7 @@
 <li>Understand the need for a GitHub organization when collaborating with others</li>
 <li>Differentiate between organization level and repository level repository permissions</li>
 <li>Use the GitHub web portal to add collaborators to an existing organization or repository</li>
-<li>Solve potential merge conflicts arising when multiple authors make changes to the same file concurrently</li>
+<li>Solve potential change conflicts arising when multiple authors make changes to the same file concurrently</li>
 </ul>
 <h2 id="target-audience">Target Audience</h2>
 <ul>
@@ -1444,13 +1458,34 @@
 <li>
 <p>At this point all collaborators will get an email notification alerting them of their new role within the organization/repository. They can proceed by cloning the repository using the GitHub Desktop software, as discussed in <a href="../../08-Development%20Tools/08-Introduction%20to%20Markdown%20and%20Git/">08-Introduction to Markdown and Git</a>.</p>
 </li>
-<li>Stepping away from technical matters for a moment, it is best if you take a moment to discuss with your collaborators who will be working on what learning units, dividing responsibilities as to avoid any potential conflicts. </li>
+<li>Stepping away from technical matters for a moment, it is best if you take a moment to discuss with your collaborators who will be working on what learning units, dividing responsibilities as to avoid any potential conflicts. If Git conflicts (called merge conflicts) do happen, read the <a href="./#advanced-resolving-git-conflicts">Advanced: Resolving Git Conflicts</a> section below to learn how to resolve them.</li>
 <li>
 <p>As a final step, make sure that the automated workflow will have the necessary permission to build the Git book by navigating to your organizations homepage, then choosing <code>Settings -&gt; Actions -&gt; General</code>. Scroll down until the <code>Workflow permissions</code> section becomes visible. Choose <code>Read and write permissions</code> and save the changes.</p>
 <p><img alt="Workflow Permissions" src="../attachments/08-workflow-permissions.png" /></p>
 </li>
 </ol>
 <h2 id="advanced-resolving-git-conflicts">Advanced: Resolving Git Conflicts</h2>
+<p>One of the best Git features is its ability to provide users an easy way of resolving change conflicts. A change conflict occurs when two (or more) users simultaneously edit the same portion of a given file, and then try to commit it. Note that if distinct parts of the same file are edited, and there are no conflicting changes, then Git is able to merge the changes automatically, without requiring a user intervention. A user intervention is required only when Git is not capable of reconciling the changes, and the user is asked for an input on what changes to keep and what changes to discard.</p>
+<p>In case a change conflict does occur, Git will explicitly mark all conflicting changes in the file, allowing the user to resolve them on a case-by-case basis, and then commit the latest version of the file again. Such advanced change conflict features are only available on plain text formats, such as <code>.md</code>, <code>.txt</code>, or source code files. Binary files such as <code>.docx</code> or <code>.pptx</code> cannot have conflicts resolved with the help of Git.</p>
+<p>Let's look at an example under what conditions a change conflict can occur and how to resolve it. We assume that two contributors, Bob and Alice, want to collaborate in a single repository. Both Bob and Alice start by updating the <code>syllabus.md</code> file, and they both change the metadata in the Markdown header. Bob manages to commit the changes first and pushes them to the upstream repository. When Alice is satisfied with her changes, and tries to commit and push them, she received the following error message:</p>
+<p><img alt="Warning Regarding Commits on Remote" src="../attachments/09-newer-commits-on-remote.png" /></p>
+<p>As discussed in previous sections, this message does not necessarily mean that there is a change conflict that will require manual intervention. Maybe the changes are made do distinct, non-overlapping, parts of the files, so let's fetch (download) them.</p>
+<p>After fetching, we have the option of applying the changes using the <code>Pull origin</code> button.</p>
+<p><img alt="Applying Remote Changes" src="../attachments/10-applying-changes.png" /></p>
+<p>At this point, if the changes are indeed in conflict with one-another, we will be presented with an error message such as the one shown below.</p>
+<p><img alt="Conflicting Changes Error Message" src="../attachments/11-merge-conflict.png" /></p>
+<p>The <code>Continue merge</code> button will remain deactivated until all conflicts are manually resolved. Let's get back to Obsidian and see the state of our <code>syllabus.md</code> file.</p>
+<p><img alt="Preview of Conflicts" src="../attachments/12-obisidan-merge-conflict.png" /></p>
+<p>Notice the two code blocks which have been selected using orange and blue boxes respectively. The orange block, starting with <code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</code> is the change that Alice has done (the local change). The change denoted by the block starting with <code>=======</code> and ending with <code>&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code> is the remote change (done by Bob), identified by the unique change number, <code>fcb...</code>.</p>
+<p>Now it is up to Alice do decide how to proceed. She can either discard her own change (removing the content in the orange box), discard Bob's change (removing the content in the blue box), or do a manual merge. Let's assume that Alice opts to do a manual merge. After editing the file, it will look similar to what is shown in the figure below.</p>
+<p><img alt="Resolution of the Conflict" src="../attachments/13-manual-merge-conflict-resolution.png" /></p>
+<p>Note that the extra lines containing characters such as <code>&gt;&gt;&gt;&gt;&gt;</code>, <code>=====</code>, <code>&lt;&lt;&lt;&lt;&lt;&lt;</code> which were used to denote the start and end of the conflicting changes have been manually removed.</p>
+<p>Going back to GitHub Desktop, we can see that the change conflict has been resolved, and we are ready to continue. </p>
+<p><img alt="Conflict Resolved" src="../attachments/14-merge-conflict-resolved.png" /></p>
+<p>In the background clicking on the <code>Continue merge</code> button will automatically commit our changes, so the only thing remaining now is to push these changes to GitHub.</p>
+<p><img alt="Push Changes" src="../attachments/15-push-changes.png" /></p>
+<h2 id="key-takeaways">Key Takeaways</h2>
+<p>It is important to have a well-defined and clear development workflow when collaborating with multiple contributors on learning materials. Nonetheless, conflicting changes can happen in the real world, and Git with its robust change tracking can help resolve such situations. An important thing to keep in mind is that conflict resolution only works on text-based file formats, such as Markdown, which can also be seen as an additional advantage to using this open format for learning material production.</p>
 
 
 

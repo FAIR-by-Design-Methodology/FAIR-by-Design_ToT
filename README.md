@@ -42,6 +42,7 @@ If you have ideas or comments you would like to share you can:
 
 Always follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
 
+---
 
 May your learning materials always be FAIR!
 

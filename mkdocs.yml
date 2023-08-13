@@ -53,7 +53,7 @@ citation:
   abstract: >-
     The main goal of this ToT is to provide guidance and instructions on how to use the proposed FAIR-by-Design Methodology for development of FAIR learning materials in practice. The training will take you through all steps in the methodology and showcase their implementation using practical examples and developed templates.
   version: 1.0.13
-  doi: 10.5072/zenodo.1224005
+  doi: 10.5070/zenodo.123
   date-released: 2023-10-17
   license: CC-BY-4.0
   license-url: https://creativecommons.org/licenses/by/4.0/legalcode.txt

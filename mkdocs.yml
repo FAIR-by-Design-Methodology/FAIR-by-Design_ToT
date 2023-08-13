@@ -40,12 +40,15 @@ citation:
     - family-names: Filiposka
       given-names: Sonja
       orcid: https://orcid.org/0000-0003-0034-2855
+      affiliation: UKIM
     - family-names: Mishev
       given-names: Anastas
       orcid: https://orcid.org/0000-0001-7271-6655
+      affiliation: UKIM
     - family-names: Kjorveziroski
       given-names: Vojdan
       orcid: https://orcid.org/0000-0003-0419-4300
+      affiliation: UKIM
   title: FAIR-by-Design Learning Materials Methodology Training of Trainers
   abstract: >-
     The main goal of this ToT is to provide guidance and instructions on how to use the proposed FAIR-by-Design Methodology for development of FAIR learning materials in practice. The training will take you through all steps in the methodology and showcase their implementation using practical examples and developed templates.
@@ -53,7 +56,7 @@ citation:
   doi: 10.5072/zenodo.1224005
   date-released: 2023-10-17
   license: CC-BY-4.0
-  license-url: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  license-url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
   keywords:
     - FAIR-by-Design
     - Methodology

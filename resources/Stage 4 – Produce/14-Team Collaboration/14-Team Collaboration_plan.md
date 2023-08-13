@@ -13,7 +13,7 @@ tags:
 
 ## Goal
 
-The goal of this exercise is to outline in details the required steps that need to be followed in order to prepare a working environment suitable for team collaboration when developing new FAIR-by-Design learning materials.
+The goal of this learning unit is to outline in details the required steps that need to be followed in order to prepare a working environment suitable for team collaboration when developing new FAIR-by-Design learning materials.
 
 ### Location
 

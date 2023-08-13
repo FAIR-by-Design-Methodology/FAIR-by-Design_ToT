@@ -4,12 +4,15 @@ authors:
   - family-names: Filiposka
     given-names: Sonja
     orcid: https://orcid.org/0000-0003-0034-2855
+    affiliation: UKIM
   - family-names: Mishev
     given-names: Anastas
     orcid: https://orcid.org/0000-0001-7271-6655
+    affiliation: UKIM
   - family-names: Kjorveziroski
     given-names: Vojdan
     orcid: https://orcid.org/0000-0003-0419-4300
+    affiliation: UKIM
 title: FAIR-by-Design Learning Materials Methodology Training of Trainers
 abstract: >-
   The main goal of this ToT is to provide guidance and instructions on how to

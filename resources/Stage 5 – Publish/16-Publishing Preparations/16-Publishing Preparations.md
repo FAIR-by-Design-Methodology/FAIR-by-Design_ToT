@@ -34,7 +34,9 @@ Before publishing the learning materials on Zenodo and other platforms, it is im
 ## Learning Tools
 
 - Training BBB room
+- GitHub Desktop
 - Obsidian
+- Text editor
 
 ## Preparing the Collaborative Environment
 
@@ -116,3 +118,14 @@ Once the three files have been updated, commit the changes and push them to GitH
 ![CITATION.cff workflow error](./attachments/04-workflow-error.png)
 
 The recommended action in such cases is to simply retry the validation of the `CITATION.cff` file manually using the [citation-file-format.github.io](https://citation-file-format.github.io/cff-initializer-javascript/#/update) tool. Make sure to address any errors, committing and pushing the results to GitHub once completed.
+
+## Key Takeaways
+
+We have manually prepared all of the necessary metadata required for a successful first publishing of the created learning materials. Most of the steps described in this learning unit will need to be performed only once or in some cases rarely (e.g., when adding a new author). We will leverage this metadata information in the [next learning unit](../17-Zenodo%20Publishing/17-Zenodo%20Publishing.md) where we will create our very first Zenodo deposit.
+
+## Suggested Reading
+
+- [Citation File Format (CFF)](https://citation-file-format.github.io/)
+- [CITATION.cff Controlled Vocabularies](https://github.com/citation-file-format/citation-file-format/blob/1.2.0/schema-guide.md)
+- [About READMEs on GitHub](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+- [Adding a Code of Conduct to Your Project](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project)

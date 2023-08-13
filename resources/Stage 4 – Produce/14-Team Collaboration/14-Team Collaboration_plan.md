@@ -30,7 +30,7 @@ The goal of this exercise is to outline in details the required steps that need 
 
 ### Learning objectives
 
-- Understand the need for a GitHub organization when collaborating with others
+- Recognize the need for a GitHub organization when collaborating with others
 - Differentiate between organization level and repository level repository permissions
 - Use the GitHub web portal to add collaborators to an existing organization or repository
 - Solve potential change conflicts arising when multiple authors make changes to the same file concurrently

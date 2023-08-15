@@ -49,6 +49,10 @@ citation:
       given-names: Vojdan
       orcid: https://orcid.org/0000-0003-0419-4300
       affiliation: UKIM
+    - family-names: Leister
+      given-names: Carolin
+      orcid: https://orcid.org/0000-0002-6940-0024
+      affiliation: KIT
   title: FAIR-by-Design Learning Materials Methodology Training of Trainers
   abstract: >-
     The main goal of this ToT is to provide guidance and instructions on how to use the proposed FAIR-by-Design Methodology for development of FAIR learning materials in practice. The training will take you through all steps in the methodology and showcase their implementation using practical examples and developed templates.

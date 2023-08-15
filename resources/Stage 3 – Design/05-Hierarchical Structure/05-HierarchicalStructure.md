@@ -115,7 +115,7 @@ The content that you would like to reuse is:
 
 ### Attribution
 
-Do not forget that all reused material (adaptation or no) needs to be attributed to the original author according to the TASL rules (or in another format if specified by the author).
+Do not forget that all reused material (with or without adaptation) needs to be attributed to the original author according to the TASL rules (or in another format if specified by the author).
 
 It is recommended that if a complete learning unit is reused to provide the attribution at the beginning of the unit. Same applies for reused parts of a learning unit (text only, or combination of text and images). The attribution of reused images and tables goes right under the content.
 

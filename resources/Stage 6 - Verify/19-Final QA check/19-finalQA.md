@@ -1,5 +1,5 @@
 ---
-title: Final Quality Assurance Check
+title: Quality Assurance and FAIR Verification
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects

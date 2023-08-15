@@ -142,7 +142,7 @@ Note: start time is given in CEST
 |     10:15    |     Publish    |     Versioning             |     30 mins     |
 |     10:45    |     Publish    |     Feedback gathering     |     30 mins     |
 |     11:15    |                |     = coffee break =       |     15 mins     |
-|     11:30    |     Verify     |     FAIR verification      |     30 mins     |
+|     11:30    |     Verify     |     QA & FAIR verification      |     30 mins     |
 |     12:00    |                |     Continuous Improvement |     30 mins     |
 
 

@@ -50,7 +50,7 @@ The main purpose of the (meta)data about the learning resource is to enable cata
 
 - WHO created the resource
 - WHAT is the content of the resource
-- WHEN was the data resource
+- WHEN was the resource created
 - WHERE is the location of the resource
 - WHY the data was resource
 
@@ -138,7 +138,7 @@ Multiple kinds of PIDs exist such as DOI (digital object identifier), Handle (HN
 
 For the purposes of creating FAIR learning materials we will be using a Zenodo provided DOI to generate a PID for the trainers learning material kit and the internal IDs system of the Skills4EOSC learning platform for identifying learning resources for learners. 
 
-## IPR
+## Intellectual Property Rights (IPR)
 
 Intellectual property refers to the creation of intellectual activity. Intellectual Property Rights (IPR) protects the interests of the creators and owners by providing them with rights over their creation. 
 
@@ -159,9 +159,9 @@ In absence of exceptions or limitations, one can reuse an existing work if it is
 ### Licensing
 
 >The content in this section is adapted from:
-
-- [CC FAQ website](https://creativecommons.org/faq/#can-i-combine-material-under-different-creative-commons-licenses-in-my-work) licensed under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode)
-- [Creative Commons license Wikipage](https://en.wikipedia.org/wiki/Creative_Commons_license) (2023, June 21) in Wikipedia licensed under the [Creative Commons Attribution-ShareAlike License 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+>
+>- [CC FAQ website](https://creativecommons.org/faq/#can-i-combine-material-under-different-creative-commons-licenses-in-my-work) licensed under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode)
+>- [Creative Commons license Wikipage](https://en.wikipedia.org/wiki/Creative_Commons_license) (2023, June 21) in Wikipedia licensed under the [Creative Commons Attribution-ShareAlike License 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 A license allows you to define additional rights and obligations regarding your work that go beyond the copyright you own, and it can protect yourself.
 
@@ -177,7 +177,7 @@ It is **recommended** that the least restrictive **[CC BY 4.0 license](https://c
 
 The ND right falls into the opposite extreme and is not recommended for FAIR learning materials licensing as it severely limits their reusability in adaptations.
 
-Public domain licensing is also not recommended as different rules apply in different countries.
+Public domain licensing (CC0) is also not recommended as different rules apply in different countries.
 
 The [CC License Chooser tool](https://creativecommons.org/choose/) helps authors share their work in a standardised way providing copyright licenses that enable sharing and reuse of the creative work under the chosen conditions. 
 
@@ -206,10 +206,10 @@ In other words, acknowledgement of the reused materials through attribution is *
 
 The **ideal attribution** follows the TASL approach:
 
-- Title - what is the name of the work
-- Author - who allows you to use the work (name and link)
-- Source - where can the work be found (link added to title)
-- License - how can the work be used (name and link to the license)
+- **T**itle - what is the name of the work
+- **A**uthor - who allows you to use the work (name and link)
+- **S**ource - where can the work be found (link added to title)
+- **L**icense - how can the work be used (name and link to the license)
 
 If your work is a modification or adaptation of another work, indicate this and provide attribution to the creator of the original work. You should also include a link to the work you modified and indicate what license applies to that work.
 

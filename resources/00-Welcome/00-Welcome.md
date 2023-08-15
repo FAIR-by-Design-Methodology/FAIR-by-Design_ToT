@@ -61,27 +61,27 @@ The methodology extends the backward instructional design process with the FAIR 
 
 The methodology is composed of 6 main steps that are iteratively repeated within a continuous improvement loop:
 
-- Prepare
+- **Prepare**
     - develop FAIR skills that will augment the traditional instructional design skills. These include FAIR principles, Intellectual Property Rights, licensing, attribution, permanent identifiers (PIDs) and metadata. 
     - define the purpose, learning objectives and audience targets
-- Discover
+- **Discover**
     - identify existing learning materials
     - assess the potential for their reuse
-- Design
+- **Design**
     - define the syllabus and create the learning materials structure
     - start a facilitators guide 
     - ensure interoperability by choosing open licenses
-- Produce
+- **Produce**
     - use open authoring tools and formats
     - develop accessible content
     - define metadata
-- Publish
+- **Publish**
     - deposit the learning content for learners and for instructors
     - use PIDs
     - define access rights and provide attribution guidelines
     - enable feedback gathering
     - list in relevant catalogues
-- Verify
+- **Verify**
     - go through a quality assurance (QA) process to verify FAIRness
 
 Continuous improvement should be implemented to ensure the learning materials are up-to-date and gathered internal and external input has been incorporated. This includes: 

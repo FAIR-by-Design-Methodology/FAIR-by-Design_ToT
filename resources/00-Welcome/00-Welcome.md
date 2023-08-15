@@ -117,7 +117,7 @@ In addition there is also an open forum where any enrolled trainee can ask a que
 
 Finally, there is a feedback form that trainees are asked to fill out after the training so that the learning materials can be improved based on their feedback.
 
-During the life training the materials will be revealed on a day-by-day basis as the training progresses. 
+During the live training the materials will be revealed on a day-by-day basis as the training progresses. 
 
 To access the materials one must register on the learning platform and then self-enroll in the course. 
 

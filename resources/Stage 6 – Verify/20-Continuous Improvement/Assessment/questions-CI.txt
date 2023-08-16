@@ -1,0 +1,44 @@
+
+::zenodo::Publishing a new version will create a completely new record in Zenodo?{FALSE}
+
+::start::When implementing improvements you must always go back and restart from the Design stage.{FALSE}
+
+::version::What is the format of the version number?{
+	=Major.Minor.Patch
+}
+
+::feedback_sources::What can be used as an input to the feedback analysis phase?{
+	~%14.28571%feedback form
+	~%14.28571%external QA recommendations
+	~%14.28571%self-reflection
+	~%14.28571%reported issues
+	~%14.28571%gathered comments
+	~%14.28571%mail contact
+	~%14.28571%team discussions
+}
+
+::code::Should external contributors follow the Code of Conduct?{TRUE}
+
+::external::How can external parties contribute to the learning materials repository?{
+	~%25%by creating issues
+	~%25%via direct mail contact
+	~%25%using the fork and pull workflow
+	~%25%by becoming a contributor
+	~they can't contribute, only give feedback
+}
+
+::platform::Where is continuous improvement being implemented?{
+	~Only in the learners' notebook
+	~%50%In the GitHub repo
+	=In the GitHub repo and the learning platform
+}
+
+::versioning::When are you going to change the major version?{
+	=When adding removing lesson units
+	~When changing activities
+	~When adding content to lesson units
+}
+
+::increment::Continuous improvement should be implemented incrementally?{TRUE}
+
+::improvement::You can only go through an improvement cycle once?{FALSE}

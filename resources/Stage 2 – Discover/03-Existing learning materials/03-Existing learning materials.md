@@ -161,7 +161,7 @@ For the purposes of understanding the diversity of the existing learning materia
 5. The final stop is the [EOSC training catalogue](https://search.marketplace.eosc-portal.eu/search/training?q=*)
     - notice that there are resource types such as lesson plan, activity plan and assessment
     - also note that the same resource can have multiple types
-    - you should be able to find the "Toolkit for policy makers on Open Access and Open Science"(https://www.openaire.eu/toolkit-for-policy-makers-on-open-science-and-open-access)
+    - you should be able to find the [Toolkit for policy makers on Open Access and Open Science](https://www.openaire.eu/toolkit-for-policy-makers-on-open-science-and-open-access)
 
 Now that you are armed and inspired with what you have managed to find, you are ready to proceed to the next stage Design.
 

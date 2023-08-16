@@ -12,7 +12,7 @@ tags:
 
 ## Goal
 
-g
+When you've passed through all of the FAIR-by-Design Methodology stages you have your high-quality FAIR learning material published and used by learners and instructors. Your focus should now be turned towards gathering feedback that will help you improve the learning material. Based on the analysed feedback you can decide what incremental changes to implement and create a new improved version of th learning materials. Any external party can join this process via different means.
 
 ### Location
 
@@ -29,14 +29,16 @@ g
 
 ### Learning objectives
 
-- lo
+- devising a new version of the learning materials
+- collaborating with external parties
 
 ### Plan
 
 | **Duration** | **Topic** | **Key points/Teaching Method/Questions** | **Activities** | **Resources** |
 |---|---|---|---|---|
-| 5 mins | When | the pros and cons of MD | discuss min FAIR requirements | pptx |
-| 10 mins | Alternative | what can be used instead of MD files, what must be preserved | low learning curve vs increased responsibility | pptx |
+| 5 mins | CI | input to the iterative improvement process | discuss potential sources of input | pptx |
+| 10 mins | Versioning | incremental approach | clarify version numbers | pptx |
+| 10 mins | Co-creation | how external parties can contribute | discuss potential pitfalls and how code of conduct helps | pptx |
 | 5 mins | Summary | key takeaways | group discussion on learning unit elements | pptx |
 
 ### Assessment

@@ -1,0 +1,113 @@
+
+// 2 points
+::catalogue::Is the learning resource searchable in at least one relevant catalogue? Is it FAIR (can be searched based on metadata)?{
+	~Not published in a catalogue yet
+	~%50%Published (not a FAIR catalogue)
+	=Published in a FAIR catalogue
+}
+
+
+// 4 points
+::feedback::Does the course include the possibility to provide feedback or comments from users and-or trainers/designers? If so, do you regularly gather and analyse that feedback?{
+	~No feedback options are available
+	~%25%feedback is gathered from users OR trainers/creators, but no analysing feedback is in place
+	~%50%feedback is gathered from users AND trainers/creators, but no analysing feedback is in place
+	~%75%feedback is gathered from users OR trainers/creators, and analysing feedback is in place
+	=feedback is gathered from users AND trainers/creators and analysing feedback is in place
+}
+
+
+// essential: 2 points
+::formats::Is your resource available in open file formats which are tool agnostic and compatible with a wide variety of existing software?{
+	=Open file formats are used for both final resource for learners and intermediate resource for instructors
+	~%50%Open file formats are used for intermediate resource for instructors
+	~Open file formats are not used
+}
+
+
+// 7 points
+::instructor kit::Does the resource incorporate an instructor kit that aids in facilitating the process of others reusing learning material by offering helpful how-to guides? What type of information is provided?{
+	~%14.28571%Resource is structured in one or multiple units (depending on size)
+	~%14.28571%Each unit has a study workbook
+	~%14.28571%Each unit has an outlined assessment
+	~%14.28571%Each unit has a unit lesson plan
+	~%14.28571%Each activity has a how-to guide
+	~%14.28571%Global facilitator document describes how to set-up and run the training (online and/or face-to-face)
+	~%14.28571%Global syllabus that describes all essential information about the learning resources including agenda and any certification information
+}
+
+
+// essential: 2 points
+::metadata::Is metadata for the resource provided in both human- and machine-readable format (e.g JSON, XML or YAML)?{
+	=Metadata is populated in the learning resource as both machine AND human readable metadata
+	~%50%Metadata is populated in the learning resource machine OR human readable metadata
+	~No metadata is available
+}
+
+
+// 5 points
+::open community::Does the resource adopt an open community approach regarding its quality and reachability?{
+	~%20%Open peer reviews
+	~%20%Open comments
+	~%20%Code of Conduct supports an open collaborative environment available
+	~%20%Ability to gauge interest in instructors facing resource (e.g. Zenodo views/downloads, GitHub stars, etc.)
+	~%20%Ability to gauge interest in learners facing resource (e.g. number of participants enrolled, number of badges/certificates issued, etc.)
+}
+
+
+// essential: 2 points
+::repo::Is the complete learning resource (including instructors info) registered or indexed in at least one searchable repository? Is it in a FAIR repository?{
+	~Not published yet
+	~%50%Published
+	=Published in a FAIR repository
+}
+
+
+// 2 points
+::versioning::Have you employed a versioning system to track and control changes in your materials?{
+	~No version management system implemented
+	~%50%Manual version management (versioning based on file name conventions) with no clear track of changes between versions
+	=Complete version management system (track of all old versions on file content level and authorship)
+}
+
+
+// essential
+::access::Are access rules (authentication &amp; authorisation) implemented for the learning resource?{TRUE}
+
+
+// 1 point
+::access rules::Are the resource access rules (how to access, e.g. registration procedure) explicitly communicated to learners?{TRUE}
+
+
+// essential 1 point
+::accessibility::Has an accessibility checker tool been utilised to improve the accessibility of all learning resource files (PDF, HTML, video, etc.)?{TRUE}
+
+
+// essential 1 point
+::attribution::If applicable, is there clear attribution for all reused resources with compatible licenses?{TRUE}
+
+
+// 1 point
+::CVs::Are controlled vocabularies (CVs) used for describing the resource characteristics aligned with the chosen metadata schema?{TRUE}
+
+
+// essential 1 point
+::license::Has the learning resource been made available for use by defining a permissible license or policy information that allows derivations?{TRUE}
+
+
+// 1 point
+::LOs::Does the learning resource represent a complete learning object or aggregation consisting of content, tools and implementation resources defined around minimum one learning objective?{TRUE}
+
+
+// 1 point
+::process::Did you follow the stages of the backward instructional design process while developing the learning resource?{TRUE}
+
+
+// 1 point
+::QA::Has the learning resource been checked by a third party regarding its learning experience quality?{TRUE}
+
+
+// essential 1 point
+::schema::Is the RDA minimal (or domain specific) metadata schema used for the learning material description?{TRUE}
+
+

@@ -14,7 +14,7 @@ tags:
 
 ## Goal
 
-g
+Ensure high-quality learning materials by first doing a self-check that all is ok after publishing. Employing an external QA reviewer(s) to provide comments and suggestions on how to improve. Using the T2.4 QA checklists and gathering input for continuous improvement. 
 
 ### Location
 
@@ -31,15 +31,18 @@ g
 
 ### Learning objectives
 
-- lo
+- reviewing learning materials
+- rating FAIRness of learning materials
 
 ### Plan
 
 | **Duration** | **Topic** | **Key points/Teaching Method/Questions** | **Activities** | **Resources** |
 |---|---|---|---|---|
-| 5 mins | When | the pros and cons of MD | discuss min FAIR requirements | pptx |
-| 10 mins | Alternative | what can be used instead of MD files, what must be preserved | low learning curve vs increased responsibility | pptx |
-| 5 mins | Summary | key takeaways | group discussion on learning unit elements | pptx |
+| 3 mins | Verify | intro to the next/last stage | discuss what is expected | pptx |
+| 7 mins | Checklists | self-checking, T2.4 checklists | how to keep up to date with T2.4 work | pptx |
+| 10 mins | Guided practice | trainer acts as facilitator | self-check quizzes | learning platform |
+| 7 mins | External QA | the importance of external QA | learners as external QA discussion | pptx |
+| 3 mins | Summary | key takeaways | group discussion on learning unit elements | pptx |
 
 ### Assessment
 

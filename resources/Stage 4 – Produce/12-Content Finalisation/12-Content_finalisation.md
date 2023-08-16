@@ -30,8 +30,8 @@ Once all learning units are completed it is time to complete the learning materi
 
 ## Prerequisites
 
-Completed [Stage 3: Design](../../Stage%203%20–%20Design/04-Conceptualisation/04-Conceptualisation.md)
-Completed [11-Accessibility](../11-Accessibility/11-Checking_accessibility.md)
+- Completed [Stage 3: Design](../../Stage%203%20–%20Design/04-Conceptualisation/04-Conceptualisation.md)
+- Completed [11-Accessibility](../11-Accessibility/11-Checking_accessibility.md)
 
 ## Learning Tools
 
@@ -50,7 +50,7 @@ Note that **we do not recommend changing the Feedback form**, so that there is u
 
 ### Syllabus and machine-readable metadata
 
-The content of the syllabus was defined during the Design stage. If you have not entered this content into the provided syllabus template file then it is time to do so. While editing the main content of syllabus file in Obsidian ensure that any changes or adaptations you have done during the iterative process of development of learning units is reflected in the final content of the syllabus.
+The content of the syllabus was defined during the [Design](../../Stage%203%20–%20Design/04-Conceptualisation/04-Conceptualisation.md) stage. If you have not entered this content into the provided syllabus template file then it is time to do so. While editing the main content of syllabus file in Obsidian ensure that any changes or adaptations you have done during the iterative process of development of learning units is reflected in the final content of the syllabus.
 
 Remember that the syllabus contains all fields defined with the RDA minimal metadata schema thus providing all required information in a human-readable format.
 
@@ -68,9 +68,9 @@ To fill out the syllabus md file metadata you can simply copy and then paste the
 
 ### Updating the License
 
-If you have been creating your own repo from scratch or cloned the templates repo, most probably the current license you have in your repo at the moment is CC0. If this is the license that you have decided to use during the Design stage all is ok and you can skip this subsection.
+If you have been creating your own repo from scratch or cloned the templates repo, most probably the current license you have in your repo at the moment is CC0. If this is the license that you have decided to use during the [Design](../../Stage%203%20–%20Design/04-Conceptualisation/04-Conceptualisation.md) stage all is ok and you can skip this subsection.
 
-If during Design you have decided that you will use another license (compatible with the reused material, derived using the adapter's license rules, etc.) then you need to replace the LICENSE file in your repository with the correct one. We are assuming that you already wrote the correct license in the syllabus file while working in the previous section. 
+If during [Design](../../Stage%203%20–%20Design/04-Conceptualisation/04-Conceptualisation.md) you have decided that you will use another license (compatible with the reused material, derived using the adapter's license rules, etc.) then you need to replace the LICENSE file in your repository with the correct one. We are assuming that you already wrote the correct license in the syllabus file while working in the previous section. 
 
 To do this you need to perform the following steps:
 
@@ -89,7 +89,7 @@ To do this you need to perform the following steps:
 
 ### Defining the Facilitation Guide
 
-The final learning content that needs to be developed is the overall Facilitation Guide. This document was introduced in the Design stage where its structure was defined. A guiding template has also been prepared for this document which can be found in the templates repository under the name [template_faciliator_guide.md](https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/template_facilitator_guide.md).
+The final learning content that needs to be developed is the overall Facilitation Guide. This document was introduced in the [Design](../../Stage%203%20–%20Design/07-Facilitation/07-Facilitation.md) stage where its structure was defined. A guiding template has also been prepared for this document which can be found in the templates repository under the name [template_faciliator_guide.md](https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/template_facilitator_guide.md).
 
 Rename the file by replacing the word template with the name of your training, and edit its contents so that it can describe the specifics of the training you are preparing. 
 

@@ -10,7 +10,7 @@ author: Skills4EOSC T2.3
 
 # Quality Assurance and FAIR verification
 
-When publishing is completed, the learning materials are made available for both the learners and instructors communities. The publishing process consists of many steps taking place on several different platforms and is therefore prone to errors. It is thus prudent to verify that all is as it should be afterwards including the FAIR aspects of the learning materials. In addition, this is the moment when external quality assurance (QA) should be engaged to assess the produced learning materials from both learners and instructors perspective. 
+When publishing is completed, the learning materials are made available for both the learners' and instructors' communities. The publishing process consists of many steps taking place on several different platforms and is therefore prone to errors. It is thus prudent to verify that all is as it should be afterwards including the FAIR aspects of the learning materials. In addition, this is the moment when external quality assurance (QA) should be engaged to assess the produced learning materials from both the learners' and instructors' perspective.
 
 For these purposes you can use the QA guidelines and checklists developed by Skills4EOSC T2.4.
 
@@ -40,7 +40,7 @@ Completed [Stage 5 - Publish](../../Stage%205%20–%20Publish/16-Publishing%20Pr
 
 ## Self-check QA
 
-The publication process contains very important step that aim to create FAIR learning materials that is accessible to both learners and instructors. Therefore, it is imperative that you first go through a self-check phase to ensure everything is as intended. For these purposes you can use the QA guidelines and checklists developed by T2.4.
+The publication process contains very important steps that aim to create FAIR learning materials that is accessible to both learners and instructors. Therefore, it is imperative that you first go through a self-check phase to ensure everything is as intended. For these purposes you can use the QA guidelines and checklists developed by T2.4.
 
 ![checklist icon](./attachments/checklist-1622517_1280.png)
 

@@ -42,7 +42,7 @@ Before publishing the learning materials on Zenodo and other platforms, it is im
 
 In this unit we will go over the important files that will need to be manually updated before publishing the materials for the first time on Zenodo and other platforms. All of the steps discussed below will need to be manually executed only once, upon the first publishing of the materials.
 
-Closely following the provided instructions is very important before moving forward with the actual depositing on Zenodo which is handled by automatic workflows, as discussed in [17-Zenodo Publishing](../17-Zenodo%20Publishing/Zenodo%20Publishing.md)
+Closely following the provided instructions is very important before moving forward with the actual depositing on Zenodo which is handled by automatic workflows, as discussed in [17-Zenodo Publishing](../17-Zenodo%20Publishing/17-Zenodo%20Publishing.md)
 
 ## Files Description
 

@@ -41,7 +41,7 @@ One of the publishing media for the created learning materials is Zenodo. Zenodo
 
 The [templates](https://github.com/FAIR-by-Design-Methodology/templates) repository includes existing workflows which when triggered automate the complete Zenodo publishing process. These workflows are generic and also apply to any forks, without the need for any manual changes. In a nutshell, the actions performed by these workflows are:
 
-- validate the metadata information provided in CITATION.cff and update the fields which are automatically managed (`doi`, `version`, `date-released`)
+- validate the metadata information provided in `CITATION.cff` and update the fields which are automatically managed (`doi`, `version`, `date-released`)
 - create a draft entry on Zenodo, prereserving a DOI
 - update files in the repository which should reference the DOI (the syllabus, last slides of all PowerPoint presentations, `CITATION.cff`)
 - rebuild the Git book, reflecting the version and DOI changes (for example the cite information in the footer)

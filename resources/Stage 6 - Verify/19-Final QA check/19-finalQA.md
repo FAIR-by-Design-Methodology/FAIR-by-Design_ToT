@@ -161,7 +161,7 @@ The suggested improvements by the QA reviewers together with the analysed feedba
 
 - [Training Check. The TrainingCheck Approach TrainingCheck.](https://www.trainingcheck.com/help-centre-2/guide-to-training-evaluation/the-trainingcheck-approach-2/)
 
-- [NHS Shared Learning. Quality Assurance Checklists for Evaluating Learning Objects and Online Courses. 2009.] (https://www.knowledge.scot.nhs.uk/media/4088630/quality_assurance_checklists.pdf0
+- [NHS Shared Learning. Quality Assurance Checklists for Evaluating Learning Objects and Online Courses. 2009.](https://www.knowledge.scot.nhs.uk/media/4088630/quality_assurance_checklists.pdf0)
 
 - [zipBoard. eLearning Quality Assurance Checklist with use cases and examples. August 2020.](https://zipboard.co/blog/elearning/elearning-qa-checklist/)
 

@@ -28,6 +28,7 @@ A fun, creative way to start feedback gathering and end the training with a rela
 - Browser
 - image editing software such as [Canva](https://www.canva.com/photo-editor/)
 - Learning platform: Postcard from a Friend activity
+- [postcard template](../attachments/vintage-postcard.jpg)
 
 ## Instructions
 

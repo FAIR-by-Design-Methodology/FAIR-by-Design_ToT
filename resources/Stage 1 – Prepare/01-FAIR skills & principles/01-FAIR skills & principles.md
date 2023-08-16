@@ -43,7 +43,7 @@ none
 
 The skills required to start producing FAIR learning materials can be divided into two groups:
 
-- FAIR oriented skills
+- **FAIR oriented skills**
     - Expertise in advocacy and promotion of the FAIR guiding principles
     - Expertise in curating and sharing FAIR data enabling
         - Efficient application of the concept of metadata
@@ -55,7 +55,7 @@ The skills required to start producing FAIR learning materials can be divided in
         - Intellectual Property Rights
         - Licensing
         - Attribution and citing of learning materials and other resources
-- Traditional instructional design oriented skills
+- **Traditional instructional design oriented skills**
     - Technical expertise in
         - Different tools and formats used for creation and delivery of learning content and their interoperability
         - Use of versioning during the creation and maintenance of different types of materials and resources

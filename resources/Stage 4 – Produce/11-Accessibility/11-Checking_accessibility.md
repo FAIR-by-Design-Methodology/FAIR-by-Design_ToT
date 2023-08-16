@@ -95,16 +95,17 @@ Level A sets a minimum level of accessibility and does not achieve broad accessi
 
 [WCAG 2.1](https://www.w3.org/TR/WCAG21/) define a number of new success criteria across the 4 principles:
 
-- Perceivable - Information and user interface components must be presentable to users in ways they can perceive.
-- Operable - User interface components and navigation must be operable.
-- Understandable - Information and the operation of user interface must be understandable.
-- Robust - Content must be robust enough that it can be interpreted by by a wide variety of user agents, including assistive technologies.
+- **Perceivable** - Information and user interface components must be presentable to users in ways they can perceive.
+- **Operable** - User interface components and navigation must be operable.
+- **Understandable** - Information and the operation of user interface must be understandable.
+- **Robust** - Content must be robust enough that it can be interpreted by by a wide variety of user agents, including assistive technologies.
 
 For Level AA conformance, the Web page satisfies all the Level A and Level AA Success Criteria, or a Level AA conforming alternate version is provided.
 
 W3C provides a [quick reference](https://www.w3.org/WAI/WCAG21/quickref/) that describes what is needed in order to achieve conformance.
 
 Some of the most important guidelines are as follows:
+
 - Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.
 - The visual presentation of text and images of text has a contrast ratio of at least 4.5:1.
 - Web pages do not contain anything that flashes more than three times in any one second period, or the flash is below the general flash and red flash thresholds.

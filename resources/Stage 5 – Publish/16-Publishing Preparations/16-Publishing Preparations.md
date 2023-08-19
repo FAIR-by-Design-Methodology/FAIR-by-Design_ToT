@@ -16,7 +16,7 @@ Before publishing the learning materials on Zenodo and other platforms, it is im
 ## Learning Objectives
 
 - Recognize the various accompanying files that need to be present in the Git repository before moving forward to formal publishing of the materials
-- Use software tools to create and validate the accompanying files
+- Describe relevant software tools required for creating and validating the accompanying files
 - Develop appropriate accompanying files for custom repositories hosting FAIR-by-Design learning materials
 
 ## Target Audience

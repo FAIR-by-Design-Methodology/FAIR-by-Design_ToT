@@ -192,14 +192,14 @@ Take a look at the logical organisation of the learning materials for this train
 
 To complete the full set of learning materials and abide by the FAIR principles that require that the metadata be both human and machine readable, the fields from the RDA minimal metadata schema need to be filled out in a machine-readable format.
 
-As this information has been stored in the syllabus, it is recommended that the machine-readable format is also stored in the **header of the syllabus** file so that both versions are found in one place making it easier to keep in sync. How to enter this information in the syllabus file will be presented in the [learning units that follow](../../Stage%204%20–%20Produce/12-Content Finalisation/12-Content_finalisation.md#syllabus-and-machine-readable-metadata).
+As this information has been stored in the syllabus, it is recommended that the machine-readable format is also stored in the **header of the syllabus** file so that both versions are found in one place making it easier to keep in sync. How to enter this information in the syllabus file will be presented in the [learning units that follow](../../Stage%204%20–%20Produce/12-Content%20Finalisation/12-Content_finalisation.md#syllabus-and-machine-readable-metadata).
 
 ## Supporting elements
 
 There are a few supporting elements that makeup the learning materials set. In addition to the ones that are required for the technical implementation of the publishing workflow (to be discussed later), the following files are necessary to be defined by the instructional designers:
 
 - **license**
-	- this is a text oriented version of the CC license of your choice. You can find a list of all text license 4.0 files at https://creativecommons.org/2014/01/07/plaintext-versions-of-creative-commons-4-0-licenses/. You just need to choose the one based on your license decision you made in [04 Conceptualisation](../04-Conceptualisation/04-Conceptualisation.md). You will learn how to do this in the [Publish stage](../../Stage%204%20–%20Produce/12-Content Finalisation/12-Content_finalisation.md#updating-the-license). 
+	- this is a text oriented version of the CC license of your choice. You can find a list of all text license 4.0 files at https://creativecommons.org/2014/01/07/plaintext-versions-of-creative-commons-4-0-licenses/. You just need to choose the one based on your license decision you made in [04 Conceptualisation](../04-Conceptualisation/04-Conceptualisation.md). You will learn how to do this in the [Publish stage](../../Stage%204%20–%20Produce/12-Content%20Finalisation/12-Content_finalisation.md#updating-the-license). 
 - **citation**
 	- the structure of this file is a machine readable description of how your learning materials should be cited based on the [Citation File Format - CFF](https://citation-file-format.github.io/). You will learn how to fill out this file in the [Publish stage](../../Stage%205%20–%20Publish/16-Publishing%20Preparations/16-Publishing%20Preparations.md#filling-out-citationcff). 
 - **code of conduct**

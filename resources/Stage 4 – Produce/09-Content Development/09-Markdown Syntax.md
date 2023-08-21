@@ -198,7 +198,7 @@ The final configuration change before using the plugin is to set the format of t
 
 ![Configuring the Converted Link Format setting for the Obsidian Link Converter Extension](./attachments/104-plugin-configuration.png)
 
-Now, whenever a link to an existing page needs to be added, we can simply type `[[` in Obsidian and the autocompletion window will open. If a link to a particular section within a given page is required, the `#` sign can be added after the page name, and Obsidian will help with its autocompletion as well. Once the Obsidian link is constructed, it can be converted to a standard Markdown representation by selecting it and clicking the previously set keyboard shortcut (.e.g, `Ctrl+Shift+O`). The image below provides a visual walkthrough of the whole process.
+Now, whenever a link to an existing page needs to be added, we can simply type `[[` in Obsidian and the autocompletion window will open. If a link to a particular section within a given page is required, the `#` sign can be added after the page name, and Obsidian will help with its autocompletion as well. Once the Obsidian link is constructed, it can be converted to a standard Markdown representation by selecting it and clicking the previously set keyboard shortcut (.e.g, `Ctrl+Shift+O`). Note that the description for the link, after its conversion, will need to be manually set (the text in the `[]` brackets). The image below provides a visual walkthrough of the whole process.
 
 ![Obsidian Link Converter Demo](./attachments/105-plugin-demo.gif)
 

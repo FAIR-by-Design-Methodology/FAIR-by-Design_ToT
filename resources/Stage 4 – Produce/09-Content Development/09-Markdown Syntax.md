@@ -178,6 +178,30 @@ It is also possible to add relative links to an arbitrary heading on the existin
 
 The above would be rendered as [See here for more details about unordered lists](09-Markdown Syntax.md#unordered-lists). Diving into more details, the syntax is: `markdown-file.md#heading`. The first part is the Markdown file name, as stored on your computer, then a single `#` sign (no matter the heading level) and finally the full name of the heading in all lowercase letters where any spaces are replaced by a `-`.
 
+#### Advanced Linking with Obsidian
+
+***Trainees are recommended to go over this section once they have familiarized themselves with the rest of the Markdown concepts. During the initial reading this section can be skipped.***
+
+Linking between learning units or even to specific sections of a given learning unit is a common task when designing learning materials. However, when it comes to complex trainings involving many Markdown files, manually writing the location of the reference document can be an error prone operation. While Obsidian has built-in functionality for linking between different documents, it does not use the standard Markdown syntax. To overcome this problem, while still leaving the actual construction of the file path to Obsidian, we can install the "Obsidian Link Converter Extension". 
+
+![Obsidian Link Converter Extension](./attachments/100-link-converter-extension.png)
+
+After installation, click the `Hotkeys` button. Configure a desired hotkey for the option `Obsidian Link Converter: Editor Selection: Links to Markdown`. This will add a keyboard shortcut that you can use to convert links from the Obsidian format to the standard Markdown format. You can use any key combination, e.g., `Ctrl+Shift+O`. To add the desired shortcut, simply click on the plus button next to the relevant entry and press the keys on the keyboard.
+
+![Adding a Keyboard Shortcut in Obsidian](./attachments/102-obsidian-keyboard-shortcut.png)
+
+After pressing the desired keys, the shortcut will be set:
+
+![Preview of Added Obsidian Shortcut](./attachments/103-obsidian-shortcut-set.png)
+
+The final configuration change before using the plugin is to set the format of the generated links. From the Obsidian Settings page, choose `Obsidian Link Converter` and make sure that the option `Converted Link Format` is set to `Relative Path`.
+
+![Configuring the Converted Link Format setting for the Obsidian Link Converter Extension](./attachments/104-plugin-configuration.png)
+
+Now, whenever a link to an existing page needs to be added, we can simply type `[[` in Obsidian and the autocompletion window will open. If a link to a particular section within a given page is required, the `#` sign can be added after the page name, and Obsidian will help with its autocompletion as well. Once the Obsidian link is constructed, it can be converted to a standard Markdown representation by selecting it and clicking the previously set keyboard shortcut (.e.g, `Ctrl+Shift+O`). The image below provides a visual walkthrough of the whole process.
+
+![Obsidian Link Converter Demo](./attachments/105-plugin-demo.gif)
+
 ### Images
 
 The syntax for inserting images is very similar to the one for inserting links. The only difference is the `!` prefix which is required:

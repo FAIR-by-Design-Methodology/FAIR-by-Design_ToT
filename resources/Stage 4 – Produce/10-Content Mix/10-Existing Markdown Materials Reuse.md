@@ -20,8 +20,9 @@ Since the discovered content can be in any file format, additional effort might 
 
 ## Learning Objectives
 
-- Extend the learning content
-- Define slides in open format
+- Develop new learning materials from scratch by applying the Markdown syntax on existing template documents
+- Manipulate existing learning objects, making them compliant with the FAIR-by-Design methodology
+- Define slides in an open format
 
 ## Target Audience
 

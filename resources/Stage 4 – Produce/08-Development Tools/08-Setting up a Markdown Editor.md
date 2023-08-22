@@ -69,7 +69,7 @@ The goal of this exercise is to configure Obsidian to work with the cloned repos
 
     ![Obsidian - Configuring Attachment Behavior](attachments/15-obsidian-attachment-configuration.png)
 
-13. To be compliant with the base Markdown specification, make sure to also set the `New link format` option to `Relative path to file` on the same settings page.
+13. To be compliant with the base Markdown specification, make sure to also set the `New link format` option to `Relative path to file` on the same settings page. Additionally, make sure to disable the option `Use [[Wikilinks]]`.
 
     ![Obsidian - Enabling Relative Locations for new Attachments](attachments/16-obisidian-relative-path-to-file.png)
 

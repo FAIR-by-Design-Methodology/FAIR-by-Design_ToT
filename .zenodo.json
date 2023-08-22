@@ -1,16 +1,24 @@
 {
   "creators": [
     {
+      "affiliation": "UKIM",
       "name": "Filiposka, Sonja",
       "orcid": "0000-0003-0034-2855"
     },
     {
+      "affiliation": "UKIM",
       "name": "Mishev, Anastas",
       "orcid": "0000-0001-7271-6655"
     },
     {
+      "affiliation": "UKIM",
       "name": "Kjorveziroski, Vojdan",
       "orcid": "0000-0003-0419-4300"
+    },
+    {
+      "affiliation": "KIT",
+      "name": "Leister, Carolin",
+      "orcid": "0000-0002-6940-0024"
     }
   ],
   "description": "The main goal of this ToT is to provide guidance and instructions on how to use the proposed FAIR-by-Design Methodology for development of FAIR learning materials in practice. The training will take you through all steps in the methodology and showcase their implementation using practical examples and developed templates.",
@@ -20,9 +28,20 @@
     "FAIR Learning Objects"
   ],
   "license": {
-    "id": "CC0-1.0"
+    "id": "CC-BY-4.0"
   },
   "publication_date": "2023-10-17",
   "title": "FAIR-by-Design Learning Materials Methodology Training of Trainers",
-  "version": "1.0.13"
+  "version": "1.0.13",
+  "upload_type": "lesson",
+  "communities": [
+    {
+      "identifier": "skills4eosc"
+    }
+  ],
+  "grants": [
+    {
+      "id": "10.13039/501100000780::101058527"
+    }
+  ]
 }

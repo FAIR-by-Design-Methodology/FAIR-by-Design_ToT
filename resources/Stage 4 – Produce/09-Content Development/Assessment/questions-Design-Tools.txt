@@ -1,0 +1,56 @@
+// question: 1338  name: Markdown Metadata
+::Markdown Metadata::How can metadata information be specified in Markdown documents?{
+	~Markdown does not support any form of metadata
+	=Metadata can be added at the beginning of the document between two lines containing the --- characters
+	~Markdown can automatically generate the necessary metadata, so no manual action is required by authors
+	~Metadata can be added at the end of the document between two lines containing the --- characters 
+	~Metadata can be added at any point in the document, as long as it is enclosed in lines containing the --- characters
+}
+
+// question: 1344  name: Markdown statements
+::Markdown statements::What is true regarding the Markdown format?{
+	~%33.33333%Markdown files have a .md extension
+	~Markdown offers options for creating interactive on-screen elements
+	~%33.33333%Markdown has built-in support for tables
+	~%33.33333%Markdown documents can easily be converted to HTML
+	~Markdown is a proprietary file format
+}
+
+// question: 1342  name: Text bold and italic
+::Text bold and italic::What is the correct Markdown syntax to format words as both bold and italic?{
+	=***bold and italic***
+	~*bold and italic*
+	~**bold and italic**
+	~****bold and italic****
+	~!bold and italic
+}
+
+// question: 1337  name: Working with Images
+::Working with Images::Select the correct syntax for inserting an image in a Markdown document.{
+	=![Image alt text](https\://url-to-image.example.com/img.png)
+	~[Image alt text](https\://url-to-image.example.com/img.png)
+	~!(Image alt text)[https\://url-to-image.example.com/img.png]
+	~(Image alt text)[https\://url-to-image.example.com/img.png]
+	~![https\://url-to-image.example.com/img.png](Image alt text)
+}
+
+// question: 1340  name: Working with Links
+::Working with Links::What is the correct syntax for adding a link in a Markdown document?{
+	=[Link text](https\://link-location.example.com)
+	~(Link text)[https\://link-location.example.com]
+	~(Link text)(https\://link-location.example.com)
+	~[Link text][https\://link-location.example.com]
+	~(https\://link-location.example.com)[Link text]
+}
+
+// question: 1336  name: List Nesting
+::List Nesting::Is it possible to nest ordered lists within unordered lists and vice versa when using Markdown?{TRUE}
+
+// question: 1341  name: Markdown file import
+::Markdown file import::External Markdown files downloaded from a third-party location can be imported into Obsidian.{TRUE}
+
+// question: 1345  name: Markdown Reuse
+::Markdown Reuse::Markdown content can be reused between different rendering engines and Git book services, provided that the author sticks to using standardized formatting syntax.{TRUE}
+
+// question: 1343  name: MkDocs heading limitations
+::MkDocs heading limitations::MkDocs supports the definition of only a single level 1 heading on a given page.{TRUE}

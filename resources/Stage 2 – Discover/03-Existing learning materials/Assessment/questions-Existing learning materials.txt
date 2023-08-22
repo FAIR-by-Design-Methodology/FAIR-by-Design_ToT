@@ -1,0 +1,61 @@
+
+// question: 3  name: repos
+::repos::Match the type of repository/catalogue{
+   =Zenodo -> general repository
+   =Skills4EOSC learning platform  -> EOSC project learning materials repository
+   =GALILEO  -> OER repository
+}
+
+
+// question: 1  name: instructional design process
+::instructional design process::What is the second step of the backward instructional process?{
+	~Learning objectives
+	~%100%Assessment options
+	~Materials structuring
+	~Content development
+	~Generating PID
+}
+
+
+// question: 2  name: Discover
+::Discover::What is the purpose of the FAIR-by-Design Methodology Discover stage ?{
+	~consider assessments and activities
+	~explore existing learning resources
+	~get inspired with examples
+	~%100%all of the provided answers
+}
+
+
+// question: 7  name: location
+::location::There is a single catalogue where all relevant learning resources can be found.{FALSE}
+
+
+// question: 4  name: repositories
+::repositories::Learning materials can be found only in dedicated learning objects repositories.{FALSE}
+
+
+// question: 5  name: Format
+::Format::There are some platforms that aim to provide access to reusable editable learning materials for other instructors.{TRUE}
+
+
+// question: 6  name: EOSC training
+::EOSC training::Who is the target user of the EOSC training catalogue?{
+	~%25%learner
+	~%25%ltrainer
+	~%25%linstructor
+	~%25%lservice user
+}
+
+
+// question: 10  name: FAIR
+::FAIR repositories::All learning materials provided in the example repositories and catalogues are FAIR.{FALSE}
+
+
+// question: 9  name: download
+::download::The learning resources provided under the CC NC license are always readily accessible for download.{FALSE}
+
+
+// question: 8  name: focus
+::focus::The Discover stage should only focus on learning resources with permissable licenses allowing reuse.{FALSE}
+
+

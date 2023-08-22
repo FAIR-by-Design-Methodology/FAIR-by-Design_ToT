@@ -1,0 +1,50 @@
+::instructor kit::What are the items that belong to the instructor kit{
+	~%20.0%learning unit plan
+	~%20.0%activity details
+	~%20.0%quiz question banks
+	~%20.0%facilitation guide
+	~%20.0%feedback questions
+	~learning content
+	~slide deck
+}
+
+::guide::The facilitation guide should include checklists on what to do ... the training?{
+	~to enhance
+	~%33.33333%during
+	~%33.33333%after
+	~%33.33333%before
+	~when supervising
+}
+
+::feedback::Feedback should be gathered from learners anonymously.{TRUE}
+
+::feedback2::Feedback analysis should be openly accessible.{TRUE}
+
+::organisation::What is the purpose of the attachments folder in the logical organisation structure?{
+	=store all media files for the files in the same level
+	~store all media files for all learning units
+	~store the activity descriptions
+	~store special files
+}
+
+::metadata::Where is the machine-readable metadata stored?{
+	=%100%Syllabus#
+	=%100%in syllabus#
+	=%100%Syllabus file#
+}
+
+::conduct::What is the main purpose of code of conduct document?{
+	=support collaboration
+	~automation
+	~trainer's information
+	~versioning
+	~content definition
+	~tools
+}
+
+::citation::The citation file follows the ___ format.{
+	=CFF
+	~Harvard
+	~ASA
+	~XML
+}

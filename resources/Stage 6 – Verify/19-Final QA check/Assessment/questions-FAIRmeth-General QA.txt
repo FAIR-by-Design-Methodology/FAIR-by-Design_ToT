@@ -1,0 +1,44 @@
+
+::assignments::Does the resource include assignments with clearly stated assessment strategies consistent with course objectives?{TRUE}
+
+::author::Does the resource specify the developer/author(s) of the resource?{TRUE}
+
+::cost::Does the resource include information regarding whether the access to it implies costs?{TRUE}
+
+::credentials::Is the course comprised of micro-credentials that can be aligned to create a larger milestone credential?{TRUE}
+
+::dates::If needed, does the resource state the dates the training takes place?{TRUE}
+
+::duration::Does the resource states the expected duration of the training?{TRUE}
+
+::feedback::Does the content end with an activity that allows for student feedback?{TRUE}
+
+::goal::Does the resource include its goal? (Why are you doing this training? What would success look like?){TRUE}
+
+::grading::Is grading policy provided in a manner that clearly defines expectations for the course and respective assignments?{TRUE}
+
+::keywords::Does the resource include relevant keywords related to the content and structure?{TRUE}
+
+::language::Does the resource state the language used?{TRUE}
+
+::level::Does the resource state the level of expertise it is required from its audience?{TRUE}
+
+::LOs::Are the Learning Objectives / Outcomes specific, well-defined, and measurable?{TRUE}
+
+::method::Does the resource states its delivery method? (live sessions, self-learning, hybrid, face-to-face...){TRUE}
+
+::program::Does the resource clearly describes its program / outline?{TRUE}
+
+::styles::Does the resource cover different learning styles that lead to more student engagement, while not overly relying on one learning style such as reading/writing?{TRUE}
+
+::target::Does the resource clearly state its target audience?{TRUE}
+
+::title::Does the resource title clearly describe what it offers?{TRUE}
+
+::tools::If applicable, does the resource explain the required tools/software/infrastructure as well as the instructions for acceptable assignment submission types (e.g., MS Word, MS Excel, MS PowerPoint, PDF, .mp4, mov.)?{TRUE}
+
+::trainer::Does the resource specify the trainer/s of the resource?{TRUE}
+
+::version::Does the resource state the date when it was published and/or the date of the newest version?{TRUE}
+
+

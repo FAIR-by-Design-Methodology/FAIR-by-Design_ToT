@@ -13,7 +13,7 @@ on:
 jobs:
   deploy_docs:
     name: Deploy docs
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout master
         uses: actions/checkout@v3
@@ -38,5 +38,6 @@ jobs:
 
       - name: Deploy with mike
         run: |
-          mike set-default --rebase latest
           mike deploy --rebase --push --update-aliases latest
+          git checkout gh-pages
+          git cat-file -e gh-pages:index.html 2> /dev/null && echo "Default version already set. Skipping..." || (echo "Setting default version..." && git checkout main && mike set-default --rebase --push latest)

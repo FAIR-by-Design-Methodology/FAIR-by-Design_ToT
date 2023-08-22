@@ -1,0 +1,38 @@
+::strategy::The assessment strategy of providing a single quiz at the end of the learning process is called?{
+	~Formative
+	~Final
+	~Instructional
+	=Summative
+}
+
+::Bloom quiz::When assessing knowledge on the Application cognitive level, what types of quiz questions can be used?{
+	~True/False
+	~%50.0%multiple choice
+	~multi-select
+	~%50.0%long answer
+	~short answer
+	~fill in the blank
+	~Matching
+	~Ordering
+}
+
+::Learning plan::What are the elements of the detailed plan within the Learning Unit Plan?{
+	~%20.0%topic
+	~%20.0%duration
+	~reflection
+	~%20.0%teaching methods
+	~%20.0%activities
+	~%20.0%resources
+}
+
+::HUNTER::What model is recommended to be followed during the learning unit plan development?{
+	=%100%HUNTER#
+	=%100%HUNTER model#
+	=%100%The HUNTER model#
+}
+
+::content::The main learning content document should provide a list of suggested reading.{TRUE}
+
+::slides::Slide decks are a mandatory type of learning material.{FALSE}
+
+

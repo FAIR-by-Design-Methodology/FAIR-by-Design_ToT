@@ -1,0 +1,65 @@
+// question: 1334  name: Changes after Forking
+::Changes after Forking::What changes need to be performed after the FAIR-by-Design template repository has been forked?{
+	~%33.33333%The workflows need to be explicitly enabled
+	~%33.33333%The settings of the organization which owns the forked repository need to be changed as to allow read/write access for the workflows
+	~%33.33333%GitHub pages need to be configured
+	~The owners of the "templates" repository need to provide an explicit approval for the fork
+	~A fork request must be submitted to the original repository
+	~A clone request must be submitted to the original repository
+}
+
+// question: 1330  name: Git clone vs fork
+::Git clone vs fork::What is the difference between the terms "forking a repository" and "cloning a repository"?{
+	~%50%To clone a repository means to download a local copy
+	~To fork a repository means to download a local copy
+	~%50%To fork a repository means to create an identical copy of the original repository where the new owner is the forking user
+	~To clone a repository means to create an identical copy of the original repository where the new owner is the cloning user
+}
+
+// question: 1329  name: Markdown Presentation Drawbacks
+::Markdown Presentation Drawbacks::What are some current drawbacks of Markdown based presentation frameworks? {
+	~%50%Complexity
+	~%50%Harder to create visually rich presentations
+	~Cannot be exported to a final output format (e.g., PDF or HTML)
+	~The software to create them is proprietary
+}
+
+// question: 1335  name: MkDocs
+::MkDocs::What statement best describes MkDocs?{
+	~MkDocs is an alternative to GitHub and provides hosting for Git repositories 
+	=MkDocs is a framework for transforming Markdown intermediary files into HTML documents part of a Git book
+	~MkDocs is an alternative file editor to Obsidian, allowing Markdown editing
+	~MkDocs is a Git client that makes the process of interacting with Git repositories simpler.
+}
+
+// question: 1331  name: Obsidian Characteristics
+::Obsidian Characteristics::Select all statements that are true for the Obsidian editor.{
+	~%33.33333%Obsidian has native support for previewing Markdown documents.
+	~Obsidian offers a built-in WYSIWYG Markdown toolbar which can be used to format text.
+	~%33.33333%Obsidian does not offer a built-in WYSIWYG Markdown toolbar and requires a third-party plugin
+	~Obsidian has a built-in Git plugin
+	~%33.33333%Obsidian does not have a built-in Git plugin
+}
+
+// question: 1332  name: What is a workflow in the context of GitHub?
+::What is a workflow in the context of GitHub?::What is a workflow in the context of GitHub?{
+	=Workflow is a set of actions that are executed automatically upon a given event in the repository which triggers it
+	~Workflow is a set of actions that must be executed manually by the user
+	~There is no such thing as a workflow in the context of GitHub
+}
+
+// question: 1326  name: What kind of a file format is Markdown
+::What kind of a file format is Markdown::What kind of a file format is Markdown?{
+	=text-based
+	~binary
+	~mixed
+}
+
+// question: 1328  name: Markdown format type
+::Markdown format type::Markdown is a final output format.{FALSE}
+
+// question: 1327  name: Word processors and version management
+::Word processors and version management::Typical word processor file formats such as .docx and .odt fit well with version management systems that operate on the character level and offer granular preview of changes.{FALSE}
+
+// question: 1333  name: Workflow Permissions
+::Workflow Permissions::GitHub workflows have both read and write permissions to the repositories in which they are executed by default and no user change is necessary in this context.{FALSE}

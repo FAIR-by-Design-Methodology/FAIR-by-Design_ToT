@@ -27,7 +27,7 @@ abstract: "The main goal of this ToT is to provide guidance and instructions on 
 primaryLanguage: "EN"
 license: "https://creativecommons.org/licenses/by/4.0/"
 versionDate: "2023-10-17"
-urlToResource: "https://learning.skills4eosc.eu/course/view.php?id=19"
+urlToResource: "https://doi.org/10.5072/zenodo.1224005"
 resourceURLType: "URL"
 targetGroup: "All Skills4EOSC project members that will need to develop learning materials for any type of project-related training."
 learningResourceType: "other"
@@ -103,7 +103,7 @@ Note: start time is given in CEST
 
 ### Day 1: FAIR-by-Design Preparation and Discovery
 
-|     Start    |     Step        |     Topic                                      |     Duration    |
+|     Start    |     Stage       |     Topic                                      |     Duration    |
 |--------------|-----------------|------------------------------------------------|-----------------|
 |     9:00     |                 |     Introduction                               |     30 mins     |
 |     9:30     |     Prepare     |     FAIR skills & principles                   |     30 mins     |
@@ -114,34 +114,37 @@ Note: start time is given in CEST
 
 ### Day 2: Designing and Producing Learning Materials
 
-|     Start    |     Step       |     Topic                        |     Duration    |
+|     Start    |     Stage      |     Topic                        |     Duration    |
 |--------------|----------------|----------------------------------|-----------------|
-|     9:00     |     Design     |     Conceptualisation            |     30 mins     |
-|     9:30     |     Design     |     Licensing and Attribution    |     45 mins     |
+|     9:00     |     Design     |     Conceptualisation            |     35 mins     |
+|     9:35     |     Design     |     Hierarchical Structure       |     40 mins     |
 |     10:15    |                |     = coffee break =             |     15 mins     |
-|     10:30    |     Design     |     Instruction facilitation     |     30 mins     |
-|     11:00    |     Design     |     Materials structure          |     30 mins     |
+|     10:30    |     Design     |     Learning Unit Development    |     35 mins     |
+|     11:05    |     Design     |     Instruction Facilitation     |     25 mins     |
 |     11:30    |                |     = coffee break =             |     15 mins     |
-|     11:45    |     Produce    |     Content design               |     60 mins     |
+|     11:45    |     Produce    |     Development Tools            |     60 mins     |
 |     12:45    |                |     = Lunch break =              |     60 mins     |
-|     13:45    |     Produce    |     Design tools                 |     60 mins     |
+|     13:45    |     Produce    |     Content Development          |     60 mins     |
 |     14:45    |                |     = coffee break =             |     15 mins     |
-|     15:00    |     Produce    |     Accessibility                |     60 mins     |
+|     15:00    |     Produce    |     Content Mix                  |     60 mins     |
 |     16:00    |                |     = coffee break =             |     15 mins     |
-|     16:15    |     Produce    |     Formats                      |     30 mins     |
-|     16:45    |     Produce    |     Metadata                     |     30 mins     |
+|     16:15    |     Produce    |     Accessibility                |     40 mins     |
+|     16:55    |     Produce    |     Content Finalisation         |     20 mins     |
 |     17:15    |     Produce    |     Initial Quality Assurance    |     15 mins     |
 
 
-### Day 3: Finalising FAIR-by-Design Learning Materials
-|     Start    |     Step       |     Topic                 |     Duration    |
-|--------------|----------------|---------------------------|-----------------|
-|     9:00     |     Publish    |     Depositing            |     60 mins     |
-|     10:00    |                |     = coffee break =      |     15 mins     |
-|     10:15    |     Publish    |     Versioning            |     30 mins     |
-|     10:45    |                |     Feedback gathering    |     30 mins     |
-|     11:15    |     Verify     |     = coffee break =      |     15 mins     |
-|     11:30    |     Verify     |     FAIR verification     |     60 mins     |
+### Day 3: Publishing FAIR-by-Design Learning Materials
+
+|     Start    |     Stage      |     Topic                  |     Duration    |
+|--------------|----------------|----------------------------|-----------------|
+|     9:00     |     Publish    |     Depositing             |     60 mins     |
+|     10:00    |                |     = coffee break =       |     15 mins     |
+|     10:15    |     Publish    |     Versioning             |     30 mins     |
+|     10:45    |     Publish    |     Feedback gathering     |     30 mins     |
+|     11:15    |                |     = coffee break =       |     15 mins     |
+|     11:30    |     Verify     |     QA & FAIR verification |     30 mins     |
+|     12:00    |                |     Continuous Improvement |     30 mins     |
+
 
 ## Resources and Materials
 
@@ -173,7 +176,14 @@ For more information regarding the training please contact the T2.3 FAIR-by-Desi
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
+## DOI
+[https://doi.org/10.5072/zenodo.1224005](https://doi.org/10.5072/zenodo.1224005)
+
 ## Accessibility Mission
 Skills4EOSC is dedicated to ensuring that all produced learning materials are accessible to as many visitors as possible regardless of their ability or technology. We have an active commitment to increasing our learning materials accessibility. The main standards that we aim to comply with are WCAG v.2.1 Level AA criteria and PDF/UA (ISO 14289).
+
+### Acknowledgement
+
+These learning materials have been developed by following the [FAIR-by-Design Methodology](https://doi.org/10.5281/zenodo.7875540). 
 
 ![Skills4EOSC logo](./attachments/skills4eosc.png)

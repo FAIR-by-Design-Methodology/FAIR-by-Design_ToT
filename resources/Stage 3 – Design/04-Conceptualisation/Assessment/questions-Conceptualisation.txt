@@ -1,0 +1,20 @@
+
+::syllabus::Which fields are typically found in a syllabus?{
+	~description of the topic
+	~agenda
+	~materials and resources
+	~%100.00%all of the offered answers
+}
+
+::concept map::Using a concept map one can?{
+	~understand the relationship between the concepts in the map
+	~outline the concepts that need to be covered in the learning materials
+	~ideate the structure of the learning materials
+	~%100.00%all of the offered answers
+}
+
+::elements::All fields provided in the syllabus elements list are required to be filled out.{TRUE}
+
+::schema::The syllabus template incorporates all fields defined in the RDA minimal metadata schema.{TRUE}
+
+

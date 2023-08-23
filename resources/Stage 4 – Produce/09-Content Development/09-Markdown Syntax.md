@@ -249,7 +249,7 @@ Obsidian, using the third party plugin that we already installed in one of the p
 Depending on the current context, one of two options is possible:
 
 - if an existing table is selected, the plugin will launch in editing mode
-- if no table is present, a new ona will be created, and the edit mode will be launched
+- if no table is present, a new one will be created, and the edit mode will be launched
 
 ![Obsidian - Editing a Table](attachments/08-editing-table.png)
 
@@ -319,7 +319,7 @@ After validating the state of the local repository, continue by executing the fo
 6. Fill out the estimated total duration of the lesson by inputting a new line in the `Total duration` section. Format the duration text as both bold and italic.
 7. Provide the recommended number of attendees in the `Number of Attendees` section.
 8. Convert the unordered list in the `Learning Objectives` section to an ordered list and enter 3 learning objectives at a minimum.
-9. Edit the sample plan table in the `Plan` section using the table editing plugin in Obsidian. Remove any unneeded rows as needed. Enter at least one arbitrary link in the Activities section.
+9. Edit the sample plan table in the `Plan` section using the table editing plugin in Obsidian. Remove any unneeded rows as needed. Enter at least one arbitrary link in the `Activities` section.
 10. Provide `Assessment` information. Make sure to add at least one nested list (either ordered or unordered) to an existing element.
 11. Alter the `Certificate or Badge` section by providing an image of the Badge that can be obtained by completing the lesson. An arbitrary image can also be used.
 12. Complete the lesson plan by filling out the `Reflection` and `Comments` sections.

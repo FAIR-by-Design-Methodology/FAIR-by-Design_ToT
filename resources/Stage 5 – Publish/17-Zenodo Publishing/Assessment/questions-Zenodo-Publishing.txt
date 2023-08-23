@@ -1,0 +1,37 @@
+// question: 1354  name: Workflow Trigger
+::Workflow Trigger::What is the trigger for starting the new version publishing workflow (including depositing to Zenodo)?{
+	=New GitHub release
+	~New commit
+	~New fork
+	~New clone
+	~New push
+}
+
+// question: 1353  name: Zenodo GitHub Integration
+::Zenodo GitHub Integration::Once a Zenodo Personal Access Token is created, what resource should be provisioned on GitHub?{
+	=GitHub secret
+	~GitHub parameter
+	~GitHub environment
+	~GitHub note
+}
+
+// question: 1355  name: Zenodo manual adjustment
+::Zenodo manual adjustment::What metadata parameter should be manually adjusted directly in the Zenodo draft?{
+	=language
+	~authors
+	~project
+	~community
+	~abstract
+}
+
+// question: 1351  name: Zenodo Token
+::Zenodo Token::What kind of a Zenodo token needs to be created so that an integration between GitHub and Zenodo can take place?{
+	=Personal Access Token
+	~Password
+	~Username
+	~Secret Key
+	~Passphrase
+}
+
+// question: 1352  name: Zenodo Security
+::Zenodo Security::The generated Zenodo Personal Access Token is sensitive information and as such should not be shared publicly.{TRUE}

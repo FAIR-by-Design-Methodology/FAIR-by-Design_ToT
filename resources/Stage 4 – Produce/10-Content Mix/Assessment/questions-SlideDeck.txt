@@ -1,5 +1,29 @@
-::experience::The slide design is an important factor when it comes to rich learning experience{TRUE}
+// question: 94  name: MD
+::MD::Using MD to define slides means focusing on{
+	=content
+	~visual appealing
+	~design and layout
+	~color palette
+}
 
+// question: 106  name: Minimal MD Metadata
+::Minimal MD Metadata::What is the minimal set of metadata fields that should be present in the header of every Markdown file?{
+	~%33.33333%title
+	~%33.33333%author
+	~%33.33333%tags
+	~contributor
+	~learning unit
+}
+
+// question: 93  name: model
+::model::The slides sequence in the presentation should follow the ___ model.{
+	=HUNTER
+	~DEER
+	~80-20
+	~Quarto
+}
+
+// question: 91  name: presentation
 ::presentation::Slide decks are an important learning resource for what types of learning processes?{
 	~self-paced
 	~%33.33333%webinar
@@ -8,23 +32,7 @@
 	~instructor-less
 }
 
-::slides::Slide deck is required learning material for all learning units.{FALSE}
-
-::model::The slides sequence in the presentation should follow the ___ model. {
-	=HUNTER
-	~DEER
-	~80-20
-	~Quarto
-}
-
-::MD::Using MD to define slides means focusing on {
-	=content
-	~visual appealing
-	~design and layout
-	~color palette
-}
-
-// question: 1339  name: Steps to publish changes
+// question: 95  name: Steps to publish changes
 ::Steps to publish changes::What steps must be undertaken explicitly by an author in order to publish changes to the Git book? Actions which are triggered automatically should not be selected.{
 	~%33.33333%Relevant changes need to be done to the source Markdown files.
 	~%33.33333%Using a Git client, the changes need to be committed to the repository.
@@ -32,3 +40,17 @@
 	~The Git book publishing workflow needs to be manually executed by the author
 	~The Markdown files need to be exported to HTML by the author, and then uploaded to a file hosting service
 }
+
+// question: 107  name: Visibility of other materials
+::Visibility of other materials::Why are accompanying materials such as lesson plans, activities, and assessments not visible on the published Git book?{
+	~Accompanying materials are visible
+	~The Git book does not support accompanying materials
+	=Accompanying materials are excluded on purpose, since they are targeted at trainers, contrary to the Git book which is targeted at trainees
+	~There are no accompanying materials
+}
+
+// question: 90  name: experience
+::experience::The slide design is an important factor when it comes to rich learning experience{TRUE}
+
+// question: 92  name: slides
+::slides::Slide deck is required learning material for all learning units.{FALSE}

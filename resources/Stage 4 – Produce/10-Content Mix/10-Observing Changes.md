@@ -1,5 +1,5 @@
 ---
-title: "Observing Changes and Key Takeaways"
+title: "Observing Changes"
 author: "Skills4EOSC T2.3"
 tags: 
     - FAIR-by-Design Learning Materials
@@ -11,7 +11,7 @@ tags:
     - Git Book
 ---
 
-# Observing Changes and Key Takeaways
+# Observing Changes
 
 Having produced our very own learning unit, now is the time to verify that its visual appearance conforms to our expectation by viewing it directly in the Git book.
 

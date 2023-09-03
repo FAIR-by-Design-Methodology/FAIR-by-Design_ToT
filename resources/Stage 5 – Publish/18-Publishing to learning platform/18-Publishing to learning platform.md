@@ -90,12 +90,39 @@ Once the attributes are filed in, the saving options at the bottom of the page a
 Moodle provides rich options for knowledge assessment in the form of Quizzes. Quizzes can contain different types of questions, from simple single or multiple choice, to more advanced types such as matching, drag-and-drop, calculated answers etc.  Most of the questions types can be graded automatically, with the exception of the "Essay" type, that needs manual grading. 
 The questions used in the quizzes are organised in a question bank, offering a hierarchical structure for questions grouping. The grouping of questions in categories and sub-categories provides better support for automatization of the quizz creating process, offering random choice of questions from the same category, making the assessment more diverse. 
 New questions to the question bank can be added either manually or by import. 
-
+Access to the question bank can be done through the link "More" and then "Question bank"
+![Question bank](./attachments/11-AccessQuestionBank.png)
+Within the question bank view,  activities such as crating and editing categories, adding questions and importing and exporting of questions can be performed. 
+![Questions options](./attachments/12-QuestionsOptions.png)
+#### Creating a new category
+To create a new category for the questions in the question bank, from the "Categories" view select the "Add category" button.
+![Add category](./attachments/13-AddCategory.png)
+For the newly created category, first select the parent category, and then define the name for it. 
+![Create new category](./attachments/14-CreateCategory.png)
 #### Adding questions to questions banks manually
-
-
+Individual questions can be added to the question bank manually. To add individual question to the question bank, from the "Questions" view of the Question bank, first select the category/sub-category for the questions. Then, select the "Create a new question" link. 
+![Create new question](./attachments/15-AddNewQuestion.png)
+The next form allows for the choice of the question type for the new question. 
+![New question type](./attachments/16-NewQuestionType.png)
+Depending on the type of the question, a form to edit its properties is shown. Once the properties of the question are finalised, the question can be saved to the question bank. 
+If a multiple choice questions is selected, the parameters to be configures are the question name, question text and the answers
+![Question name and text](./attachments/17-QuestionName.png)
+For the multiple choice questions, one or more answers can be valid. For each of the offered answers, the choice text, grade and feedback can be provided. The choice is the displayed option, while the feedback will be displayed when reviewing a finished quizz. The grade selection defined how much each choice influences the final grade in percentage. The percentage can be also negative for the wrong answers. 
+![Answers](./attachments/18-Answers.png)
 #### Importing questions into questions banks
-Importing GIFT files
+To use already prepared questions outside of the learning platform, or questions exported from other courses or learning platforms, the import questions feature can be used. 
+The most popular format for editing questions and their transfer between courses and platforms is the GIFT format. 
+In the GIFT format, the questions are written as follows
+
+`Which of the followint types of questions is not graded automaticaly`
+`= Essay`
+`~%-10% Multiple choice`
+`~%-10% Numerical`
+`~%-10% Short answer`
+
+In the example above, the wrong answers have negative score of -10% of the grade for that question. 
+![Importing question](./attachments/19-ImportGIFT.png)
+The category of the imported questions can be either specified in the GIFT file using the `$CATEGORY: name_of_category` modifier, or selected from the General section of the import form. 
 
 #### Creating quizzes 
 Creating quizzes, strategies

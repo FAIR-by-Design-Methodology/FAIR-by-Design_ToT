@@ -125,7 +125,18 @@ In the example above, the wrong answers have negative score of -10% of the grade
 The category of the imported questions can be either specified in the GIFT file using the `$CATEGORY: name_of_category` modifier, or selected from the General section of the import form. 
 
 #### Creating quizzes 
-Creating quizzes, strategies
+The creation of quizzes as methods of knowledge assessment can be done in two steps. First, a quiz needs to be added as new activity with type "Quiz" to the specific topic of the course. 
+![Adding a quiz](./attachments/20-AddQuiz.png)
+The quiz attributes include name, start and end time for the quiz to be available for the learners, as well as the time limit for each attempt of the quiz. 
+![Quiz attributes](./attachments/21-QuizAttributes.png)
+Once the quiz is created, the next step is the selection of the questions. 
+![Quiz questions](./attachments/22-QuizQuestions.png)
+The questions view of the quiz allows configuring of the maximum grade of the quiz, whether the questions should be shuffled at each individual attempt, and most importantly to add new questions. 
+When the "Add" link is selected, three options are available
+- "add new question", allowing for direct adding new questions to the quiz (and to the question bank)
+- "from the questions bank", allowing a choice of a specific question from the question bank
+- "a random question", giving the opportunity to randomly select a questions for that position in the quiz in each individual attempt. 
+>NOTE: the "a random question" option can be used to define test strategies. A strategy can be defined by adding random questions from different question categories/sub-categories, allowing for diversity of the individual attempts, from a specified group of questions with similar goal and difficulty. 
 
 ### Feedback gathering
 Gather feedback from the participants

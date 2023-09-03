@@ -4,7 +4,6 @@ author: "Skills4EOSC T2.3"
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects
-    - Git
     - Publishing
     - Learning platform
 ---
@@ -26,7 +25,7 @@ The learning materials targeted for consumption by the learners/trainees are usu
 
 ## Duration
 
-XX mins
+35 mins
 
 ## Prerequisites
 
@@ -65,18 +64,41 @@ When the course has been configured to be in the Topic format, the structure of 
 ![Course structure (topics)](./attachments/03-Topics.png)
 To make any changes to the courses, the editing mode has to be turned on, by clicking the switch in the upper right corner.
 ![Add new topic](./attachments/04-AddNewTopic.png)
+To add the new topic, use the "Add topic" link at the bottom left. Each topic will need to have a title as a minimum. 
 ### Adding PDF documents
-Add PDF documents
-
+Most common type of material that will be added to the courses on the learning platform will be pdf documents, whether they will be pdf versions of the presentations or other reading. 
+As mentioned previously, to make any changes to the course, the editing mode needs to be turned on, by clicking the switch in the upper right corner.
+![Add new activity or resource](./attachments/05-AddingFiles.png)
+The next step is to expand the topic that will contain the pdf file. Once expanded, the topic will contain a link titled "Add an activity or resource". By clicking this link, the selection of available activities and resources is displayed.
+![Add new file](./attachments/06-SelectActivityResource.png)
+Select the "File" resource to proceed to the form for describing and uploading the pdf file. 
+The required attribute of the pfd file is the Name.
+To upload the file, you can drop the pfd file to the marked space, or use the upload dialog. 
+![Name and uploading](./attachments/07-FileAttributes.png)
+To finalise the publishing of the pdf file, at the bottom of the page, use one of the Save buttons
+![Save changes](./attachments/08-Save.png)
+The "Save and return to course" will save the changes and return to the home page of the course, displayng the topics. The "Save and display" button will save the changes and display the newly uploaded pdf file. 
 ### Adding links
-Add links to external resources
+The procedure for adding links to external resources is similar to the procedure for adding pdf documents. Course needs to be in the editing mode, the required topic should be expanded, and the link "Add an activity or resource" should be selected.
+![Add new link](./attachments/09-SelectURL.png)
+From the list of activities and resources, select the "URL" option. 
+The required attributes are the Name and the External URL. 
+![URL Attributes](./attachments/10-URLAttributes.png)
+Once the attributes are filed in, the saving options at the bottom of the page are the same as when adding files ("Save and return to course" and "Save and display").
 
-### Working with quizes
-Working with quizes
+### Working with quizzes
+Moodle provides rich options for knowledge assessment in the form of Quizzes. Quizzes can contain different types of questions, from simple single or multiple choice, to more advanced types such as matching, drag-and-drop, calculated answers etc.  Most of the questions types can be graded automatically, with the exception of the "Essay" type, that needs manual grading. 
+The questions used in the quizzes are organised in a question bank, offering a hierarchical structure for questions grouping. The grouping of questions in categories and sub-categories provides better support for automatization of the quizz creating process, offering random choice of questions from the same category, making the assessment more diverse. 
+New questions to the question bank can be added either manually or by import. 
+
+#### Adding questions to questions banks manually
+
+
 #### Importing questions into questions banks
 Importing GIFT files
-#### Creating quizes 
-Creating quizes, strategies
+
+#### Creating quizzes 
+Creating quizzes, strategies
 
 ### Feedback gathering
 Gather feedback from the participants
@@ -93,9 +115,9 @@ Showing the course on the platform
 ### Indexing the course in the EOSC catalogue
 Making the course visible in the EOSC catalogue
 
-## Exercise: Adding content to the course
+## Exercise: Adding content to the course on the learning platform
 
-The goal of this exercise is to describe the way in which you can costomise the course settings on the learning platform.
+The goal of this exercise is to describe how to add content to the previously created course on the learning platform.
 
 
 

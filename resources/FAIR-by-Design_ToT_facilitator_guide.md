@@ -14,7 +14,7 @@ The training is organized as an online multi-day webinar using a Big Blue Button
 
 ## Training materials, resources and equipment
 ### Learning materials
-The learning materials for the trainees should all be available on the learning platform before the beginning of the event, divided per learning sections. 
+The learning materials for the trainees should all be available on the learning platform before the beginning of the event, divided per learning sections (topics). 
 At the top of the course before the learning sections add:
 - link to BBB room
 - open forum

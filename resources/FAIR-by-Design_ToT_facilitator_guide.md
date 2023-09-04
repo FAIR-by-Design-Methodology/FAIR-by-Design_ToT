@@ -69,7 +69,8 @@ The trainers materials latest version is taken from the GitHub repo.
 2. [Challenges](./00-Welcome/Activities/01-challenges.md)
 
 ### 01-FAIR Skills & Principles
-1. [Assessing FAIRness of Learning Materials](./01-FAIR%20skills%20&%20principles/Activities/Assessing%20FAIRness%20of%20Learning%20Materials.md)
+1. [Assessing FAIRness of Learning Materials](./Stage%201%20-%20Prepare/01-FAIR%20skills%20&%20principles/Activities/Assessing%20FAIRness%20of%20Learning%20Materials.md)
+[[./Stage 1 – Prepare/01-FAIR skills & principles/Activities/Assessing FAIRness of Learning Materials]]
 
 ### 02-Preparing FAIR Learning Objects
 1. [Checking licenses](./Stage%201:%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/Activities/01-Checking%20licenses.md)  

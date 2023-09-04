@@ -136,19 +136,30 @@ When the "Add" link is selected, three options are available
 - "add new question", allowing for direct adding new questions to the quiz (and to the question bank)
 - "from the questions bank", allowing a choice of a specific question from the question bank
 - "a random question", giving the opportunity to randomly select a questions for that position in the quiz in each individual attempt. 
+
+![Quiz add questions](./attachments/23-QuizAddQuestions.png)
 >NOTE: the "a random question" option can be used to define test strategies. A strategy can be defined by adding random questions from different question categories/sub-categories, allowing for diversity of the individual attempts, from a specified group of questions with similar goal and difficulty. 
+
 
 ### Feedback gathering
 Gather feedback from the participants
 
 ### Adding BBB rooms
-Add BBB room to a course for online lectures/webinars
+For the courses that will have webinar delivery style, or for the courses that will require recording of the delivery, there is the option to add BigBlueButton (BBB) room. 
+The BBB room can be added just llike any other activity or resource, by selecting the BigBlueButton resource type. 
+![Adding BigBlueButton room](./attachments/24-AddBBB.png)
+The main parameters of the BBB room are the room name and the instance type.
+![BigBlueButton room parameters](./attachments/25-BBBRoomParameters.png)
+The instance type can be
+- Room with recording, where the activitiy can be used for interactive classes, and the recoridings of that classes will be available at the same place
+- Room only, where the room can be used just for interactive classes and no recording
+- Recording only, meaning that there will not be an interactive room, just previous recordings. 
 
 ### Badges and certificates
 To be done in collaboration with T2.4
 
 ### Making the course visible to learners
-Showing the course on the platform
+When the course is ready to be presented to the learners, it needs to be made visible on the learning platform. To make the course visible, in the course setting, the "Course visibility" options needs to be set to "Show".
 
 ### Indexing the course in the EOSC catalogue
 Making the course visible in the EOSC catalogue

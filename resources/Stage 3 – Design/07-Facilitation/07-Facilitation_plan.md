@@ -44,7 +44,7 @@ Define the content of the instructor kit, discuss the last new pieces: faciliati
 | 3 mins       | Feedback            | template feedback form                               | discuss openness of results                      | pptx, Moodle  |
 | 7 mins       | Organisation        | folder tree structure with optional elements         | discuss rules for automation                     | pptx          |
 | 3 mins       | Supporting elements | metadata, citation, license, code of conduct, readme | discuss reuse potential and standardisation      | pptx          |
-| 7 mins       | Guided practice     | trainer acts as facilitator                          | [organisation](./Activities/organisation.md) | github        |
+| 7 mins       | Guided practice     | trainer acts as facilitator                          | [Organisation](Organisation.md) | github        |
 | 1 mins       | Summary             | key takeaways                                        | group discussion on learning unit elements       | pptx          |
 
 ### Assessment

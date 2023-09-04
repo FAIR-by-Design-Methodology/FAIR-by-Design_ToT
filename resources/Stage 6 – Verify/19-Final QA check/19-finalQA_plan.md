@@ -40,7 +40,7 @@ Ensure high-quality learning materials by first doing a self-check that all is o
 |---|---|---|---|---|
 | 3 mins | Verify | intro to the next/last stage | discuss what is expected | pptx |
 | 7 mins | Checklists | self-checking, T2.4 checklists | how to keep up to date with T2.4 work | pptx |
-| 10 mins | Guided practice | trainer acts as facilitator | [self-check QA quizzes](./Activities/finalQAself-check.md) | learning platform |
+| 10 mins | Guided practice | trainer acts as facilitator | [self-check QA quizzes](FinalQAself-check.md) | learning platform |
 | 7 mins | External QA | the importance of external QA | learners as external QA discussion | pptx |
 | 3 mins | Summary | key takeaways | group discussion on learning unit elements | pptx |
 

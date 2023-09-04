@@ -69,29 +69,73 @@ The trainers materials latest version is taken from the GitHub repo.
 2. [Challenges](./00-Welcome/Activities/01-challenges.md)
 
 ### 01-FAIR Skills & Principles
-1. [Assessing FAIRness of Learning Materials](./Stage%201%20-%20Prepare/01-FAIR%20skills%20&%20principles/Activities/Assessing%20FAIRness%20of%20Learning%20Materials.md)
-[[./Stage 1 – Prepare/01-FAIR skills & principles/Activities/Assessing FAIRness of Learning Materials]]
+1. [Assessing FAIRness of Learning Materials](01-FAIR%20skills%20&%20principles/Activities/Assessing%20FAIRness%20of%20Learning%20Materials.md)
 
 ### 02-Preparing FAIR Learning Objects
-1. [Checking licenses](./Stage%201:%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/Activities/01-Checking%20licenses.md)  
-2. [Attribution](./Stage%201:%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/Activities/02-Attribution.md)
-3. [ideation](./Stage%201:%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/Activities/03-Ideation.md)  
+1. [01-Checking Licenses](01-Checking%20Licenses.md)
+2. [02-Attribution](02-Attribution.md)
+3. [03-Ideation](03-Ideation.md)
 
 ### 03-Existing Learning Materials
-1. [Finding Learning Materials](./Stage%202:%20Discover/03-Existing%20learning%20materials/Activities/Finding%20Learning%20Materials.md)
+1. [Finding Learning Materials](Finding%20Learning%20Materials.md)
+
 
 ### 04-Conceptualisation
-1. [Creating a concept map](./Stage%203:%20Design/04-Conceptualisation/Activities/Creating_concept_map.md)
-2. [Defining a syllabus](./Stage%203:%20Design/04-Conceptualisation/Activities/Defining_a_syllabus.md)
+1. [Creating_concept_map](Creating_concept_map.md)
+2. [Defining_a_syllabus](Defining_a_syllabus.md)
+
 
 ### 05-Hierarchical Structure
-1. [Combining licenses](./Stage%203:%20Design/05-Hierarchical%20Structure/Activities/CombiningLicenses.md)
+1. [CombiningLicenses](CombiningLicenses.md)
+
 
 ### 06-Learning Unit Development
-1. [Defining a plan](./Stage%203:%20Design/06-Learning%20unit%20development/Activities/Defining_a_plan.md)
-2. [Defining a quiz](./Stage%203:%20Design/06-Learning%20unit%20development/Activities/Defining_a_quiz.md)
+1. [Defining_a_plan](Defining_a_plan.md)
+2. [Defining_a_quiz](Defining_a_quiz.md)
+
 
 ### 07-Facilitation
-1. [Organisation](./Stage%203:%20Design/07-Facilitation/Activities/organisation.md)
+1. [Organisation](Organisation.md)
 
-### 08-
+
+### 08-Development tools
+1. [01-First Steps with Git](01-First%20Steps%20with%20Git.md)
+2. [02-Setting up a Markdown Editor](02-Setting%20up%20a%20Markdown%20Editor.md)
+3. [03-Working with Git Books](03-Working%20with%20Git%20Books.md)
+
+### 09-Content Development
+1. [01-Creating a Lesson Plan](01-Creating%20a%20Lesson%20Plan.md)
+
+### 10-Content Mix
+1. [01-Existing Meterials Reuse](01-Existing%20Meterials%20Reuse.md)
+2. [02-Observing Changes](02-Observing%20Changes.md)
+
+### 11-Accessibility
+1. [LERA](LERA.md)
+2. [PowerPointAccessibility](PowerPointAccessibility.md)
+
+### 12-Content Finalisation 
+1. [metadata](metadata.md)
+
+### 13-Internal QA
+1. [QAcheck](QAcheck.md)
+
+### 16-Publishing preparations
+1. [Publishing Preparations in Practice](Publishing%20Preparations%20in%20Practice.md)
+
+### 17-Zenodo Publishing
+1. [Creating a Zenodo Draft Deposit](Creating%20a%20Zenodo%20Draft%20Deposit.md)
+
+### 18-Publishing to learning platform
+1. [Adding content to the course on the learning platform](Adding%20content%20to%20the%20course%20on%20the%20learning%20platform.md)
+
+### 19-Final QA check
+1. [FinalQAself-check](FinalQAself-check.md)
+
+### 20-Continuous Improvement
+1. [Postcard_from_a_friend](Postcard_from_a_friend.md)
+
+
+
+
+

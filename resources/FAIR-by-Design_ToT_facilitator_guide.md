@@ -11,6 +11,8 @@ tags:
 
 The purpose of this document is to include all necessary information regarding the preparation and planning of the FAIR-by-Design Training of Trainers.
 The training is organized as an online multi-day webinar using a Big Blue Button (BBB) room integrated into a Moodle based learning platform for course materials and interaction with trainees. 
+The document is based on the recommendations by the TRIPLE project for Open Science training events organisation available [here](https://zenodo.org/record/6256198). The training organisation relies on three roles: organisers, moderators and trainers, where one person can have multiple roes
+>NOTE: it is always a good practice to separate the roles of trainer and moderator, providing better interactivity of the training. If the training has more trainers, then they can interchangeably take the role of moderators when not speaking. 
 
 ## Training materials, resources and equipment
 ### Learning materials
@@ -37,15 +39,33 @@ The trainers materials latest version is taken from the GitHub repo.
 - MD editor of choice (VS code)
 
 ## Before the training
+### Organisers
 - [ ] Send out save-the-date email
 - [ ] Setup course on learning platform, enable self-enrollment for trainees, give all trainers appropriate rights
 - [ ] Send out call for training including the syllabus and link to the course
 - [ ] Prepare for activities (write questions in Menti and test) 
 - [ ] Schedule testing in the BBB room for trainers (3-4 days before training)
 - [ ] Schedule testing access to BBB room and learning materials for trainees (usually 30 mins before start of training)
+- [ ] Contact speakers and moderators
 - [ ] Assign moderator that will follow the chat and help with technical issues, Menti, etc.
 
+### Moderators 
+- [ ] Have access to training platform
+- [ ] Have access to Menti to enter the questions
+- [ ] Participate at the testing for trainers
+- [ ] Participate at the testing for trainees
+
+### Trainers/speakers
+- [ ] Verify access to learning platform
+- [ ] Publish the training materials on the learning platform
+- [ ] Participate at the testing for trainers
+
 ## During the training
+### Organisers
+
+### Moderators
+
+### Trainers
 - [ ] Use 00 to welcome participants, introduce people and define expectations and rules
 - [ ] Ask people to jump in during the training at any time using chat or mic (moderator will follow and prompt the trainer if needed)
 - [ ] The first ice breaking activity should also be used as a way to test if the interactive tool is working (BBB quiz and/or Menti)

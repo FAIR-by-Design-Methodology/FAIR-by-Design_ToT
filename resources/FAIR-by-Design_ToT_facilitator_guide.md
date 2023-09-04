@@ -62,8 +62,12 @@ The trainers materials latest version is taken from the GitHub repo.
 
 ## During the training
 ### Organisers
+- [ ] Monitor the training delivery
 
 ### Moderators
+- [ ] Monitor the training activities
+- [ ] Monitor the Menti
+- [ ] Monitor the chat and Q&A, convey questions to the trainers
 
 ### Trainers
 - [ ] Use 00 to welcome participants, introduce people and define expectations and rules
@@ -76,11 +80,19 @@ The trainers materials latest version is taken from the GitHub repo.
 
 
 ## After the training
+### Organisers
 - [ ] Send out a reminder for feedback gathering and badge collecting
 - [ ] Write down reflection comments for each training unit
-- [ ] Analyze gathered feedback
+- [ ] Analyze the feedback
 - [ ] Initiate work on a new version of the training materials 
 
+### Moderators
+- [ ] Gather the feedback and convey it to the organisers
+- [ ] Gather recordings and other results and send it to the organisers
+
+### Trainers
+- [ ] Analyse feedback for their performance
+- [ ] Improve the trainig
 
 ## Learning Units Activities
 

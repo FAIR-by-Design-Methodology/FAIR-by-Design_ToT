@@ -27,13 +27,15 @@ Add several different types of content and activities to the course on the learn
 ## Materials
 
 - Web Browser
+- Demo course on the training platform
 
 ## Instructions
 
-The trainees are asked to 
+The trainees are asked to add different types of activities and resources to the Demo course created for this training. 
 
 ## Tips and Tricks
 
+- Resources and activities can be copied to save time
 - 
 
 ## Comments

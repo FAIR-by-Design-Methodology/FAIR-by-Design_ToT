@@ -142,8 +142,13 @@ When the "Add" link is selected, three options are available
 
 
 ### Feedback gathering
-Gather feedback from the participants
-
+Gather feedback from the participants is essential for the whole lifecycle of the learning material. The Skills4EOSC learning platform already provides template for feedback gathering from the learners. 
+To add feedback, use the "Add activity or resource" link and select the "Feedback" item. 
+Provide the name of the item, as well as the period when the feedback gathering will be available, and "Save and display" the feedback. 
+![Adding feedback](./attachments/26-FeedbackBasic.png)
+Using the "Templates" tab of the newly created feedback form, select the template "Feddback template FAIR-by-Design Learning Materials Methodology" from the "Public" templates section
+![Feedback template](./attachments/27-FeedbackTemplate.png)
+Select the link "Use this template" and "Delete old item" option when saving. 
 ### Adding BBB rooms
 For the courses that will have webinar delivery style, or for the courses that will require recording of the delivery, there is the option to add BigBlueButton (BBB) room. 
 The BBB room can be added just llike any other activity or resource, by selecting the BigBlueButton resource type. 
@@ -162,7 +167,7 @@ To be done in collaboration with T2.4
 When the course is ready to be presented to the learners, it needs to be made visible on the learning platform. To make the course visible, in the course setting, the "Course visibility" options needs to be set to "Show".
 
 ### Indexing the course in the EOSC catalogue
-Making the course visible in the EOSC catalogue
+Making the course visible in the EOSC catalogue!!!!
 
 ## Exercise: Adding content to the course on the learning platform
 

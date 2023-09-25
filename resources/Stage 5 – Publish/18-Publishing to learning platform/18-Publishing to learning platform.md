@@ -181,4 +181,5 @@ We have published the first course on the learning platform.
 ## Suggested Reading
 
 - [Moodle documentation](https://docs.moodle.org/402/en/Main_page)
+- [How to become an EOSC provider](https://eosc-portal.eu/eosc-providers-hub/how-become-eosc-provider/instructions-onboard-providers-and-resources-eosc)
 - [Onboarding training resources to EOSC Marketplace](https://wiki.eoscfuture.eu/display/PUBLIC/RoP+for+Onboarding+EOSC+Training+Resources+and+EOSC+Marketplace)

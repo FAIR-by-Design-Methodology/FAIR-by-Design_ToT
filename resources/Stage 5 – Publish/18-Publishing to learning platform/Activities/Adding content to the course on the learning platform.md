@@ -36,7 +36,7 @@ The trainees are asked to add different types of activities and resources to the
 ## Tips and Tricks
 
 - Resources and activities can be copied to save time
-- 
+- "Save and display" button displays the newly created resource or activity.
 
 ## Comments
 

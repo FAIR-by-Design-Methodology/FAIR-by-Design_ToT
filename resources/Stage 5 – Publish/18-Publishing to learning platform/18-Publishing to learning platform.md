@@ -167,12 +167,11 @@ To be done in collaboration with T2.4
 When the course is ready to be presented to the learners, it needs to be made visible on the learning platform. To make the course visible, in the course setting, the "Course visibility" options needs to be set to "Show".
 
 ### Indexing the course in the EOSC catalogue
-Making the course visible in the EOSC catalogue!!!!
+The detailed description on adding training resources to the EOSC Marketplace can be found at this [link](https://wiki.eoscfuture.eu/display/PUBLIC/RoP+for+Onboarding+EOSC+Training+Resources+and+EOSC+Marketplace)
 
 ## Exercise: Adding content to the course on the learning platform
 
 The goal of this exercise is to describe how to add content to the previously created course on the learning platform.
-
 
 
 ## Key Takeaways and Information for Future Versions
@@ -181,7 +180,5 @@ We have published the first course on the learning platform.
 
 ## Suggested Reading
 
-- [Semantic Versioning](https://semver.org/)
-- [Zenodo REST API](https://developers.zenodo.org/)
-- [Creating Encrypted Secrets for a Repository on GitHub](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository)
-- [Zenodo Frequently Asked Questions](https://help.zenodo.org/faq/#general)
+- [Moodle documentation](https://docs.moodle.org/402/en/Main_page)
+- [Onboarding training resources to EOSC Marketplace](https://wiki.eoscfuture.eu/display/PUBLIC/RoP+for+Onboarding+EOSC+Training+Resources+and+EOSC+Marketplace)

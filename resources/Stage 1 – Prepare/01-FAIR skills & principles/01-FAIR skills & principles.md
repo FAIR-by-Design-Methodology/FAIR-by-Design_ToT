@@ -10,7 +10,7 @@ author: Skills4EOSC T2.3
 
 # FAIR Skills & Principles
 
-To be able to successfully design FAIR learning objects an instructional designer must expand the traditional skill set with additional FAIR related skills. Using these newly acquired skills, the instructor can then incorporate additional actions in the backward instructional design process in order to produce FAIR-by-design learning objects. 
+To be able to successfully design FAIR learning objects, an instructional designer must expand the traditional skill set with additional FAIR related skills. Using these newly acquired skills, the instructor can then incorporate additional actions in the backward instructional design process in order to produce FAIR-by-design learning objects. 
 
 Thus, becoming familiar with the FAIR principles and their implementation is an essential step in the Prepare stage of the FAIR-by-Design methodology. For the purposes of instructional design, the FAIR principles are applied to FAIR learning objects that represent the main digital objects used in learning/training activities.
 
@@ -95,7 +95,7 @@ Image taken from [Climate Change, Agriculture and Food Security website](https:/
 
 ### Findable
 
-To ensure a digital object is findable 
+To ensure a digital object is findable, 
 
 - the object should be accompanied with sufficiently detailed descriptive metadata
 - a unique and persistent identifier (PID) such as a digital object identifier (DOI) should be used to point to the digital object.
@@ -104,7 +104,7 @@ To ensure a digital object is findable
 |---|---|
 
 ### Accessible
-For the digital object to be accessible
+For the digital object to be accessible,
 
 - the metadata and the object content should be understandable to both humans and machines, and 
 - the digital object should be stored in a trusted repository.
@@ -145,7 +145,7 @@ More information about the FAIR principles and the general FAIRification process
 
 ## FAIR Learning Objects
 
-When applying the FAIR guiding principles to learning materials there are several aspects that need to be considered.
+When applying the FAIR guiding principles to learning materials, there are several aspects that need to be considered.
 
 ### Perspective
 
@@ -219,7 +219,7 @@ It is important to understand that there are different levels of FAIRness depend
 
 It is up to you to decide if you will implement the bare minimum or you will strive to go a step beyond and make your materials not only FAIR but also Open Educational Resources (OER) that will be available to all at no cost.
 
-In this training we take the later approach where when putting together all showcases and examples you will end up with creating not only FAIR but also open learning objects.
+In this training, we take the later approach where when putting together all showcases and examples you will end up with creating not only FAIR but also open learning objects.
 
 Think about:
 

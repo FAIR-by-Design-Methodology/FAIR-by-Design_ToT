@@ -79,7 +79,7 @@ No prior knowledge is required to follow the training, however see Resources and
 
 ## Duration
 
-The training will take place in the course of three days in the full day + full day + half day format. The total length of the training is 12 hours.
+The training will take place in the course of three days in the full day + full day + half day format. The total length of the training is ~18 hours.
 
 ## Learning Objectives
 
@@ -162,7 +162,7 @@ All training resources will be available on the FAIR-by-Design methodology cours
 - Installed MD editor: [Obsidian](https://obsidian.md/)
     - or you can also use an online demo version such as [https://demo.hedgedoc.org/](https://demo.hedgedoc.org/) (for testing purposes only)
 
-## Certification Information
+## Certification Information (Digital Open Badges and Microcredentials)
 
 The trainees that will pass the assessment criteria for logical sets of learning units will be awarded with corresponding open digital badges. All trainees that will successfully pass all training units assessments available on the course on the learning platform will be able to obtain the higher level “FAIR Instructor” open digital badge. 
 

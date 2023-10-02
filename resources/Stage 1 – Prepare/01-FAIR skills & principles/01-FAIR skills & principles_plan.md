@@ -58,10 +58,10 @@ Discuss the skills relevant for FAIR-by-Design learning materials development. I
 
 ### Reflection
 
-- how did it go
-- highlights: what went great
-- improvement points: what went wrong
+- How did it go?
+- Highlights: what went great?
+- Improvement points: what went wrong?
 
 ### Comments
 
-- any additional comments from external parties acting as co-creators
+- Any additional comments from external parties acting as co-creators

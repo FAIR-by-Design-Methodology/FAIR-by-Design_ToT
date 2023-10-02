@@ -7,6 +7,7 @@ tags:
     - Finding Learning Materials
 ---
 
+
 # Finding Learning Materials
 
 The activity promotes understanding among the participants about what to expect when using different repositories and catalogues to search for existing learning materials that can be used. 

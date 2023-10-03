@@ -106,9 +106,9 @@ Note: start time is given in CEST
 |     Start    |     Stage       |     Topic                                      |     Duration    |
 |--------------|-----------------|------------------------------------------------|-----------------|
 |      9:00    |                 |     Introduction                               |     30 mins     |
-|      9:30    |     Prepare     |     FAIR skills & principles                   |     30 mins     |
-|     10:00    |                 |     = coffee break =                           |     15 mins     |
-|     10:15    |     Prepare     |     Defining FAIR learning objects             |     60 mins     |
+|      9:30    |     Prepare     |     FAIR skills & principles                   |     35 mins     |
+|     10:05    |                 |     = coffee break =                           |     15 mins     |
+|     10:20    |     Prepare     |     Defining FAIR learning objects             |     60 mins     |
 |     11:15    |                 |     = coffee break =                           |     15 mins     |
 |     11:30    |     Discover    |     Discovering existing learning materials    |     60 mins     |
 |     12:30    |                 |     = Lunch break =                            |     60 mins     |

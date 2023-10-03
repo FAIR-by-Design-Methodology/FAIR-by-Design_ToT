@@ -21,7 +21,7 @@ The goal of this learning unit is to describe how to publish the learning materi
 
 ### Total duration
 
-	20 mins
+	35 mins
 
 ### Number of attendees
 
@@ -38,9 +38,9 @@ The goal of this learning unit is to describe how to publish the learning materi
 
 | Duration | Topic                    | Key points/Teaching Method/Questions                                                              | Activities                                                             | Resources             |
 |----------|--------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|-----------------------|
-| 10       | Introduction            | Discussion of the main elements of course management with Moodle and how to add materials                           | Introduction to the steps                                         | pptx                  |
-| 7       | Exercise                  | Exercise: Adding content to the course on the learning platform                                                    | [Adding content to the course on the learning platform](./Activities/Adding%20content%20to%20the%20course%20on%20the%20learning%20platform.md)                                       | pptx                  |
-| 3        | Summary                  | Key takeaways and Information for Future Versions                                                 | Quiz                                                                   | pptx                  |
+| 15       | Introduction            | Discussion of the main elements of course management with Moodle and how to add materials                           | Introduction to the steps                                         | pptx                  |
+| 15       | Exercise                  | Exercise: Adding content to the course on the learning platform                                                    | [Adding content to the course on the learning platform](./Activities/Adding%20content%20to%20the%20course%20on%20the%20learning%20platform.md)                                       | pptx                  |
+| 5        | Summary                  | Key takeaways and Information for Future Versions                                                 | Quiz                                                                   | pptx                  |
 
 ### Assessment
 

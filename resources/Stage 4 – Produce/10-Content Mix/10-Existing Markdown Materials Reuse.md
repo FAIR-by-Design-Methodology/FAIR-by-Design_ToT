@@ -30,7 +30,7 @@ Since the discovered content can be in any file format, additional effort might 
 
 ## Duration
 
-60 mins
+85 mins
 
 ## Prerequisites
 

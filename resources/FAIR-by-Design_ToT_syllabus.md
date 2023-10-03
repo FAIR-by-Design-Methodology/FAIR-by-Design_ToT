@@ -128,11 +128,9 @@ Note: start time is given in CEST
 |     11:15    |     Produce    |     Content Development          |     75 mins     |
 |     12:30    |                |     = Lunch break =              |     60 mins     |
 |     13:30    |     Produce    |     Content Mix                  |     55 mins     |
-|     14:25    |     Produce    |     Content Mix                  |     55 mins     |
-|     14:45    |                |     = coffee break =             |     15 mins     |
-|     15:00    |     Produce    |     Content Mix Slide Deck       |     25 mins     |
-|     15:25    |     Produce    |     Accessibility                |     40 mins     |
-|     16:05    |                |     = coffee break =             |     15 mins     |
+|     14:25    |     Produce    |     Content Mix Slide Deck       |     30 mins     |
+|     14:55    |     Produce    |     Accessibility                |     40 mins     |
+|     15:35    |                |     = coffee break =             |     15 mins     |
 |     16:20    |     Produce    |     Content Finalisation         |     20 mins     |
 |     16:40    |     Produce    |     Internal Quality Assurance   |     15 mins     |
 |     16:55    |     Produce    |     Team collaboration           |     15 mins     |

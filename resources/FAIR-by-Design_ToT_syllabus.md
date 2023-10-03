@@ -131,8 +131,8 @@ Note: start time is given in CEST
 |     14:25    |     Produce    |     Content Mix Slide Deck       |     30 mins     |
 |     14:55    |     Produce    |     Accessibility                |     55 mins     |
 |     15:50    |                |     = coffee break =             |     15 mins     |
-|     16:05    |     Produce    |     Content Finalisation         |     20 mins     |
-|     16:40    |     Produce    |     Internal Quality Assurance   |     15 mins     |
+|     16:05    |     Produce    |     Content Finalisation         |     25 mins     |
+|     16:30    |     Produce    |     Internal Quality Assurance   |     15 mins     |
 |     16:55    |     Produce    |     Team collaboration           |     15 mins     |
 |     17:10    |     Produce    |     Alternative approach         |     15 mins     |
 

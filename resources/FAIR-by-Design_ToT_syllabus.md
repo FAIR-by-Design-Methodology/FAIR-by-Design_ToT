@@ -134,7 +134,7 @@ Note: start time is given in CEST
 |     16:05    |     Produce    |     Content Finalisation         |     25 mins     |
 |     16:30    |     Produce    |     Internal Quality Assurance   |     20 mins     |
 |     16:50    |     Produce    |     Team collaboration           |     15 mins     |
-|     17:10    |     Produce    |     Alternative approach         |     15 mins     |
+|     17:05    |     Produce    |     Alternative approach         |     20 mins     |
 
 
 ### Day 3: Publish & Verify FAIR-by-Design Learning Materials

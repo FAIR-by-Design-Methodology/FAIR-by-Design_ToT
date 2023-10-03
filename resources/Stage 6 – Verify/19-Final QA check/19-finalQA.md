@@ -26,7 +26,7 @@ For these purposes you can use the QA guidelines and checklists developed by Ski
 
 ## Duration
 
-30 mins
+40 mins
 
 ## Prerequisites
 

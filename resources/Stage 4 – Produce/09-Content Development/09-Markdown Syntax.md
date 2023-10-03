@@ -11,7 +11,7 @@ tags:
     - Git
 ---
 
-# Introduction to Markdown and Git
+# Markdown Syntax
 
 The purpose of this learning unit is to introduce the basic Markdown syntax necessary for producing FAIR-by-Design learning objects. We will be working with some common Markdown elements, such as: headings, tables, links, images, and lists. We will also be extending existing Markdown files so that they are compliant with the FAIR-by-Design methodology.
 

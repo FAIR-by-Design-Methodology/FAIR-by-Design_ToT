@@ -162,7 +162,7 @@ All training resources will be available on the FAIR-by-Design methodology cours
 
 ## Certification Information (Digital Open Badges and Microcredentials)
 
-The trainees that will pass the assessment criteria for logical sets of learning units will be awarded with corresponding open digital badges. All trainees that will successfully pass all training units assessments available on the course on the learning platform will be able to obtain the higher level “FAIR Instructor” open digital badge. 
+The trainees that will pass the completion criteria for each separate stage of the FAIR-by-Design methodology will be awarded with corresponding open digital badges. All trainees that will successfully complete all activities available on the course on the learning platform will be able to obtain the higher level “FAIR Instructor” open digital badge. 
 
 ## Authors
 

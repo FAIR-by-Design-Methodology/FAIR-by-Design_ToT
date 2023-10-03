@@ -22,7 +22,7 @@ The purpose of this learning unit is to introduce relevant tools and file format
 
 ### Total duration
 
-60 mins
+120 mins
 
 ### Number of attendees
 
@@ -40,12 +40,12 @@ The purpose of this learning unit is to introduce relevant tools and file format
 
 | Duration | Topic           | Key points/Teaching Method/Questions                                                              | Activities                                                             | Resources             |
 |----------|-----------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|-----------------------|
-| 5        | Introduction    | Focus attention on the importance of open file formats, version control, accessibility            | Brainstorm expectations                                                | pptx                  |
-| 5        | File Formats    | Markdown as an intermediary file format and its benefits for FAIR learning objects. Alternatives. | Reflection on existing experience                                      | pptx, Menti           |
-| 15       | Guided Practice | Version management with Git and GitHub                                                            | [First Steps with Git](./Activities/01-First%20Steps%20with%20Git.md)  | pptx, handouts        |
-| 10       | Guided Practice | Working with Markdown files, exploring freely accessible editors                                  | [Setting up a Markdown Editor](./Activities/02-Setting%20up%20a%20Markdown%20Editor.md)                                           | pptx, handouts, Menti |
-| 20       | Guided Practice | Live preview of changes, creating and configuring a public Git book website                       | [Working with Git Books](./Activities/03-Working%20with%20Git%20Books.md)           | pptx, handouts        |
-| 5        | Summary         | Key takeaways, what's next                                                                        | Quiz                                                                   | pptx                  |
+| 10        | Introduction    | Focus attention on the importance of open file formats, version control, accessibility            | Brainstorm expectations                                                | pptx                  |
+| 10        | File Formats    | Markdown as an intermediary file format and its benefits for FAIR learning objects. Alternatives. | Reflection on existing experience                                      | pptx, Menti           |
+| 30       | Guided Practice | Version management with Git and GitHub                                                            | [First Steps with Git](./Activities/01-First%20Steps%20with%20Git.md)  | pptx, handouts        |
+| 20       | Guided Practice | Working with Markdown files, exploring freely accessible editors                                  | [Setting up a Markdown Editor](./Activities/02-Setting%20up%20a%20Markdown%20Editor.md)                                           | pptx, handouts, Menti |
+| 40       | Guided Practice | Live preview of changes, creating and configuring a public Git book website                       | [Working with Git Books](./Activities/03-Working%20with%20Git%20Books.md)           | pptx, handouts        |
+| 10        | Summary         | Key takeaways, what's next                                                                        | Quiz                                                                   | pptx                  |
 
 ### Assessment
 

@@ -142,7 +142,7 @@ Note: start time is given in CEST
 |     Start    |     Stage      |     Topic                   |     Duration    |
 |--------------|----------------|-----------------------------|-----------------|
 |      9:00    |     Publish    |     Publishing Preparations |     35 mins     |
-|      9:35    |     Publish    |     Publishing              |     55 mins     |
+|      9:35    |     Publish    |     Publishing in Zenodo    |     55 mins     |
 |     10:30    |                |     = coffee break =        |     15 mins     |
 |     10:45    |     Publish    |     Publish finalisation    |     30 mins     |
 |     11:30    |     Verify     |     QA & FAIR verification  |     30 mins     |

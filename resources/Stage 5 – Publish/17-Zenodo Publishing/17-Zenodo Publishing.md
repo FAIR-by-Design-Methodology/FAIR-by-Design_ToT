@@ -25,7 +25,7 @@ One of the publishing media for the created learning materials is Zenodo. Zenodo
 
 ## Duration
 
-20 mins
+55 mins
 
 ## Prerequisites
 

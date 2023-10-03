@@ -22,7 +22,7 @@ The goal of this learning unit is to describe how the prepared learning material
 
 ### Total duration
 
-20 mins
+55 mins
 
 ### Number of attendees
 
@@ -38,9 +38,9 @@ The goal of this learning unit is to describe how the prepared learning material
 
 | Duration | Topic                    | Key points/Teaching Method/Questions                                                              | Activities                                                             | Resources             |
 |----------|--------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|-----------------------|
-| 7        | Introduction            | Discussion of the publishing steps for depositing the content on Zenodo                            | Introduction to workflow steps                                         | pptx                  |
-| 10       | Exercise                  | Exercise: Creating a draft deposit on Zenodo                                                     | [Creating a Zenodo Draft Deposit](./Activities/Zenodo%20Draft%20Deposit.md)                                      | pptx                  |
-| 3        | Summary                  | Key takeaways and Information for Future Versions                                                 | Quiz                                                                   | pptx                  |
+| 15        | Introduction            | Discussion of the publishing steps for depositing the content on Zenodo                            | Introduction to workflow steps                                         | pptx                  |
+| 30       | Exercise                  | Exercise: Creating a draft deposit on Zenodo                                                     | [Creating a Zenodo Draft Deposit](./Activities/Zenodo%20Draft%20Deposit.md)                                      | pptx                  |
+| 10        | Summary                  | Key takeaways and Information for Future Versions                                                 | Quiz                                                                   | pptx                  |
 
 ### Assessment
 

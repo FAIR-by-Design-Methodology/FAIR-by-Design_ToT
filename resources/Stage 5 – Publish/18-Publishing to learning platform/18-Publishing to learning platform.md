@@ -142,7 +142,8 @@ When the "Add" link is selected, three options are available
 
 
 ### Feedback gathering
-Gather feedback from the participants is essential for the whole lifecycle of the learning material. The Skills4EOSC learning platform already provides template for feedback gathering from the learners. 
+Gather feedback from the participants is essential for the whole lifecycle of the learning material, as it represents the main driver for the process of continual improvement. The gathered feedback should be continuously analysed and improvement actions should be taken based on this analysis. Additionally, the feedback analysis at the end of the next cycle can be used to measure if the goals set for the new version have been successfully reached.
+The Skills4EOSC learning platform already provides template for feedback gathering from the learners. 
 To add feedback, use the "Add activity or resource" link and select the "Feedback" item. 
 Provide the name of the item, as well as the period when the feedback gathering will be available, and "Save and display" the feedback. 
 ![Adding feedback](./attachments/26-FeedbackBasic.png)
@@ -161,13 +162,14 @@ The instance type can be
 - Recording only, meaning that there will not be an interactive room, just previous recordings. 
 
 ### Badges and certificates
+{TO BE UPDATED}
 To be done in collaboration with T2.4
 
 ### Making the course visible to learners
 When the course is ready to be presented to the learners, it needs to be made visible on the learning platform. To make the course visible, in the course setting, the "Course visibility" options needs to be set to "Show".
 
 ### Indexing the course in the EOSC catalogue
-The detailed description on adding training resources to the EOSC Marketplace can be found at this [link](https://wiki.eoscfuture.eu/display/PUBLIC/RoP+for+Onboarding+EOSC+Training+Resources+and+EOSC+Marketplace)
+The process of building catalogues of EOSC related courses is undergoing significant changes. Due to that, we expect that in the next version of this course, there will be a detailed description on how to add  training resources to the EOSC Marketplace and related catalogues. 
 
 ## Exercise: Adding content to the course on the learning platform
 
@@ -181,5 +183,6 @@ We have published the first course on the learning platform.
 ## Suggested Reading
 
 - [Moodle documentation](https://docs.moodle.org/402/en/Main_page)
+- [Defining badges in Moodle](https://adovh.unisa.ac.za/mod/page/view.php?id=428)
 - [How to become an EOSC provider](https://eosc-portal.eu/eosc-providers-hub/how-become-eosc-provider/instructions-onboard-providers-and-resources-eosc)
 - [Onboarding training resources to EOSC Marketplace](https://wiki.eoscfuture.eu/display/PUBLIC/RoP+for+Onboarding+EOSC+Training+Resources+and+EOSC+Marketplace)

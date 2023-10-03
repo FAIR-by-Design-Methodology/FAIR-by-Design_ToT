@@ -95,7 +95,7 @@ The trainers materials latest version is taken from the GitHub repo.
 - [ ] Improve the training
 
 ## Badges
-| Image | Name | Criteria |
+| Badge | Name | Criteria |
 |---|---|
 | ![FAIR Instructor](./attachments/FAIR_instructor_badge.png){: style="height:250px;"} | FAIR Instructor | Complete the full course \FAIR-by-Design Learning Materials Methodology\" with minimum grade of 80" |
 | ![Prepare](./attachments/01-PrepareBadge.png){: style="height:250px;"} | FAIR-by-Design Instructor - Prepare | Complete ALL of: Webinar recording, Stage 01 - Prepare Materials including Assessments |

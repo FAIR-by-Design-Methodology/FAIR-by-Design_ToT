@@ -23,7 +23,7 @@ When the learning content development process is finished, it is time to perform
 
 ### Total duration
 
-15 mins
+20 mins
 
 ### Number of attendees
 
@@ -38,8 +38,8 @@ When the learning content development process is finished, it is time to perform
 
 | **Duration** | **Topic** | **Key points/Teaching Method/Questions** | **Activities** | **Resources** |
 |---|---|---|---|---|
-| 6 mins | What | list documents that are required | distinguish between requirements vs recommendations | pptx |
-| 7 mins | Check | perform QA checks | layout vs content | pptx |
+| 10 mins | What | list documents that are required | distinguish between requirements vs recommendations | pptx |
+| 8 mins | Check | perform QA checks | layout vs content | pptx |
 | 2 mins | Summary | key takeaways | group discussion on learning unit elements | pptx |
 
 ### Assessment

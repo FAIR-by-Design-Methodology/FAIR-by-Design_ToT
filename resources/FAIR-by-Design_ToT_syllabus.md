@@ -79,7 +79,7 @@ No prior knowledge is required to follow the training, however see Resources and
 
 ## Duration
 
-The training will take place in the course of three days in the half day + full day + half day format. The total length of the training is 12 hours.
+The training will take place in the course of three days in the full day + full day + half day format. The total length of the training is ~18 hours.
 
 ## Learning Objectives
 
@@ -101,49 +101,52 @@ FAIR, learning objects, methodology, practical implementation
 
 Note: start time is given in CEST
 
-### Day 1: FAIR-by-Design Preparation and Discovery
+### Day 1: FAIR-by-Design Preparation, Discovery & Design
 
 |     Start    |     Stage       |     Topic                                      |     Duration    |
 |--------------|-----------------|------------------------------------------------|-----------------|
-|     9:00     |                 |     Introduction                               |     30 mins     |
-|     9:30     |     Prepare     |     FAIR skills & principles                   |     30 mins     |
-|     10:00    |                 |     = coffee break =                           |     15 mins     |
-|     10:15    |     Prepare     |     Defining FAIR learning objects             |     60 mins     |
-|     11:15    |                 |     = coffee break =                           |     15 mins     |
-|     11:30    |     Discover    |     Discovering existing learning materials    |     60 mins     |
+|      9:00    |                 |     Introduction                               |     30 mins     |
+|      9:30    |     Prepare     |     FAIR skills & principles                   |     35 mins     |
+|     10:05    |                 |     = coffee break =                           |     15 mins     |
+|     10:20    |     Prepare     |     Defining FAIR learning objects             |     60 mins     |
+|     11:20    |                 |     = coffee break =                           |     15 mins     |
+|     11:35    |     Discover    |     Discovering existing learning materials    |     60 mins     |
+|     12:35    |                 |     = Lunch break =                            |     60 mins     |
+|     13:35    |     Design      |     Conceptualisation                          |     35 mins     |
+|     14:10    |     Design      |     Hierarchical Structure                     |     40 mins     |
+|     14:50    |                 |     = coffee break =                           |     15 mins     |
+|     15:05    |     Design      |     Learning Unit Development                  |     45 mins     |
+|     15:50    |     Design      |     Instruction Facilitation                   |     45 mins     |
 
-### Day 2: Designing and Producing Learning Materials
+
+### Day 2: Producing Learning Materials
 
 |     Start    |     Stage      |     Topic                        |     Duration    |
 |--------------|----------------|----------------------------------|-----------------|
-|     9:00     |     Design     |     Conceptualisation            |     35 mins     |
-|     9:35     |     Design     |     Hierarchical Structure       |     40 mins     |
-|     10:15    |                |     = coffee break =             |     15 mins     |
-|     10:30    |     Design     |     Learning Unit Development    |     35 mins     |
-|     11:05    |     Design     |     Instruction Facilitation     |     25 mins     |
-|     11:30    |                |     = coffee break =             |     15 mins     |
-|     11:45    |     Produce    |     Development Tools            |     60 mins     |
-|     12:45    |                |     = Lunch break =              |     60 mins     |
-|     13:45    |     Produce    |     Content Development          |     60 mins     |
-|     14:45    |                |     = coffee break =             |     15 mins     |
-|     15:00    |     Produce    |     Content Mix                  |     60 mins     |
-|     16:00    |                |     = coffee break =             |     15 mins     |
-|     16:15    |     Produce    |     Accessibility                |     40 mins     |
-|     16:55    |     Produce    |     Content Finalisation         |     20 mins     |
-|     17:15    |     Produce    |     Initial Quality Assurance    |     15 mins     |
+|      9:00    |     Produce    |     Development Tools            |    120 mins     |
+|     11:00    |                |     = coffee break =             |     15 mins     |
+|     11:15    |     Produce    |     Content Development          |     75 mins     |
+|     12:30    |                |     = Lunch break =              |     60 mins     |
+|     13:30    |     Produce    |     Content Mix                  |     55 mins     |
+|     14:25    |     Produce    |     Content Mix Slide Deck       |     30 mins     |
+|     14:55    |     Produce    |     Accessibility                |     55 mins     |
+|     15:50    |                |     = coffee break =             |     15 mins     |
+|     16:05    |     Produce    |     Content Finalisation         |     25 mins     |
+|     16:30    |     Produce    |     Internal Quality Assurance   |     20 mins     |
+|     16:50    |     Produce    |     Team collaboration           |     15 mins     |
+|     17:10    |     Produce    |     Alternative approach         |     15 mins     |
 
 
-### Day 3: Publishing FAIR-by-Design Learning Materials
+### Day 3: Publish & Verify FAIR-by-Design Learning Materials
 
-|     Start    |     Stage      |     Topic                  |     Duration    |
-|--------------|----------------|----------------------------|-----------------|
-|     9:00     |     Publish    |     Depositing             |     60 mins     |
-|     10:00    |                |     = coffee break =       |     15 mins     |
-|     10:15    |     Publish    |     Versioning             |     30 mins     |
-|     10:45    |     Publish    |     Feedback gathering     |     30 mins     |
-|     11:15    |                |     = coffee break =       |     15 mins     |
-|     11:30    |     Verify     |     QA & FAIR verification |     30 mins     |
-|     12:00    |                |     Continuous Improvement |     30 mins     |
+|     Start    |     Stage      |     Topic                   |     Duration    |
+|--------------|----------------|-----------------------------|-----------------|
+|      9:00    |     Publish    |     Publishing Preparations |     35 mins     |
+|      9:35    |     Publish    |     Publishing              |     55 mins     |
+|     10:30    |                |     = coffee break =        |     15 mins     |
+|     10:45    |     Publish    |     Publish finalisation    |     30 mins     |
+|     11:30    |     Verify     |     QA & FAIR verification  |     30 mins     |
+|     12:00    |                |     Continuous Improvement  |     30 mins     |
 
 
 ## Resources and Materials
@@ -157,9 +160,9 @@ All training resources will be available on the FAIR-by-Design methodology cours
 - Installed MD editor: [Obsidian](https://obsidian.md/)
     - or you can also use an online demo version such as [https://demo.hedgedoc.org/](https://demo.hedgedoc.org/) (for testing purposes only)
 
-## Certification Information
+## Certification Information (Digital Open Badges and Microcredentials)
 
-All trainees that will successfully pass all training unit assessments available on the course on the learning platform will obtain the “FAIR Instructor” badge.
+The trainees that will pass the assessment criteria for logical sets of learning units will be awarded with corresponding open digital badges. All trainees that will successfully pass all training units assessments available on the course on the learning platform will be able to obtain the higher level “FAIR Instructor” open digital badge. 
 
 ## Authors
 

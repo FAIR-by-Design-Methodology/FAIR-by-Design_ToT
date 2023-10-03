@@ -20,7 +20,7 @@ tags:
 
 ### Total duration
 
-60 mins
+85 mins
 
 ### Number of attendees
 
@@ -36,10 +36,10 @@ tags:
 
 | **Duration** | **Topic**               | **Key points/Teaching Method/Questions**             | **Activities**                                   | **Resources** |
 |--------------|-------------------------|------------------------------------------------------|--------------------------------------------------|---------------|
-| 5            | Material Reuse          | Things to keep in mind when reusing existing materials | Check for understanding           | pptx           |
-| 20           | Guided Practice         | Material reuse in practice                             | [Existing materials reuse](./Activities/01-Existing%20Meterials%20Reuse.md)        | pptx, handouts |
-| 10           | Guided Practice         | Observe changes which have been made                   | [Observing changes using the Git book](./Activities/02-Observing%20Changes.md) | pptx, handouts |
-| 20 mins      | Slide deck preparation  | power point vs enhanced md approach, pros and cons, visually appealing vs clean and simple                          | experience with Quarto like tools | pptx        |
+| 10            | Material Reuse          | Things to keep in mind when reusing existing materials | Check for understanding           | pptx           |
+| 30           | Guided Practice         | Material reuse in practice                             | [Existing materials reuse](./Activities/01-Existing%20Meterials%20Reuse.md)        | pptx, handouts |
+| 15           | Guided Practice         | Observe changes which have been made                   | [Observing changes using the Git book](./Activities/02-Observing%20Changes.md) | pptx, handouts |
+| 25 mins      | Slide deck preparation  | power point vs enhanced md approach, pros and cons, visually appealing vs clean and simple                          | experience with Quarto like tools | pptx        |
 | 5 mins       | Summary             | key takeaways                                        | group discussion on learning unit elements       | pptx          |
 
 ### Assessment

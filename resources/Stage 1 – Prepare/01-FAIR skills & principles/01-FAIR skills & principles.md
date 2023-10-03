@@ -27,7 +27,7 @@ Thus, becoming familiar with the FAIR principles and their implementation is an 
 
 ## Duration
 
-30 mins
+35 mins
 
 ## Prerequisites
 

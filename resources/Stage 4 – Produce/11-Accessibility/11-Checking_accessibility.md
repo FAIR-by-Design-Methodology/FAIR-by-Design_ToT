@@ -23,7 +23,7 @@ All developed learning content should be accessible to a wide range of learners 
 
 ## Duration
 
-45 mins
+55 mins
 
 ## Prerequisites
 

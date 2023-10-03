@@ -26,7 +26,7 @@ Once the structure is defined and the reused content is identified and attribute
 
 ## Duration
 
-35 mins
+45 mins
 
 ## Prerequisites
 

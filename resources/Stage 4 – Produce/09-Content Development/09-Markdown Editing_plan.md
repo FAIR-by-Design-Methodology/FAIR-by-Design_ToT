@@ -23,7 +23,7 @@ Introduce the basic Markdown syntax necessary for producing FAIR-by-Design learn
 
 ### Total duration
 
-40 mins
+75 mins
 
 ### Number of attendees
 
@@ -40,8 +40,8 @@ Introduce the basic Markdown syntax necessary for producing FAIR-by-Design learn
 | Duration | Topic           | Key points/Teaching Method/Questions                   | Activities                        | Resources      |
 |----------|-----------------|--------------------------------------------------------|-----------------------------------|----------------|
 | 5        | Introduction    | Introduction to the Markdown feature set               | Brainstorm expectations           | pptx           |
-| 20       | File Formats    | Overview of the basic Markdown syntax                  | Check for understanding           | pptx, Menti    |
-| 15       | Guided Practice | Editing the Unit Plan template                         | [Creating a Lesson Plan](./Activities/01-Creating%20a%20Lesson%20Plan.md)              | pptx, handouts |
+| 40       | File Formats    | Overview of the basic Markdown syntax                  | Check for understanding           | pptx, Menti    |
+| 30       | Guided Practice | Editing the Unit Plan template                         | [Creating a Lesson Plan](./Activities/01-Creating%20a%20Lesson%20Plan.md)              | pptx, handouts |
 
 ### Assessment
 

@@ -26,7 +26,7 @@ Once all learning units are completed it is time to complete the learning materi
 
 ## Duration
 
-20 mins
+25 mins
 
 ## Prerequisites
 

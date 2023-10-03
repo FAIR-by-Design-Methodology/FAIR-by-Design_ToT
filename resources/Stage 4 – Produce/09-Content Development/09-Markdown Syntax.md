@@ -27,7 +27,7 @@ The purpose of this learning unit is to introduce the basic Markdown syntax nece
 
 ## Duration
 
-40 mins
+75 mins
 
 ## Prerequisites
 

@@ -29,7 +29,7 @@ The purpose of this learning unit is to introduce relevant tools and file format
 
 ## Duration
 
-60 mins
+120 mins
 
 ## Prerequisites
 

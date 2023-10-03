@@ -95,15 +95,15 @@ The trainers materials latest version is taken from the GitHub repo.
 - [ ] Improve the training
 
 ## Badges
-| Name | Criteria |
+| Image | Name | Criteria |
 |---|---|
-| FAIR Instructor | Complete the full course \FAIR-by-Design Learning Materials Methodology\" with minimum grade of 80" |
-| FAIR-by-Design Instructor - Design | Complete ALL of: Webinar recording, Stage 03 - Design Materials including Assessments |
-| FAIR-by-Design Instructor - Discover | Complete ALL of: Webinar recording, Stage 02 - Discover Materials including Assessments |
-| FAIR-by-Design Instructor - Prepare | Complete ALL of: Webinar recording, Stage 01 - Prepare Materials including Assessments |
-| FAIR-by-Design Instructor - Produce | Complete ALL of: Webinar recording, Stage 04 - Produce Materials including Assessments |
-| FAIR-by-Design Instructor - Publish | Complete ALL of: Webinar recording, Stage 05 - Publish Materials including Assessments |
-| FAIR-by-Design Instructor - Verify + CI | Complete ALL of: Webinar recording, Stage 06 - Verify & CI Materials including Assessments |
+| ![FAIR Instructor](./attachments/FAIR_instructor_badge.png){: style="height:250px;"} | FAIR Instructor | Complete the full course \FAIR-by-Design Learning Materials Methodology\" with minimum grade of 80" |
+| ![Prepare](./attachments/01-PrepareBadge.png){: style="height:250px;"} | FAIR-by-Design Instructor - Prepare | Complete ALL of: Webinar recording, Stage 01 - Prepare Materials including Assessments |
+| ![Discover](./attachments/02-DiscoverBadge.png){: style="height:250px;"} | FAIR-by-Design Instructor - Discover | Complete ALL of: Webinar recording, Stage 02 - Discover Materials including Assessments |
+| ![Design](./attachments/03-DesignBadge.png){: style="height:250px;"} | FAIR-by-Design Instructor - Design | Complete ALL of: Webinar recording, Stage 03 - Design Materials including Assessments |
+| ![Produce](./attachments/04-ProduceBadge.png){: style="height:250px;"} | FAIR-by-Design Instructor - Produce | Complete ALL of: Webinar recording, Stage 04 - Produce Materials including Assessments |
+| ![Publish](./attachments/05-PublishBadge.png){: style="height:250px;"} | FAIR-by-Design Instructor - Publish | Complete ALL of: Webinar recording, Stage 05 - Publish Materials including Assessments |
+| ![Verify](./attachments/06-VerifyBadge.png){: style="height:250px;"} | FAIR-by-Design Instructor - Verify + CI | Complete ALL of: Webinar recording, Stage 06 - Verify & CI Materials including Assessments |
 
 ## Learning Units Activities
 

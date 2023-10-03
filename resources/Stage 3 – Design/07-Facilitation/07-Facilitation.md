@@ -25,7 +25,7 @@ We already looked at some of the facilitation documents that are part of the ins
 
 ## Duration
 
-25 mins
+45 mins
 
 ## Prerequisites
 

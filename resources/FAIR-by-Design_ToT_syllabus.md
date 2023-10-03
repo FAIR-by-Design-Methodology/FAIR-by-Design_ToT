@@ -116,7 +116,7 @@ Note: start time is given in CEST
 |     14:10    |     Design      |     Hierarchical Structure                     |     40 mins     |
 |     14:50    |                 |     = coffee break =                           |     15 mins     |
 |     15:05    |     Design      |     Learning Unit Development                  |     45 mins     |
-|     15:50    |     Design      |     Instruction Facilitation                   |     25 mins     |
+|     15:50    |     Design      |     Instruction Facilitation                   |     45 mins     |
 
 
 ### Day 2: Producing Learning Materials

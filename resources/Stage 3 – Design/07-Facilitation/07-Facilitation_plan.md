@@ -23,7 +23,7 @@ Define the content of the instructor kit, discuss the last new pieces: faciliati
 
 ### Total duration
 
-25 mins
+45 mins
 
 ### Number of attendees
 
@@ -39,13 +39,13 @@ Define the content of the instructor kit, discuss the last new pieces: faciliati
 
 | **Duration** | **Topic**           | **Key points/Teaching Method/Questions**             | **Activities**                                   | **Resources** |
 |--------------|---------------------|------------------------------------------------------|--------------------------------------------------|---------------|
-| 2 mins       | Kit                 | define required elements, recognise overlaps         | discuss reuse potential                          | pptx          |
-| 2 mins       | Guide               | free design                                          | brainstorm content                               | pptx          |
-| 3 mins       | Feedback            | template feedback form                               | discuss openness of results                      | pptx, Moodle  |
-| 7 mins       | Organisation        | folder tree structure with optional elements         | discuss rules for automation                     | pptx          |
-| 3 mins       | Supporting elements | metadata, citation, license, code of conduct, readme | discuss reuse potential and standardisation      | pptx          |
-| 7 mins       | Guided practice     | trainer acts as facilitator                          | [Organisation](Organisation.md) | github        |
-| 1 mins       | Summary             | key takeaways                                        | group discussion on learning unit elements       | pptx          |
+| 5 mins       | Kit                 | define required elements, recognise overlaps         | discuss reuse potential                          | pptx          |
+| 5 mins       | Guide               | free design                                          | brainstorm content                               | pptx          |
+| 5 mins       | Feedback            | template feedback form                               | discuss openness of results                      | pptx, Moodle  |
+| 10 mins       | Organisation        | folder tree structure with optional elements         | discuss rules for automation                     | pptx          |
+| 5 mins       | Supporting elements | metadata, citation, license, code of conduct, readme | discuss reuse potential and standardisation      | pptx          |
+| 10 mins       | Guided practice     | trainer acts as facilitator                          | [Organisation](Organisation.md) | github        |
+| 5 mins       | Summary             | key takeaways                                        | group discussion on learning unit elements       | pptx          |
 
 ### Assessment
 

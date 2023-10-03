@@ -169,7 +169,7 @@ To be done in collaboration with T2.4
 When the course is ready to be presented to the learners, it needs to be made visible on the learning platform. To make the course visible, in the course setting, the "Course visibility" options needs to be set to "Show".
 
 ### Indexing the course in the EOSC catalogue
-The process of building catalogues of EOSC related courses is undergoing significant changes. Due to that, we expext that in the next version of this course, there will be a detailed description on how to add  training resources to the EOSC Marketplace and related catalogues. 
+The process of building catalogues of EOSC related courses is undergoing significant changes. Due to that, we expect that in the next version of this course, there will be a detailed description on how to add  training resources to the EOSC Marketplace and related catalogues. 
 
 ## Exercise: Adding content to the course on the learning platform
 

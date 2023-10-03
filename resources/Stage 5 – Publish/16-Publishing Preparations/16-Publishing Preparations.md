@@ -25,7 +25,7 @@ Before publishing the learning materials on Zenodo and other platforms, it is im
 
 ## Duration
 
-20 mins
+35 mins
 
 ## Prerequisites
 

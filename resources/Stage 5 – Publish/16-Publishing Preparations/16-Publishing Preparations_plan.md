@@ -22,7 +22,7 @@ The goal of this learning unit is to provide insight into the steps that need to
 
 ### Total duration
 
-20 mins
+35 mins
 
 ### Number of attendees
 
@@ -38,9 +38,9 @@ The goal of this learning unit is to provide insight into the steps that need to
 
 | Duration | Topic                    | Key points/Teaching Method/Questions                                                              | Activities                                                             | Resources             |
 |----------|--------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|-----------------------|
-| 10        | Introduction             | Discussion of the required accompanying files and instructions for editing them                                                     | Get to know the files and their structure                              | pptx                  |
-| 7       | Exercise                 | Publishing Preparation in Practice - Customizing Accompanying Files                               | [Publishing Preparation in Practice](./Activities/Publishing%20Preparations%20in%20Practice.md)                                      | pptx                  |
-| 3        | Summary                  | Key takeaways                                                                                     | Quiz                                                                   | pptx                  |
+| 15        | Introduction             | Discussion of the required accompanying files and instructions for editing them                                                     | Get to know the files and their structure                              | pptx                  |
+| 15       | Exercise                 | Publishing Preparation in Practice - Customizing Accompanying Files                               | [Publishing Preparation in Practice](./Activities/Publishing%20Preparations%20in%20Practice.md)                                      | pptx                  |
+| 5        | Summary                  | Key takeaways                                                                                     | Quiz                                                                   | pptx                  |
 
 ### Assessment
 

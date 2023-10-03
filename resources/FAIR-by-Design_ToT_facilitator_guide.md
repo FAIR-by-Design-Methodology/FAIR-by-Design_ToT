@@ -92,7 +92,18 @@ The trainers materials latest version is taken from the GitHub repo.
 
 ### Trainers
 - [ ] Analyse feedback for their performance
-- [ ] Improve the trainig
+- [ ] Improve the training
+
+## Badges
+| Name | Criteria |
+|---|---|
+| FAIR Instructor | Complete the full course \FAIR-by-Design Learning Materials Methodology\" with minimum grade of 80" |
+| FAIR-by-Design Instructor - Design | Complete ALL of: Webinar recording, Stage 03 - Design Materials including Assessments |
+| FAIR-by-Design Instructor - Discover | Complete ALL of: Webinar recording, Stage 02 - Discover Materials including Assessments |
+| FAIR-by-Design Instructor - Prepare | Complete ALL of: Webinar recording, Stage 01 - Prepare Materials including Assessments |
+| FAIR-by-Design Instructor - Produce | Complete ALL of: Webinar recording, Stage 04 - Produce Materials including Assessments |
+| FAIR-by-Design Instructor - Publish | Complete ALL of: Webinar recording, Stage 05 - Publish Materials including Assessments |
+| FAIR-by-Design Instructor - Verify + CI | Complete ALL of: Webinar recording, Stage 06 - Verify & CI Materials including Assessments |
 
 ## Learning Units Activities
 

@@ -14,8 +14,8 @@ All developed learning content should be accessible to a wide range of learners 
 
 ## Learning Objectives
 
-- facilitating access to the learning content
-- validating accessibility of the learning materials
+- facilitate access to the learning content
+- validate accessibility of the learning materials
 
 ## Target Audience
 

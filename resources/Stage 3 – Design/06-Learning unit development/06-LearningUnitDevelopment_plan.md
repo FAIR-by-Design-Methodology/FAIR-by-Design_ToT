@@ -50,7 +50,7 @@ Define the learning unit plan. Discuss how to achieve rich learning experience a
 
 ### Assessment
 
-- formative assessment
+- summative assessment
 - quiz available on the learning platform
 - can be completed at any time
 - auto-graded upon submission, with final marks and pass criteria information provided by the LMS

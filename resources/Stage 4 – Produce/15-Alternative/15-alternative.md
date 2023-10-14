@@ -13,8 +13,8 @@ The use of MD file formats for the development of the learning content is a stro
 
 ## Learning Objectives
 
-- adapt to using other file formats
-- assess pros and cons of alternative approach
+- Adapt to using other file formats
+- Assess pros and cons of alternative approach
 
 ## Target Audience
 

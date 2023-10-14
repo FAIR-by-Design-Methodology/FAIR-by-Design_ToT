@@ -10,12 +10,12 @@ tags:
 
 #  Publishing to learning platform
 
-The learning materials targeted for consumption by the learners/trainees are usualy deposired in on the learning platforms, usually as parts of larger learning units such as courses.
+The learning materials targeted for consumption by the learners/trainees are usually deposited in on the learning platforms, usually as parts of larger learning units such as courses.
 
 ## Learning Objectives
 
 - Describe the procedure for publishing learning materials to the learning platform
-- Using Moodle as prefered learning platform, explain the basic elements of the course
+- Use Moodle as preferred learning platform, explain the basic elements of the course
 - Configure Moodle course parameters
 - Add different elements to the course
 
@@ -34,12 +34,12 @@ The learning materials targeted for consumption by the learners/trainees are usu
 ## Learning Tools
 
 - Training BBB room
-- Moodle lerning platform
+- Moodle learning platform
 
 ## Description of the procedure for publishing to the learning platform
 
-In this course we will be using the Skills4EOSC learning platform, available at [learning.skills4eosc.eu](https://learning.skills4eosc.eu). The learning platform is based on the popular and widely used open source learning managemet system (LMS) called [Moodle](https://moodle.org).
-The initial step needed to publish a course at the learning platform is to request one from the platform's adminstrators. 
+To make available the learning materials for learners and trainees we will be using the Skills4EOSC learning platform, available at [learning.skills4eosc.eu](https://learning.skills4eosc.eu). The learning platform is based on the popular and widely used open source learning management system (LMS) called [Moodle](https://moodle.org).
+The initial step needed to publish a course at the learning platform is to request one from the platform's administrators. 
 > NOTE: Before asking for the course creation, please create an account on the platform, using the "Log in" link at the upper right corner of the welcome page. 
 
 To do so, write an email to [learning-support@skills4eosc.eu](mailto:learning-support@skills4eosc.eu) requesting the creation of the new course, as well as stating the names/emails of the people that will be assigned Trainer (Teacher) role of the course.

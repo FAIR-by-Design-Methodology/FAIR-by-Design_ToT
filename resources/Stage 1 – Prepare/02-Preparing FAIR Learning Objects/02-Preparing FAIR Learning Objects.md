@@ -242,11 +242,11 @@ At the current moment, the Pixabay license allows use of content:
 
 #### Citing
 
-Citing can be used for including and **referencing restricted works with limited copyright**. 
+A citation allows authors to provide the source of any quotations, ideas, and information that they include in their own work based on the copyrighted works of other authors. 
 
-However, in the case of using direct quotations with citing, it is essential that the amount of information referenced is very limited (e.g. 200-300 words from a book-length work). In addition, it is recommended to quote works that were already made available to the public in a lawful way and, when possible, to provide the original source and the author's name.
+However, in the case of using direct quotations with citing, it is essential that the amount of information referenced is very limited. In addition, it is recommended to quote works that were already made available to the public in a lawful way and, when possible, to provide the original source and the author's name.
 
-Depending on the country, the reproduction and communication of a protected work may be carried out for the sole purpose of illustration for teaching or scientific research, as long as the source, including the author's name, is indicated, unless this turns out to be impossible and to the extent justified by the non-commercial purpose to be achieved. This falls under the so-called "fair use" of copyright law.
+Depending on the country, the reproduction and communication of a protected work may be carried out for the sole purpose of illustration for teaching or scientific research, as long as the source, including the author's name, is indicated, unless this turns out to be impossible and to the extent justified by the non-commercial purpose to be achieved. 
 
 #### Attribution exercise
 

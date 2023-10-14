@@ -49,7 +49,7 @@ Define the content of the instructor kit, discuss the last new pieces: faciliati
 
 ### Assessment
 
-- formative assessment
+- summative assessment
 - quiz available on the learning platform
 - can be completed at any time
 - auto-graded upon submission, with final marks and pass criteria information provided by the LMS

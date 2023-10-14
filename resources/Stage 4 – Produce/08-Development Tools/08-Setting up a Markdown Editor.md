@@ -17,7 +17,7 @@ When talking about Markdown editors, the definition for what software can be see
 
 ## Introduction to Obsidian
 
-In this training we will be using the [Obsidian](https://obsidian.md/) editor for writing all of the Markdown files throughout the different modules. Obsidian is a free-to-use cross-platform software which is simple to use and can be significantly extended through the use of community plugins, thanks to its modular architecture. We will be using some of those community plugins later in the exercise to augment the default out-of-the-box functionality. Experienced Markdown writers are more than welcome to continue using their editor of choice and follow along from the comfort of their existing writing environment. 
+In this training we will be using the [Obsidian](https://obsidian.md/) editor for writing all of the Markdown files throughout the different modules. Obsidian is a free-to-use cross-platform software which is simple to use and can be significantly extended through the use of community plugins, thanks to its modular architecture. We will be using some of those community plugins later in the activity to augment the default out-of-the-box functionality. Experienced Markdown writers are more than welcome to continue using their editor of choice and follow along from the comfort of their existing writing environment. 
 
 Obsidian offers a live preview for all written content and has a built-in search mechanism that can be used for quickly searching across all files placed in the current working repository. Opening a folder in Obsidian transforms it to a so called **vault**, but for our purposes this will be transparent since vaults can be created both from scratch as well as using an existing folder hierarchy.
 

@@ -134,7 +134,7 @@ To be reusable a digital object should have
 - a clear usage license 
 - accurate information on provenance.
 
-| License | Formal or official permission to do something |
+| License | A formal permission to do something or use some material within the limits established in its text. |
 |---|---|
 
 | Provenance | A record of ownership of a work of art or an antique, used as a guide to authenticity or quality |

@@ -50,7 +50,7 @@ The purpose of this learning unit is to introduce all relevant FAIR concepts tha
 
 ### Assessment
 
-- formative assessment
+- summative assessment
 - quiz available on the learning platform
 - can be completed at any time
 - auto-graded upon submission, with final marks and pass criteria information provided by the LMS

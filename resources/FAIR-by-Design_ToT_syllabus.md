@@ -144,7 +144,7 @@ Note: start time is given in CEST
 |      9:00    |     Publish    |     Publishing Preparations |     35 mins     |
 |      9:35    |     Publish    |     Publishing in Zenodo    |     55 mins     |
 |     10:30    |                |     = coffee break =        |     15 mins     |
-|     10:45    |     Publish    |     Publish finalisation    |     35 mins     |
+|     10:45    |     Publish    |     Publish on LMS          |     35 mins     |
 |     11:20    |     Verify     |     QA & FAIR verification  |     40 mins     |
 |     12:00    |                |     Continuous Improvement  |     30 mins     |
 

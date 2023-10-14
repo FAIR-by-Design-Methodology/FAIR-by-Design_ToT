@@ -52,15 +52,15 @@ The [FAIR-by-Design templates repository](https://github.com/FAIR-by-Design-Meth
 - README.md
 - CODE_OF_CONDUCT.md
 
-These files can be altered in any order desired, as long as making sure that they have all been covered. Starting from `CITATION.cff`, the purpose of this file is to provide information on how the Git repository can be cited. Its content, among other things, also controls the text shown when the `Cite this repository` button is clicked on the right hand side of a GitHub repository's homepage. It is written in a YAML format and has controlled vocabularies for most of the supported fields. Luckily, validators are also widely available, and we will discuss some options in this space in the Exercise, below.
+These files can be altered in any order desired, as long as making sure that they have all been covered. Starting from `CITATION.cff`, the purpose of this file is to provide information on how the Git repository can be cited. Its content, among other things, also controls the text shown when the `Cite this repository` button is clicked on the right hand side of a GitHub repository's homepage. It is written in a YAML format and has controlled vocabularies for most of the supported fields. Luckily, validators are also widely available, and we will discuss some options in this space in the Activity, below.
 
 `README.md` is a Markdown file which should briefly describe the repository, so that first time visitors can get an initial idea what it is about. The README.md file's content is shown immediately below the directory browser on the repository's homepage.
 
 The `CODE_OF_CONDUCT.md`, as its name suggests, describes the contributors' code of conduct which needs to be adhered to. It defines standards for how to engage in a community. It can also contain steps for resoling issues between members of the community. GitHub also shows a direct link to a repository's code of conduct (if available) above the citation information.
 
-In the exercise that follows we will go over all of the required changes that need to be made to these files, along with tips, and any potential pit-falls when it comes to controlled vocabulary fields.
+In the activity that follows we will go over all of the required changes that need to be made to these files, along with tips, and any potential pit-falls when it comes to controlled vocabulary fields.
 
-## Exercise: Publishing Preparation in Practice - Customizing Accompanying Files
+## Activity: Publishing Preparation in Practice - Customizing Accompanying Files
 
 ### Setting up the Environment
 

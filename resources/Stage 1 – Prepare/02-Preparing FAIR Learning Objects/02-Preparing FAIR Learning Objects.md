@@ -142,7 +142,7 @@ For the purposes of creating FAIR learning materials we will be using a Zenodo p
 
 Intellectual property refers to the creation of intellectual activity. Intellectual Property Rights (IPR) protects the interests of the creators and owners by providing them with rights over their creation. 
 
-For the purposes of creation of learning materials, the copyright and related rights branches of IPR are used. They are defined to protect literary and artistic creations, performances, phonograms by defining the authors’, owners’, performers’, producers’ and broadcasters’ rights.
+For the purposes of creation of learning materials, the copyright and related rights main branches of IPR are used. They are defined to protect literary and artistic creations, performances, phonograms by defining the authors’, owners’, performers’, producers’ and broadcasters’ rights. In some cases additional IPR branches might be involved.
 
 ### Copyright
 

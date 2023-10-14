@@ -53,7 +53,7 @@ Discuss the step 2 of backward instructional process. Discover existing learning
 
 ### Badge
 
-- successful quiz completion counts towards the FAIR Instructor badge
+- successful quiz completion counts towards the FAIR-by-Design Methodology Specialist DISCOVER badge and the overall FAIR Instructor badge
 
 ### Reflection
 

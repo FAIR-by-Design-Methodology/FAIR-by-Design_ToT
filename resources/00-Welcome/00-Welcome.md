@@ -26,7 +26,7 @@ tags:
 
 ## Learning Tools
 - training BBB room
-- Menti
+- Menti access or BBB quiz interaction
 
 ## Participants
 

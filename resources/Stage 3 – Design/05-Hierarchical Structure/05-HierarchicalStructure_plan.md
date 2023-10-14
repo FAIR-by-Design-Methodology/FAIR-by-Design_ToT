@@ -55,7 +55,7 @@ Discuss the hierarchical structure of the learning content. Define the rules for
 
 ### Badge
 
-- successful quiz completion counts towards the FAIR Instructor badge
+- successful quiz completion counts towards the FAIR-by-Design Methodology Specialist DESIGN badge and the overall FAIR Instructor badge
 
 ### Reflection
 

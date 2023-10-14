@@ -57,7 +57,7 @@ Define the learning unit plan. Discuss how to achieve rich learning experience a
 
 ### Badge
 
-- successful quiz completion counts towards the FAIR Instructor badge
+- successful quiz completion counts towards the FAIR-by-Design Methodology Specialist DESIGN badge and the overall FAIR Instructor badge
 
 ### Reflection
 

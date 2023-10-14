@@ -56,7 +56,7 @@ Define the content of the instructor kit, discuss the last new pieces: faciliati
 
 ### Badge
 
-- successful quiz completion counts towards the FAIR Instructor badge
+- successful quiz completion counts towards the FAIR-by-Design Methodology Specialist DESIGN badge and the overall FAIR Instructor badge
 
 ### Reflection
 

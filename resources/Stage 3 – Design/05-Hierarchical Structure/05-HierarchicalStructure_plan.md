@@ -10,7 +10,7 @@ tags:
     - Plan
 ---
 
-# FAIR Skills & Principles
+# Hierarchical Structure
 
 ## Goal
 

@@ -30,7 +30,7 @@ The purpose of this learning unit is to introduce all relevant FAIR concepts tha
 
 ## Duration
 
-30 mins
+60 mins
 
 ## Prerequisites
 

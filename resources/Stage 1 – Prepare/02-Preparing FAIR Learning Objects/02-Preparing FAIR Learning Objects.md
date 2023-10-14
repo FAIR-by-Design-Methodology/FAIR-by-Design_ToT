@@ -20,9 +20,9 @@ The purpose of this learning unit is to introduce all relevant FAIR concepts tha
 - Identify Permanent Identifiers (PIDs)
 - Compare licenses
 - Write attribution
-- Categorizing learning repositories
+- Categorize learning repositories
 - Interpret the instructional design process
-- Preparing learning objectives
+- Prepare learning objectives
 
 ## Target Audience
 

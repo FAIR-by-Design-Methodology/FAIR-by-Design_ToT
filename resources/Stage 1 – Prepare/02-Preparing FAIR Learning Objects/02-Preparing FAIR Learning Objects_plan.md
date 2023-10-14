@@ -57,7 +57,7 @@ The purpose of this learning unit is to introduce all relevant FAIR concepts tha
 
 ### Badge
 
-- successful quiz completion counts towards the FAIR Instructor badge
+- successful quiz completion counts towards the FAIR-by-Design Methodology Specialist PREPARE badge and the overall FAIR Instructor badge
 
 ### Reflection
 

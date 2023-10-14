@@ -44,7 +44,7 @@ The goal of this learning unit is to provide insight into the steps that need to
 
 ### Assessment
 
-- Formative assessment
+- Summative assessment
 - Quiz available on the learning platform
 - Can be completed at any time
 - Auto-graded upon submission, with final marks and pass criteria information provided by the LMS

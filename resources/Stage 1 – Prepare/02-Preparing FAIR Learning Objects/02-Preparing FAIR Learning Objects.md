@@ -148,11 +148,11 @@ For the purposes of creation of learning materials, the copyright and related ri
 
 Original work can be protected by copyright law that grants the owner **exclusive right** to control certain rights such as reproduction. The copyright is owned jointly by all authors, or it may be owned by the employing institution.
 
-Any work that you create by default makes you the copyright holder of it.
+Any work that you create by default makes you or your institution/employer the copyright holder of it.
 
-In general, **use of copyright protected work requires permission from the owner**.  
+**Use of copyright protected work requires permission from the owner**. Permission may not be required in the case of works licensed in the public domain and uses covered by Copyright Exceptions.
 
-That means only you are allowed to distribute whatever you created. If you want to transfer this right to other people as well, you can do that via a license.
+Only the copyright holder is allowed to distribute whatever is created. If you want to transfer this right to other people as well, you can do that via a license.
 
 In absence of exceptions or limitations, one can reuse an existing work if it is licensed to the user or it is licensed to the public using a public license such as the [Creative Commons (CC) licenses](https://creativecommons.org/licenses/) or [Free-Libre / Open Source Software (FLOSS) licenses](https://dwheeler.com/essays/floss-license-slide.html).
 

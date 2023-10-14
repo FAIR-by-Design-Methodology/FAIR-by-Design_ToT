@@ -51,7 +51,7 @@ The goal of this learning unit is to provide insight into the steps that need to
 
 ### Badge
 
-- Successful quiz completion counts towards the FAIR Instructor badge
+- successful quiz completion counts towards the FAIR-by-Design Methodology Specialist PUBLISH badge and the overall FAIR Instructor badge
 
 ### Reflection
 

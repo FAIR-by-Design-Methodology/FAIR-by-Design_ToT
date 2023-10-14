@@ -163,7 +163,7 @@ In absence of exceptions or limitations, one can reuse an existing work if it is
 >- [CC FAQ website](https://creativecommons.org/faq/#can-i-combine-material-under-different-creative-commons-licenses-in-my-work) licensed under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode)
 >- [Creative Commons license Wikipage](https://en.wikipedia.org/wiki/Creative_Commons_license) (2023, June 21) in Wikipedia licensed under the [Creative Commons Attribution-ShareAlike License 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
-A license allows you to define additional rights and obligations regarding your work that go beyond the copyright you own, and it can protect yourself.
+A license allows you to define rights and obligations regarding the use of your work.
 
 One of the best sources of information for licensing reusable learning materials is [Creative Commons](https://creativecommons.org/). 
 
@@ -181,7 +181,7 @@ Public domain licensing (CC0) is also not recommended as different rules apply i
 
 The [CC License Chooser tool](https://creativecommons.org/choose/) helps authors share their work in a standardised way providing copyright licenses that enable sharing and reuse of the creative work under the chosen conditions. 
 
-**To apply a license** all you have to do is indicate which CC license you are applying to your work. It is strongly recommended to include a link to the relevant CC license deed (e.g., https://creativecommons.org/licenses/by/4.0). 
+**To apply a license** all you have to do is indicate which CC license you are applying to your work. You should then check the terms of the chosen license and comply with the requirements therein. For an example, it is strongly recommended to include a link to the relevant CC license deed (e.g., https://creativecommons.org/licenses/by/4.0). 
 
 Example is provided below:
 

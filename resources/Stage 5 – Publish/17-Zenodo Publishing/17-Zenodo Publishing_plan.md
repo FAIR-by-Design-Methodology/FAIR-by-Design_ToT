@@ -39,19 +39,19 @@ The goal of this learning unit is to describe how the prepared learning material
 | Duration | Topic                    | Key points/Teaching Method/Questions                                                              | Activities                                                             | Resources             |
 |----------|--------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|-----------------------|
 | 15        | Introduction            | Discussion of the publishing steps for depositing the content on Zenodo                            | Introduction to workflow steps                                         | pptx                  |
-| 30       | Exercise                  | Exercise: Creating a draft deposit on Zenodo                                                     | [Creating a Zenodo Draft Deposit](./Activities/Zenodo%20Draft%20Deposit.md)                                      | pptx                  |
+| 30       | Activity                  | Activity: Creating a draft deposit on Zenodo                                                     | [Creating a Zenodo Draft Deposit](./Activities/Zenodo%20Draft%20Deposit.md)                                      | pptx                  |
 | 10        | Summary                  | Key takeaways and Information for Future Versions                                                 | Quiz                                                                   | pptx                  |
 
 ### Assessment
 
-- Formative assessment
+- Summative assessment
 - Quiz available on the learning platform
 - Can be completed at any time
 - Auto-graded upon submission, with final marks and pass criteria information provided by the LMS
 
 ### Badge
 
-- Successful quiz completion counts towards the FAIR Instructor badge
+- successful quiz completion counts towards the FAIR-by-Design Methodology Specialist PUBLISH badge and the overall FAIR Instructor badge
 
 ### Reflection
 

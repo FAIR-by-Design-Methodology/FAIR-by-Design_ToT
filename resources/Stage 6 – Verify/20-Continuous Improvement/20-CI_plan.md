@@ -43,14 +43,14 @@ When you've passed through all of the FAIR-by-Design Methodology stages you have
 
 ### Assessment
 
-- formative assessment
+- summative assessment
 - quiz available on the learning platform
 - can be completed at any time
 - auto-graded upon submission, with final marks and pass criteria information provided by the LMS
 
 ### Badge
 
-- successful quiz completion counts towards the FAIR Instructor badge
+- Successful quiz completion counts towards the FAIR-by-Design Methodology Specialist VERIFY badge and the overall FAIR Instructor badge
 
 ### Reflection
 

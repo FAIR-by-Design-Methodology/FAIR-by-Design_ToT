@@ -88,7 +88,8 @@ In the activity that follows we will go over all of the required changes that ne
 
     The newly added author (an imaginary John Doe) should have the same indentation (number of spaces at the beginning of the line) as the first author which is given as an example in the template. Inconsistent number of spaces will make the CITATION.cff file invalid. Additionally, we denote that we are adding information about a new author by prefixing the first property (in this case `family-names`) with a `-` character.
 
-    - Note that any other fields also present in the `CITATION.cff` file such as: `version`, `doi`, `date-released` **should not be manually edited**. They will be updated automatically when publishing the repository to Zenodo.
+- Note that any other fields also present in the `CITATION.cff` file such as: `version`, `doi`, `date-released` **should not be manually edited**. They will be updated automatically when publishing the repository to Zenodo.
+
 3. After having done the necessary updates to the fields, you can validate the structure of the `CITATION.cff` file using the free online utility which is available on [citation-file-format.github.io](https://citation-file-format.github.io/cff-initializer-javascript/#/update).
     - Paste the content into the text field
     - Press the `PARSE` button

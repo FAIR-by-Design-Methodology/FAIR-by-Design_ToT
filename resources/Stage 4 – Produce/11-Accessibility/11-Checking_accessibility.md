@@ -186,7 +186,7 @@ You can choose to save the reports for later reference. And if you go to Report 
 
 If you are using the template repo as suggested in this training and are being careful to implement the general guidelines discussed before, there should be no problem to pass the automated audit performed by LERA.
 
-##### Activity
+#### Activity
 
 Try checking the accessibility of the [NASA Transform to Open Science](https://nasa.github.io/Transform-to-Open-Science/) web site using LERA.
 
@@ -232,7 +232,7 @@ Keep in mind that if you are using Quarto to develop your presentations, you MUS
 
 Finally, if you are using Mac, then note that the simple use of Save As PDF feature does not create an accessible PDF. You will have to go to Power Point 365 online and open the presentation there and from there choose to export to PDF. With this you will get a PDF file that conforms to the very basic PDF/UA requirements.
 
-##### Activity
+#### Activity
 
 Check the accessibility of the Power Point presentation on Open Science available on OSF: [Intro to Open Science - Panelist Slides for upload 3.3.18 at noon](https://osf.io/4nq5x/download) taken from [Introduction to Open Science: Nuts & Bolts of Getting Started](https://osf.io/24upq/) uploaded by [Elizabeth Gilbert](https://osf.io/h348c/). 
 

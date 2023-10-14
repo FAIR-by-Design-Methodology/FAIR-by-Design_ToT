@@ -44,7 +44,7 @@ When the learning content development process is finished, it is time to perform
 
 ### Assessment
 
-- formative assessment
+- summative assessment
 - quiz available on the learning platform
 - can be completed at any time
 - auto-graded upon submission, with final marks and pass criteria information provided by the LMS

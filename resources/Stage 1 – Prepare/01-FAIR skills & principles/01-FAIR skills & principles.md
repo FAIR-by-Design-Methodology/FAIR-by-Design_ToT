@@ -19,7 +19,7 @@ Thus, becoming familiar with the FAIR principles and their implementation is an 
 - Describe the FAIR-by-Design instructional design skills
 - Summarize the FAIR guiding principles
 - Define FAIR learning objects
-- Determining FAIRness of learning objects 
+- Determine FAIRness of learning objects 
 
 ## Target Audience
 

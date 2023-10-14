@@ -1768,21 +1768,19 @@
 <p>The goal of this activity is to describe the way in which the automated publishing workflow is triggered and to verify the resulting Zenodo draft.</p>
 <p><strong>Notice:</strong> Feel free to follow these steps without any hesitation. The workflow will only create a draft deposit on Zenodo, meaning that it will not be publicly published without your explicit approval which can be given from the Zenodo web interface.</p>
 <h3 id="double-checking-whether-the-workflows-configuration">Double-checking whether the Workflows Configuration</h3>
-<ul>
+<ol>
 <li>
-<p>Make sure that the workflows which have been copied from the upstream <code>templates</code> repository during the forking process are indeed enabled.</p>
-<ul>
-<li>Visit the homepage of the fork</li>
-<li>Navigate to the <code>Actions</code> tab</li>
-<li>If there is a big green button for enabling the copied workflows, click it. If the green button is missing and instead a list of available workflows is shown on the left-hand side of the screen, it means that the workflows have been enabled as required as part of the previous learning units.</li>
-</ul>
-<p>The picture below shows an example list of available workflows which should be shown once they have been enabled.    </p>
+<p>Make sure that the workflows which have been copied from the upstream <code>templates</code> repository during the forking process are indeed enabled.
+    i. Visit the homepage of the fork
+    ii. Navigate to the <code>Actions</code> tab
+    iii. If there is a big green button for enabling the copied workflows, click it. If the green button is missing and instead a list of available workflows is shown on the left-hand side of the screen, it means that the workflows have been enabled as required as part of the previous learning units.</p>
+<p>The image below shows an example list of available workflows which should be shown once they have been enabled.    </p>
 <p><img alt="Example List of Enabled Workflows" src="../attachments/01-enabled-workflows.png" /></p>
 </li>
-</ul>
+</ol>
 <h3 id="authorizing-the-workflows-to-use-zenodo">Authorizing the Workflows to Use Zenodo</h3>
 <p>In order for the automated actions to be able to create a draft Zenodo deposit, we must generate an authentication token.</p>
-<ul>
+<ol>
 <li>Navigate to <a href="https://zenodo.org">Zenodo</a> and register a new account or login with an existing one.</li>
 <li>
 <p>Once logged in, click on the dropdown menu next to the profile button and select <code>Applications</code>.</p>
@@ -1814,10 +1812,10 @@
 <li>
 <p>Save the new secret using the <code>Add secret</code> button.</p>
 </li>
-</ul>
+</ol>
 <h3 id="creating-the-very-first-zenodo-deposit">Creating the Very First Zenodo Deposit</h3>
 <p>We are now ready to initiate the automated workflow for submitting the first draft deposit to Zenodo.</p>
-<ul>
+<ol>
 <li>
 <p>Navigate to the homepage of the Git repository. On the right-hand side click on the <code>Releases</code> section.</p>
 <p><img alt="Releases Section on the Repository's Homepage" src="../attachments/08-releases.png" /></p>
@@ -1836,10 +1834,10 @@
 <li>Provide an optional description in the <code>Describe this release</code> field. This is a free-text field, so you are free to enter whatever text you would like.</li>
 <li>Create the release by clicking the green <code>Publish release</code> button.</li>
 <li>At this moment the automatic publishing workflow will be triggered. You can follow its progress from the <code>Actions</code> page. Wait until a green checkmark appears next to the latest entry in the <code>Actions</code> list. In case of any errors you will receive an email message.</li>
-</ul>
+</ol>
 <h3 id="verifying-the-zenodo-deposit">Verifying the Zenodo Deposit</h3>
 <p>Once the workflow has been successfully executed, it is time to verify the changes that it has made to the repository, together with the uploaded draft deposit on Zenodo.</p>
-<ul>
+<ol>
 <li>Navigate to the Git book homepage, and check the cite footer. Note that the citing information has been updated and it now references the latest published version, as well as the correct DOI.</li>
 <li>Notice that at the top of the Git book homepage the version dropdown includes a new version - <code>1.0.0</code>. This is a point-in-time freeze of the content of the repository as it appeared at the time of the release. Any future changes will not be applied to the <code>1.0.0</code> version of the Git book and will instead be reflected only in <code>latest</code>.</li>
 <li>Verify that the correct DOI appears on the landing (syllabus) page of the Git book.</li>
@@ -1851,14 +1849,18 @@
 <p><img alt="Zenodo Draft Deposit" src="../attachments/10-zenodo-draft-deposit.png" /></p>
 </li>
 <li>
-<p>Reminder that this draft deposit is still not publicly accessible, but has a DOI pre-reserved which has not been activated. Click on the deposit's name. </p>
+<p>Note that this draft deposit is still not publicly accessible, but has a DOI pre-reserved which has not been activated. Click on the deposit's name. </p>
 </li>
-<li>Verify that all metadata has been correctly transferred from the Git repository. Note that you will not be able to make any changes to the deposit once published. Pay special attention to the associated Zenodo community, authors, license, and funding information.</li>
+<li>Verify that all metadata has been correctly transferred from the Git repository. Note that you will not be able to make any changes to the deposit once published. Pay special attention to the associated Zenodo community, authors, license, and funding information.<ul>
 <li><strong>Important:</strong> The only <strong><em>manual</em></strong> change that needs to be performed is to enter the correct language in the <code>Language</code> field.</li>
+</ul>
+</li>
 <li>When satisfied with the deposit's metadata information, scroll down to the bottom of the page and click on the <code>Save</code> button.</li>
-<li>The deposit can be made public by clicking on the <code>Publish</code> button. <strong>Please note that publishing the deposit is an irreversible action.</strong></li>
+<li>The deposit can be made public by clicking on the <code>Publish</code> button. <strong>Please note that publishing the deposit is an irreversible action.</strong><ul>
 <li>Once published, you will be redirected to the deposit's homepage on Zenodo.</li>
 </ul>
+</li>
+</ol>
 <h2 id="key-takeaways-and-information-for-future-versions">Key Takeaways and Information for Future Versions</h2>
 <p>We have published the first version of our FAIR-by-Design training. The same steps can be followed for any future version releases. Note that once set, the provided Zenodo secret will not need to be changed or modified in any way from the GitHub web interface. When publishing a newer version of the materials, the workflow will automatically link it to the previous version, so that there is continuity between them, making it easier to view versioning information at a glance from the Zenodo web interface.</p>
 <h2 id="suggested-reading">Suggested Reading</h2>

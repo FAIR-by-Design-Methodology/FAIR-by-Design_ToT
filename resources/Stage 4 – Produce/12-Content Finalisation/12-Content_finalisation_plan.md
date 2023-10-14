@@ -54,7 +54,7 @@ Once the iterative process of learning content development for all learning unit
 
 ### Badge
 
-- successful quiz completion counts towards the FAIR Instructor badge
+- successful quiz completion counts towards the FAIR-by-Design Methodology Specialist PRODUCE badge and the overall FAIR Instructor badge
 
 ### Reflection
 

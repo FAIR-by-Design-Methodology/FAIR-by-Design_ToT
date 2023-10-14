@@ -202,7 +202,7 @@ Throughout this training you will be able to practice combining and applying lic
 
 The right to attribution is a moral right of the authors that protects the personal relationship between the author and the created work even if the creator does not own the copyright.
 
-In other words, acknowledgement of the reused materials through attribution is **always strongly recommended** (even if it is not a requirement of the license, such as the public domain licenses). One condition that is **required for all CC licenses** is attribution. 
+In other words, acknowledgement of the reused materials through attribution is **always needed** (even if it is not a requirement of the license, such as the public domain licenses). One condition that is **required for all CC licenses** is attribution. 
 
 The **ideal attribution** follows the TASL approach:
 
@@ -219,7 +219,7 @@ For work created by others that you are incorporating into your own work you wan
 
 Creative Commons offer a wiki page with the [Recommended practices for attribution](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution).
 
-Some examples on great attribution provided on the Creative Commons wiki page are:
+Some examples on attribution provided on the Creative Commons wiki page are:
 
 - Image attribution
 > "[Creative Commons 10th Birthday Celebration San Francisco](http://www.flickr.com/photos/sixteenmilesofstring/8256206923/in/set-72157632200936657)" by [Timothy Vollmer](http://www.flickr.com/photos/sixteenmilesofstring/) is licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
@@ -234,11 +234,11 @@ Other sites with other type of licensing may request a different form of attribu
 
 > Image by AUTHOR(link) from Pixabay(link)
 
-The Pixabay license allows use of content:
+At the current moment, the Pixabay license allows use of content:
 
 - for free
 - without attribution (although recommended)
-- for modification adn adaptation into new work
+- for modification and adaptation into new work
 
 #### Citing
 

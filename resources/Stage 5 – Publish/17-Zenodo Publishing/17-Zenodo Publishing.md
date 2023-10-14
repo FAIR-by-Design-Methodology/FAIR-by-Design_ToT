@@ -47,11 +47,11 @@ The [templates](https://github.com/FAIR-by-Design-Methodology/templates) reposit
 - rebuild the Git book, reflecting the version and DOI changes (for example the cite information in the footer)
 - release a new version of the Git book
 
-We will go into more details about each of the workflow steps as well as how to trigger them in the exercises below. 
+We will go into more details about each of the workflow steps as well as how to trigger them in the activities below. 
 
-## Exercise: Creating a Draft Deposit on Zenodo
+## Activity: Creating a Draft Deposit on Zenodo
 
-The goal of this exercise is to describe the way in which the automated publishing workflow is triggered and to verify the resulting Zenodo draft.
+The goal of this activity is to describe the way in which the automated publishing workflow is triggered and to verify the resulting Zenodo draft.
 
 **Notice:** Feel free to follow these steps without any hesitation. The workflow will only create a draft deposit on Zenodo, meaning that it will not be publicly published without your explicit approval which can be given from the Zenodo web interface.
 

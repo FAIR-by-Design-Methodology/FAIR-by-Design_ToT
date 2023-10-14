@@ -23,15 +23,15 @@ Obsidian offers a live preview for all written content and has a built-in search
 
 An important thing to note is that all changes made to the Obsidian configuration are relevant only for the current vault (the specific directory that has been opened). Opening a different Git repository in Obsidian will create a new vault, which also means that the plugins would need to be reinstalled. Please keep this in mind after the training when working on your own Git repository.
 
-## Exercise: Setting up Obsidian for Working with Markdown Files
+## Activity: Setting up Obsidian for Working with Markdown Files
 
-The goal of this exercise is to configure Obsidian to work with the cloned repository, paying attention to required plugins, configuration options, and specific features.
+The goal of this activity is to configure Obsidian to work with the cloned repository, paying attention to required plugins, configuration options, and specific features.
 
 1. Obsidian should already be installed on your workstation as part of the preparation process for the training. Make sure to launch it and select `Open folder as vault` option from the quick start wizard.
 
     ![Obsidian - Opening an Existing Folder](attachments/07-obsidian-launch.png)
 
-2. Navigate to the folder where you have cloned the forked repository in the previous exercise. 
+2. Navigate to the folder where you have cloned the forked repository in the previous activity. 
 3. Once the vault is opened, on the left hand side of the screen you will be presented with a navigation tree, while the right hand side will be reserved for file editing and live preview.
 
     ![Obsidian - Navigation Pane and Editor Pane](attachments/08-obsidian-panes.png)

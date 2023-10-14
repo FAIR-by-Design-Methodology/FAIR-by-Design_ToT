@@ -1363,11 +1363,24 @@
     Configuring course parameters
   </a>
   
+    <nav class="md-nav" aria-label="Configuring course parameters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rda-metadata-fields" class="md-nav__link">
+    RDA metadata fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
-  <a href="#creating-course-structure" class="md-nav__link">
-    Creating course structure
+  <a href="#creating-the-course-structure" class="md-nav__link">
+    Creating the course structure
   </a>
   
 </li>
@@ -1468,8 +1481,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercise-adding-content-to-the-course-on-the-learning-platform" class="md-nav__link">
-    Exercise: Adding content to the course on the learning platform
+  <a href="#activity-adding-content-to-the-course-on-the-learning-platform" class="md-nav__link">
+    Activity: Adding content to the course on the learning platform
   </a>
   
 </li>
@@ -1712,11 +1725,24 @@
     Configuring course parameters
   </a>
   
+    <nav class="md-nav" aria-label="Configuring course parameters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rda-metadata-fields" class="md-nav__link">
+    RDA metadata fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
-  <a href="#creating-course-structure" class="md-nav__link">
-    Creating course structure
+  <a href="#creating-the-course-structure" class="md-nav__link">
+    Creating the course structure
   </a>
   
 </li>
@@ -1817,8 +1843,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercise-adding-content-to-the-course-on-the-learning-platform" class="md-nav__link">
-    Exercise: Adding content to the course on the learning platform
+  <a href="#activity-adding-content-to-the-course-on-the-learning-platform" class="md-nav__link">
+    Activity: Adding content to the course on the learning platform
   </a>
   
 </li>
@@ -1923,76 +1949,85 @@
 <p>To customize the way the course material is presented to the trainees, use the settings under the Course format section. The Format parameter lets you choose between several format, including Weekly format (suitable for courses that are offered at the specific time, where material is grouped by weeks) or Topics format (where each section of the course is one topic). For courses that are offered as self-paced learning courses, the Topic format is preferable. </p>
 <p><img alt="Course format and tags" src="../attachments/02-CourseFormatAndTags.png" />
 Defining tags for the courses helps the users discover the course when searching through the courses offering on the learning platform. </p>
-<h3 id="creating-course-structure">Creating course structure</h3>
-<p>When the course has been configured to be in the Topic format, the structure of the course consists of one General topic (created by default when creating the course) and number of Topics. Each topic is a contanier that will have different learning objects within. 
-<img alt="Course structure (topics)" src="../attachments/03-Topics.png" />
-To make any changes to the courses, the editing mode has to be turned on, by clicking the switch in the upper right corner.
-<img alt="Add new topic" src="../attachments/04-AddNewTopic.png" />
-To add the new topic, use the "Add topic" link at the bottom left. Each topic will need to have a title as a minimum. </p>
+<h4 id="rda-metadata-fields">RDA metadata fields</h4>
+<p>In the RDA Minimal Metadata Set for Learning Resources you should enter the information for the metadata fields discussed in the Design stage. For these purposes you can simply copy/paste the information from the Syllabus.</p>
+<h3 id="creating-the-course-structure">Creating the course structure</h3>
+<p>When the course has been configured to be in the Topic format, the structure of the course consists of one General topic (created by default when creating the course) and number of Topics. Each topic is a container that will have different learning objects within. </p>
+<p><img alt="Course structure (topics)" src="../attachments/03-Topics.png" /></p>
+<p>To make any changes to the courses, the editing mode has to be turned on, by clicking the switch in the upper right corner.</p>
+<p><img alt="Add new topic" src="../attachments/04-AddNewTopic.png" /></p>
+<p>To add a new topic, use the "Add topic" link at the bottom left. Each topic will need to have a title as a minimum. </p>
+<p>One topic can correspond to one or more learning objects. The minimum resources per topic are thus:</p>
+<ul>
+<li>PDF version of the slide deck (if available)</li>
+<li>link to the topic content on the generated GitBook</li>
+<li>assessment quiz for the given topic</li>
+</ul>
 <h3 id="adding-pdf-documents">Adding PDF documents</h3>
-<p>Most common type of material that will be added to the courses on the learning platform will be pdf documents, whether they will be pdf versions of the presentations or other reading. 
-As mentioned previously, to make any changes to the course, the editing mode needs to be turned on, by clicking the switch in the upper right corner.
-<img alt="Add new activity or resource" src="../attachments/05-AddingFiles.png" />
-The next step is to expand the topic that will contain the pdf file. Once expanded, the topic will contain a link titled "Add an activity or resource". By clicking this link, the selection of available activities and resources is displayed.
-<img alt="Add new file" src="../attachments/06-SelectActivityResource.png" />
-Select the "File" resource to proceed to the form for describing and uploading the pdf file. 
-The required attribute of the pfd file is the Name.
-To upload the file, you can drop the pfd file to the marked space, or use the upload dialog. 
-<img alt="Name and uploading" src="../attachments/07-FileAttributes.png" />
-To finalise the publishing of the pdf file, at the bottom of the page, use one of the Save buttons
-<img alt="Save changes" src="../attachments/08-Save.png" />
-The "Save and return to course" will save the changes and return to the home page of the course, displayng the topics. The "Save and display" button will save the changes and display the newly uploaded pdf file. </p>
+<p>One common type of material that will be added to the courses on the learning platform will be PDF documents, whether they will be pdf versions of the presentations or other materials.</p>
+<p>As mentioned previously, to make any changes to the course, the editing mode needs to be turned on, by clicking the switch in the upper right corner.</p>
+<p><img alt="Add new activity or resource" src="../attachments/05-AddingFiles.png" /></p>
+<p>The next step is to expand the topic that will contain the pdf file. Once expanded, the topic will contain a link titled "Add an activity or resource". By clicking this link, the selection of available activities and resources is displayed.</p>
+<p><img alt="Add new file" src="../attachments/06-SelectActivityResource.png" /></p>
+<p>Select the "File" resource to proceed to the form for describing and uploading the pdf file. </p>
+<p>The required attribute of the pfd file is the Name.</p>
+<p>To upload the file, you can drop the pfd file to the marked space, or use the upload dialog. </p>
+<p><img alt="Name and uploading" src="../attachments/07-FileAttributes.png" /></p>
+<p>To finalise the publishing of the pdf file, at the bottom of the page, use one of the Save buttons</p>
+<p><img alt="Save changes" src="../attachments/08-Save.png" /></p>
+<p>The "Save and return to course" will save the changes and return to the home page of the course, displaying the topics. The "Save and display" button will save the changes and display the newly uploaded pdf file. </p>
 <h3 id="adding-links">Adding links</h3>
-<p>The procedure for adding links to external resources is similar to the procedure for adding pdf documents. Course needs to be in the editing mode, the required topic should be expanded, and the link "Add an activity or resource" should be selected.
-<img alt="Add new link" src="../attachments/09-SelectURL.png" />
-From the list of activities and resources, select the "URL" option. 
-The required attributes are the Name and the External URL. 
-<img alt="URL Attributes" src="../attachments/10-URLAttributes.png" />
-Once the attributes are filed in, the saving options at the bottom of the page are the same as when adding files ("Save and return to course" and "Save and display").</p>
+<p>The procedure for adding links to external resources is similar to the procedure for adding pdf documents. Course needs to be in the editing mode, the required topic should be expanded, and the link "Add an activity or resource" should be selected.</p>
+<p><img alt="Add new link" src="../attachments/09-SelectURL.png" /></p>
+<p>From the list of activities and resources, select the "URL" option. </p>
+<p>The required attributes are the Name and the External URL. </p>
+<p><img alt="URL Attributes" src="../attachments/10-URLAttributes.png" /></p>
+<p>Once the attributes are filled in, the saving options at the bottom of the page are the same as when adding files ("Save and return to course" and "Save and display").</p>
 <h3 id="working-with-quizzes">Working with quizzes</h3>
-<p>Moodle provides rich options for knowledge assessment in the form of Quizzes. Quizzes can contain different types of questions, from simple single or multiple choice, to more advanced types such as matching, drag-and-drop, calculated answers etc.  Most of the questions types can be graded automatically, with the exception of the "Essay" type, that needs manual grading. 
-The questions used in the quizzes are organised in a question bank, offering a hierarchical structure for questions grouping. The grouping of questions in categories and sub-categories provides better support for automatization of the quizz creating process, offering random choice of questions from the same category, making the assessment more diverse. 
-New questions to the question bank can be added either manually or by import. 
-Access to the question bank can be done through the link "More" and then "Question bank"
-<img alt="Question bank" src="../attachments/11-AccessQuestionBank.png" />
-Within the question bank view,  activities such as crating and editing categories, adding questions and importing and exporting of questions can be performed. 
-<img alt="Questions options" src="../attachments/12-QuestionsOptions.png" /></p>
+<p>Moodle provides rich options for knowledge assessment in the form of Quizzes. Quizzes can contain different types of questions, from simple single or multiple choice, to more advanced types such as matching, drag-and-drop, calculated answers etc.  Most of the questions types can be graded automatically, with the exception of the "Essay" type, that needs manual grading. </p>
+<p>The questions used in the quizzes are organized in a question bank, offering a hierarchical structure for questions grouping. The grouping of questions in categories and sub-categories provides better support for automatization of the quiz creating process, offering random choice of questions from the same category, making the assessment more diverse. </p>
+<p>New questions to the question bank can be added either manually or by import. As the quiz questions have already been developed in the GIFT format, it is recommended that the Import option is used. In addition, it is recommended that each learning unit has its own category in the question bank.</p>
+<p>Access to the question bank can be done through the link "More" and then "Question bank"</p>
+<p><img alt="Question bank" src="../attachments/11-AccessQuestionBank.png" /></p>
+<p>Within the question bank view, activities such as creating and editing categories, adding questions and importing and exporting of questions can be performed. </p>
+<p><img alt="Questions options" src="../attachments/12-QuestionsOptions.png" /></p>
 <h4 id="creating-a-new-category">Creating a new category</h4>
-<p>To create a new category for the questions in the question bank, from the "Categories" view select the "Add category" button.
-<img alt="Add category" src="../attachments/13-AddCategory.png" />
-For the newly created category, first select the parent category, and then define the name for it. 
-<img alt="Create new category" src="../attachments/14-CreateCategory.png" /></p>
+<p>To create a new category for the questions in the question bank, from the "Categories" view select the "Add category" button.</p>
+<p><img alt="Add category" src="../attachments/13-AddCategory.png" /></p>
+<p>For the newly created category, first select the parent category, and then define the name for it. </p>
+<p><img alt="Create new category" src="../attachments/14-CreateCategory.png" /></p>
 <h4 id="adding-questions-to-questions-banks-manually">Adding questions to questions banks manually</h4>
-<p>Individual questions can be added to the question bank manually. To add individual question to the question bank, from the "Questions" view of the Question bank, first select the category/sub-category for the questions. Then, select the "Create a new question" link. 
-<img alt="Create new question" src="../attachments/15-AddNewQuestion.png" />
-The next form allows for the choice of the question type for the new question. 
-<img alt="New question type" src="../attachments/16-NewQuestionType.png" />
-Depending on the type of the question, a form to edit its properties is shown. Once the properties of the question are finalised, the question can be saved to the question bank. 
-If a multiple choice questions is selected, the parameters to be configures are the question name, question text and the answers
-<img alt="Question name and text" src="../attachments/17-QuestionName.png" />
-For the multiple choice questions, one or more answers can be valid. For each of the offered answers, the choice text, grade and feedback can be provided. The choice is the displayed option, while the feedback will be displayed when reviewing a finished quizz. The grade selection defined how much each choice influences the final grade in percentage. The percentage can be also negative for the wrong answers. 
-<img alt="Answers" src="../attachments/18-Answers.png" /></p>
+<p>Individual questions can be added to the question bank manually. To add individual question to the question bank, from the "Questions" view of the Question bank, first select the category/sub-category for the questions. Then, select the "Create a new question" link. </p>
+<p><img alt="Create new question" src="../attachments/15-AddNewQuestion.png" /></p>
+<p>The next form allows for the choice of the question type for the new question. </p>
+<p><img alt="New question type" src="../attachments/16-NewQuestionType.png" /></p>
+<p>Depending on the type of the question, a form to edit its properties is shown. Once the properties of the question are finalized, the question can be saved to the question bank. </p>
+<p>If a multiple choice questions is selected, the parameters to be configures are the question name, question text and the answers</p>
+<p><img alt="Question name and text" src="../attachments/17-QuestionName.png" /></p>
+<p>For the multiple choice questions, one or more answers can be valid. For each of the offered answers, the choice text, grade and feedback can be provided. The choice is the displayed option, while the feedback will be displayed when reviewing a finished quiz. The grade selection defined how much each choice influences the final grade in percentage. The percentage can be also negative for the wrong answers. </p>
+<p><img alt="Answers" src="../attachments/18-Answers.png" /></p>
 <h4 id="importing-questions-into-questions-banks">Importing questions into questions banks</h4>
-<p>To use already prepared questions outside of the learning platform, or questions exported from other courses or learning platforms, the import questions feature can be used. 
-The most popular format for editing questions and their transfer between courses and platforms is the GIFT format. 
-In the GIFT format, the questions are written as follows</p>
-<p><code>Which of the followint types of questions is not graded automaticaly</code>
+<p>To use already prepared questions outside of the learning platform, or questions exported from other courses or learning platforms, the import questions feature can be used. </p>
+<p>As discussed previously, one of the most popular format for editing questions and their transfer between courses and platforms is the GIFT format. </p>
+<p>Remember that in the GIFT format, the questions are written as follows</p>
+<p><code>Which of the following types of questions is not graded automatically</code>
 <code>= Essay</code>
 <code>~%-10% Multiple choice</code>
 <code>~%-10% Numerical</code>
 <code>~%-10% Short answer</code></p>
-<p>In the example above, the wrong answers have negative score of -10% of the grade for that question. 
-<img alt="Importing question" src="../attachments/19-ImportGIFT.png" />
-The category of the imported questions can be either specified in the GIFT file using the <code>$CATEGORY: name_of_category</code> modifier, or selected from the General section of the import form. </p>
+<p>In the example above, the wrong answers have negative score of -10% of the grade for that question. </p>
+<p><img alt="Importing question" src="../attachments/19-ImportGIFT.png" /></p>
+<p>The category of the imported questions can be either specified in the GIFT file using the <code>$CATEGORY: name_of_category</code> modifier, or selected from the General section of the import form. </p>
 <h4 id="creating-quizzes">Creating quizzes</h4>
-<p>The creation of quizzes as methods of knowledge assessment can be done in two steps. First, a quiz needs to be added as new activity with type "Quiz" to the specific topic of the course. 
-<img alt="Adding a quiz" src="../attachments/20-AddQuiz.png" />
-The quiz attributes include name, start and end time for the quiz to be available for the learners, as well as the time limit for each attempt of the quiz. 
-<img alt="Quiz attributes" src="../attachments/21-QuizAttributes.png" />
-Once the quiz is created, the next step is the selection of the questions. 
-<img alt="Quiz questions" src="../attachments/22-QuizQuestions.png" />
-The questions view of the quiz allows configuring of the maximum grade of the quiz, whether the questions should be shuffled at each individual attempt, and most importantly to add new questions. 
-When the "Add" link is selected, three options are available
+<p>The creation of quizzes as methods of knowledge assessment can be done in two steps. </p>
+<p>First, a quiz needs to be added as new activity with type "Quiz" to the specific topic of the course. </p>
+<p><img alt="Adding a quiz" src="../attachments/20-AddQuiz.png" /></p>
+<p>The quiz attributes include name, start and end time for the quiz to be available for the learners, as well as the time limit for each attempt of the quiz. </p>
+<p><img alt="Quiz attributes" src="../attachments/21-QuizAttributes.png" /></p>
+<p>Once the quiz is created, the next step is the selection of the questions. </p>
+<p><img alt="Quiz questions" src="../attachments/22-QuizQuestions.png" /></p>
+<p>The questions view of the quiz allows configuring the maximum grade of the quiz, whether the questions should be shuffled at each individual attempt, and most importantly to add new questions. </p>
+<p>When the "Add" link is selected, three options are available
 - "add new question", allowing for direct adding new questions to the quiz (and to the question bank)
 - "from the questions bank", allowing a choice of a specific question from the question bank
 - "a random question", giving the opportunity to randomly select a questions for that position in the quiz in each individual attempt. </p>
@@ -2001,21 +2036,21 @@ When the "Add" link is selected, three options are available
 <p>NOTE: the "a random question" option can be used to define test strategies. A strategy can be defined by adding random questions from different question categories/sub-categories, allowing for diversity of the individual attempts, from a specified group of questions with similar goal and difficulty. </p>
 </blockquote>
 <h3 id="feedback-gathering">Feedback gathering</h3>
-<p>Gather feedback from the participants is essential for the whole lifecycle of the learning material, as it represents the main driver for the process of continual improvement. The gathered feedback should be continuously analysed and improvement actions should be taken based on this analysis. Additionally, the feedback analysis at the end of the next cycle can be used to measure if the goals set for the new version have been successfully reached.
-The Skills4EOSC learning platform already provides template for feedback gathering from the learners. 
-To add feedback, use the "Add activity or resource" link and select the "Feedback" item. 
-Provide the name of the item, as well as the period when the feedback gathering will be available, and "Save and display" the feedback. 
-<img alt="Adding feedback" src="../attachments/26-FeedbackBasic.png" />
-Using the "Templates" tab of the newly created feedback form, select the template "Feddback template FAIR-by-Design Learning Materials Methodology" from the "Public" templates section
-<img alt="Feedback template" src="../attachments/27-FeedbackTemplate.png" />
-Select the link "Use this template" and "Delete old item" option when saving. </p>
+<p>Gathering feedback from the participants is essential for the whole lifecycle of the learning material, as it represents the main driver for the process of continual improvement. Remember that the gathered feedback should be continuously analyzed and improvement actions should be taken based on this analysis. Additionally, the feedback analysis at the end of the next cycle can be used to measure if the goals set for the new version have been successfully reached.</p>
+<p>The Skills4EOSC learning platform already provides template for feedback gathering from the learners. </p>
+<p>To add a feedback form, use the "Add activity or resource" link and select the "Feedback" item. </p>
+<p>Provide the name of the item, as well as the period when the feedback gathering will be available, and "Save and display" the feedback. </p>
+<p><img alt="Adding feedback" src="../attachments/26-FeedbackBasic.png" /></p>
+<p>Using the "Templates" tab of the newly created feedback form, select the template "Feedback template FAIR-by-Design Learning Materials Methodology" from the "Public" templates section</p>
+<p><img alt="Feedback template" src="../attachments/27-FeedbackTemplate.png" /></p>
+<p>Select the link "Use this template" and "Delete old item" option when saving. </p>
 <h3 id="adding-bbb-rooms">Adding BBB rooms</h3>
-<p>For the courses that will have webinar delivery style, or for the courses that will require recording of the delivery, there is the option to add BigBlueButton (BBB) room. 
-The BBB room can be added just llike any other activity or resource, by selecting the BigBlueButton resource type. 
-<img alt="Adding BigBlueButton room" src="../attachments/24-AddBBB.png" />
-The main parameters of the BBB room are the room name and the instance type.
-<img alt="BigBlueButton room parameters" src="../attachments/25-BBBRoomParameters.png" />
-The instance type can be
+<p>For the courses that will have webinar delivery style, or for the courses that will require recording of the delivery, there is the option to add BigBlueButton (BBB) room. </p>
+<p>The BBB room can be added just like any other activity or resource, by selecting the BigBlueButton resource type. </p>
+<p><img alt="Adding BigBlueButton room" src="../attachments/24-AddBBB.png" /></p>
+<p>The main parameters of the BBB room are the room name and the instance type.</p>
+<p><img alt="BigBlueButton room parameters" src="../attachments/25-BBBRoomParameters.png" /></p>
+<p>The instance type can be
 - Room with recording, where the activitiy can be used for interactive classes, and the recoridings of that classes will be available at the same place
 - Room only, where the room can be used just for interactive classes and no recording
 - Recording only, meaning that there will not be an interactive room, just previous recordings. </p>
@@ -2025,11 +2060,14 @@ To be done in collaboration with T2.4</p>
 <h3 id="making-the-course-visible-to-learners">Making the course visible to learners</h3>
 <p>When the course is ready to be presented to the learners, it needs to be made visible on the learning platform. To make the course visible, in the course setting, the "Course visibility" options needs to be set to "Show".</p>
 <h3 id="indexing-the-course-in-the-eosc-catalogue">Indexing the course in the EOSC catalogue</h3>
-<p>The process of building catalogues of EOSC related courses is undergoing significant changes. Due to that, we expect that in the next version of this course, there will be a detailed description on how to add  training resources to the EOSC Marketplace and related catalogues. </p>
-<h2 id="exercise-adding-content-to-the-course-on-the-learning-platform">Exercise: Adding content to the course on the learning platform</h2>
-<p>The goal of this exercise is to describe how to add content to the previously created course on the learning platform.</p>
+<p>The process of building catalogues of EOSC related courses is undergoing significant changes. Thus at the moment we do not provide any detailed instructions on how to ensure that the learning materials are indexed in the EOSC Catalogue. If you would like to receive a more detailed information regarding this option please contact T2.3 members.  </p>
+<h2 id="activity-adding-content-to-the-course-on-the-learning-platform">Activity: Adding content to the course on the learning platform</h2>
+<p>The goal of this activity is to showcase how to add different types of content to the previously created course on the learning platform.
+For these purposes a Demo course has been created on the learning platform. All participants should have teacher role privileges and can try and test the described steps for adding different types of resources to the learning platform. </p>
 <h2 id="key-takeaways-and-information-for-future-versions">Key Takeaways and Information for Future Versions</h2>
-<p>We have published the first course on the learning platform.</p>
+<p>By adding all learning units as topic to the learning platform together with the link to the syllabus, the feedback form and the BBB room you have completed the minimum requirements for making the learning content available for learners. </p>
+<p>More detailed instructions on how to use the learning platform will be provided in a separate Training of Trainers. Until then you can always use the FAIR-by-Design Methodology course on the platform as a blueprint for the organization and availability of the learning materials.</p>
+<p>Remember that any subsequent changes to the GitBook will automatically reflect on the learning platform via the provided links. However, if you make changes to the assessment questions or slide deck, you will need to manually update the content on the learning platform as well. </p>
 <h2 id="suggested-reading">Suggested Reading</h2>
 <ul>
 <li><a href="https://docs.moodle.org/402/en/Main_page">Moodle documentation</a></li>

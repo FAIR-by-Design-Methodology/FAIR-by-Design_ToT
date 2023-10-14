@@ -54,7 +54,7 @@ As a first step on the journey for producing FAIR-by-Design learning objects, yo
 
 ### Trainer Guidance
 
-The participants should already have a GitHub account created and downloaded the [GitHub Desktop](https://desktop.github.com/) client on their local machines before the start of the exercise. As they are performing the exercise, the trainer should provide additional instructions and help as needed, as well as promoting thinking-out-loud where anyone can share their findings with the rest of the group.
+The participants should already have a GitHub account created and downloaded the [GitHub Desktop](https://desktop.github.com/) client on their local machines before the start of the activity. As they are performing the activity, the trainer should provide additional instructions and help as needed, as well as promoting thinking-out-loud where anyone can share their findings with the rest of the group.
 
 ## Tips and Tricks
 

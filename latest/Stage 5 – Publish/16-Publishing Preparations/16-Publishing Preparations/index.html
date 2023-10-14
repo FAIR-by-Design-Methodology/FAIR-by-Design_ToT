@@ -1822,9 +1822,13 @@
 <p>While filling out the file and adding new lines, make sure that they match the indentation of the examples. The picture below provides a visual example of how to correctly add a new author.</p>
 <p><img alt="CITATION.cff file example" src="../attachments/01-citation-cff.png" /></p>
 <p>The newly added author (an imaginary John Doe) should have the same indentation (number of spaces at the beginning of the line) as the first author which is given as an example in the template. Inconsistent number of spaces will make the CITATION.cff file invalid. Additionally, we denote that we are adding information about a new author by prefixing the first property (in this case <code>family-names</code>) with a <code>-</code> character.</p>
+</li>
+<li>
+<p>Note that any other fields also present in the <code>CITATION.cff</code> file such as: <code>version</code>, <code>doi</code>, <code>date-released</code> <strong>should not be manually edited</strong>. They will be updated automatically when publishing the repository to Zenodo.</p>
+</li>
+<li>
+<p>After having done the necessary updates to the fields, you can validate the structure of the <code>CITATION.cff</code> file using the free online utility which is available on <a href="https://citation-file-format.github.io/cff-initializer-javascript/#/update">citation-file-format.github.io</a>.</p>
 <ul>
-<li>Note that any other fields also present in the <code>CITATION.cff</code> file such as: <code>version</code>, <code>doi</code>, <code>date-released</code> <strong>should not be manually edited</strong>. They will be updated automatically when publishing the repository to Zenodo.</li>
-<li>After having done the necessary updates to the fields, you can validate the structure of the <code>CITATION.cff</code> file using the free online utility which is available on <a href="https://citation-file-format.github.io/cff-initializer-javascript/#/update">citation-file-format.github.io</a>.</li>
 <li>Paste the content into the text field</li>
 <li>Press the <code>PARSE</code> button</li>
 <li>

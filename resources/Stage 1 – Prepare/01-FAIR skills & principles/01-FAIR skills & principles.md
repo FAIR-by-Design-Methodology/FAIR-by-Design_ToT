@@ -53,8 +53,8 @@ The skills required to start producing FAIR learning materials can be divided in
             - Use of repositories or learning management systems and storing platforms
     - Legal expertise to be able to recognize, define and combine 
         - Intellectual Property Rights
+            - Attribution and citing of learning materials and other resources
         - Licensing
-        - Attribution and citing of learning materials and other resources
 - **Traditional instructional design oriented skills**
     - Technical expertise in
         - Different tools and formats used for creation and delivery of learning content and their interoperability

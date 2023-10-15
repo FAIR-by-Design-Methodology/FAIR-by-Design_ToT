@@ -36,7 +36,7 @@ The trainers materials latest version is taken from the GitHub repo.
 - Menti prepared according to the activities
     - if Menti is not available, use internal BBB quiz by copy-pasting the questions
 - BBB room added to the course on the learning platform
-- MD editor of choice (VS code)
+- MD editor of choice (Obsidian, VS code, ...)
 
 ## Before the training
 ### Organisers

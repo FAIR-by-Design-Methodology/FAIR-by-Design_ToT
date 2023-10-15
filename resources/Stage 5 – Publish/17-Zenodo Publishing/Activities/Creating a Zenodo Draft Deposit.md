@@ -15,7 +15,7 @@ The purpose of this activity is for the trainees to deposit the first version of
 
 ## Activity duration
 
-10 mins
+30 mins
 
 ## Number of people that it can be performed with
 

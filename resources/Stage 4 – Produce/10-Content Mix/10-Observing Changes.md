@@ -15,7 +15,7 @@ tags:
 
 Having produced our very own learning unit, now is the time to verify that its visual appearance conforms to our expectation by viewing it directly in the Git book.
 
-## Exercise: Observing Changes
+## Activity: Observing Changes
 
 The steps that we need to execute in order to have the content published on the already set up Git book are: 
 

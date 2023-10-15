@@ -67,14 +67,12 @@ Mark the learning objects or learning units that you can reuse from what you hav
 
 When reusing learning materials there is sometimes need to combine learning materials from different sources available under different licenses, i.e. combining.
 
-If the combination does not create an adaptation, then you may combine any CC-licensed content so long as you provide attribution and comply with the NonCommercial restriction if it applies. 
+You may combine any CC-licensed content so long as you provide attribution and comply with the NonCommercial restriction if it applies. 
 
 If you want to combine material in a way that results in the creation of an adaptation (i.e. a “remix”), then you must pay attention to the particular license that applies to the content you want to combine.
 
 | adaptation | A modification rises to the level of an adaptation under copyright law when the modified work is based on the prior work but manifests sufficient new creativity to be copyrightable. |
 |---|---|
-
-Generally, no derivative work is made of the original from which the excerpt was taken when the excerpt is used to illuminate an idea or provide an example in another larger work. However, when excerpts are combined with other material in a way that creates some new version of the original from which the excerpt is taken we have a situation of adaptation.
 
 The licensing section in the [Preparing FAIR Learning Objects](../../Stage%201%20–%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/02-Preparing%20FAIR%20Learning%20Objects.md) learning unit is an example of such an adaptation of two materials that have been combined together and further adapted by editing the text.
 

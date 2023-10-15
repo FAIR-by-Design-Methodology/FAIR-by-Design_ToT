@@ -43,14 +43,7 @@ Provide an alternative for developing learning materials using open file formats
 
 ### Assessment
 
-- formative assessment
-- quiz available on the learning platform
-- can be completed at any time
-- auto-graded upon submission, with final marks and pass criteria information provided by the LMS
-
-### Badge
-
-- successful quiz completion counts towards the FAIR Instructor badge
+- no assessment
 
 ### Reflection
 

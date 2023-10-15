@@ -48,32 +48,32 @@ The easiest way to perform this step is to check the Table of Content (TOC) of t
 Next, an overall check should be done to identify if all required elements (files) are present. For these purposes the following checklist can be used:
 
 - Root folder
-    - [ ] Syllabus
-    - [ ] Facilitation Guide
-    - [ ] LICENSE
-    - [ ] Feedback form
+    - [ X ] Syllabus
+    - [ X ] Facilitation Guide
+    - [ X ] LICENSE
+    - [ X ] Feedback form
 - resources folder
-    - [ ] Section folders
-    - [ ] Module folders
-    - [ ] Learning Unit folders
+    - [ X ] Section folders
+    - [ X ] Module folders
+    - [ X ] Learning Unit folders
 - for each Learning Unit folder
-    - [ ] Activities
-    - [ ] Assessment
-    - [ ] Learning Plan
-    - [ ] Learning Content
-    - [ ] Slide Deck (if instructor-led)
+    - [ X ] Activities
+    - [ X ] Assessment
+    - [ X ] Learning Plan
+    - [ X ] Learning Content
+    - [ X ] Slide Deck (if instructor-led)
 
 Note: We assume that you have not changed any of the rest of the files in the Templates repo that was cloned in the beginning. 
 
 Once the structure is confirmed, the QA lead then continues with checking content and layout. 
 
-- [ ] All required fields are present in Syllabus body
-- [ ] Syllabus content is correct and clearly described
-- [ ] Syllabus layout is correct in learners' notebook (HTML view)
-- [ ] Syllabus accessibility check reports no issues
-- [ ] All required fields are present in Syllabus metadata (MD file)
-- [ ] Facilitation Guide describes the training setup (before, during and after)
-- [ ] Correct LICENSE file is used
+- [ X ] All required fields are present in Syllabus body
+- [ X ] Syllabus content is correct and clearly described
+- [ X ] Syllabus layout is correct in learners' notebook (HTML view)
+- [ X ] Syllabus accessibility check reports no issues
+- [ X ] All required fields are present in Syllabus metadata (MD file)
+- [ X ] Facilitation Guide describes the training setup (before, during and after)
+- [ X ] Correct LICENSE file is used
 
 The QA lead then assigns different people to check different learning units.
 
@@ -81,21 +81,21 @@ The QA lead then assigns different people to check different learning units.
 
 For each learning unit a thorough check of the learning content needs to be performed:
 
-- [ ] Learning plan content adheres to template
-- [ ] Learning plan is aligned with the information provided in the Syllabus
-- [ ] Learning plan links to activities
-- [ ] Learning content adheres to template
-- [ ] Learning content layout is correct in learners' notebook (HTML view)
-- [ ] Learning content is clearly written, easy to follow and understand
-- [ ] Learning content is well aligned with the learning objectives defined in the plan
-- [ ] Learning content accessibility check reports no issues
-- [ ] All planned activities have description
-- [ ] Planned activities are relevant for the unit content
-- [ ] Activities description adhere to template
-- [ ] Assessment quiz questions are relevant for the unit content
-- [ ] Assessment quiz adheres to GIFT format
-- [ ] Slide deck is aligned with the learning content
-- [ ] Slide deck accessibility check reports no issues
+- [ X ] Learning plan content adheres to template
+- [ X ] Learning plan is aligned with the information provided in the Syllabus
+- [ X ] Learning plan links to activities
+- [ X ] Learning content adheres to template
+- [ X ] Learning content layout is correct in learners' notebook (HTML view)
+- [ X ] Learning content is clearly written, easy to follow and understand
+- [ X ] Learning content is well aligned with the learning objectives defined in the plan
+- [ X ] Learning content accessibility check reports no issues
+- [ X ] All planned activities have description
+- [ X ] Planned activities are relevant for the unit content
+- [ X ] Activities description adhere to template
+- [ X ] Assessment quiz questions are relevant for the unit content
+- [ X ] Assessment quiz adheres to GIFT format
+- [ X ] Slide deck is aligned with the learning content
+- [ X ] Slide deck accessibility check reports no issues
 
 Don't forget that this QA check, although most probably performed as self-assessment must still be done with a critical eye. The QA check should focus on all aspects of the produced learning materials, including the qualitative evaluation of the content.
 

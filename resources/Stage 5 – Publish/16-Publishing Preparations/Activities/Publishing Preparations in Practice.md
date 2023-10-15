@@ -33,7 +33,7 @@ Make necessary changes to the `CITATION.cff`, `README.md`, and `CODE_OF_CONDUCT.
 
 ## Instructions
 
-The trainees are asked to update the controlled vocabulary fields of the `CITATION.cff` file, as well as the free text files `README.md` and `CODE_OF_CONDUCT.md`. Trainees should be warned that they should focus only on the fields outlined in the description of the exercise (`authors`, `title`, `abstract`, `license`, `license-url`, `keywords`, `repository`) when editing the `CITATION.cff` file, since all of the others will be filled out by the automated workflow which will be executed when depositing the contents of the repository to Zenodo.
+The trainees are asked to update the controlled vocabulary fields of the `CITATION.cff` file, as well as the free text files `README.md` and `CODE_OF_CONDUCT.md`. Trainees should be warned that they should focus only on the fields outlined in the description of the activity (`authors`, `title`, `abstract`, `license`, `license-url`, `keywords`, `repository`) when editing the `CITATION.cff` file, since all of the others will be filled out by the automated workflow which will be executed when depositing the contents of the repository to Zenodo.
 
 ## Tips and Tricks
 

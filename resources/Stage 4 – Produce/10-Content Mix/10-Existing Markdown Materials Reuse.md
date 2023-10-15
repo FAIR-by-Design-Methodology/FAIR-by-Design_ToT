@@ -42,11 +42,11 @@ Since the discovered content can be in any file format, additional effort might 
 - Training BBB room
 - optional: Obsidian & Quarto
 
-## Exercise: Reusing Existing Content
+## Activity: Reusing Existing Content
 
-The goal of this exercise is to put to practical use the concepts learned from the previous stages regarding discovery, material reuse, licensing, attribution, and Markdown formatting. Having already discovered relevant material for reuse in Stage 2, while also performing a license compatibility check and defining attribution in Stage 3, we are now ready to incorporate the content according to the FAIR-by-Design Methodology.
+The goal of this activity is to put to practical use the concepts learned from the previous stages regarding discovery, material reuse, licensing, attribution, and Markdown formatting. Having already discovered relevant material for reuse in Stage 2, while also performing a license compatibility check and defining attribution in Stage 3, we are now ready to incorporate the content according to the FAIR-by-Design Methodology.
 
-Throughout the exercise we assume that you are writing a new course on Open Data and plan to reuse [Lesson 5: Planning for Open Data](https://github.com/opensciency/OpenData/blob/main/lessons/lesson5.md). The following steps will need to be performed:
+Throughout the activity we assume that you are writing a new course on Open Data and plan to reuse [Lesson 5: Planning for Open Data](https://github.com/opensciency/OpenData/blob/main/lessons/lesson5.md). The following steps will need to be performed:
 
 - create a lesson plan
 - create an activity
@@ -79,7 +79,7 @@ The questions bellow can act as a guide through the above steps.
     - Save the file to the newly created directory in Step 4. Make sure to change its name and use an `.md` extension.
 
 6. Go back to Obsidian and make sure that the file is visible and can be freely edited. 
-7. Having completed the majority of the technical aspects, we are now ready to follow the Backwards Design Model. Since we already defined a lesson plan in the previous exercise, you can move it to the new directory. Verify that the content in it reflects the current scenario.
+7. Having completed the majority of the technical aspects, we are now ready to follow the Backwards Design Model. Since we already defined a lesson plan in the previous activity, you can move it to the new directory. Verify that the content in it reflects the current scenario.
 8. The next step is to define the assessment questions, according to the template provided in the `Assessment` directory.
 9. Having defined the Assessments, describe the Activities that will be undertaken using the `assessment_template` in the `Assessment` directory.
 10. We are now ready to start working on adapting the downloaded lesson file. 

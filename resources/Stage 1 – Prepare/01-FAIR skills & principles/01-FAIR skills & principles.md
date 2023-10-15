@@ -19,7 +19,7 @@ Thus, becoming familiar with the FAIR principles and their implementation is an 
 - Describe the FAIR-by-Design instructional design skills
 - Summarize the FAIR guiding principles
 - Define FAIR learning objects
-- Determining FAIRness of learning objects 
+- Determine FAIRness of learning objects 
 
 ## Target Audience
 
@@ -54,7 +54,7 @@ The skills required to start producing FAIR learning materials can be divided in
     - Legal expertise to be able to recognize, define and combine 
         - Intellectual Property Rights
         - Licensing
-        - Attribution and citing of learning materials and other resources
+            - Attribution and citing of learning materials and other resources
 - **Traditional instructional design oriented skills**
     - Technical expertise in
         - Different tools and formats used for creation and delivery of learning content and their interoperability
@@ -134,7 +134,7 @@ To be reusable a digital object should have
 - a clear usage license 
 - accurate information on provenance.
 
-| License | Formal or official permission to do something |
+| License | A formal permission to do something or use some material within the limits established in its text. |
 |---|---|
 
 | Provenance | A record of ownership of a work of art or an antique, used as a guide to authenticity or quality |

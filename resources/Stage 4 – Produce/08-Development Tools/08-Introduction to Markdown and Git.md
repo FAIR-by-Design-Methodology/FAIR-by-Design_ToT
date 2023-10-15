@@ -95,7 +95,7 @@ Below is a list of common Git related terminology which will be useful for the r
  - **Git fork** – a 1:1 copy of an existing Git repository. A fork of an existing repository results with the creation of a brand new repository which will have a shared history with the original one up until the fork was made. The owner of the forked repository will be the user who initiated the fork. The original owner of the repository does not have any right in the forked repository by default. 
 - **Pull request/Merge request** – when changes are made to a forked repository, they can be contributed back to the original repository by creating a merge request or a pull request (the terms are synonyms, depending on the platform either one can be used). With this approach a privileged user from the original repository from which the fork was initiated can review the changes and decide whether to accept them, modify them, or outright reject them. Forks can exist independently of the original repository forever.
 
-### Exercise: First Steps with Git
+### Activity: First Steps with Git
 
 As part of the preparation for this training, participants should already have downloaded and installed the [GitHub Desktop Client](https://desktop.github.com/), and created a free personal account on [GitHub](https://github.com/).
 

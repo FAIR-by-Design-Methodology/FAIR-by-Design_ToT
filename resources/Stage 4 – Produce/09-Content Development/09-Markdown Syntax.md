@@ -56,7 +56,7 @@ Markdown, being a plain text file format, faces an interesting challenge when it
 
 In addition to the concepts above, we will also tackle ways in which additional metadata information can be assigned to Markdown files through the use of special headers, which are not rendered when rendering to a final file format such as HTML or PDF.
 
-The participants will have a chance to get hands-on experience with all of these concepts by taking part in the interactive exercises organized throughout this section. They focus on working with the existing Markdown templates prepared by the FAIR-by-Design methodology team, as well as on reusing existing content that might not necessarily confirm to the FAIR-by-Design methodology at first and adapting it.
+The participants will have a chance to get hands-on experience with all of these concepts by taking part in the interactive activities organized throughout this section. They focus on working with the existing Markdown templates prepared by the FAIR-by-Design methodology team, as well as on reusing existing content that might not necessarily confirm to the FAIR-by-Design methodology at first and adapting it.
 
 ## Overview of the Markdown Syntax
 
@@ -242,7 +242,7 @@ While visually simple, creating more complex tables manually can become an elabo
 | 1  | Skills4EOSC | 2022 |
 | 2  | NI4OS       | 2019 |
 
-Obsidian, using the third party plugin that we already installed in one of the previous exercises provides a simpler approach to creating tables, using a graphical interface. After the `Markdown Table Editor` plugin is installed, it can be used by clicking on its dedicated button on the left-hand side.
+Obsidian, using the third party plugin that we already installed in one of the previous activities provides a simpler approach to creating tables, using a graphical interface. After the `Markdown Table Editor` plugin is installed, it can be used by clicking on its dedicated button on the left-hand side.
 
 ![Obsidian - Table Plugin](attachments/07-table-editor-button.png)
 
@@ -302,7 +302,7 @@ It is worth nothing that some fields have a specific syntax in the metadata. The
 The metadata section can also support arbitrary fields, besides those shown in the example, as needed.
 
 
-## Exercise: Editing the Lesson Plan Template
+## Activity: Editing the Lesson Plan Template
 
 Using the knowledged obtained in the previous section, our task is now to fill out the lesson plan template with the necessary information.
 

@@ -45,14 +45,7 @@ The goal of this learning unit is to outline in details the required steps that 
 
 ### Assessment
 
-- Formative assessment
-- Quiz available on the learning platform
-- Can be completed at any time
-- Auto-graded upon submission, with final marks and pass criteria information provided by the LMS
-
-### Badge
-
-- Successful quiz completion counts towards the FAIR Instructor badge
+- no assessment
 
 ### Reflection
 

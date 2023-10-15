@@ -64,11 +64,11 @@ After setting up the local environment, you are interested in ways to preview th
 
 ### Trainer Guidance
 
-The participants should already have both GitHub Desktop and Obsidian installed on their local machines before the start of the exercise. As they are performing the exercise, the trainer should provide additional instructions and help as needed, as well as promoting thinking-out-loud where anyone can share their findings with the rest of the group.
+The participants should already have both GitHub Desktop and Obsidian installed on their local machines before the start of the activity. As they are performing the activity, the trainer should provide additional instructions and help as needed, as well as promoting thinking-out-loud where anyone can share their findings with the rest of the group.
 
 ## Tips and Tricks
 
-- Make sure that the settings that configuration settings that need to be changed are prominently displayed on a slide throughout the exercise.
+- Make sure that the settings that configuration settings that need to be changed are prominently displayed on a slide throughout the activity.
 
 ## Related Sources
 

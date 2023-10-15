@@ -15,17 +15,17 @@ The production of a Git book would allow all of the written Markdown documents t
 
 The main goal would be to achieve a "set it and forget it" scenario, where once set up, MkDocs will not require any additional interaction or reconfiguration during the remaining stages of the FAIR-by-Design methodology. All new Markdown files should automatically be converted to an HTML representation and be visible in the rendered Git book.
 
-To make the process of initial set up easier, the already forked `templates` repository [at the beginning of this unit](./08-Introduction%20to%20Markdown%20and%20Git.md) can be reused, instead of setting up everything from scratch. In the exercise that we will make the necessary adjustments to the forked repository, create an example page, and push our very content to the Git book.
+To make the process of initial set up easier, the already forked `templates` repository [at the beginning of this unit](./08-Introduction%20to%20Markdown%20and%20Git.md) can be reused, instead of setting up everything from scratch. In the activity that we will make the necessary adjustments to the forked repository, create an example page, and push our very content to the Git book.
 
-## Exercise: Setting up a Git Book with MkDocs
+## Activity: Setting up a Git Book with MkDocs
 
-As part of this exercise we will be working on the already forked template repository [FAIR-by-Design-Methodology/templates](https://github.com/FAIR-by-Design-Methodology/templates), reusing its content. As a reminder, the process of `forking` an existing repository results in the creation of a new repository which is an identical copy of the original, and the owner is the user/organization who initiated the fork. Since at this point we already forked the repository in [Introduction to Markdown and Git](./08-Introduction%20to%20Markdown%20and%20Git.md), we will only change the GitHub settings for the new repository to allow for automatic building of the MkDocs Git book. Finally we will edit some of the existing Markdown files so that the first version of our Git book can be built.
+As part of this activity we will be working on the already forked template repository [FAIR-by-Design-Methodology/templates](https://github.com/FAIR-by-Design-Methodology/templates), reusing its content. As a reminder, the process of `forking` an existing repository results in the creation of a new repository which is an identical copy of the original, and the owner is the user/organization who initiated the fork. Since at this point we already forked the repository in [Introduction to Markdown and Git](./08-Introduction%20to%20Markdown%20and%20Git.md), we will only change the GitHub settings for the new repository to allow for automatic building of the MkDocs Git book. Finally we will edit some of the existing Markdown files so that the first version of our Git book can be built.
 
 ### Step 1: Making the Necessary Changes to the Repository's Configuration
 
  1. Navigate to [GitHub](https://github.com) and open the fork created previously. The page at this point should look similar to the picture below. Note that some of the files might differ, depending on when you are following this guide.
 
-    ![Preview of the Forked Repository in the Previous Exercise](attachments/18-forked-repository.png)
+    ![Preview of the Forked Repository in the Previous Activity](attachments/18-forked-repository.png)
 
  2. The first configuration step is to allow the existing workflows which were defined in the template repository to run in the forked one as well. Workflows are automated scripts written as a sequence of steps which need to be executed upon a certain event (e.g., file modification). The template repository, and as a result any forked repositories, heavily rely on such workflows to automate the continuous updating of the Git book, but also to facilitate easy publishing on Zenodo, discussed in more details in the next Stage. The workflows are generic and do not require extensive manual modification before they can be applied to forked repositories as well. Note that workflows are run only when the content is `pushed` to GitHub, and do not execute on local changes made to the locally cloned repository.
 
@@ -118,7 +118,7 @@ Since this is the first time that the Git book has been rendered using one of th
 
     ![Preview of the Arbitrary Change from the Previous Steps](attachments/35-url-preview.png)
 
-Any future changes, after being committed and pushed to GitHub using the GitHub Desktop client will automatically be shown on the live web page. In the next exercises we will systematically edit each Markdown template one by one, and preview our changes in the same way as we did now.
+Any future changes, after being committed and pushed to GitHub using the GitHub Desktop client will automatically be shown on the live web page. In the next activities we will systematically edit each Markdown template one by one, and preview our changes in the same way as we did now.
 
 ## Key Takeaways
 

@@ -45,14 +45,14 @@ Introducing the creative process of concept map for visualising the learning con
 
 ### Assessment
 
-- formative assessment
+- summative assessment
 - quiz available on the learning platform
 - can be completed at any time
 - auto-graded upon submission, with final marks and pass criteria information provided by the LMS
 
 ### Badge
 
-- successful quiz completion counts towards the FAIR Instructor badge
+- successful quiz completion counts towards the FAIR-by-Design Methodology Specialist DESIGN badge and the overall FAIR Instructor badge
 
 ### Reflection
 

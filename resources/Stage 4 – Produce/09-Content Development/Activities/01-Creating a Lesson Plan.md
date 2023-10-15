@@ -31,11 +31,11 @@ Revise Markdown syntax for various formatting elements.
 
 ## Instructions
 
-Trainees are asked to modify the existing lesson plan template, and use basic Markdown formatting syntax to style the document. Arbitrary requirements are set throughput the exercise, in order to challenge the participants to use more advanced Markdown syntax.
+Trainees are asked to modify the existing lesson plan template, and use basic Markdown formatting syntax to style the document. Arbitrary requirements are set throughput the activity, in order to challenge the participants to use more advanced Markdown syntax.
 
 ## Tips and Tricks
 
-- The presentation should be visible at all times during the exercise.
+- The presentation should be visible at all times during the activity.
 - Should any questions arise, the trainer can navigate to the corresponding slide, explaining the required syntax for accomplishing a given formatting task.
 
 ## Comments

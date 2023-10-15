@@ -20,9 +20,9 @@ The purpose of this learning unit is to introduce all relevant FAIR concepts tha
 - Identify Permanent Identifiers (PIDs)
 - Compare licenses
 - Write attribution
-- Categorizing learning repositories
+- Categorize learning repositories
 - Interpret the instructional design process
-- Preparing learning objectives
+- Prepare learning objectives
 
 ## Target Audience
 
@@ -30,7 +30,7 @@ The purpose of this learning unit is to introduce all relevant FAIR concepts tha
 
 ## Duration
 
-30 mins
+60 mins
 
 ## Prerequisites
 
@@ -67,7 +67,7 @@ Using this information a learner or instructor should be able to:
 
 ### RDA Minimal Metadata for Learning Resources
 
-The [RDA Education And Training On Handling Of Research Data Interest Group](https://www.rd-alliance.org/groups/education-and-training-handling-research-data.html) has defined a [minimal metadata seta for learning resources](https://zenodo.org/record/6769695#.YrrP9-xBybQ) that has become a de facto standard for describing FAIR learning materials.
+The [RDA Education And Training On Handling Of Research Data Interest Group](https://www.rd-alliance.org/groups/education-and-training-handling-research-data.html) has defined a [minimal metadata set for learning resources](https://zenodo.org/record/6769695#.YrrP9-xBybQ) that has become a de facto standard for describing FAIR learning materials.
 
 The following table describes the minimal metadata set elements and their definitions:
 
@@ -142,17 +142,17 @@ For the purposes of creating FAIR learning materials we will be using a Zenodo p
 
 Intellectual property refers to the creation of intellectual activity. Intellectual Property Rights (IPR) protects the interests of the creators and owners by providing them with rights over their creation. 
 
-For the purposes of creation of learning materials, the copyright and related rights branches of IPR are used. They are defined to protect literary and artistic creations, performances, phonograms by defining the authors’, owners’, performers’, producers’ and broadcasters’ rights.
+For the purposes of creation of learning materials, the copyright and related rights main branches of IPR are used. They are defined to protect literary and artistic creations, performances, phonograms by defining the authors’, owners’, performers’, producers’ and broadcasters’ rights. In some cases additional IPR branches might be involved.
 
 ### Copyright
 
 Original work can be protected by copyright law that grants the owner **exclusive right** to control certain rights such as reproduction. The copyright is owned jointly by all authors, or it may be owned by the employing institution.
 
-Any work that you create by default makes you the copyright holder of it.
+Any work that you create by default makes you or your institution/employer the copyright holder of it.
 
-In general, **use of copyright protected work requires permission from the owner**.  
+**Use of copyright protected work requires permission from the owner**. Permission may not be required in the case of works licensed in the public domain and uses covered by Copyright Exceptions.
 
-That means only you are allowed to distribute whatever you created. If you want to transfer this right to other people as well, you can do that via a license.
+Only the copyright holder is allowed to distribute whatever is created. If you want to transfer this right to other people as well, you can do that via a license.
 
 In absence of exceptions or limitations, one can reuse an existing work if it is licensed to the user or it is licensed to the public using a public license such as the [Creative Commons (CC) licenses](https://creativecommons.org/licenses/) or [Free-Libre / Open Source Software (FLOSS) licenses](https://dwheeler.com/essays/floss-license-slide.html).
 
@@ -163,7 +163,7 @@ In absence of exceptions or limitations, one can reuse an existing work if it is
 >- [CC FAQ website](https://creativecommons.org/faq/#can-i-combine-material-under-different-creative-commons-licenses-in-my-work) licensed under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode)
 >- [Creative Commons license Wikipage](https://en.wikipedia.org/wiki/Creative_Commons_license) (2023, June 21) in Wikipedia licensed under the [Creative Commons Attribution-ShareAlike License 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
-A license allows you to define additional rights and obligations regarding your work that go beyond the copyright you own, and it can protect yourself.
+A license allows you to define rights and obligations regarding the use of your work.
 
 One of the best sources of information for licensing reusable learning materials is [Creative Commons](https://creativecommons.org/). 
 
@@ -181,7 +181,7 @@ Public domain licensing (CC0) is also not recommended as different rules apply i
 
 The [CC License Chooser tool](https://creativecommons.org/choose/) helps authors share their work in a standardised way providing copyright licenses that enable sharing and reuse of the creative work under the chosen conditions. 
 
-**To apply a license** all you have to do is indicate which CC license you are applying to your work. It is strongly recommended to include a link to the relevant CC license deed (e.g., https://creativecommons.org/licenses/by/4.0). 
+**To apply a license** all you have to do is indicate which CC license you are applying to your work. You should then check the terms of the chosen license and comply with the requirements therein. For an example, it is strongly recommended to include a link to the relevant CC license deed (e.g., https://creativecommons.org/licenses/by/4.0). 
 
 Example is provided below:
 
@@ -202,7 +202,7 @@ Throughout this training you will be able to practice combining and applying lic
 
 The right to attribution is a moral right of the authors that protects the personal relationship between the author and the created work even if the creator does not own the copyright.
 
-In other words, acknowledgement of the reused materials through attribution is **always strongly recommended** (even if it is not a requirement of the license, such as the public domain licenses). One condition that is **required for all CC licenses** is attribution. 
+In other words, acknowledgement of the reused materials through attribution is **always needed** (even if it is not a requirement of the license, such as the public domain licenses). One condition that is **required for all CC licenses** is attribution. 
 
 The **ideal attribution** follows the TASL approach:
 
@@ -219,7 +219,7 @@ For work created by others that you are incorporating into your own work you wan
 
 Creative Commons offer a wiki page with the [Recommended practices for attribution](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution).
 
-Some examples on great attribution provided on the Creative Commons wiki page are:
+Some examples on attribution provided on the Creative Commons wiki page are:
 
 - Image attribution
 > "[Creative Commons 10th Birthday Celebration San Francisco](http://www.flickr.com/photos/sixteenmilesofstring/8256206923/in/set-72157632200936657)" by [Timothy Vollmer](http://www.flickr.com/photos/sixteenmilesofstring/) is licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
@@ -234,19 +234,19 @@ Other sites with other type of licensing may request a different form of attribu
 
 > Image by AUTHOR(link) from Pixabay(link)
 
-The Pixabay license allows use of content:
+At the current moment, the Pixabay license allows use of content:
 
 - for free
 - without attribution (although recommended)
-- for modification adn adaptation into new work
+- for modification and adaptation into new work
 
 #### Citing
 
-Citing can be used for including and **referencing restricted works with limited copyright**. 
+A citation allows authors to provide the source of any quotations, ideas, and information that they include in their own work based on the copyrighted works of other authors. 
 
-However, in the case of using direct quotations with citing, it is essential that the amount of information referenced is very limited (e.g. 200-300 words from a book-length work). In addition, it is recommended to quote works that were already made available to the public in a lawful way and, when possible, to provide the original source and the author's name.
+However, in the case of using direct quotations with citing, it is essential that the amount of information referenced is very limited. In addition, it is recommended to quote works that were already made available to the public in a lawful way and, when possible, to provide the original source and the author's name.
 
-Depending on the country, the reproduction and communication of a protected work may be carried out for the sole purpose of illustration for teaching or scientific research, as long as the source, including the author's name, is indicated, unless this turns out to be impossible and to the extent justified by the non-commercial purpose to be achieved. This falls under the so-called "fair use" of copyright law.
+Depending on the country, the reproduction and communication of a protected work may be carried out for the sole purpose of illustration for teaching or scientific research, as long as the source, including the author's name, is indicated, unless this turns out to be impossible and to the extent justified by the non-commercial purpose to be achieved. 
 
 #### Attribution exercise
 

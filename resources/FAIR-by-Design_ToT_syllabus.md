@@ -144,7 +144,7 @@ Note: start time is given in CEST
 |      9:00    |     Publish    |     Publishing Preparations |     35 mins     |
 |      9:35    |     Publish    |     Publishing in Zenodo    |     55 mins     |
 |     10:30    |                |     = coffee break =        |     15 mins     |
-|     10:45    |     Publish    |     Publish finalisation    |     35 mins     |
+|     10:45    |     Publish    |     Publish on LMS          |     35 mins     |
 |     11:20    |     Verify     |     QA & FAIR verification  |     40 mins     |
 |     12:00    |                |     Continuous Improvement  |     30 mins     |
 
@@ -163,6 +163,16 @@ All training resources will be available on the FAIR-by-Design methodology cours
 ## Certification Information (Digital Open Badges and Microcredentials)
 
 The trainees that will pass the completion criteria for each separate stage of the FAIR-by-Design methodology will be awarded with corresponding open digital badges. All trainees that will successfully complete all activities available on the course on the learning platform will be able to obtain the higher level “FAIR Instructor” open digital badge. 
+
+| Badge | Name | Criteria |
+|---|---|---|
+| ![FAIR Instructor](./attachments/FAIR_instructor_badge.png){: style="height:175px;width:230px;"} | FAIR Instructor | Complete the full course FAIR-by-Design Learning Materials Methodology with minimum grade of 80% |
+| ![Prepare](./attachments/01-PrepareBadge.png){: style="height:150px;width:230px;"} | FAIR-by-Design Instructor - Prepare | Complete ALL of: Webinar recording, Stage 01 - Prepare Materials including Assessments |
+| ![Discover](./attachments/02-DiscoverBadge.png){: style="height:150px;width:230px;"} | FAIR-by-Design Instructor - Discover | Complete ALL of: Webinar recording, Stage 02 - Discover Materials including Assessments |
+| ![Design](./attachments/03-DesignBadge.png){: style="height:150px;width:230px;"} | FAIR-by-Design Instructor - Design | Complete ALL of: Webinar recording, Stage 03 - Design Materials including Assessments |
+| ![Produce](./attachments/04-ProduceBadge.png){: style="height:150px;width:230px;"} | FAIR-by-Design Instructor - Produce | Complete ALL of: Webinar recording, Stage 04 - Produce Materials including Assessments |
+| ![Publish](./attachments/05-PublishBadge.png){: style="height:150px;width:230px;"} | FAIR-by-Design Instructor - Publish | Complete ALL of: Webinar recording, Stage 05 - Publish Materials including Assessments |
+| ![Verify](./attachments/06-VerifyBadge.png){: style="height:150px;width:230px;"} | FAIR-by-Design Instructor - Verify + CI | Complete ALL of: Webinar recording, Stage 06 - Verify & CI Materials including Assessments |
 
 ## Authors
 

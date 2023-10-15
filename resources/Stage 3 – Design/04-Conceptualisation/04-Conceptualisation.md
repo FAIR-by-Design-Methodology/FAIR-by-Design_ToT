@@ -14,8 +14,8 @@ Once the discovery stage is completed, you enter the third step of the backward 
 
 ## Learning Objectives
 
-- Composing a content concept map
-- Preparing a syllabus
+- Compose a content concept map
+- Prepare a syllabus
 
 ## Target Audience
 

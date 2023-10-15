@@ -39,19 +39,19 @@ The goal of this learning unit is to provide insight into the steps that need to
 | Duration | Topic                    | Key points/Teaching Method/Questions                                                              | Activities                                                             | Resources             |
 |----------|--------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|-----------------------|
 | 15        | Introduction             | Discussion of the required accompanying files and instructions for editing them                                                     | Get to know the files and their structure                              | pptx                  |
-| 15       | Exercise                 | Publishing Preparation in Practice - Customizing Accompanying Files                               | [Publishing Preparation in Practice](./Activities/Publishing%20Preparations%20in%20Practice.md)                                      | pptx                  |
+| 15       | Activity                 | Publishing Preparation in Practice - Customizing Accompanying Files                               | [Publishing Preparation in Practice](./Activities/Publishing%20Preparations%20in%20Practice.md)                                      | pptx                  |
 | 5        | Summary                  | Key takeaways                                                                                     | Quiz                                                                   | pptx                  |
 
 ### Assessment
 
-- Formative assessment
+- Summative assessment
 - Quiz available on the learning platform
 - Can be completed at any time
 - Auto-graded upon submission, with final marks and pass criteria information provided by the LMS
 
 ### Badge
 
-- Successful quiz completion counts towards the FAIR Instructor badge
+- successful quiz completion counts towards the FAIR-by-Design Methodology Specialist PUBLISH badge and the overall FAIR Instructor badge
 
 ### Reflection
 

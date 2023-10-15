@@ -39,19 +39,19 @@ The goal of this learning unit is to describe how to publish the learning materi
 | Duration | Topic                    | Key points/Teaching Method/Questions                                                              | Activities                                                             | Resources             |
 |----------|--------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|-----------------------|
 | 15       | Introduction            | Discussion of the main elements of course management with Moodle and how to add materials                           | Introduction to the steps                                         | pptx                  |
-| 15       | Exercise                  | Exercise: Adding content to the course on the learning platform                                                    | [Adding content to the course on the learning platform](./Activities/Adding%20content%20to%20the%20course%20on%20the%20learning%20platform.md)                                       | pptx                  |
+| 15       | Activity                  | Activity: Adding content to the course on the learning platform                                                    | [Adding content to the course on the learning platform](./Activities/Adding%20content%20to%20the%20course%20on%20the%20learning%20platform.md)                                       | pptx                  |
 | 5        | Summary                  | Key takeaways and Information for Future Versions                                                 | Quiz                                                                   | pptx                  |
 
 ### Assessment
 
-- Formative assessment
+- Summative assessment
 - Quiz available on the learning platform
 - Can be completed at any time
 - Auto-graded upon submission, with final marks and pass criteria information provided by the LMS
 
 ### Badge
 
-- Successful quiz completion counts towards the FAIR Instructor badge
+- Successful quiz completion counts towards the FAIR-by-Design Methodology Specialist PUBLISH badge and the overall FAIR Instructor badge
 
 ### Reflection
 

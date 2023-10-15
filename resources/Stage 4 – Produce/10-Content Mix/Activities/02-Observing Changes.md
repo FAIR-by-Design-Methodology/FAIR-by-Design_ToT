@@ -14,7 +14,7 @@ The purpose of this activity is for the trainees to verify the changes that they
 
 ## Activity duration
 
-10 mins
+15 mins
 
 ## Number of people that it can be performed with
 

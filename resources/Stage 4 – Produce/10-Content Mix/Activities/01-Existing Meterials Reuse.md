@@ -14,7 +14,7 @@ The aim of this activity is to reuse existing learning materials and adapt them 
 
 ## Activity duration
 
-20 mins
+30 mins
 
 ## Number of people that it can be performed with
 

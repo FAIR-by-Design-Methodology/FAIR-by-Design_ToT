@@ -46,7 +46,7 @@ The publication process contains very important steps that aim to create FAIR le
 
 Image by [Shahid Abdullah](https://pixabay.com/users/472301-472301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1622517) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1622517)
 
-Two QA checklists are important to be used for the process of verification:
+T2.4 have developed a number of QA checklists that should be used for this process, two of which are presented in this text. For the full list of checklists and their use please refer to [D2.3]({: style="height:150px;width:230px;"}). The two QA checklists that are listed here as part of the verification process are:
 
 - the general QA checklist that focuses on the learning materials content and analyses it from a learners' perspective
 - the FAIR-by-Design QA checklist that focuses on the FAIR aspects of the learning materials and requirements imposed with the use of the methodology

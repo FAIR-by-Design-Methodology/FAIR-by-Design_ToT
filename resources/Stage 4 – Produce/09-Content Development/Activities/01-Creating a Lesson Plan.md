@@ -14,7 +14,7 @@ The aim of this activity is to create a lesson plan by reusing the provided less
 
 ## Activity duration
 
-15 mins
+30 mins
 
 ## Number of people that it can be performed with
 

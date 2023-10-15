@@ -12,13 +12,13 @@ author: Skills4EOSC T2.3
 
 When publishing is completed, the learning materials are made available for both the learners' and instructors' communities. The publishing process consists of many steps taking place on several different platforms and is therefore prone to errors. It is thus prudent to verify that all is as it should be afterwards including the FAIR aspects of the learning materials. In addition, this is the moment when external quality assurance (QA) should be engaged to assess the produced learning materials from both the learners' and instructors' perspective.
 
-For these purposes you can use the QA guidelines and checklists developed by Skills4EOSC T2.4.
+For these purposes you can use the [QA guidelines and checklists developed by Skills4EOSC T2.4](https://doi.org/10.5281/zenodo.8305482).
 
 
 ## Learning Objectives
 
-- reviewing learning materials
-- rating FAIRness of learning materials
+- Review learning materials
+- Rate FAIRness of learning materials
 
 ## Target Audience
 
@@ -40,9 +40,9 @@ Completed [Stage 5 - Publish](../../Stage%205%20–%20Publish/16-Publishing%20Pr
 
 ## Self-check QA
 
-The publication process contains very important steps that aim to create FAIR learning materials that is accessible to both learners and instructors. Therefore, it is imperative that you first go through a self-check phase to ensure everything is as intended. For these purposes you can use the QA guidelines and checklists developed by T2.4.
+The publication process contains very important steps that aim to create FAIR learning materials accessible to both learners and instructors. Therefore, it is imperative that you first go through a self-check phase to ensure everything is as intended. For these purposes you can use the [QA guidelines and checklists developed by T2.4](https://doi.org/10.5281/zenodo.8305482).
 
-![checklist icon](./attachments/checklist-1622517_1280.png)
+![checklist icon](./attachments/checklist-1622517_1280.png){: style="height:150px;"}
 
 Image by [Shahid Abdullah](https://pixabay.com/users/472301-472301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1622517) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1622517)
 
@@ -158,6 +158,8 @@ By engaging an external QA reviewer you are demonstrating your commitment to pro
 The suggested improvements by the QA reviewers together with the analysed feedback results are the input that triggers the activation of the continuous improvement step that aims to develop a new higher-quality version of the learning materials.
 
 ## Suggested Reading
+
+- [Sánchez, M., Méndez, E., Whyte, A., Weisteen Bjerde, K., Martínez, S., Bueno, G., & Ucar, I. (2023). D2.3 Community-endorsed quality assurance and certification framework for professional training and qualifications (1.3). Zenodo. https://doi.org/10.5281/zenodo.8305482](https://doi.org/10.5281/zenodo.8305482)
 
 - [Training Check. The TrainingCheck Approach TrainingCheck.](https://www.trainingcheck.com/help-centre-2/guide-to-training-evaluation/the-trainingcheck-approach-2/)
 

@@ -15,7 +15,7 @@ The learning materials targeted for consumption by the learners/trainees are usu
 ## Learning Objectives
 
 - Describe the procedure for publishing learning materials to the learning platform
-- Use Moodle as preferred learning platform, explain the basic elements of the course
+- Explain the basic elements of the course in Moodle
 - Configure Moodle course parameters
 - Add different elements to the course
 

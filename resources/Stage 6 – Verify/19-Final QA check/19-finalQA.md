@@ -42,7 +42,7 @@ Completed [Stage 5 - Publish](../../Stage%205%20–%20Publish/16-Publishing%20Pr
 
 The publication process contains very important steps that aim to create FAIR learning materials accessible to both learners and instructors. Therefore, it is imperative that you first go through a self-check phase to ensure everything is as intended. For these purposes you can use the [QA guidelines and checklists developed by T2.4](https://doi.org/10.5281/zenodo.8305482).
 
-![checklist icon](./attachments/checklist-1622517_1280.png){: style="height:150px;"}
+![checklist icon](./attachments/checklist-1622517_1280.png){: style="height:200px;"}
 
 Image by [Shahid Abdullah](https://pixabay.com/users/472301-472301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1622517) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1622517)
 
@@ -53,7 +53,9 @@ T2.4 have developed a number of QA checklists that should be used for this proce
 
 ### General QA
 
-The general QA checklist developed by T2.4 addresses the main aspects of the developed learning materials that are related to their quality as perceived by the learners. In the following table these aspects are related to the steps or fields from the FAIR-by-Design methodology to help you understand where, or at which point, this aspect is being addressed by the methodology.
+The general QA checklist developed by T2.4 addresses the main aspects of the developed learning materials that are related to their quality as perceived by the learners. 
+
+In the following table these aspects are related to the steps or fields from the FAIR-by-Design methodology to help you understand where, or at which point, this aspect is being addressed by the methodology.
 
 | **Checklist question** | **FAIR-by-Design element** |
 |---|---|
@@ -68,7 +70,7 @@ The general QA checklist developed by T2.4 addresses the main aspects of the dev
 | Does the learning material state the date when it was published and/or the date of the newest version? | syllabus (metadata) |
 | If needed, does the learning material state the dates the training takes place?  | syllabus |
 | Does the learning material states the expected duration of the training? | syllabus |
-| Does the learning material specify the developer/author of the learning material? |  |
+| Does the learning material specify the developer/author of the learning material? | syllabus |
 | Does the learning material specify the trainer/s of the learning material? | syllabus |
 | If applicable, does the learning material explain the required tools/software/infrastructure as well as acceptable assignment submission types? | syllabus + learning unit |
 | Does the learning material include any assignment? Are assessment strategies consistent with learning material objectives and are clearly stated? | activities |
@@ -81,7 +83,11 @@ The general QA checklist developed by T2.4 addresses the main aspects of the dev
 
 ### FAIR-by-Design Methodology QA checklist
 
-With the FAIR-by-Design methodology QA checklist you can check if you have followed the most important aspects of the methodology and managed to produce FAIR learning materials. The questions marked as essential are related to the FAIR aspects of the obtained learning material. These elements must be present so that the learning materials are achieving bare minimum FAIRness. As you manage to comply with the rest of the items you work on increasing the FAIRness and quality of the learning materials.
+With the FAIR-by-Design methodology QA checklist you can check if you have followed the most important aspects of the methodology and managed to produce FAIR learning materials. 
+
+The questions marked as **essential** are related to the FAIR aspects of the obtained learning material. These elements must be present so that the learning materials are achieving bare minimum FAIRness. 
+
+As you manage to comply with the rest of the items you work on increasing the FAIRness and quality of the learning materials.
 
 | **Essential** | **Topic** | **Stage** | **FAIR aspect** | **Goal** | **CHECKLIST   QUESTION** |
 |:---:|---|:---:|:---:|---|---|
@@ -112,19 +118,21 @@ Both the general and the FAIR-by-Design methodology QA checklists are made avail
 
 ![QA self-check links on the learning platform](./attachments/self-check_moodle.png)
 
-Based on the results of the self-check QA analysis you should go back and make adjustments and re-publish again if needed.
+Based on the results of the self-check QA analysis you should go back and make adjustments and re-publish again if necessary.
+
+Don't forget that you should use **all** QA checklists provided by T2.4 when developing the Skills4EOSC training materials.
 
 ## External QA
 
 To truly view the produced learning materials through the lenses of learners and other instructors, you need to perform a QA check with the help of an external party. This external party should be someone who has not been involved in any step of the materials design, better yet has not seen the materials ever before. In this way, you will have a pair of fresh eyes that will review the learning materials without any cognitive bias. 
 
-![Quality control approved logo](./attachments/approved-147677_1280.png)
+![Quality control approved logo](./attachments/approved-147677_1280.png){: style="height:200px;"}
 
 Image by [OpenClipart-Vectors](https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=147677) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=147677)
 
 To further support this effort the chosen QA reviewer should be an expert that is very well versed in the requirements for engaging learning content and learning styles, as well as the FAIR principles. It is their job as an external QA reviewer to evaluate the learning materials performance, quality, and suggest improvements using an objective and independent perspective.
 
-The external QA reviewer can also use the T2.4 QA guidelines and checklists as a starting point for the QA, but should be encouraged to go more in depth with the review process. 
+The external QA reviewer can use the T2.4 QA guidelines and checklists as a starting point for the QA, but should be encouraged to go more in-depth with the review process. 
 
 The high impact recommendations in the QA review report should be resolved as soon as possible. The lower level improvement recommendations can be taken into account as relevant input for the continuous improvement step.
 
@@ -132,7 +140,7 @@ The high impact recommendations in the QA review report should be resolved as so
 
 In addition to the checklists the external QA reviewer should also ensure that the course on the Skill4EOSC learning platform is working properly.
 
-This must be done before the scheduled training (if the course is instructor-led) takes place. For these purposes the external QA reviewer should assume the role of a learner and try to:
+For instructor-led trainings and courses this must be done before the scheduled training takes place. For these purposes the external QA reviewer should assume the role of a learner and try to:
 
 - access the course information
 - self-enroll in the course
@@ -143,15 +151,19 @@ Any identified problems should be resolved as soon as possible.
 
 ## Feedback-based QA
 
-![feedback icon on the learning platform](./attachments/feedback_moodle.png)
+![feedback icon on the learning platform](./attachments/feedback_moodle.png){: style="height:200px;"}
 
 An integral part of the QA process is using the feedback form to evaluate the performance and identify areas of improvement for the developed learning materials. For these purposes the feedback gathered via the implemented feedback form should be regularly analysed and any comments and insights should be taken as input into the continuous improvement phase. 
+
+For these purposes you can use the Analysis button when clicking on the Feedback form on the Moodle course.
+
+![feedback analysis section on the learning platform](./attachments/feedback_analysis.png){: style="height:200px;"}
 
 ## Summary
 
 Performing a QA self-check after publication is an essential step that aims to ensure that all stages of the FAIR-by-Design methodology have been implemented successfully and the learning materials are accessible and presented as planned. 
 
-The QA guidelines and checklists developed by T2.4 can be extremely helpful when it comes to QA.
+The [QA guidelines and checklists developed by T2.4](https://doi.org/10.5281/zenodo.8305482) can be extremely helpful when it comes to QA.
 
 By engaging an external QA reviewer you are demonstrating your commitment to producing high-quality learning materials and provide accountability to your learners, the instructors community and the public in general.
 

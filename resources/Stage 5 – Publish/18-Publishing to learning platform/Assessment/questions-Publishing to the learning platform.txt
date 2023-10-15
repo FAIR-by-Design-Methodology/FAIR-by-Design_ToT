@@ -1,0 +1,44 @@
+
+
+// question: 166  name: Knowledge validation
+::Knowledge validation::Define the correct order of knowledge validation{
+
+	=5 -> Grade questions that are not automatically graded
+	=3 -> Add questions to the quiz
+	=1 -> Create questions in the question bank
+	=2 -> Create quiz
+	=4 -> Open the quiz
+}
+
+// question: 165  name: Resource types
+::Resource types::Connect the resource type to its definintion{
+	=Uploaded content in the form of PFD document -> File
+	=Content created (written) in the platform -> Page
+	=Video lectures room/video recordings -> BigBlueButton
+	= -> Zoom room
+	= -> Chat
+	= -> SCORM package
+}
+
+
+// question: 163  name: Course formats
+::Course formats::Which of the following are valid course formats in Moodle{
+	~%50% Topics format
+	~%50% Weekly format
+	~ BigBlueButton Format
+	~ Unformatted
+}
+
+
+// question: 108  name: Types of question
+::Types of question::Which of the following are valid Moodle question types{
+	~%50% multiple choice
+	~ Inverse selection
+	~%50% Essay
+}
+
+
+// question: 167  name: Badges
+::Badges::Quizzes and badges are not related{FALSE}
+
+

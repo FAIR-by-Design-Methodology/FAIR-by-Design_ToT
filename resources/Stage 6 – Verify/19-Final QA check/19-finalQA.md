@@ -143,7 +143,7 @@ In addition to the checklists the external QA reviewer should also ensure that t
 For instructor-led trainings and courses this must be done before the scheduled training takes place. For these purposes the external QA reviewer should assume the role of a learner and try to:
 
 - access the course information
-- self-enroll in the course
+- self-enrol in the course
 - go through **all** of the resources available on the course
     - including quizzes, feedback form and any other type of interaction
 

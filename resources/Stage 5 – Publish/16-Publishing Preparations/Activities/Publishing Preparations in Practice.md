@@ -14,7 +14,7 @@ The purpose of this activity is for the trainees to update the accompanying file
 
 ## Activity duration
 
-5 mins
+15 mins
 
 ## Number of people that it can be performed with
 

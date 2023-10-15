@@ -15,7 +15,7 @@ This activity promotes the use of Git books, leveraging HTML documents as the fi
 
 ## Activity duration
 
-15 minutes
+30 minutes
 
 ## Number of People that it can be Performed With
 

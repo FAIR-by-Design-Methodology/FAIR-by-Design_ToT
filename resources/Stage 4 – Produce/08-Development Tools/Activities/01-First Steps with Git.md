@@ -14,7 +14,7 @@ This activity promotes understanding among the participants about how to use Git
 
 ## Activity duration
 
-10 minutes
+25 minutes
 
 ## Number of People that it can be Performed With
 

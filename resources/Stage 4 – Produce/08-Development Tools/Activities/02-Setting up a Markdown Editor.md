@@ -13,7 +13,7 @@ This activity examines the use of Obsidian as a locally installed Markdown editi
 
 ## Activity duration
 
-7 minutes
+25 minutes
 
 ## Number of People that it can be Performed With
 

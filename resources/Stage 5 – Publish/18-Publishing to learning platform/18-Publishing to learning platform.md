@@ -253,17 +253,32 @@ The main parameters of the BBB room are the room name and the instance type.
 ![BigBlueButton room parameters](./attachments/25-BBBRoomParameters.png)
 
 The instance type can be
-- Room with recording, where the activitiy can be used for interactive classes, and the recoridings of that classes will be available at the same place
+- Room with recording, where the activity can be used for interactive classes, and the recordings of that classes will be available at the same place
 - Room only, where the room can be used just for interactive classes and no recording
 - Recording only, meaning that there will not be an interactive room, just previous recordings. 
 
 ### Badges and certificates
+
 The certification mechanism is very important stimulation mechanism for the learners. It provides them recognition for the work, provide job market differentiations as well as verification of the gained skills. 
+
+Skills4EOSC T2.5 recommends the use of Open Digital Badges as means to describe the skills obtained with a training. As an example you can take a look at the set of badges that can be obtained for this particular training, wherein there is a defined badge for each separate stage of the FAIR-by-Design Methodology. Obtaining a per stage badge makes you a FAIR-by-Design Methodology Specialist in the given stage alone. The higher-level all encompassing FAIR instructor badge makes you an instructional designer that knows how to implement all stages of the FAIR-by-Design methodology inside and out. 
+
+In other words, using digital open badges you can describe the microcredentials that can be obtained by following and being assessed on part of the provided training, or on the training as a whole. Note that T2.5 is currently in the process of developing templates for the digital badges that you can then use a starting point for the visual design of the open badges for your training.
+
+In the following text, a brief introduction is provided to how you can create a badge for your training course.
+
 To add a badge to the course, use the "Badges" link, available through the link "More".
+
 ![Adding a badge](./attachments/28-AddingBadge.png)
+
 After clicking the "Add new badge", two important steps need to be performed. Firstly, the badge needs to be created with a name, description, uploaded a graphics representation of the badge as well as set the expiry date (if needed). Once this is done, the next step is to define the criteria for earning that specific badge. 
+
 ![Badge criteria](./attachments/29-BadgeCriteria1.png)
+
 The awarding criteria can be based on previously earned badges (for an overall course badge to be earned if micro-badges were earned before), full course completion, based on activity completions, gained competences or manually assigned. If the "Activity completion" criteria is selected, on the next page all activities of the course are presented and those which completion is recognised by this badge need to be selected. 
+
+It is recommended that the Activity completion set of criteria is used, as this will enable automatic issuing of the defined one or more digital badges. Furthermore, the Skills4EOSC learning platform is integrated with the Badgr backpack of digital badges, meaning that one can easily add the earned badge into their backpack, as well as share it on social media or other platforms. 
+
 ### Making the course visible to learners
 
 When the course is ready to be presented to the learners, it needs to be made visible on the learning platform. To make the course visible, in the course setting, the "Course visibility" options needs to be set to "Show".
@@ -286,9 +301,13 @@ More detailed instructions on how to use the learning platform will be provided 
 
 Remember that any subsequent changes to the GitBook will automatically reflect on the learning platform via the provided links. However, if you make changes to the assessment questions or slide deck, you will need to manually update the content on the learning platform as well. 
 
+Finally, keep an eye on the upcoming deliverable from T2.5 that will focus on certification and recognition frameworks and provide more details on Digital Open Badges.
+
 ## Suggested Reading
 
 - [Moodle documentation](https://docs.moodle.org/402/en/Main_page)
+- [What is a Digital Open Badge?](https://help.accredible.com/what-is-a-digital-open-badge)
+- [Badgr backpack](https://badgr.io/)
 - [Defining badges in Moodle](https://adovh.unisa.ac.za/mod/page/view.php?id=428)
 - [How to become an EOSC provider](https://eosc-portal.eu/eosc-providers-hub/how-become-eosc-provider/instructions-onboard-providers-and-resources-eosc)
 - [Onboarding training resources to EOSC Marketplace](https://wiki.eoscfuture.eu/display/PUBLIC/RoP+for+Onboarding+EOSC+Training+Resources+and+EOSC+Marketplace)

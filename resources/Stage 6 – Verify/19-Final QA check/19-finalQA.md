@@ -17,7 +17,7 @@ For these purposes you can use the [QA guidelines and checklists developed by Sk
 
 ## Learning Objectives
 
-- Review learning materials
+- Perform a QA review of the learning materials
 - Rate FAIRness of learning materials
 
 ## Target Audience
@@ -151,13 +151,13 @@ Any identified problems should be resolved as soon as possible.
 
 ## Feedback-based QA
 
-![feedback icon on the learning platform](./attachments/feedback_moodle.png){: style="height:200px;"}
+![feedback icon on the learning platform](./attachments/feedback_moodle.png){: style="height:150px;"}
 
 An integral part of the QA process is using the feedback form to evaluate the performance and identify areas of improvement for the developed learning materials. For these purposes the feedback gathered via the implemented feedback form should be regularly analysed and any comments and insights should be taken as input into the continuous improvement phase. 
 
 For these purposes you can use the Analysis button when clicking on the Feedback form on the Moodle course.
 
-![feedback analysis section on the learning platform](./attachments/feedback_analysis.png){: style="height:200px;"}
+![feedback analysis section on the learning platform](./attachments/feedback_analysis.png)
 
 ## Summary
 

@@ -121,7 +121,7 @@ During the live training the materials will be revealed on a day-by-day basis as
 
 To access the materials one must register on the learning platform and then self-enroll in the course. 
 
-Finally, the course offers the possibility to obtain a FAIR Instructor badge once all course activities have been successfully completed. There are also sub-badges available for each stage of the FAIR-by-Design methodology. You don't need to be part of the live webinar to obtain the badgea. Go through the learning material on your own and complete the requirements to get the badges.
+Finally, the course offers the possibility to obtain a FAIR Instructor badge once all course activities have been successfully completed. There are also sub-badges available for each stage of the FAIR-by-Design methodology. You don't need to be part of the live webinar to obtain the badge. Go through the learning material on your own and complete the requirements to get the badges.
 
 ## Training outline
 The overall training is divided into three days that focus on different steps of the FAIR-by-Design methodology. 

@@ -30,7 +30,7 @@ Get insight into the fears regarding the trainees. What are the barriers that ne
 Ask the trainees about the difficulties and challenges they would face in everyday life when they would need to put the training into practice. Which part of the training seems to be most daunting?
 
 Example question: 
-- What I find most difficult when developing FAIR learning materials is ...?
+- What I find most difficult when trying to develop FAIR learning materials is ...?
 
 Provide a Menti slide with the question and ask the participants to finish the sentence with a short phrase.
 Discuss how different identified issues will be addressed during the training.

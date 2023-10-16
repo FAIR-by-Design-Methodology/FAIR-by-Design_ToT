@@ -36,7 +36,7 @@ any
 
 1. Trainees are provided with a URL link to an example learning material and are asked to write down the appropriate attribution. 
 
-After collecting the responses, the trainer can start a group discussion on many of the TASL elements have been present in the examples.
+After collecting the responses, the trainer can start a group discussion on how many of the TASL elements have been present in the examples.
 
 The information provided to the trainees is:
 

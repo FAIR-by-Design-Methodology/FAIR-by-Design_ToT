@@ -48,7 +48,7 @@ Define the essential elements of your training:
 - learning objectives (min 3 using verbs from the Bloom's taxonomy)
 
 Upon completion, trainer starts a group discussion on any challenges faced during the exercise. 
-Trainer aims to connect the previously introduced concepts and topics by asking trainees to identify the elements that are going to be part of the metadata describing the newly created learning materials?
+Trainer aims to connect the previously introduced concepts and topics by asking trainees to identify the elements that are going to be part of the metadata describing the newly created learning materials.
 
 ## Tips and Tricks
 

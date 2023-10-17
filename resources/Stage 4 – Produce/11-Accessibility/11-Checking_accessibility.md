@@ -87,11 +87,11 @@ As the learning content created using this training approach will be mostly in H
 
 The Web Content Accessibility Guidelines (WCAG) international standard developed by W3C defines how to make web content more accessible to people with disabilities. 
 
-As the newest version WCAG 3 is still in its exploratory phase, and the latest version of this standard WCAG 2.2 is set to be published in August 2023, currently the active version of use is WCAG 2.1 published in June 2018. Note that W3C always encourages the use of the most recent version of WCAG.
+As the newest version WCAG 3 is still in its exploratory phase, and the latest version of this standard WCAG 2.2 has just been published in the beginning of October 2023, currently the active version of use is WCAG 2.1 with latest recommendations published in September 2023. Note that W3C always encourages the use of the most recent version of WCAG.
 
 The WCAG standards are developed around a number (12-13) of guidelines that are organized under 4 principles: perceivable, operable, understandable, and robust. For each of the guidelines there is a defined success criteria that can be tested. The success criteria are defined as three levels: A (low), AA (mid) and AAA (high). In order to meet WCAG, the content needs to meet the success criteria (100%). Note that conformance at higher levels indicates conformance at lower levels.
 
-Level A sets a minimum level of accessibility and does not achieve broad accessibility for many situations. For this reason, for the development of FAIR-by-design learning materials **we aim to achieve (as much as possible) WCAG 2.2 level AA**.
+Level A sets a minimum level of accessibility and does not achieve broad accessibility for many situations. For this reason, for the development of FAIR-by-design learning materials **we aim to achieve (as much as possible) WCAG 2.1 level AA**.
 
 [WCAG 2.1](https://www.w3.org/TR/WCAG21/) define a number of new success criteria across the 4 principles:
 

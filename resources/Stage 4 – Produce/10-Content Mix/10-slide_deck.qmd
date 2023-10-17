@@ -161,7 +161,7 @@ Speaker notes go here.
 
 ## Summary
 - a slide deck is an optional additional learning content 
-- used in instructor let environment
+- used in instructor led environment
 - should enrich the learning experience
 - use an open file format such as
 	- pptx

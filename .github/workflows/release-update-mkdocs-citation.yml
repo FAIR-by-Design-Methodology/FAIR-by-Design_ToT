@@ -23,6 +23,11 @@ jobs:
         run: |
           git diff-index --quiet HEAD || echo "changes=true" >> $GITHUB_ENV
 
+      - name: Extract only year in mkdocs metadata
+        uses: mikefarah/yq@v4.34.2
+        with:
+          cmd: yq eval-all -i '.citation.date-released=(.citation.date-released | split("-"))[0]' mkdocs.yml
+
       - name: Commit changes
         if: env.changes == 'true'
         id: commit
@@ -30,6 +35,6 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add mkdocs.yml
-          git commit -m "Automated update of mkdocs.yml with latest citation information"
+          git commit -m "Automated update of mkdocs.yml with latest citation information" || true
           git push
           echo "pushed=true" >> "$GITHUB_OUTPUT"

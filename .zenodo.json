@@ -27,12 +27,10 @@
     "Methodology",
     "FAIR Learning Objects"
   ],
-  "license": {
-    "id": "CC-BY-4.0"
-  },
+  "license": "CC-BY-4.0",
   "publication_date": "2023-10-17",
   "title": "FAIR-by-Design Learning Materials Methodology Training of Trainers",
-  "version": "1.0.13",
+  "version": "1.0.0",
   "upload_type": "lesson",
   "communities": [
     {

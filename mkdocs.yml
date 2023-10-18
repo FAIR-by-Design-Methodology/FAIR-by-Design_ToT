@@ -28,6 +28,7 @@ plugins:
         - "FAIR-by-Design_ToT_syllabus.md"
       regex:
         - '.*\.(tmp|bin|tar)$'
+  - search
 extra:
   version:
     provider: mike

@@ -74,7 +74,7 @@ This is a short list of some of the most popular OER repositories and catalogues
 
 ## EOSC projects related training materials and catalogues
 
-Many EOSC projects have created their own learning platforms with integrated catalogues where one can search for existing learning materials used for training within the projects:
+Many EOSC projects have created their own learning platforms or even more general repositories with integrated catalogues where one can search for existing learning materials used for training within the projects:
 
 - [EOSC Training catalogue on the EOSC Marketplace](https://search.marketplace.eosc-portal.eu/search/training?q=*)
 - [EOSC Synergy learning platform](https://learn.eosc-synergy.eu/)
@@ -83,6 +83,7 @@ Many EOSC projects have created their own learning platforms with integrated cat
 - [EOSC-Nordic Training Library](https://eosc-nordic.eu/knowledge-hub/training-library/)
 - [OpenAIRE Open Plato](https://openplato.eu/)
 - [Elixir Training Platform](https://elixir-europe.org/platforms/training)
+- [Europeana - Discover Europe’s digital cultural heritage](https://www.europeana.eu/en)
 - and many others ...
 
 Note that the EOSC Training catalogue that is part of the EOSC Marketplace is planned to become the focal point for the discovery of these types of learning resources. This catalogue is however still under development, and at the moment only a handful of resources are available. 
@@ -93,9 +94,9 @@ The general repositories and platforms host all types of resources including lea
 
 A short illustrative list is:
 
-- [Creative Commons Search](https://search.creativecommons.org/) - engine that helps find content that you can share, use and remix as it is provided under a CC license.
+- [Creative Commons Search](https://search.creativecommons.org/) - engine that helps find content that you can share, use and remix as it is provided under a CC license
 - [Zenodo](https://zenodo.org/) - a multi-disciplinary open repository maintained by CERN
-- [OSF](https://osf.io/) - a free, open platform to support your research and enable collaboration.
+- [OSF](https://osf.io/) - a free, open platform to support your research and enable collaboration
 - and others ...
 
 ### Learning Resources discovered within Skills4EOSC

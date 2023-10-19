@@ -52,6 +52,7 @@ expertiseLevel: "Beginner"
 # Webinar
 
 ## Date/Time: 17-19 October 2023
+...as the live training session has ended, we invite you to take a look at the recordings available on the BBB room link...
 
 ## Location
 

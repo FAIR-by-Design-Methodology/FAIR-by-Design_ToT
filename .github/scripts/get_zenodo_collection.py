@@ -18,12 +18,28 @@ def parse_doi(doi: str):
     raise Exception('Invalid DOI.')
 
 def get_zenodo_record(identifier: str):
-    response = requests.get(f'{ZENODO_URL}/records/{identifier}')
-    collection = response.json().get('conceptrecid')
-    if response.status_code == 200 and collection is not None:
-        return collection
-    else:
+    try:
+        response = requests.get(f'{ZENODO_URL}/records/{identifier}')
+        response.raise_for_status()
+        collection = response.json().get('conceptrecid')
+        if response.status_code == 200 and collection is not None:
+            return collection
+        else:
+            return ''
+    except requests.exceptions.RequestException as e:
+        print(f"Request error: {e}")
+        return ''
+    except ValueError as e:
+        # check DOI format
+        print(f"DOI parsing error: {e}")
+        return ''
+    except Exception as e:
+        # check other unexpected exceptions
+        print(f"An unexpected error occurred: {e}")
         return ''
 
-identifier = parse_doi(DOI)
-print(get_zenodo_record(identifier))
+try:
+    identifier = parse_doi(DOI)
+    print(get_zenodo_record(identifier))
+except Exception as e:
+    print(f"An unexpected error occurred: {e}")

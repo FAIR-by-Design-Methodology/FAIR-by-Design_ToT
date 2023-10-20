@@ -121,8 +121,8 @@ For the digital object to be accessible,
 
 The digital object is considered interoperable if
 
-- the metadata should follow a commonly accepted metadata schema combined with agreed-upon controlled vocabularies
-- formal, accessible, shared, and broadly applicable language(s) and format(s) should be used for the digital object representation
+- the metadata follows a commonly accepted metadata schema combined with agreed-upon controlled vocabularies
+- formal, accessible, shared, and broadly applicable language(s) and format(s) are used for the digital object representation
 
 | Controlled vocabulary | A carefully selected list of words and phrases, which are used to tag units of information |
 |---|---|

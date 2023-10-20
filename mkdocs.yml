@@ -14,7 +14,6 @@ plugins:
   - tags
   - mike:
       version_selector: true
-  - search
   - exclude:
       glob:
         - "*Activities/*"

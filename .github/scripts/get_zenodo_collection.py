@@ -24,19 +24,11 @@ def get_zenodo_record(identifier: str):
         collection = response.json().get('conceptrecid')
         if response.status_code == 200 and collection is not None:
             return collection
-        else:
-            return ''
     except requests.exceptions.RequestException as e:
         print(f"Request error: {e}")
-        return ''
-    except ValueError as e:
-        # check DOI format
-        print(f"DOI parsing error: {e}")
-        return ''
     except Exception as e:
-        # check other unexpected exceptions
         print(f"An unexpected error occurred: {e}")
-        return ''
+    return ''
     
 try:
     identifier = parse_doi(DOI)

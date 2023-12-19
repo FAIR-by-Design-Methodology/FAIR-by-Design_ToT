@@ -58,6 +58,7 @@ The goal of this activity is to describe the way in which the automated publishi
 ### Double-checking whether the Workflows Configuration
 
 1. Make sure that the workflows which have been copied from the upstream `templates` repository during the forking process are indeed enabled.
+
     i. Visit the homepage of the fork
     ii. Navigate to the `Actions` tab
     iii. If there is a big green button for enabling the copied workflows, click it. If the green button is missing and instead a list of available workflows is shown on the left-hand side of the screen, it means that the workflows have been enabled as required as part of the previous learning units.
@@ -79,7 +80,7 @@ In order for the automated actions to be able to create a draft Zenodo deposit, 
 
     ![Zenodo New Token](./attachments/03-new-token.png)
 
-4. Enter an arbitrary name for the token and make sure to only check the `deposit:write` checkbox in the `Scopes` section.
+4. Enter an arbitrary name for the token and make sure to only check the `deposit:write` checkbox in the `Scopes` section. Click on `Create`.
 
     ![Zenodo New Token Configuration](./attachments/04-new-token-wizard.png)
 

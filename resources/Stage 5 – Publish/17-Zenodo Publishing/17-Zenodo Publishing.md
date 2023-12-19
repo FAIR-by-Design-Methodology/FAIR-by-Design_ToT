@@ -93,7 +93,7 @@ In order for the automated actions to be able to create a draft Zenodo deposit, 
 
     ![GitHub Secrets Page](./attachments/06-secrets.png)
 
-8. Click on the green `New repository secret` button. Enter `ZENODO_ACCESS_TOKEN` as the name and the copied value from previously as the `Secret` value.
+8. Click on the `New repository secret` button. Enter `ZENODO_ACCESS_TOKEN` as the name and the copied value from previously as the `Secret` value.
 
     ![Creating a New GitHub Secret](./attachments/07-new-secret-fields.png)
 
@@ -107,7 +107,7 @@ We are now ready to initiate the automated workflow for submitting the first dra
 
     ![Releases Section on the Repository's Homepage](./attachments/08-releases.png)
 
-2. Click on the green `Create a new release` button.
+2. Click on the `Create a new release` button.
 3. Click on the `Choose a tag` dropdown. Enter the desired version number (e.g., 1.0.0). Make sure to use three numbers, as per the [Semantic Versioning specification](https://semver.org/). The first number (also known as major version number) should be incremented in case of major changes or a complete rewrite of the material. The second number (also known as the minor version number) should be incremented when smaller changes are made, such as extending existing learning units with additional content, or adding a new learning unit. The third and last number (also known as the patch version number) should be incremented when the changes do not directly impact the learning content itself and are constrained to technical changes such as fixing typos, adding references, or improving formatting. 
 4. Click on the `Create new tag: 1.0.0 on publish` option.
 
@@ -115,7 +115,7 @@ We are now ready to initiate the automated workflow for submitting the first dra
 
 5. Enter the same version number in the `Release title` field.
 6. Provide an optional description in the `Describe this release` field. This is a free-text field, so you are free to enter whatever text you would like.
-7. Create the release by clicking the green `Publish release` button.
+7. Create the release by clicking the `Publish release` button.
 8. At this moment the automatic publishing workflow will be triggered. You can follow its progress from the `Actions` page. Wait until a green checkmark appears next to the latest entry in the `Actions` list. In case of any errors you will receive an email message.
 
 ### Verifying the Zenodo Deposit

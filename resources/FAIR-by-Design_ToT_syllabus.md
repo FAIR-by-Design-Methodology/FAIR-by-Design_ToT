@@ -43,6 +43,7 @@ learningOutcome:
     - Assess FAIR-ness of existing learning objects
 accessCost: "N"
 expertiseLevel: "Beginner"
+template: signposting.html
 ---
 
 ![Skills4EOSC WP2 Training of Trainers](./attachments/header.png)

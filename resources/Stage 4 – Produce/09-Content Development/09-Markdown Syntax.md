@@ -232,8 +232,8 @@ For example, to embed a YouTube video, the following steps need to be followed:
 1. Navigate to the YouTube page of the video and click the `Share` button.
 2. Choose the `Embed` option.
 3. Customize the options for the generated embed code or copy it as is.
-  - the video can automatically start at a predefined timestamp by using the `Start at` option.
-  - visitors can be allowed to control the video playback (pause, skip, playback speed) if the `Show player controls` option is ticked.
+    - the video can automatically start at a predefined timestamp by using the `Start at` option.
+    - visitors can be allowed to control the video playback (pause, skip, playback speed) if the `Show player controls` option is ticked.
   ![YouTube - Embed Options](attachments/300-youtube-embed-options.png)
 4. Paste the embed code in the relevant Markdown file in Obsidian.
   ![Obsidian - Embed Code](attachments/301-youtube-obsidin-embed-code.png)

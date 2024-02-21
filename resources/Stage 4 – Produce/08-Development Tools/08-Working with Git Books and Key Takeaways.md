@@ -120,6 +120,25 @@ Since this is the first time that the Git book has been rendered using one of th
 
 Any future changes, after being committed and pushed to GitHub using the GitHub Desktop client will automatically be shown on the live web page. In the next activities we will systematically edit each Markdown template one by one, and preview our changes in the same way as we did now.
 
+### Step 4: Customizing the Title of the Git Book Web Site
+
+After getting our first glimpse of how a Git book can be created and continuously updated, the final technical step before proceeding with content development activities is to customize the title of the web site, which appears on all pages on the top header and as a title of the table of contents section, as shown in the picture below.
+
+![Git Book Title](attachments/200-GitBookTitle.png)
+
+The setting that controls the title is found in the `mkdocs.yml` file, which unfortunately, due to its specific syntax, cannot be edited directly in Obsidian. 
+
+1. Navigate to the folder where the Git repository is cloned on your file system.
+    - Tip: this can be done directly from within the GitHub Desktop Client by clicking on the `Show in Explorer` (Microsoft Windows) or `Show in Finder` (MacOS) button.
+
+    ![GitHub Desktop - Open Folder](attachments/201-show-explorer.png)
+
+2. Open the `mkdocs.yml` file in your favorite text editor.
+3. Change the value of the `site_name` setting found on the first line. Make sure to surround the new value in single or double quotes, to avoid any unexpected syntax errors.
+![Changing the Site Name Setting](attachments/202-site-name-setting.png)
+4. Commit the changes and push them.
+5. Refresh the web page in the browser, making sure that the new site name appears both in the page header and at the top of the table of contents section.
+
 ## Key Takeaways
 
 At this point we have a functional environment which we can use to practice the FAIR-by-Design methodology. We set up the required tools (Obsidian and GitHub Desktop), got introduced to GitHub and Markdown, and created our very own Git book. We also tackled the difference between the various intermediate and final output formats, giving recommendations on which ones to choose.

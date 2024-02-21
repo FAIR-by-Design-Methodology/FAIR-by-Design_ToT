@@ -61,6 +61,8 @@ After setting up the local environment, you are interested in ways to preview th
     - In the pages section, select `gh-pages` as the source location for the files to be hosted as part of the web page.
     - Save the changes, wait for around 60 seconds, and then refresh the page.
     - Open the newly shown URL at the top of the page in a new browser window, verifying that the Markdown files have been automatically rendered to HTML representation and are publicly accessible.
+4. Alter the book title shown in the header and at the top of the table of contents section.
+    - Edit the `mkdocs.yml` file and set the desired title as a value of the `site_name` setting.
 
 ### Trainer Guidance
 

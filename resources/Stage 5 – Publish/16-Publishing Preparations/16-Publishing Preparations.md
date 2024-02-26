@@ -61,7 +61,7 @@ Starting from `CITATION.cff`, the purpose of this file is to provide information
 
 The `CODE_OF_CONDUCT.md`, as its name suggests, describes the contributors' code of conduct which needs to be adhered to. It defines standards for how to engage in a community. It can also contain steps for resoling issues between members of the community. GitHub also shows a direct link to a repository's code of conduct (if available) above the citation information.
 
-- `RELEASE_NOTES.md` is a special Markdown file that keeps provides description of all the changes made to the material since its first release. The content of this file is embedded as is on the Git book homepage (the syllabus) in a collapsible block.
+`RELEASE_NOTES.md` is a special Markdown file that keeps provides description of all the changes made to the material since its first release. The content of this file is embedded as is on the Git book homepage (the syllabus) in a collapsible block.
 
 In the activity that follows we will go over all of the required changes that need to be made to these files, along with tips, and any potential pit-falls when it comes to controlled vocabulary fields.
 

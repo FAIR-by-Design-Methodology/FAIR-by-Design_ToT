@@ -43,6 +43,7 @@ learningOutcome:
     - Assess FAIR-ness of existing learning objects
 accessCost: "N"
 expertiseLevel: "Beginner"
+# template is a reserved keyword related to the git book itself and not part of the RDA metadata schema
 template: signposting.html
 ---
 

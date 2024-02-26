@@ -48,10 +48,9 @@
     <link rel="collection" type="text/html" href="{{ config.citation.repository }}">
   {% endif %}
   {% if config.citation and config.citation.doi %}
-    <link rel="related" href="https://doi.org/{{ config.citation.doi }}">
+    <link rel="cite-as" href="https://doi.org/{{ config.citation.doi }}">
   {% endif %}
-  <link rel="type" href="https://schema.org/Course">
+  <link rel="type" href="https://schema.org/LearningResource">
   <link rel="type" href="https://schema.org/AboutPage">
-  <link rel="cite-as" href="https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/">
   <link rel="describedby" type="application/yaml" profile="https://citation-file-format.github.io/1.2.0/schema.json" href="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/CITATION.cff">
 {% endblock %}

@@ -1315,6 +1315,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#filling-out-release_notesmd" class="md-nav__link">
+    Filling out RELEASE_NOTES.md
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#committing-changes" class="md-nav__link">
     Committing Changes
   </a>
@@ -1696,6 +1703,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#filling-out-release_notesmd" class="md-nav__link">
+    Filling out RELEASE_NOTES.md
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#committing-changes" class="md-nav__link">
     Committing Changes
   </a>
@@ -1800,11 +1814,15 @@
 <li>CITATION.cff</li>
 <li>README.md</li>
 <li>CODE_OF_CONDUCT.md</li>
+<li>RELEASE_NOTES.md</li>
 </ul>
 <p>These files can be altered in any order desired, as long as making sure that they have all been covered. </p>
 <p>Starting from <code>CITATION.cff</code>, the purpose of this file is to provide information on how the Git repository can be cited. Its content, among other things, also controls the text shown when the <code>Cite this repository</code> button is clicked on the right hand side of a GitHub repository's homepage. It is written in a YAML format and has controlled vocabularies for most of the supported fields. Luckily, validators are also widely available, and we will discuss some options in this space in the Activity, below.</p>
 <p><code>README.md</code> is a Markdown file which should briefly describe the repository, so that first time visitors can get an initial idea what it is about. The README.md file's content is shown immediately below the directory browser on the repository's homepage.</p>
 <p>The <code>CODE_OF_CONDUCT.md</code>, as its name suggests, describes the contributors' code of conduct which needs to be adhered to. It defines standards for how to engage in a community. It can also contain steps for resoling issues between members of the community. GitHub also shows a direct link to a repository's code of conduct (if available) above the citation information.</p>
+<ul>
+<li><code>RELEASE_NOTES.md</code> is a special Markdown file that keeps provides description of all the changes made to the material since its first release. The content of this file is embedded as is on the Git book homepage (the syllabus) in a collapsible block.</li>
+</ul>
 <p>In the activity that follows we will go over all of the required changes that need to be made to these files, along with tips, and any potential pit-falls when it comes to controlled vocabulary fields.</p>
 <h2 id="activity-publishing-preparation-in-practice-customizing-accompanying-files">Activity: Publishing Preparation in Practice - Customizing Accompanying Files</h2>
 <h3 id="setting-up-the-environment">Setting up the Environment</h3>
@@ -1861,6 +1879,13 @@
 <li>The <code>CODE_OF_CONDUCT.md</code> file, as present in the templates repository is a generic text that can be applied to any future trainings. </li>
 <li>Go over the text and make any desired changes.</li>
 <li>Make sure to alter the contact information for the person responsible for the enforcement of the code of conduct rules, specified in the <code>Enforcement</code> section.</li>
+</ol>
+<h3 id="filling-out-release_notesmd">Filling out RELEASE_NOTES.md</h3>
+<ol>
+<li>Open the <code>RELEASE_NOTES.md</code> file by clicking on its name from the left-hand directory tree.</li>
+<li>The file uses a special Markdown syntax which allows its contents to be shown as collapsed on the syllabus home page, thus preserving space. </li>
+<li>For the initial release, alter the text below the <code>1.0.0</code> heading and make sure to also update the date of the release in the heading itself.</li>
+<li>For all subsequent releases, add a new level two heading using two hash symbols on a new line, (<code>##</code>) just below <code>&lt;summary&gt;Release Notes&lt;/summary&gt;</code>. Ideally, the <code>RELEASE_NOTES.md</code> file should list the various versions in a descending order, sorted by the release date.</li>
 </ol>
 <h3 id="committing-changes">Committing Changes</h3>
 <p>Once the three files have been updated, commit the changes and push them to GitHub using the GitHub Desktop application. Upon every change of the <code>CITATION.cff</code> file an automated action is executed which verifies its contents. In case of a validation error, you will receive an email message similar to the one shown below.</p>

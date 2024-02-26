@@ -51,6 +51,7 @@ The [FAIR-by-Design templates repository](https://github.com/FAIR-by-Design-Meth
 - CITATION.cff
 - README.md
 - CODE_OF_CONDUCT.md
+- RELEASE_NOTES.md
 
 These files can be altered in any order desired, as long as making sure that they have all been covered. 
 
@@ -59,6 +60,8 @@ Starting from `CITATION.cff`, the purpose of this file is to provide information
 `README.md` is a Markdown file which should briefly describe the repository, so that first time visitors can get an initial idea what it is about. The README.md file's content is shown immediately below the directory browser on the repository's homepage.
 
 The `CODE_OF_CONDUCT.md`, as its name suggests, describes the contributors' code of conduct which needs to be adhered to. It defines standards for how to engage in a community. It can also contain steps for resoling issues between members of the community. GitHub also shows a direct link to a repository's code of conduct (if available) above the citation information.
+
+- `RELEASE_NOTES.md` is a special Markdown file that keeps provides description of all the changes made to the material since its first release. The content of this file is embedded as is on the Git book homepage (the syllabus) in a collapsible block.
 
 In the activity that follows we will go over all of the required changes that need to be made to these files, along with tips, and any potential pit-falls when it comes to controlled vocabulary fields.
 
@@ -113,6 +116,13 @@ In the activity that follows we will go over all of the required changes that ne
 1. The `CODE_OF_CONDUCT.md` file, as present in the templates repository is a generic text that can be applied to any future trainings. 
 2. Go over the text and make any desired changes.
 3. Make sure to alter the contact information for the person responsible for the enforcement of the code of conduct rules, specified in the `Enforcement` section.
+
+### Filling out RELEASE_NOTES.md
+
+1. Open the `RELEASE_NOTES.md` file by clicking on its name from the left-hand directory tree.
+2. The file uses a special Markdown syntax which allows its contents to be shown as collapsed on the syllabus home page, thus preserving space. 
+3. For the initial release, alter the text below the `1.0.0` heading and make sure to also update the date of the release in the heading itself.
+4. For all subsequent releases, add a new level two heading using two hash symbols on a new line, (`##`) just below `<summary>Release Notes</summary>`. Ideally, the `RELEASE_NOTES.md` file should list the various versions in a descending order, sorted by the release date.
 
 ### Committing Changes
 

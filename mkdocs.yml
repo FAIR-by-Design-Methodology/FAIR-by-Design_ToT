@@ -10,6 +10,9 @@ theme:
     - navigation.footer
 markdown_extensions:
   - attr_list
+  - markdown_include.include:
+      base_path: .
+  - md_in_html
 plugins:
   - tags
   - mike:

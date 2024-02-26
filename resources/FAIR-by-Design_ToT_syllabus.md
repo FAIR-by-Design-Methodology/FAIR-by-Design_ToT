@@ -43,14 +43,19 @@ learningOutcome:
     - Assess FAIR-ness of existing learning objects
 accessCost: "N"
 expertiseLevel: "Beginner"
-# template is a reserved keyword related to the git book itself and not part of the RDA metadata schema
+# template is a reserved keyword related to publishing of the Git book itself and not part of the RDA metadata schema. Please leave it as is and don't edit it manually
 template: signposting.html
+# hide is a reserved keyword related to the layout of the landing page and not part of the RDA metadata schema. Please leave it as is and don't edit it manually
+hide:
+    - toc
 ---
 
 ![Skills4EOSC WP2 Training of Trainers](./attachments/header.png)
 
 # FAIR-by-Design Methodology for Learning Materials Training of Trainers
- 
+
+{!RELEASE_NOTES.md!}
+
 # Webinar
 
 ## Date/Time: 17-19 October 2023

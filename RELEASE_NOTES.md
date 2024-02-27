@@ -1,7 +1,7 @@
 <details markdown>
 <summary>Release Notes</summary>
 
-## 1.1.0 (2024-02-26)
+## 1.1.0 (2024-02-27)
 
 - Add support for [FAIR Signposting Profile](https://signposting.org/FAIR/) level 1.
 - Update badge images to reflect the new badge design.

@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GLOSSARY>
+  <INFO>
+    <NAME>Glossary</NAME>
+    <INTRO>Glossary</INTRO>
+    <ALLOWDUPLICATEDENTRIES>0</ALLOWDUPLICATEDENTRIES>
+    <DISPLAYFORMAT>dictionary</DISPLAYFORMAT>
+    <SHOWSPECIAL>0</SHOWSPECIAL>
+    <SHOWALPHABET>1</SHOWALPHABET>
+    <SHOWALL>1</SHOWALL>
+    <ALLOWCOMMENTS>0</ALLOWCOMMENTS>
+    <USEDYNALINK>1</USEDYNALINK>
+    <DEFAULTAPPROVAL>1</DEFAULTAPPROVAL>
+    <GLOBALGLOSSARY>0</GLOBALGLOSSARY>
+    <ENTBYPAGE>10</ENTBYPAGE>
+    <ENTRIES>
+        <ENTRY>
+          <CONCEPT>AED COP</CONCEPT>
+          <DEFINITION>Accessible Electronic Documents Community of Practice</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>CC</CONCEPT>
+          <DEFINITION>Creative Commons</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>CESSDA</CONCEPT>
+          <DEFINITION>Consortium of European Social Science Data Archives</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>COL</CONCEPT>
+          <DEFINITION>Commonwealth of Learning</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>CSV</CONCEPT>
+          <DEFINITION>Comma Separated Values</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>DOI</CONCEPT>
+          <DEFINITION>Digital Object Identifier</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>EOSC</CONCEPT>
+          <DEFINITION>European Open Science Cloud</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>ETHRD</CONCEPT>
+          <DEFINITION>Education and Training on Handling of Research Data</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>EU</CONCEPT>
+          <DEFINITION>European Union</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>FAIR</CONCEPT>
+          <DEFINITION>Findability, Accessibility, Interoperability, Reusability</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>FLOSS</CONCEPT>
+          <DEFINITION>Free/Libre/Open Source Software</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>FOSS</CONCEPT>
+          <DEFINITION>Free and Open Source Software</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>GNU</CONCEPT>
+          <DEFINITION>General Public licence</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>GOBLET</CONCEPT>
+          <DEFINITION>Global Organisation for Bioinformatics Learning, Education and Training</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>H5P</CONCEPT>
+          <DEFINITION>HTML5 Package</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>HTML</CONCEPT>
+          <DEFINITION>HyperText Markup Language</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>ID</CONCEPT>
+          <DEFINITION>Identifier</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>IEEE</CONCEPT>
+          <DEFINITION>Institute of Electrical and Electronics Engineers</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>IG</CONCEPT>
+          <DEFINITION>Interest Group</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>IPR</CONCEPT>
+          <DEFINITION>Intellectual Property Rights</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>JSON</CONCEPT>
+          <DEFINITION>JavaScript Object Notation</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>JSON-LD</CONCEPT>
+          <DEFINITION>JavaScript Object Notation for Linked Data</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>LMS</CONCEPT>
+          <DEFINITION>Learning Management System</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>LOM</CONCEPT>
+          <DEFINITION>Learning Object Metadata</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>MOM</CONCEPT>
+          <DEFINITION>Mason OER Metafinder</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>MOOC</CONCEPT>
+          <DEFINITION>Massive Open Online Course</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>ND</CONCEPT>
+          <DEFINITION>No Derivative</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>OER</CONCEPT>
+          <DEFINITION>Open Educational Resources</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>OS</CONCEPT>
+          <DEFINITION>Open Science</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>PDF</CONCEPT>
+          <DEFINITION>Portable Document Format</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>QA</CONCEPT>
+          <DEFINITION>Quality Assurance</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>RDA</CONCEPT>
+          <DEFINITION>Research Data Alliance</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>RDF</CONCEPT>
+          <DEFINITION>Resource Description Framework</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>SA</CONCEPT>
+          <DEFINITION>Share Alike</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>SCORM</CONCEPT>
+          <DEFINITION>Shareable Content Object Reference Model</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>SGDR</CONCEPT>
+          <DEFINITION>Sui Generis Database Right</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>SSHOC</CONCEPT>
+          <DEFINITION>Social Sciences &amp; Humanities Open Cloud</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>UNESCO</CONCEPT>
+          <DEFINITION>United Nations Educational, Scientific and Cultural Organization</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>URL</CONCEPT>
+          <DEFINITION>Uniform Resource Locator</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>US</CONCEPT>
+          <DEFINITION>United States</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>USG</CONCEPT>
+          <DEFINITION>University System of Georgia</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>W3C</CONCEPT>
+          <DEFINITION>World Wide Web Consortium</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>WAI</CONCEPT>
+          <DEFINITION>Web Accessibility Initiative</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>WG</CONCEPT>
+          <DEFINITION>Working Group</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>WIPO</CONCEPT>
+          <DEFINITION>World Intellectual Property Organization</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>XML</CONCEPT>
+          <DEFINITION>eXtensible Markup Language</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>YAML</CONCEPT>
+          <DEFINITION>YAML Ain&apos;t Markup Language</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Aggregation</CONCEPT>
+          <DEFINITION>Hierarchical level of composition of multiple learning objects.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Application profile</CONCEPT>
+          <DEFINITION>An application profile is a document or set of documents that contains functional requirements, domain model, description set profile, and syntax guidelines and data formats.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Attribution</CONCEPT>
+          <DEFINITION>Acknowledgement as credit to the copyright holder or author of a work.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Authentication</CONCEPT>
+          <DEFINITION>The process or action of verifying the identity of a user.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Authorisation</CONCEPT>
+          <DEFINITION>The process of giving someone permission to do or have something.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Backward instructional design</CONCEPT>
+          <DEFINITION>Begins with the learning objectives and then proceeds ”backward” to create content that achieves those desired goals.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Citation</CONCEPT>
+          <DEFINITION>A reference to a published or unpublished source of information.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Continuous improvement</CONCEPT>
+          <DEFINITION>The ongoing improvement of learning materials through incremental and breakthrough improvements.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Controlled vocabulary</CONCEPT>
+          <DEFINITION>An organized arrangement of words and phrases used to index content and/or to retrieve content through browsing or searching.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Copyright</CONCEPT>
+          <DEFINITION>Type of intellectual property that protects original works of authorship as soon as an author fixes the work in a tangible form of expression.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Courseware</CONCEPT>
+          <DEFINITION>Online resource that students can use to learn and study including learning materials, activities, quizzes, collaboration tools, etc.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Final output format</CONCEPT>
+          <DEFINITION>Final representation of the learning object ready for consumption by learners, most often no longer manually editable.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Git</CONCEPT>
+          <DEFINITION>A distributed version control system capable of tracing changes in computer files.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>GNU</CONCEPT>
+          <DEFINITION>A series of free software licenses that guarantee end users the four freedoms to run, study, share, and modify the software.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Granularity</CONCEPT>
+          <DEFINITION>Refers to the “size” or “extent” of a learning object.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Human-readable format</CONCEPT>
+          <DEFINITION>Any encoding of data or information that can be naturally read by humans.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Instructional design</CONCEPT>
+          <DEFINITION>The creation of learning experiences and materials resulting in the acquisition and application of knowledge and skills.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Instructor / Instructional designer</CONCEPT>
+          <DEFINITION>A learning expert who can use their knowledge of the principles of learning and instruction to find the optimal method of instruction.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Instructor kit/Facilitator kit</CONCEPT>
+          <DEFINITION>Accompanying material that aims to help facilitate the process of other instructors reusing the learning material.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Intellectual Property Rights</CONCEPT>
+          <DEFINITION>The exclusive rights given to persons over the creations of their minds. According to the World Intellectual Property Organization [R1] ‘IP is often divided into two main categories: Industrial property includes patents for inventions, industrial designs, trademarks and geographical indications. Copyright and related rights cover literary, artistic and scientific works, including performances and broadcasts.’</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Intermediary file format / source format</CONCEPT>
+          <DEFINITION>The format which is used during the development phase of the learning objects.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Internal quality assurance</CONCEPT>
+          <DEFINITION>The processes and procedures within institutions to review, evaluate, assess or otherwise check, examine or ensure the quality of the learning provided.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Learner</CONCEPT>
+          <DEFINITION>A person (ex. student, trainee) who is learning a subject or acquiring a skill.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Learning content</CONCEPT>
+          <DEFINITION>The topics, themes, beliefs, behaviours, concepts and facts, often grouped within each subject or learning area under knowledge, skills, values and attitudes, that are expected to be learned and form the basis of teaching and learning.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Learning context</CONCEPT>
+          <DEFINITION>A short summary or concept description that defines the learners’ perception of the material and the requirements.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Learning object</CONCEPT>
+          <DEFINITION>Any digital resource that supports learning developed around a single learning objective defined as a package of a lesson, activity and assessment with a concrete learning outcome. This is the minimum resource on which the FAIR principles are applied.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Learning objective</CONCEPT>
+          <DEFINITION>A statement that clearly defines the expected outcome as a result of the learning activities and assessments.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Learning outcome</CONCEPT>
+          <DEFINITION>A statement that describes the achieved results or the consequences of the learning activities and assessments.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Learning path</CONCEPT>
+          <DEFINITION>The chosen route taken by a learner through a range of learning activities, which allows them to build knowledge progressively.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Learning platform</CONCEPT>
+          <DEFINITION>A type of software that enables instructors to create and deliver courses online.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Learning / Training / Instruction materials / resources</CONCEPT>
+          <DEFINITION>Any types of materials that are used to support and enhance, directly or indirectly, learning and teaching with their main goal being to help achieve the desired learning objectives. The full scope of learning materials includes learning content, tools and implementation resources.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Licence</CONCEPT>
+          <DEFINITION>The (exclusive or non-exclusive) licence of use of IP rights from the owner to a third-party, short of an assignment of all rights.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Licence compatibility</CONCEPT>
+          <DEFINITION>A legal framework that allows for content with different licenses to be distributed together. Usually used for software, but also applicable to content licensed under CC or related licenses.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Lifelong learning</CONCEPT>
+          <DEFINITION>The practice of continuing to learn throughout one’s entire life, especially outside of or after the completion of formal schooling.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Link-rot</CONCEPT>
+          <DEFINITION>Problem of no longer accessible hyperlink due to the resource being moved to a new location, deleted, or permanently made inaccessible for any other reason.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Machine-readable format</CONCEPT>
+          <DEFINITION>Structured data in a format that can be processed by a computer. Most popular formats include JSON, XML, YAML</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Metadata longevity plan</CONCEPT>
+          <DEFINITION>Policy and procedures for digital archiving, backup schedules, and preservation of fair objects and their metadata.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Metadata schema</CONCEPT>
+          <DEFINITION>Metadata schema outline the overall structure for the metadata. It is a logical plan showing the relationships between metadata elements, normally through establishing rules for the use and management of metadata.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Ontology </CONCEPT>
+          <DEFINITION>A set of concepts and categories in a subject area or domain that shows their properties and the relations between them.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Open Educational Resources</CONCEPT>
+          <DEFINITION>Learning, teaching and research materials in any format and medium that reside in the public domain or are under copyright that have been released under an open license, that permit no-cost access, re-use, re-purpose, adaptation and redistribution by others.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Open file format</CONCEPT>
+          <DEFINITION>A file format for storing digital data, defined by an openly published specification usually maintained by a standards organization.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>PID</CONCEPT>
+          <DEFINITION>A long-lasting reference to a document, file, web page, or other object.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Prerequisite</CONCEPT>
+          <DEFINITION>Anything the learner needs to know or understand first before learning or understanding the offered content.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Syllabus / Content Concept Map</CONCEPT>
+          <DEFINITION>A document that presents the purpose of the learning content with precise description of what is to be learnt, how and when under the assumption of the defined prerequisites.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Trainer</CONCEPT>
+          <DEFINITION>A learning expert who delivers training.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Training catalogue</CONCEPT>
+          <DEFINITION>Provides a description of the training services and materials offered along with the related policies and procedures in regard to such training. </DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Training toolkit</CONCEPT>
+          <DEFINITION>A tool for trainers and more generally educators to enhance their competence in providing training.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+        <ENTRY>
+          <CONCEPT>Versioning</CONCEPT>
+          <DEFINITION>The creation and management of multiple learning materials published releases, all of which have the same general function, but are improved, upgraded or customized.</DEFINITION>
+          <FORMAT>1</FORMAT>
+          <USEDYNALINK>1</USEDYNALINK>
+          <CASESENSITIVE>0</CASESENSITIVE>
+          <FULLMATCH>1</FULLMATCH>
+          <TEACHERENTRY>1</TEACHERENTRY>
+        </ENTRY>
+    </ENTRIES>
+  </INFO>
+</GLOSSARY>

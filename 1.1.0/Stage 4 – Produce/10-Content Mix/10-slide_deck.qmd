@@ -1,0 +1,169 @@
+---
+title: "The Slide Deck"
+author: "Skills4EOSC T2.3"
+date: 04.08.2023
+format: pptx
+
+---
+
+## Instructor Led Learning
+- Augment the learner's notebook with a slide deck
+- Options
+	- Power Point open pptx 
+		- recommended for visually appealing presentations
+		- towards rich learning experience
+	- Quarto qmd (or similar) + rendering
+		- to provide clean, simple slides
+		- improved reusability
+
+## Power Point Slides
+:::: {.columns}
+
+::: {.column}
+- design elements are attractive and draw attention
+	- alignment
+	- colour palette  
+	- charts and graphs
+	- fonts
+	- animations
+	- transitions
+	- ...
+- export to PDF for learners
+:::
+
+::: {.column}
+- 1-6-6 rule
+	- 1 topic per slide
+	- 6 bullets per topic
+	- 6 words per bullet
+- Guy Kawasaki’s 10 slides /20 mins /30 pts rule
+- 80-20 rule
+	- 80% of your time = visuals 
+	- 20% of your time = words
+:::
+
+::::
+
+## Quarto presentation
+- [Quarto](https://quarto.org/) = open-source scientific and technical publishing system
+- write using markdown
+- Variety of formats for creating presentations:
+	- [reveal.js](https://quarto.org/docs/presentations/revealjs/) (HTML)
+	- [PowerPoint](https://quarto.org/docs/presentations/powerpoint) (MS Office)
+	- [Beamer](https://quarto.org/docs/presentations/beamer) (LaTeX/PDF)
+
+## Setting up Quarto
+1. Install Quarto from the [Get Started](https://quarto.org/docs/get-started/) page
+2. Setup Obsidian to be able to create Quarto presentations (.qmd files)
+	- add the qmd as md community plugin
+	- use the [template_quarto.qmd](https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/Learning%20Unit/template_quarto.qmd)
+	- run Quarto to render to pptx
+
+## QMD as MD community plugin
+:::: {.columns}
+
+::: {.column}
+![qmd as md plugin in Obsidian](./attachments/install_qmd_as_md.png)
+:::
+
+::: {.column}
+- Settings -> Community Plugins
+	- Turn on community plugins
+- search for quarto
+	- install qmd as md
+	- enable
+:::
+
+::::
+
+## The QMD file
+:::: {.columns}
+
+::: {.column}
+- enhanced markdown
+- examples for basic layouts and options are provided in the template file
+:::
+
+::: {.column}
+![example content of a qmd file](./attachments/qmd_file_example.png)
+:::
+
+::::
+
+
+## Header
+- the information from the header is used for the title slide
+	- **title**
+	- **author**
+	- **date**
+- **format: pptx** 
+	- used to render to Power Point file
+- **reference-doc: template_file.pptx**
+	- the Power Point template that should be used
+	- note: it only recognises the basic slide layout
+
+## Basic slides
+- use heading 1 (#) for **section title** slides
+- normal **slide title** is heading 2 (##)
+- use (-) for an unnumbered **bullet list**
+- or (1, 2, ..) for a numbered bullet list
+- tables and images are referenced as in regular MD
+	- image alt text is used as **image caption** (use for attribution text)
+
+## Slide with speaker notes
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Notes should be provided between a specific set of commands that start with 3 columns ::: as presented here
+:::
+
+::: {.column width="60%"}
+| ::: {.notes} |
+|---|
+| Speaker notes go here. |
+| ::: |
+:::
+
+::::
+
+::: {.notes}
+Speaker notes go here.
+:::
+
+## Slide with columns
+:::: {.columns}
+
+::: {.column width="40%"}
+![Image by [Elias](https://pixabay.com/users/sch%C3%A4ferle-3372715/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2127669) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2127669)](./attachments/stone-gda5043761_1280.png)
+:::
+
+::: {.column width="60%"}
+- are defined between 
+	- :::: {.columns}
+	- and
+	- ::::
+	- each column content should be between 
+		- ::: {.column width="40%"}
+		- and
+		- :::
+- content can be image, table, text, bullets
+:::
+
+::::
+
+## Run Quarto
+1. open terminal
+2. navigate to the location of the qmd file
+3. run
+	- **quarto render FILENAME.qmd**
+4. the pptx file will be generated in the same location
+
+## Summary
+- a slide deck is an optional additional learning content 
+- used in instructor led environment
+- should enrich the learning experience
+- use an open file format such as
+	- pptx
+	- qmd
+	- or similar

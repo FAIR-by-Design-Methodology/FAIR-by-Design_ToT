@@ -3,7 +3,7 @@
 
 ## 1.1.0 (2024-02-26)
 
-- Add support for Signposting level 1.
+- Add support for [FAIR Signposting Profile](https://signposting.org/FAIR/) level 1.
 - Update badge images to reflect the new badge design.
 - Add support for a `RELEASE_NOTES.md` file which lists changes between different versions and is embedded on the landing page (syllabus).
 - Extend the section on Publishing Preparations within the Publish stage to include instructions on how the new `RELEASE_NOTES.md` file should be edited.

@@ -1179,6 +1179,20 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#syncing-changes-from-the-templates-repository-to-the-fork" class="md-nav__link">
+    Syncing Changes from the Templates Repository to the Fork
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cheatsheet" class="md-nav__link">
+    Cheatsheet
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#advanced-resolving-git-conflicts" class="md-nav__link">
     Advanced: Resolving Git Conflicts
   </a>
@@ -1633,6 +1647,20 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#syncing-changes-from-the-templates-repository-to-the-fork" class="md-nav__link">
+    Syncing Changes from the Templates Repository to the Fork
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cheatsheet" class="md-nav__link">
+    Cheatsheet
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#advanced-resolving-git-conflicts" class="md-nav__link">
     Advanced: Resolving Git Conflicts
   </a>
@@ -1718,7 +1746,7 @@
 <h2 id="preparing-the-collaborative-environment">Preparing the Collaborative Environment</h2>
 <p>The following steps are to be followed by a single contributor who will establish the GitHub organization, fork the <a href="https://github.com/FAIR-by-Design-Methodology/templates">templates</a> Git repository, and then invite all remaining collaborators. Once granted access, the collaborators will simply need to clone the new repository and start working on the materials themselves. We assume that general knowledge of Git terminology and access to previously discussed software tools including GitHub Desktop and Obsidian.</p>
 <ol>
-<li>Login to GitHub and create a new organization by clicking on your profile picture in the top right corner and selecting <code>Your Organizations</code>. Initiate the new organization wizard by clicking on the <code>New organization</code> button.</li>
+<li><span id="step1">Login to GitHub and create a new organization by clicking on your profile picture in the top right corner and selecting <code>Your Organizations</code>. Initiate the new organization wizard by clicking on the <code>New organization</code> button.</span></li>
 <li>
 <p>You will be asked to select a GitHub plan for your new organization. The <code>Free</code> plan includes everything that might be needed for the development of FAIR-by-Design learning materials, including hosting of a Git book. The <code>Free</code> plan is equivalent to the <code>Team</code> plan when it comes to public repositories, so that is what we will be using shortly. Choose the <code>Free</code> plan by clicking on the <code>Create a free organization button</code>.</p>
 <p><img alt="Selecting a GitHub Plan for the new Organization" src="../attachments/01-github-plan.png" /></p>
@@ -1739,7 +1767,7 @@
 <p><img alt="Adding Organization Collaborators" src="../attachments/04-adding-organization-collaborators.png" /></p>
 </li>
 <li>
-<p>The next step is to fork the <a href="https://github.com/FAIR-by-Design-Methodology/templates">templates</a> repository under the new organization. Navigate to the <a href="https://github.com/FAIR-by-Design-Methodology/templates">templates</a> homepage, and click on the <code>Fork</code> button.</p>
+<p><span id="step7">The next step is to fork the <a href="https://github.com/FAIR-by-Design-Methodology/templates">templates</a> repository under the new organization. Navigate to the <a href="https://github.com/FAIR-by-Design-Methodology/templates">templates</a> homepage, and click on the <code>Fork</code> button.</span></p>
 <p><img alt="Forking the Templates Repository" src="../attachments/05-forking.png" /></p>
 </li>
 <li>
@@ -1754,14 +1782,43 @@
 <p><img alt="Adding Repository Collaborators" src="../attachments/07-repo-collaborators.png" /></p>
 </li>
 <li>
-<p>At this point all collaborators will get an email notification alerting them of their new role within the organization/repository. They can proceed by cloning the repository using the GitHub Desktop software, as discussed in <a href="../../08-Development%20Tools/08-Introduction%20to%20Markdown%20and%20Git/">08-Introduction to Markdown and Git</a>.</p>
-</li>
-<li>Stepping away from technical matters for a moment, it is best if you take a moment to discuss with your collaborators who will be working on what learning units, dividing responsibilities as to avoid any potential conflicts. If Git conflicts (called merge conflicts) do happen, read the <a href="./#advanced-resolving-git-conflicts">Advanced: Resolving Git Conflicts</a> section below to learn how to resolve them.</li>
-<li>
-<p>As a final step, make sure that the automated workflow will have the necessary permission to build the Git book by navigating to your organizations homepage, then choosing <code>Settings -&gt; Actions -&gt; General</code>. Scroll down until the <code>Workflow permissions</code> section becomes visible. Choose <code>Read and write permissions</code> and save the changes.</p>
+<p><span id="step11">Make sure that the automated workflow will have the necessary permission to build the Git book by navigating to your organizations homepage, then choosing <code>Settings -&gt; Actions -&gt; General</code>. Scroll down until the <code>Workflow permissions</code> section becomes visible. Choose <code>Read and write permissions</code> and save the changes.</span></p>
 <p><img alt="Workflow Permissions" src="../attachments/08-workflow-permissions.png" /></p>
 </li>
+<li>
+<p><span id="step12">At this point all collaborators will get an email notification alerting them of their new role within the organization/repository. They can proceed by cloning the repository using the GitHub Desktop software, as discussed in <a href="../../08-Development%20Tools/08-Introduction%20to%20Markdown%20and%20Git/#step11">08-Introduction to Markdown and Git</a>.</span></p>
+</li>
+<li>
+<p>Stepping away from technical matters for a moment, it is best if you take a moment to discuss with your collaborators who will be working on what learning units, dividing responsibilities as to avoid any potential conflicts. If Git conflicts (called merge conflicts) do happen, read the <a href="./#advanced-resolving-git-conflicts">Advanced: Resolving Git Conflicts</a> section below to learn how to resolve them.</p>
+</li>
 </ol>
+<h2 id="syncing-changes-from-the-templates-repository-to-the-fork">Syncing Changes from the Templates Repository to the Fork</h2>
+<p>As continuous improvements are done to the templates repository (i.e., automated workflows), it is recommended that any forks are continuously kept in sync, as to leverage these improvements. One of the core features of Git is to allow such easy reconciliation of changes between related repositories. The steps for doing so are:</p>
+<ol>
+<li>Check if any changes have been made to the parent <code>templates</code> repository since the fork was created. Navigate to the homepage of your forked repository and check if a banner message appears with the text <code>...x commits behind...</code>. If no such banner message appears, then the forked version is up-to-date and no further steps need to be taken.</li>
+<li>
+<p>Click on the <code>Sync fork</code> button to incorporate the changes. If no conflicting changes are detected (both the parent and the forked versions have made changes to the same parts of a given file) a green <code>Update branch</code> button will appear.</p>
+<p><img alt="Sync changes from the parent repository" src="../attachments/16-update-branch-changes.png" /></p>
+<p><strong>Warning:</strong> Please note that the <code>Discard commits button</code> should not be clicked, since it will remove any changes made to your repository since it was forked, bringing it to the same state as the parent repository.</p>
+</li>
+<li>
+<p>In case conflicting changes are detected, it will not be possible to automatically reconcile the two repositories and manual action will be needed. This should be a rare occurrence since changes to the <code>templates</code> repository are usually confined to the workflows placed in the <code>.github</code> directory. Nevertheless, if such a situation does arise, please have a look at the <a href="#advanced-resolving-git-conflicts">Advanced: Resolving Git Conflicts</a> section below.</p>
+</li>
+</ol>
+<h2 id="cheatsheet">Cheatsheet</h2>
+<p>To further ease the process of creating new projects based on the FAIR-by-Design templates repository as well as to simplify the onboarding of collaborators, the visualization bellow outlines all of the steps that need to be performed:
+    a) initially, during the environment setup
+    b) by each collaborator individually</p>
+<p>The numbers in brackets refer to the steps in the Section <a href="#preparing-the-collaborative-environment">Preparing the Collaborative Environment</a>, above.</p>
+<pre class="mermaid"><code>graph TB
+  A[Start] --&gt; Z[&lt;a href='https://desktop.github.com/'&gt;Install Github Desktop&lt;/a&gt;]
+  Z --&gt; B{New project?};
+  B --&gt; |Yes| C["&lt;a href='#step1'&gt;New GitHub organization (1-6)"&lt;/a&gt;];
+  C --&gt; D["&lt;a href='#step7'&gt;Fork templates repository (7-10)&lt;/a&gt;"];
+  D --&gt; K["&lt;a href='#step11'&gt;Enable Gitbook (11)&lt;/a&gt;"];
+  K --&gt; E;
+  B --&gt; |No| E["&lt;a href='#step12'&gt;Clone repository (12)&lt;/a&gt;"];
+  E --&gt; F["&lt;a href='https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%204%20%E2%80%93%20Produce/08-Development%20Tools/08-Setting%20up%20a%20Markdown%20Editor/'&gt;Setup a Markdown editor&lt;/a&gt;"];</code></pre>
 <h2 id="advanced-resolving-git-conflicts">Advanced: Resolving Git Conflicts</h2>
 <p>One of the best Git features is its ability to provide users an easy way of resolving change conflicts. A change conflict occurs when two (or more) users simultaneously edit the same portion of a given file, and then try to commit it. Note that if distinct parts of the same file are edited, and there are no conflicting changes, then Git is able to merge the changes automatically, without requiring a user intervention. A user intervention is required only when Git is not capable of reconciling the changes, and the user is asked for an input on what changes to keep and what changes to discard.</p>
 <p>In case a change conflict does occur, Git will explicitly mark all conflicting changes in the file, allowing the user to resolve them on a case-by-case basis, and then commit the latest version of the file again. Such advanced change conflict features are only available on plain text formats, such as <code>.md</code>, <code>.txt</code>, or source code files. Binary files such as <code>.docx</code> or <code>.pptx</code> cannot have conflicts resolved with the help of Git.</p>

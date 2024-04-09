@@ -8,12 +8,20 @@ theme:
   custom_dir: resources/overrides
   features:
     - navigation.footer
+    - search.highlight
+    - search.suggest
 markdown_extensions:
   - attr_list
   - markdown_include.include:
       base_path: .
   - md_in_html
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 plugins:
+  - search
   - tags
   - mike:
       version_selector: true

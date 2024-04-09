@@ -41,7 +41,7 @@ All previous units in the [Stage 4: Produce](../../Stage%204%20–%20Produce/08-
 
 The following steps are to be followed by a single contributor who will establish the GitHub organization, fork the [templates](https://github.com/FAIR-by-Design-Methodology/templates) Git repository, and then invite all remaining collaborators. Once granted access, the collaborators will simply need to clone the new repository and start working on the materials themselves. We assume that general knowledge of Git terminology and access to previously discussed software tools including GitHub Desktop and Obsidian.
 
-1. Login to GitHub and create a new organization by clicking on your profile picture in the top right corner and selecting `Your Organizations`. Initiate the new organization wizard by clicking on the `New organization` button.
+1. <span id="step1">Login to GitHub and create a new organization by clicking on your profile picture in the top right corner and selecting `Your Organizations`. Initiate the new organization wizard by clicking on the `New organization` button.</span>
 2. You will be asked to select a GitHub plan for your new organization. The `Free` plan includes everything that might be needed for the development of FAIR-by-Design learning materials, including hosting of a Git book. The `Free` plan is equivalent to the `Team` plan when it comes to public repositories, so that is what we will be using shortly. Choose the `Free` plan by clicking on the `Create a free organization button`.
 
     ![Selecting a GitHub Plan for the new Organization](attachments/01-github-plan.png)
@@ -59,7 +59,7 @@ The following steps are to be followed by a single contributor who will establis
 
     ![Adding Organization Collaborators](attachments/04-adding-organization-collaborators.png)
 
-7. The next step is to fork the [templates](https://github.com/FAIR-by-Design-Methodology/templates) repository under the new organization. Navigate to the [templates](https://github.com/FAIR-by-Design-Methodology/templates) homepage, and click on the `Fork` button.
+7. <span id="step7">The next step is to fork the [templates](https://github.com/FAIR-by-Design-Methodology/templates) repository under the new organization. Navigate to the [templates](https://github.com/FAIR-by-Design-Methodology/templates) homepage, and click on the `Fork` button.</span>
 
     ![Forking the Templates Repository](attachments/05-forking.png)
 
@@ -72,11 +72,47 @@ The following steps are to be followed by a single contributor who will establis
 
     ![Adding Repository Collaborators](attachments/07-repo-collaborators.png)
 
-11. At this point all collaborators will get an email notification alerting them of their new role within the organization/repository. They can proceed by cloning the repository using the GitHub Desktop software, as discussed in [08-Introduction to Markdown and Git](../08-Development%20Tools/08-Introduction%20to%20Markdown%20and%20Git.md).
-12. Stepping away from technical matters for a moment, it is best if you take a moment to discuss with your collaborators who will be working on what learning units, dividing responsibilities as to avoid any potential conflicts. If Git conflicts (called merge conflicts) do happen, read the [Advanced: Resolving Git Conflicts](./14-Team%20Collaboration.md#advanced-resolving-git-conflicts) section below to learn how to resolve them.
-13. As a final step, make sure that the automated workflow will have the necessary permission to build the Git book by navigating to your organizations homepage, then choosing `Settings -> Actions -> General`. Scroll down until the `Workflow permissions` section becomes visible. Choose `Read and write permissions` and save the changes.
+11. <span id="step11">Make sure that the automated workflow will have the necessary permission to build the Git book by navigating to your organizations homepage, then choosing `Settings -> Actions -> General`. Scroll down until the `Workflow permissions` section becomes visible. Choose `Read and write permissions` and save the changes.</span>
 
     ![Workflow Permissions](attachments/08-workflow-permissions.png)
+
+12. <span id="step12">At this point all collaborators will get an email notification alerting them of their new role within the organization/repository. They can proceed by cloning the repository using the GitHub Desktop software, as discussed in [08-Introduction to Markdown and Git](../08-Development%20Tools/08-Introduction%20to%20Markdown%20and%20Git.md#step11).</span>
+
+13. Stepping away from technical matters for a moment, it is best if you take a moment to discuss with your collaborators who will be working on what learning units, dividing responsibilities as to avoid any potential conflicts. If Git conflicts (called merge conflicts) do happen, read the [Advanced: Resolving Git Conflicts](./14-Team%20Collaboration.md#advanced-resolving-git-conflicts) section below to learn how to resolve them.
+
+
+## Syncing Changes from the Templates Repository to the Fork
+
+As continuous improvements are done to the templates repository (i.e., automated workflows), it is recommended that any forks are continuously kept in sync, as to leverage these improvements. One of the core features of Git is to allow such easy reconciliation of changes between related repositories. The steps for doing so are:
+
+1. Check if any changes have been made to the parent `templates` repository since the fork was created. Navigate to the homepage of your forked repository and check if a banner message appears with the text `...x commits behind...`. If no such banner message appears, then the forked version is up-to-date and no further steps need to be taken.
+2. Click on the `Sync fork` button to incorporate the changes. If no conflicting changes are detected (both the parent and the forked versions have made changes to the same parts of a given file) a green `Update branch` button will appear.
+
+    ![Sync changes from the parent repository](attachments/16-update-branch-changes.png)
+
+    **Warning:** Please note that the `Discard commits button` should not be clicked, since it will remove any changes made to your repository since it was forked, bringing it to the same state as the parent repository.
+
+3. In case conflicting changes are detected, it will not be possible to automatically reconcile the two repositories and manual action will be needed. This should be a rare occurrence since changes to the `templates` repository are usually confined to the workflows placed in the `.github` directory. Nevertheless, if such a situation does arise, please have a look at the [Advanced: Resolving Git Conflicts](#advanced-resolving-git-conflicts) section below.
+
+## Cheatsheet 
+
+To further ease the process of creating new projects based on the FAIR-by-Design templates repository as well as to simplify the onboarding of collaborators, the visualization bellow outlines all of the steps that need to be performed:
+    a) initially, during the environment setup
+    b) by each collaborator individually
+
+The numbers in brackets refer to the steps in the Section [Preparing the Collaborative Environment](#preparing-the-collaborative-environment), above.
+
+``` mermaid
+graph TB
+  A[Start] --> Z[<a href='https://desktop.github.com/'>Install Github Desktop</a>]
+  Z --> B{New project?};
+  B --> |Yes| C["<a href='#step1'>New GitHub organization (1-6)"</a>];
+  C --> D["<a href='#step7'>Fork templates repository (7-10)</a>"];
+  D --> K["<a href='#step11'>Enable Gitbook (11)</a>"];
+  K --> E;
+  B --> |No| E["<a href='#step12'>Clone repository (12)</a>"];
+  E --> F["<a href='https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%204%20%E2%80%93%20Produce/08-Development%20Tools/08-Setting%20up%20a%20Markdown%20Editor/'>Setup a Markdown editor</a>"];
+```
 
 ## Advanced: Resolving Git Conflicts
 

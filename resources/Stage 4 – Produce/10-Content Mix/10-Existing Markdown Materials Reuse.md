@@ -80,8 +80,8 @@ The questions bellow can act as a guide through the above steps.
 
 6. Go back to Obsidian and make sure that the file is visible and can be freely edited. 
 7. Having completed the majority of the technical aspects, we are now ready to follow the Backwards Design Model. Since we already defined a lesson plan in the previous activity, you can move it to the new directory. Verify that the content in it reflects the current scenario.
-8. The next step is to define the assessment questions, according to the template provided in the `Assessment` directory.
-9. Having defined the Assessments, describe the Activities that will be undertaken using the `assessment_template` in the `Assessment` directory.
+8. <span id="step8">The next step is to define the assessment questions, according to the template provided in the `Assessment` directory.</span>
+9. <span id="step9">Having defined the Assessments, describe the Activities that will be undertaken using the `activity_details_template` in the `Activities` directory.</span>
 10. We are now ready to start working on adapting the downloaded lesson file. 
 
     - Add the necessary metadata in the Markdown heading: `title`, `author`, `tags`.

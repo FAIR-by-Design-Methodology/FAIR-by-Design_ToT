@@ -1,0 +1,2322 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+  
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Skills4EOSC T2.3">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-8.5.7">
+    
+  
+    <meta name="title" content="Markdown Syntax"/>
+  
+  
+    <meta name="tags" content="['FAIR-by-Design Learning Materials', 'FAIR Learning Objects', 'Software Tools', 'File Formats', 'Version Management', 'Markdown', 'Git']"/>
+  
+
+    
+      
+        <title>Markdown Syntax - FAIR-by-Design Training of Trainers</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="custom" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#markdown-syntax" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="FAIR-by-Design Training of Trainers" class="md-header__button md-logo" aria-label="FAIR-by-Design Training of Trainers" data-md-component="logo">
+      
+  <img src="../../../attachments/logo-white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FAIR-by-Design Training of Trainers
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Markdown Syntax
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="FAIR-by-Design Training of Trainers" class="md-nav__button md-logo" aria-label="FAIR-by-Design Training of Trainers" data-md-component="logo">
+      
+  <img src="../../../attachments/logo-white.png" alt="logo">
+
+    </a>
+    FAIR-by-Design Training of Trainers
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        FAIR-by-Design Methodology for Learning Materials Training of Trainers
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          00 Welcome
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="00 Welcome" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          00 Welcome
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00-Welcome/00-Welcome/" class="md-nav__link">
+        General Information
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Stage 1 – Prepare
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stage 1 – Prepare" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Stage 1 – Prepare
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          01 FAIR skills & principles
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="01 FAIR skills & principles" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          01 FAIR skills & principles
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%201%20%E2%80%93%20Prepare/01-FAIR%20skills%20%26%20principles/01-FAIR%20skills%20%26%20principles/" class="md-nav__link">
+        FAIR Skills for Instructional Designers
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          02 Preparing FAIR Learning Objects
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="02 Preparing FAIR Learning Objects" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          02 Preparing FAIR Learning Objects
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%201%20%E2%80%93%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/02-Preparing%20FAIR%20Learning%20Objects/" class="md-nav__link">
+        Preparing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%201%20%E2%80%93%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/02-Preparing%20FAIR%20Learning%20Objects_cont/" class="md-nav__link">
+        Ideating
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Stage 2 – Discover
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stage 2 – Discover" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Stage 2 – Discover
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_1">
+          03 Existing learning materials
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="03 Existing learning materials" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          03 Existing learning materials
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%202%20%E2%80%93%20Discover/03-Existing%20learning%20materials/03-Existing%20learning%20materials/" class="md-nav__link">
+        Existing Learning Materials
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Stage 3 – Design
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stage 3 – Design" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Stage 3 – Design
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_1" type="checkbox" id="__nav_5_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_1">
+          04 Conceptualisation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="04 Conceptualisation" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_1">
+          <span class="md-nav__icon md-icon"></span>
+          04 Conceptualisation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%203%20%E2%80%93%20Design/04-Conceptualisation/04-Conceptualisation/" class="md-nav__link">
+        Conceptualisation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_2">
+          05 Hierarchical Structure
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="05 Hierarchical Structure" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          05 Hierarchical Structure
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%203%20%E2%80%93%20Design/05-Hierarchical%20Structure/05-HierarchicalStructure/" class="md-nav__link">
+        Hierarchical Structure
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_3">
+          06 Learning unit development
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="06 Learning unit development" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          06 Learning unit development
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%203%20%E2%80%93%20Design/06-Learning%20unit%20development/06-LearningUnitDevelopment/" class="md-nav__link">
+        Learning Unit Development
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" type="checkbox" id="__nav_5_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_4">
+          07 Facilitation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="07 Facilitation" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_4">
+          <span class="md-nav__icon md-icon"></span>
+          07 Facilitation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%203%20%E2%80%93%20Design/07-Facilitation/07-Facilitation/" class="md-nav__link">
+        Instructional design and facilitation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Stage 4 – Produce
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stage 4 – Produce" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Stage 4 – Produce
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_1" type="checkbox" id="__nav_6_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_1">
+          08 Development Tools
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="08 Development Tools" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_1">
+          <span class="md-nav__icon md-icon"></span>
+          08 Development Tools
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08-Development%20Tools/08-Introduction%20to%20Markdown%20and%20Git/" class="md-nav__link">
+        Introduction to Markdown and Git
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08-Development%20Tools/08-Setting%20up%20a%20Markdown%20Editor/" class="md-nav__link">
+        Setting up a Markdown Editor
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08-Development%20Tools/08-Working%20with%20Git%20Books%20and%20Key%20Takeaways/" class="md-nav__link">
+        Working with Git Books and Key Takeaways
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_2" type="checkbox" id="__nav_6_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_2">
+          09 Content Development
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="09 Content Development" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_2">
+          <span class="md-nav__icon md-icon"></span>
+          09 Content Development
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Markdown Syntax
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Markdown Syntax
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    Learning Objectives
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#target-audience" class="md-nav__link">
+    Target Audience
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#duration" class="md-nav__link">
+    Duration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-tools" class="md-nav__link">
+    Learning Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overview-of-the-markdown-syntax" class="md-nav__link">
+    Overview of the Markdown Syntax
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview of the Markdown Syntax">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#defining-headings" class="md-nav__link">
+    Defining Headings
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ordered-lists" class="md-nav__link">
+    Ordered Lists
+  </a>
+  
+    <nav class="md-nav" aria-label="Ordered Lists">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nesting-ordered-lists" class="md-nav__link">
+    Nesting Ordered Lists
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unordered-lists" class="md-nav__link">
+    Unordered Lists
+  </a>
+  
+    <nav class="md-nav" aria-label="Unordered Lists">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nesting-unordered-lists" class="md-nav__link">
+    Nesting Unordered Lists
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#links" class="md-nav__link">
+    Links
+  </a>
+  
+    <nav class="md-nav" aria-label="Links">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#advanced-linking-with-obsidian" class="md-nav__link">
+    Advanced Linking with Obsidian
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#images" class="md-nav__link">
+    Images
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    Videos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tables" class="md-nav__link">
+    Tables
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#text-formatting" class="md-nav__link">
+    Text Formatting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metadata" class="md-nav__link">
+    Metadata
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-editing-the-lesson-plan-template" class="md-nav__link">
+    Activity: Editing the Lesson Plan Template
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-reading" class="md-nav__link">
+    Suggested Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_3" type="checkbox" id="__nav_6_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_3">
+          10 Content Mix
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="10 Content Mix" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_3">
+          <span class="md-nav__icon md-icon"></span>
+          10 Content Mix
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10-Content%20Mix/10-Existing%20Markdown%20Materials%20Reuse/" class="md-nav__link">
+        Existing Markdown Materials Reuse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10-Content%20Mix/10-Observing%20Changes/" class="md-nav__link">
+        Observing Changes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10-Content%20Mix/10-Slide_Deck_preparation/" class="md-nav__link">
+        Slide Deck preparation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_4" type="checkbox" id="__nav_6_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_4">
+          11 Accessibility
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="11 Accessibility" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_4">
+          <span class="md-nav__icon md-icon"></span>
+          11 Accessibility
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11-Accessibility/11-Checking_accessibility/" class="md-nav__link">
+        Accessibility check
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_5" type="checkbox" id="__nav_6_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_5">
+          12 Content Finalisation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="12 Content Finalisation" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_5">
+          <span class="md-nav__icon md-icon"></span>
+          12 Content Finalisation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../12-Content%20Finalisation/12-Content_finalisation/" class="md-nav__link">
+        Finalising the learning materials
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_6" type="checkbox" id="__nav_6_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_6">
+          13 Internal QA
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="13 Internal QA" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_6">
+          <span class="md-nav__icon md-icon"></span>
+          13 Internal QA
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13-Internal%20QA/13-Internal_QA/" class="md-nav__link">
+        Internal QA Check
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_7" type="checkbox" id="__nav_6_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_7">
+          14 Team Collaboration
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="14 Team Collaboration" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_7">
+          <span class="md-nav__icon md-icon"></span>
+          14 Team Collaboration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../14-Team%20Collaboration/14-Team%20Collaboration/" class="md-nav__link">
+        Team Collaboration
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_8" type="checkbox" id="__nav_6_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_8">
+          15 Alternative
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="15 Alternative" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_8">
+          <span class="md-nav__icon md-icon"></span>
+          15 Alternative
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../15-Alternative/15-alternative/" class="md-nav__link">
+        This MD stuff is nice, but it's not for me
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          Stage 5 – Publish
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stage 5 – Publish" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Stage 5 – Publish
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_1" type="checkbox" id="__nav_7_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_1">
+          16 Publishing Preparations
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="16 Publishing Preparations" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_1">
+          <span class="md-nav__icon md-icon"></span>
+          16 Publishing Preparations
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%205%20%E2%80%93%20Publish/16-Publishing%20Preparations/16-Publishing%20Preparations/" class="md-nav__link">
+        Publishing Preparations
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_2" type="checkbox" id="__nav_7_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_2">
+          17 Zenodo Publishing
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="17 Zenodo Publishing" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_2">
+          <span class="md-nav__icon md-icon"></span>
+          17 Zenodo Publishing
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%205%20%E2%80%93%20Publish/17-Zenodo%20Publishing/17-Zenodo%20Publishing/" class="md-nav__link">
+        Zenodo Publishing
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_3" type="checkbox" id="__nav_7_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_3">
+          18 Publishing to learning platform
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="18 Publishing to learning platform" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_3">
+          <span class="md-nav__icon md-icon"></span>
+          18 Publishing to learning platform
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%205%20%E2%80%93%20Publish/18-Publishing%20to%20learning%20platform/18-Publishing%20to%20learning%20platform/" class="md-nav__link">
+        Publishing to learning platform
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          Stage 6 – Verify
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stage 6 – Verify" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Stage 6 – Verify
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_1" type="checkbox" id="__nav_8_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1">
+          19 Final QA check
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="19 Final QA check" data-md-level="2">
+        <label class="md-nav__title" for="__nav_8_1">
+          <span class="md-nav__icon md-icon"></span>
+          19 Final QA check
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%206%20%E2%80%93%20Verify/19-Final%20QA%20check/19-finalQA/" class="md-nav__link">
+        Quality Assurance and FAIR Verification
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_2" type="checkbox" id="__nav_8_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2">
+          20 Continuous Improvement
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="20 Continuous Improvement" data-md-level="2">
+        <label class="md-nav__title" for="__nav_8_2">
+          <span class="md-nav__icon md-icon"></span>
+          20 Continuous Improvement
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%206%20%E2%80%93%20Verify/20-Continuous%20Improvement/20-CI/" class="md-nav__link">
+        Continuous Improvement
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    Learning Objectives
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#target-audience" class="md-nav__link">
+    Target Audience
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#duration" class="md-nav__link">
+    Duration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-tools" class="md-nav__link">
+    Learning Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overview-of-the-markdown-syntax" class="md-nav__link">
+    Overview of the Markdown Syntax
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview of the Markdown Syntax">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#defining-headings" class="md-nav__link">
+    Defining Headings
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ordered-lists" class="md-nav__link">
+    Ordered Lists
+  </a>
+  
+    <nav class="md-nav" aria-label="Ordered Lists">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nesting-ordered-lists" class="md-nav__link">
+    Nesting Ordered Lists
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unordered-lists" class="md-nav__link">
+    Unordered Lists
+  </a>
+  
+    <nav class="md-nav" aria-label="Unordered Lists">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nesting-unordered-lists" class="md-nav__link">
+    Nesting Unordered Lists
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#links" class="md-nav__link">
+    Links
+  </a>
+  
+    <nav class="md-nav" aria-label="Links">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#advanced-linking-with-obsidian" class="md-nav__link">
+    Advanced Linking with Obsidian
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#images" class="md-nav__link">
+    Images
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    Videos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tables" class="md-nav__link">
+    Tables
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#text-formatting" class="md-nav__link">
+    Text Formatting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metadata" class="md-nav__link">
+    Metadata
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-editing-the-lesson-plan-template" class="md-nav__link">
+    Activity: Editing the Lesson Plan Template
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-reading" class="md-nav__link">
+    Suggested Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+  <nav class="md-tags" >
+    
+      
+      
+        <span class="md-tag">FAIR-by-Design Learning Materials</span>
+      
+    
+      
+      
+        <span class="md-tag">FAIR Learning Objects</span>
+      
+    
+      
+      
+        <span class="md-tag">Software Tools</span>
+      
+    
+      
+      
+        <span class="md-tag">File Formats</span>
+      
+    
+      
+      
+        <span class="md-tag">Version Management</span>
+      
+    
+      
+      
+        <span class="md-tag">Markdown</span>
+      
+    
+      
+      
+        <span class="md-tag">Git</span>
+      
+    
+  </nav>
+
+
+
+
+<h1 id="markdown-syntax">Markdown Syntax</h1>
+<p>The purpose of this learning unit is to introduce the basic Markdown syntax necessary for producing FAIR-by-Design learning objects. We will be working with some common Markdown elements, such as: headings, tables, links, images, and lists. We will also be extending existing Markdown files so that they are compliant with the FAIR-by-Design methodology.</p>
+<h2 id="learning-objectives">Learning Objectives</h2>
+<ul>
+<li>Recognize the most important Markdown syntax elements</li>
+<li>Develop new learning materials from scratch by applying the Markdown syntax on existing template documents</li>
+<li>Manipulate existing learning objects, making them compliant with the FAIR-by-Design methodology. </li>
+</ul>
+<h2 id="target-audience">Target Audience</h2>
+<ul>
+<li>Attendees of the FAIR-by-Design ToT live webinar</li>
+</ul>
+<h2 id="duration">Duration</h2>
+<p>75 mins</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Completed <a href="../../08-Development%20Tools/08-Introduction%20to%20Markdown%20and%20Git/">08 - Development Tools</a></p>
+<h2 id="learning-tools">Learning Tools</h2>
+<ul>
+<li>Training BBB room</li>
+<li>Browser</li>
+<li>Menti access or BBB quiz interaction</li>
+<li>GitHub Desktop Software</li>
+<li>Obsidian Markdown Editor</li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<p>Markdown, being a plain text file format, faces an interesting challenge when it comes to text formatting. To facilitate the visual design options which are taken for granted when using full-fledged word processors such as headings, letter formatting using bold, italic, unordered lists, ordered lists, etc..., Markdown must resort to a special, but simple, syntax. In the sections that follow we will explore ways in which we can accomplish the following tasks using Markdown:</p>
+<ul>
+<li>define headings at different levels</li>
+<li>create ordered lists</li>
+<li>create unordered lists</li>
+<li>format text to be shown as a link</li>
+<li>insert images</li>
+<li>use tables with arbitrary number of rows and columns</li>
+<li>format text</li>
+<li>write metadata</li>
+</ul>
+<p>In addition to the concepts above, we will also tackle ways in which additional metadata information can be assigned to Markdown files through the use of special headers, which are not rendered when rendering to a final file format such as HTML or PDF.</p>
+<p>The participants will have a chance to get hands-on experience with all of these concepts by taking part in the interactive activities organized throughout this section. They focus on working with the existing Markdown templates prepared by the FAIR-by-Design methodology team, as well as on reusing existing content that might not necessarily confirm to the FAIR-by-Design methodology at first and adapting it.</p>
+<h2 id="overview-of-the-markdown-syntax">Overview of the Markdown Syntax</h2>
+<p>In this section we will go over the basic Markdown syntax that will be needed to edit the existing Markdown templates. For each action, we will attempt to describe two approaches: manual, without utilizing any Obsidian extensions; assisted, where the WYSIWYG editing toolbar is used, together with additional extensions with the end-goal of simplifying the Markdown typing experience. When working on your own learning materials, you are welcome to use whatever approach works best for you. It is also very much possible to take a hybrid approach, writing raw Markdown by hand for some simple aspects, while resorting to extensions for other, more complex tasks (e.g., table formatting).</p>
+<p>Note that Markdown only defines the syntax for the document formatting, the final visual appearance of the output such as the font size and color is in most cases determined by the design choices of the tool used for converting <code>.md</code> files. The very page that you are currently reading has also been written as a Markdown document which has then been converted to HTML using the MkDocs framework. In this the chosen MkDocs theme has defined that headings will have a blue color, while links will be pink. Of course, if desired, these visual options can also be further customized by modifying the MkDocs configuration.</p>
+<h3 id="defining-headings">Defining Headings</h3>
+<p>Headings can be defined by prefixing the line with the <code>#</code> symbol. The heading level is dependant on the number of <code>#</code> present, so a single <code>#</code> character represents heading at level 1, <code>##</code> represent a heading 2, <code>###</code> heading 3... Below is an excerpt of a document which uses different heading levels.</p>
+<div class="highlight"><pre><span></span><code><span class="gh"># This is heading 1</span>
+
+Lorem ipsum...
+
+<span class="gu">## This is heading 2</span>
+
+Lorem ipsum...
+
+<span class="gu">### This is heading 3</span>
+
+Lorem ipsum...
+</code></pre></div>
+<p>The toolbar in Obsidian has dedicated selection buttons for the most common headings:</p>
+<p><img alt="Obsidian - Headings" src="../attachments/01-heading-selection.png" /></p>
+<h3 id="ordered-lists">Ordered Lists</h3>
+<p>Ordered lists can be created in a very intuitive way, by simply prefixing the line with the appropriate number:</p>
+<div class="highlight"><pre><span></span><code><span class="k">1.</span> Item 1
+<span class="k">2.</span> Item 2
+<span class="k">3.</span> Item 3
+</code></pre></div>
+<p>It is recommended to have an empty line both before and after the ordered list, helping legibility:</p>
+<div class="highlight"><pre><span></span><code>Lorem ipsum dolor est.
+
+<span class="k">1.</span> Item 1
+<span class="k">2.</span> Item 2
+<span class="k">3.</span> Item 3
+
+Lorem ipsum dolor est.
+</code></pre></div>
+<p>The image below shows how ordered lists can be created using the toolbar in Obsidian. Note that once the first element is defined, future new lines will automatically be prefixed with the next number in the sequence. To interrupt the automatic numbering, and thus break out of the ordered list, simply enter two new lines one after the other.</p>
+<p><img alt="Obsidian - Ordered List" src="../attachments/02-ordered-list.png" /></p>
+<h4 id="nesting-ordered-lists">Nesting Ordered Lists</h4>
+<p>Ordered lists can of course be nested. Simply press the <code>Tab</code> key on a blank line and reset the numbering, like so:</p>
+<div class="highlight"><pre><span></span><code><span class="k">1.</span> Item 1
+<span class="w">    </span><span class="k">1.</span> Item 1.1
+<span class="w">    </span><span class="k">2.</span> Item 1.2
+</code></pre></div>
+<p>The same can be accomplished using the toolbar in Obsidian, by clicking on the (un)indent button or pressing <code>Tab</code> on the keyboard.</p>
+<p><img alt="Obsidian - Indent List" src="../attachments/03-indent-list.png" /></p>
+<h3 id="unordered-lists">Unordered Lists</h3>
+<p>Unordered lists can be created in a similar way as ordered list, with the only difference being the prefix. Instead of a number, the line prefix in this case can either be a <code>-</code> or <code>*</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="k">-</span><span class="w"> </span>first thing
+<span class="k">-</span><span class="w"> </span>second thing
+<span class="k">-</span><span class="w"> </span>third thing
+</code></pre></div>
+<p>As expected, the toolbar in Obsidian also has a dedicated button for creating unordered lists:</p>
+<p><img alt="Obsidian - Unordered Lists" src="../attachments/04-unordered-list.png" /></p>
+<h4 id="nesting-unordered-lists">Nesting Unordered Lists</h4>
+<p>Unordered lists can be nested in the same way as ordered lists. In this case, after clicking tab on a new line simply enter the preferred unordered list character (<code>-</code> or <code>*</code>). Additionally, it also possible to have a top-level ordered list and the nested list to be unordered or vice versa.</p>
+<div class="highlight"><pre><span></span><code><span class="k">1.</span> Element 1
+<span class="k">2.</span> Element 2
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>subelement 1
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>subelement 2
+<span class="k">3.</span> Element 3
+<span class="w">    </span><span class="k">1.</span> sublement 1
+<span class="w">    </span><span class="k">2.</span> subelement 2
+</code></pre></div>
+<p>When using the toolbar in Obsidian, the same (un)indent button can be used both for formatting the nesting of numbered and unnumbered lists.</p>
+<h3 id="links">Links</h3>
+<p>The syntax for defining links is:</p>
+<div class="highlight"><pre><span></span><code>[<span class="nt">FAIR-by-Design Methodology</span>](<span class="na">https://zenodo.org/record/7875541</span>)
+</code></pre></div>
+<p>The part in the <code>[]</code> brackets will be the link text, while the <code>()</code> define the target location. The above link would be rendered as <a href="https://zenodo.org/record/7875541">FAIR-by-Design Methodology</a>.</p>
+<p>When using Obsidian with the toolbar, simply write the link text, select it, and click the anchor button. This will put square brackets around the existing text, and provide empty brackets for the link location:</p>
+<p><img alt="Obsidian - Adding Links" src="../attachments/05-obsidian-links.gif" /></p>
+<p>It is also possible to add relative links to an arbitrary heading on the existing page or a different page. The syntax for doing so is:</p>
+<div class="highlight"><pre><span></span><code>[<span class="nt">See here for more details about unordered lists</span>](<span class="na">09-Markdown Syntax.md#unordered-lists</span>)
+</code></pre></div>
+<p>The above would be rendered as <a href="./#unordered-lists">See here for more details about unordered lists</a>. Diving into more details, the syntax is: <code>markdown-file.md#heading</code>. The first part is the Markdown file name, as stored on your computer, then a single <code>#</code> sign (no matter the heading level) and finally the full name of the heading in all lowercase letters where any spaces are replaced by a <code>-</code>.</p>
+<h4 id="advanced-linking-with-obsidian">Advanced Linking with Obsidian</h4>
+<p><strong><em>Trainees are recommended to go over this section once they have familiarized themselves with the rest of the Markdown concepts. During the initial reading this section can be skipped.</em></strong></p>
+<p>Linking between learning units or even to specific sections of a given learning unit is a common task when designing learning materials. However, when it comes to complex trainings involving many Markdown files, manually writing the location of the reference document can be an error prone operation. Obsidian has built-in functionality to make the process of linking between Markdown documents easier. </p>
+<p>For Obsidian to use the appropriate Markdown syntax, ensure that the option <code>Use [[Wikilinks]]</code> is disabled in <code>Obsidian Settings -&gt; Files &amp; Links</code>, as discussed in <a href="../../08-Development%20Tools/08-Setting%20up%20a%20Markdown%20Editor/">08-Development Tools</a>.</p>
+<p>Whenever a link needs to be inserted, simply press <code>[[</code> on the keyboard and an Obsidian autocompletion window will open. Search for the title of the desired page to which you would like to link and simply press <code>Enter</code>. By default Obsdiian will enter the page name as the name of the link, but this can be changed by altering the text in the <code>[]</code> brackets.</p>
+<p><img alt="Adding a Link with Obsidian" src="../attachments/200-adding-link-obsidian.gif" /></p>
+<p>Obsidian can also help with the initial construction of a link to a subsection within a document, but manual changes are needed in this case. To link to an arbitrary heading within a document:</p>
+<ul>
+<li>open the autocompletion window using <code>[[</code></li>
+<li>find the page that you would like to link to</li>
+<li>instead of pressing <code>Enter</code>, press the <code>#</code> key</li>
+<li>Obsidian will open a heading discovery window which you can use to select the appropriate heading</li>
+<li>Pressing <code>Enter</code> will construct the link</li>
+</ul>
+<p>One final change needs to be made to the link, since it will not be in the MkDocs expected format. As discussed previously, the full name of the heading which is specified after the <code>#</code> sign should be typed in all lowercase letters where any spaces are replaced by a <code>-</code>. The link can be manually adjusted to conform to this spec by converting all uppercase letters to lowercase and replacing all occurrences of <code>%20</code> with <code>-</code> after the <code>#</code>, as shown in the image below.</p>
+<p><img alt="Adding a Link to a Heading with a Document with Obsidian" src="../attachments/201-links-to-a-heading.gif" /></p>
+<h3 id="images">Images</h3>
+<p>The syntax for inserting images is very similar to the one for inserting links. The only difference is the <code>!</code> prefix which is required:</p>
+<div class="highlight"><pre><span></span><code>![<span class="nt">Cute Animal</span>](<span class="na">https://static.mrezhi.net/general/kitten.jpg</span>)
+</code></pre></div>
+<p>The above would be rendered as:</p>
+<p><img alt="Cute Animal" src="https://static.mrezhi.net/general/kitten.jpg" />
+<em>(Image by Gundula Vogel from Pixabay)</em></p>
+<p>In this case the text between the <code>[]</code> brackets will be added as an <code>alt</code> text for the image, visible when the image cannot be shown or when the user is using accessibility tools such as a screen reader.</p>
+<p>In case a locally available image needs to be inserted, Obsidian supports simple copy-pasting of the desired file. It will automatically be uploaded to the <code>attachments</code> folder and linked within the currently open Markdown document. This behavior is shown in the image below.</p>
+<p><img alt="Obsidian - Paste Image" src="../attachments/06-obsidian-img.gif" /></p>
+<p>When pushed to the Git repository, the automatic MkDocs workflow will take care of transforming the relative file path of the image to the correct URL.</p>
+<h3 id="videos">Videos</h3>
+<p>Embedding videos is natively supported by pasting the relevant HTML embed code that can be automatically generated by many video hosting websites. </p>
+<p>For example, to embed a YouTube video, the following steps need to be followed:</p>
+<ol>
+<li>Navigate to the YouTube page of the video and click the <code>Share</code> button.</li>
+<li>Choose the <code>Embed</code> option.</li>
+<li>Customize the options for the generated embed code or copy it as is.<ul>
+<li>the video can automatically start at a predefined timestamp by using the <code>Start at</code> option.</li>
+<li>visitors can be allowed to control the video playback (pause, skip, playback speed) if the <code>Show player controls</code> option is ticked.
+  <img alt="YouTube - Embed Options" src="../attachments/300-youtube-embed-options.png" /></li>
+</ul>
+</li>
+<li>Paste the embed code in the relevant Markdown file in Obsidian.
+  <img alt="Obsidian - Embed Code" src="../attachments/301-youtube-obsidin-embed-code.png" /></li>
+<li>Pressing enter will show a live preview of the embedded video in Obsidian.
+  <img alt="Obsidian - Live Preview" src="../attachments/302-youtube-obsidian-live-preview.png" /></li>
+</ol>
+<h3 id="tables">Tables</h3>
+<p>Unlike the previous elements, creating tables by hand in Markdown can be a somewhat complicated process. The basic syntax for a three-column, three-row table is given below:</p>
+<div class="highlight"><pre><span></span><code>| ID | Project     | Year |
+|----|-------------|------|
+| 1  | Skills4EOSC | 2022 |
+| 2  | NI4OS       | 2019 |
+</code></pre></div>
+<p>While visually simple, creating more complex tables manually can become an elaborate process. The header row is separated from the rest of the rows by the <code>|----|-------------|------|</code> line above. The number of dashes between the <code>|</code> is not important, and it can be varied to accomplish a better visual representation in the source Markdown file. The above table, when rendered, is shown as:</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Project</th>
+<th>Year</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Skills4EOSC</td>
+<td>2022</td>
+</tr>
+<tr>
+<td>2</td>
+<td>NI4OS</td>
+<td>2019</td>
+</tr>
+</tbody>
+</table>
+<p>Obsidian, using the third party plugin that we already installed in one of the previous activities provides a simpler approach to creating tables, using a graphical interface. After the <code>Markdown Table Editor</code> plugin is installed, it can be used by clicking on its dedicated button on the left-hand side.</p>
+<p><img alt="Obsidian - Table Plugin" src="../attachments/07-table-editor-button.png" /></p>
+<p>Depending on the current context, one of two options is possible:</p>
+<ul>
+<li>if an existing table is selected, the plugin will launch in editing mode</li>
+<li>if no table is present, a new one will be created, and the edit mode will be launched</li>
+</ul>
+<p><img alt="Obsidian - Editing a Table" src="../attachments/08-editing-table.png" /></p>
+<p>If additional rows or columns need to be added, that can be accomplished by clicking on the three dots next to the currently selected cell:</p>
+<p><img alt="Obsidian - Table Options" src="../attachments/09-table-options.png" /></p>
+<p>Once satisfied with the result, the Markdown can automatically be generated by clicking the <code>Update Table</code> button.</p>
+<p><img alt="Obsidian - Table Preview" src="../attachments/10-table-preview.png" /></p>
+<p>In case other editors that have no support for table plugins are used, free services such as <a href="https://www.tablesgenerator.com/markdown_tables">Tables Generator</a> can be of help. In this case, a visual editor for the table is offered, similar to the Obsidian plugin, and the corresponding Markdown can be copied and then pasted into the <code>.md</code> file.</p>
+<h3 id="text-formatting">Text Formatting</h3>
+<p>Markdown also supports common text formatting operations, such as bold, italic, and strikethrough. The syntax is presented below:</p>
+<div class="highlight"><pre><span></span><code>**This is a bold text.**
+
+*This is an italic text.*
+
+***This is both a bold and italic text.***
+
+~~This is a strikethrough~~
+</code></pre></div>
+<p>The editing toolbar in Obsidian offers dedicated buttons for all of these operations. Additionally, using the editing toolbar it is also possible to change the text color and background, but these two options should be used sparingly, since it is accomplished by directly writing HTML, instead of using a dedicated Markdown syntax. Such behavior might lead to incompatibilities with third-party Markdown editors and rendering engines. </p>
+<h3 id="metadata">Metadata</h3>
+<p>Arbitrary metadata information can be added to any Markdown file at the very beginning of the document, using a dedicated section:</p>
+<div class="highlight"><pre><span></span><code>---
+title: My Document
+author:
+  - John Doe
+  - Jane Doe
+tags:
+  - FAIR-by-Design
+  - Markdown
+---
+</code></pre></div>
+<p>Most Markdown engines, including MkDocs offer special treatment for content between the two <code>---</code> lines. In the case of MkDocs, the <code>title</code> sets the page title, as shown in the left-hand navigation menu. The tags are shown at the very beginning of the page, as pill shaped objects. In the MkDocs theme used for the FAIR-by-Design theme, the authors information is not directly utilized, but there are other themes that do leverage this content. </p>
+<p>It is worth nothing that some fields have a specific syntax in the metadata. The metadata section uses a markup language called YAML, where the indentation is very important. Additionally, fields that can contain more than a single value, such as <code>tags</code> and <code>author</code> in this case, must have each value written on a new line, prefixed with a <code>-</code> and having a consistent indentation of 2 or 4 spaces.</p>
+<p>The metadata section can also support arbitrary fields, besides those shown in the example, as needed.</p>
+<h2 id="activity-editing-the-lesson-plan-template">Activity: Editing the Lesson Plan Template</h2>
+<p>Using the knowledged obtained in the previous section, our task is now to fill out the lesson plan template with the necessary information.</p>
+<p>Before starting, make sure that the local clone of the repository is up-to-date with the latest changes that might have been made by your other collaborators. This can be accomplished using the <code>Pull origin</code> button in the GitHub Desktop client. In case any changes have been detected which have not been synced locally, a new <code>Pull origin</code> blue button will appear which needs to be clicked.</p>
+<p>After validating the state of the local repository, continue by executing the following actions:</p>
+<ol>
+<li>Make a copy of the <code>resources/Learning Unit/template_unit_lesson_plan.md</code> in the same directory, naming the new file <code>demo_plan.md</code>.</li>
+<li>Open the <code>resources/Learning Unit/demo_plan.md</code> file using the directory explorer on the left-hand side of the Obsidian window.</li>
+<li>Start by filling out the necessary metadata information present at the top of the document between the <code>---</code> lines. Make sure to set the <code>title</code>, <code>authors</code>, and <code>tags</code> fields.</li>
+<li>Change the heading 1 (recognizable by having a single <code>#</code> as prefix) with the title of the unit.</li>
+<li>Change the heading 2 to <code>Goals</code> and create an unordered list containing at least 3 goals for the lesson.</li>
+<li>Edit the unordered list in the <code>Location</code> section.</li>
+<li>Fill out the estimated total duration of the lesson by inputting a new line in the <code>Total duration</code> section. Format the duration text as both bold and italic.</li>
+<li>Provide the recommended number of attendees in the <code>Number of Attendees</code> section.</li>
+<li>Convert the unordered list in the <code>Learning Objectives</code> section to an ordered list and enter 3 learning objectives at a minimum.</li>
+<li>Edit the sample plan table in the <code>Plan</code> section using the table editing plugin in Obsidian. Remove any unneeded rows as needed. Enter at least one arbitrary link in the <code>Activities</code> section.</li>
+<li>Provide <code>Assessment</code> information. Make sure to add at least one nested list (either ordered or unordered) to an existing element.</li>
+<li>Alter the <code>Certificate or Badge</code> section by providing an image of the Badge that can be obtained by completing the lesson. An arbitrary image can also be used.</li>
+<li>Complete the lesson plan by filling out the <code>Reflection</code> and <code>Comments</code> sections.</li>
+<li>Open the GitHub Desktop application, enter a commit title and an optional commit message and commit the changes by clicking on the <code>Commit to main</code> button. Upload the changed files to GitHub.com by clicking on the blue <code>Push origin</code> button.</li>
+</ol>
+<h2 id="suggested-reading">Suggested Reading</h2>
+<ul>
+<li><a href="https://www.mkdocs.org/user-guide/writing-your-docs/#meta-data">Markdown Metadata in MkDocs</a></li>
+<li><a href="https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax">Markdown Basic Formatting Syntax</a></li>
+<li><a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables">Organizing Information with Tables</a></li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  
+  
+  <nav class="md-footer__inner md-grid" aria-label="" >
+    
+    
+    <a href="../../08-Development%20Tools/08-Working%20with%20Git%20Books%20and%20Key%20Takeaways/" class="md-footer__link md-footer__link--prev"
+      aria-label="Previous: Working with Git Books and Key Takeaways" rel="prev">
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </div>
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Previous
+        </span>
+        <div class="md-ellipsis">
+          Working with Git Books and Key Takeaways
+        </div>
+      </div>
+    </a>
+    
+    
+    
+    <a href="../../10-Content%20Mix/10-Existing%20Markdown%20Materials%20Reuse/" class="md-footer__link md-footer__link--next"
+      aria-label="Next: Existing Markdown Materials Reuse" rel="next">
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Next
+        </span>
+        <div class="md-ellipsis">
+          Existing Markdown Materials Reuse
+        </div>
+      </div>
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+      </div>
+    </a>
+    
+  </nav>
+  
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+      <div style="display: flex; justify-content: space-between; align-items: center">
+      
+        <div class="md-copyright"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
+              alt="Creative Commons License" style="border-width:0" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/a9f9eb58f58a4c39a32609c160ca52922c41fc2a/resources/attachments/cc-by.png" /></a> Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+            Attribution 4.0 International License</a>.
+        </div>
+      
+      </div>
+
+    </div>
+    <div class="logos-container" style="display: block; text-align: center;">
+      <img alt="Skills4EOSC Logo" style="max-height:30px" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/logo-white.png" />
+      <img alt="EOSC Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eosc-logo.png">
+      <img alt="Co-funded by the European Union Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eu-logo.png" />
+      <img alt="UK Research and Innovation Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/ukri-logo.png" />
+    </div>
+    <div class="md-container">
+
+      <div class="cite-example md-copyright">
+        <div class="md-footer-meta__inner md-grid" style="justify-content: center; align-items: center;">
+          Cite as:
+          
+            
+            
+            
+              Filiposka, Sonja,
+            
+          
+            
+            
+            
+              Mishev, Anastas,
+            
+          
+            
+            
+            
+              Kjorveziroski, Vojdan,
+            
+          
+            
+            
+            
+              Leister, Carolin.
+            
+          
+          (2024). FAIR-by-Design Learning Materials Methodology Training of Trainers (1.2.0). 
+          <a href="https://doi.org/10.5281/zenodo.11186654">&nbsp;https://doi.org/10.5281/zenodo.11186654</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.footer", "search.highlight", "search.suggest"], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+      
+    
+  </body>
+</html>

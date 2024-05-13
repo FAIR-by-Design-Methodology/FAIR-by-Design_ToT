@@ -56,7 +56,7 @@ The goal of this activity is to describe the way in which the automated publishi
 
 **Notice:** Feel free to follow these steps without any hesitation. The workflow will only create a draft deposit on Zenodo, meaning that it will not be publicly published without your explicit approval which can be given from the Zenodo web interface.
 
-### Double-checking whether the Workflows Configuration
+### Double-checking the Workflows Configuration
 
 1. Make sure that the workflows which have been copied from the upstream `templates` repository during the forking process are indeed enabled.
 

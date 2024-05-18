@@ -1801,7 +1801,7 @@
 <p>The <a href="https://github.com/FAIR-by-Design-Methodology/templates">templates</a> repository includes existing workflows which when triggered automate the complete Zenodo publishing process. These workflows are generic and also apply to any forks, without the need for any manual changes. In a nutshell, the actions performed by these workflows are:</p>
 <ul>
 <li>validate the metadata information provided in <code>CITATION.cff</code> and update the fields which are automatically managed (<code>doi</code>, <code>version</code>, <code>date-released</code>)</li>
-<li>implement <a href="https://signposting.org/FAIR/#level1">Signposting Level 1</a> compliance, leveraging the existing RDA metadata fields and automatically enriching them, as needed. The Signposting metadata fields are machine readable and placed in the source code of the Git book, and as such are not meant to be readable by humans.</li>
+<li>implement <a href="https://signposting.org/FAIR/#level1">Signposting Level 1</a> or <a href="https://signposting.org/FAIR/#level2">Signposting Level 2</a> compliance, leveraging the existing RDA metadata fields and automatically enriching them, as needed. The Signposting metadata fields are machine readable and placed in the source code of the Git book in a file called <code>linkset.json</code>, and as such are not meant to be readable by humans.</li>
 <li>create a draft entry on Zenodo, prereserving a DOI</li>
 <li>update files in the repository which should reference the DOI (the syllabus, last slides of all PowerPoint presentations, <code>CITATION.cff</code>)</li>
 <li>rebuild the Git book, reflecting the version and DOI changes (for example the cite information in the footer)</li>

@@ -77,3 +77,20 @@ citation:
     - Methodology
     - FAIR Learning Objects
   repository: https://github.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT
+signposting_linkset: https://github.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/linkset.json # do not update manually
+signposting_default_profile: '' # update with an URL towards the profile used for the Markdown pages (optional)
+# signposting_gitbook_url: https://gitbook.example.com # leave commented (prefixed with `#`) if using GitHub Pages with the default domain.
+signposting_exclusions:
+  - 'venv/**'
+  - 'external-resources/**'
+  - 'Feedback/**'
+  - '*/Activities/**'
+  - '*/Assessment/**'
+  - 'index.md'
+  - '02 process_description.md'
+  - '03 glossary.md'
+  - 'template_unit_lesson_plan.md'
+  - '*facilitator_guide.md'
+  - '*syllabus.md'
+  - '**/*lesson_plan.md'
+  - '**/template_content.md'

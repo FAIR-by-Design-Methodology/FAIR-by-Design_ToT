@@ -126,7 +126,7 @@ In the activity that follows we will go over all of the required changes that ne
 
 ### Customizing the Signposting Information
 
-The [automated workflows](../17-Zenodo%20Publishing/17-Zenodo%20Publishing.md#description-of-the-automated-publishing-workflow) provide an easy way of implementing [Signposting](https://signposting.org/FAIR/) for the developed content. 
+The [automated workflows](../17-Zenodo%20Publishing/17-Zenodo%20Publishing.md#description-of-the-automated-publishing-workflow) provide an easy way of implementing [Signposting](https://signposting.org/FAIR/) for the developed content.
 
 Minimal changes are needed to the `mkdocs.yml` to configure the automated workflow for Signposting. The `mkdocs.yml` file acquired from the `templates` repository has 3 dedicated parameters related to the implementation of Signposting:
 

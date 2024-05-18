@@ -124,6 +124,21 @@ In the activity that follows we will go over all of the required changes that ne
 3. For the initial release, alter the text below the `1.0.0` heading and make sure to also update the date of the release in the heading itself.
 4. For all subsequent releases, add a new level two heading using two hash symbols on a new line, (`##`) just below `<summary>Release Notes</summary>`. Ideally, the `RELEASE_NOTES.md` file should list the various versions in a descending order, sorted by the release date.
 
+### Customizing the Signposting Information
+
+The [automated workflows](../17-Zenodo%20Publishing/17-Zenodo%20Publishing.md#description-of-the-automated-publishing-workflow) provide an easy way of implementing [Signposting](https://signposting.org/FAIR/) for the developed content. 
+
+Minimal changes are needed to the `mkdocs.yml` to configure the automated workflow for Signposting. The `mkdocs.yml` file acquired from the `templates` repository has 3 dedicated parameters related to the implementation of Signposting:
+
+- `signposting_linkset` - should never be changed manually; its content is handled by the workflow itself.
+- `signposting_default_profile` - in case the source markdown files for the learning content follow a standardized and registered format, they can be further described by providing a link to the upstream profile. This is an optional field that can be left blank, in which case no profile information will be provided. More information is available on the [Signposting docs page](https://signposting.org/FAIR/#examples2:~:text=Level%201.-,item,-1%20or%20more).
+- `signposting_gitbook_url` - an optional parameter that is commented by default. It should be uncommented only in cases when a custom domain is configured for hosting the Git book, instead of the default provided by GitHub. Uncommenting can be performed by removing the leading `#` character.
+- `signposting_exclusions` - a list of file names that should **not** be referenced in the generated Signposting linkset description. Accompanying material such as activities, lesson plans, and feedback templates are already excluded by default. Pattern matching is supported. A single `*` matches any character in files at the current folder level, while `**` applies to all subfolders as well, irrespective of their position in the directory hierarchy.
+
+In most cases, such as when [Signposting Level 1](https://signposting.org/FAIR/#level1) is sufficient, no manual changes need to be performed. If the content follows a well-defined template, then `signposting_default_profile` needs to be updated so that it points to the URL containing the template's description.
+
+As a result of running the Signposting workflow a `linkset.json` file is placed in the root of the repository.
+
 ### Committing Changes
 
 Once the three files have been updated, commit the changes and push them to GitHub using the GitHub Desktop application. Upon every change of the `CITATION.cff` file an automated action is executed which verifies its contents. In case of a validation error, you will receive an email message similar to the one shown below.

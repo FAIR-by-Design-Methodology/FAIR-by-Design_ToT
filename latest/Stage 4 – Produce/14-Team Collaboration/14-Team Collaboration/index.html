@@ -1810,7 +1810,8 @@
     a) initially, during the environment setup
     b) by each collaborator individually</p>
 <p>The numbers in brackets refer to the steps in the Section <a href="#preparing-the-collaborative-environment">Preparing the Collaborative Environment</a>, above.</p>
-<pre class="mermaid"><code>graph TB
+<p><code>mermaid
+graph TB
   A[Start] --&gt; Z[&lt;a href='https://desktop.github.com/'&gt;Install Github Desktop&lt;/a&gt;]
   Z --&gt; B{New project?};
   B --&gt; |Yes| C["&lt;a href='#step1'&gt;New GitHub organization (1-6)"&lt;/a&gt;];
@@ -1818,7 +1819,7 @@
   D --&gt; K["&lt;a href='#step11'&gt;Enable Gitbook (11)&lt;/a&gt;"];
   K --&gt; E;
   B --&gt; |No| E["&lt;a href='#step12'&gt;Clone repository (12)&lt;/a&gt;"];
-  E --&gt; F["&lt;a href='https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%204%20%E2%80%93%20Produce/08-Development%20Tools/08-Setting%20up%20a%20Markdown%20Editor/'&gt;Setup a Markdown editor&lt;/a&gt;"];</code></pre>
+  E --&gt; F["&lt;a href='https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%204%20%E2%80%93%20Produce/08-Development%20Tools/08-Setting%20up%20a%20Markdown%20Editor/'&gt;Setup a Markdown editor&lt;/a&gt;"];</code></p>
 <h2 id="advanced-resolving-git-conflicts">Advanced: Resolving Git Conflicts</h2>
 <p>One of the best Git features is its ability to provide users an easy way of resolving change conflicts. A change conflict occurs when two (or more) users simultaneously edit the same portion of a given file, and then try to commit it. Note that if distinct parts of the same file are edited, and there are no conflicting changes, then Git is able to merge the changes automatically, without requiring a user intervention. A user intervention is required only when Git is not capable of reconciling the changes, and the user is asked for an input on what changes to keep and what changes to discard.</p>
 <p>In case a change conflict does occur, Git will explicitly mark all conflicting changes in the file, allowing the user to resolve them on a case-by-case basis, and then commit the latest version of the file again. Such advanced change conflict features are only available on plain text formats, such as <code>.md</code>, <code>.txt</code>, or source code files. Binary files such as <code>.docx</code> or <code>.pptx</code> cannot have conflicts resolved with the help of Git.</p>

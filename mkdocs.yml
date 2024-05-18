@@ -19,7 +19,7 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+          format: '!!python/name:pymdownx.superfences.fence_code_format'
 plugins:
   - search
   - tags
@@ -84,13 +84,13 @@ signposting_exclusions:
   - 'venv/**'
   - 'external-resources/**'
   - 'Feedback/**'
-  - '*/Activities/**'
+  - '**/Activities/**'
   - '*/Assessment/**'
   - 'index.md'
   - '02 process_description.md'
   - '03 glossary.md'
   - 'template_unit_lesson_plan.md'
-  - '*facilitator_guide.md'
+  - '**/*facilitator_guide.md'
   - '*syllabus.md'
-  - '**/*lesson_plan.md'
+  - '**/*_plan.md'
   - '**/template_content.md'

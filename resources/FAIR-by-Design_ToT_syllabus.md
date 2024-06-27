@@ -56,6 +56,10 @@ hide:
 
 {!RELEASE_NOTES.md!}
 
+# In a hurry? You don't want to use Git and/or MD?
+
+[Try the FAIR-by-Design Methodology Microlearning Unit](https://fair-by-design-methodology.github.io/microlearning/latest/)... Come back here for more details on different topics.
+
 # Webinar
 
 ## Date/Time: 17-19 October 2023
@@ -64,7 +68,9 @@ hide:
 ## Location
 
 - [Skills4EOSC Learning Platform](https://learning.skills4eosc.eu/course/view.php?id=19)
-- [BBB room](https://learning.skills4eosc.eu/mod/bigbluebuttonbn/view.php?id=25) 
+- [BBB room and recordings](https://learning.skills4eosc.eu/mod/bigbluebuttonbn/view.php?id=25) 
+
+Please note that the recordings are available to the Skills4EOSC project partners only. The rest of the course materials are open to anyone (use the guest login on the learning platform).
 
 ## Training Description
 

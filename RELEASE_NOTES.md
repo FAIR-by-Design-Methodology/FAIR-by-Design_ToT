@@ -1,6 +1,12 @@
 <details markdown>
 <summary>Release Notes</summary>
 
+## 1.3.0 (2024-07-01)
+
+- Update [Publishing preparations](Stage%205%20–%20Publish/16-Publishing%20Preparations/16-Publishing%20Preparations.md#customizing-the-signposting-information) with information on how to customize the automated [FAIR Signposting Profile](https://signposting.org/FAIR/) workflow.
+- Update [Zenodo Publishing](Stage%205%20–%20Publish/17-Zenodo%20Publishing/17-Zenodo%20Publishing.md) to clarify that multiple levels of compliance with the FAIR Signposting Profile are supported.
+- Alter the FAIR Signposting implementation so that information is provided in a linkset JSON file, referenced in the HTML `head` element of the landing page.
+
 ## 1.2.0 (2024-05-13)
 
 - Enable global search throughout the whole content of the Git book.

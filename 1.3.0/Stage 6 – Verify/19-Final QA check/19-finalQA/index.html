@@ -1,0 +1,2285 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+  
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Skills4EOSC T2.3">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-8.5.7">
+    
+  
+    <meta name="title" content="Quality Assurance and FAIR Verification"/>
+  
+  
+    <meta name="tags" content="['FAIR-by-Design Learning Materials', 'FAIR Learning Objects', 'Quality Assurance', 'Review']"/>
+  
+
+    
+      
+        <title>Quality Assurance and FAIR Verification - FAIR-by-Design Training of Trainers</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="custom" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#quality-assurance-and-fair-verification" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="FAIR-by-Design Training of Trainers" class="md-header__button md-logo" aria-label="FAIR-by-Design Training of Trainers" data-md-component="logo">
+      
+  <img src="../../../attachments/logo-white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FAIR-by-Design Training of Trainers
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Quality Assurance and FAIR Verification
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="FAIR-by-Design Training of Trainers" class="md-nav__button md-logo" aria-label="FAIR-by-Design Training of Trainers" data-md-component="logo">
+      
+  <img src="../../../attachments/logo-white.png" alt="logo">
+
+    </a>
+    FAIR-by-Design Training of Trainers
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        FAIR-by-Design Methodology for Learning Materials Training of Trainers
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          00 Welcome
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="00 Welcome" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          00 Welcome
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00-Welcome/00-Welcome/" class="md-nav__link">
+        General Information
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Stage 1 – Prepare
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stage 1 – Prepare" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Stage 1 – Prepare
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          01 FAIR skills & principles
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="01 FAIR skills & principles" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          01 FAIR skills & principles
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%201%20%E2%80%93%20Prepare/01-FAIR%20skills%20%26%20principles/01-FAIR%20skills%20%26%20principles/" class="md-nav__link">
+        FAIR Skills for Instructional Designers
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          02 Preparing FAIR Learning Objects
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="02 Preparing FAIR Learning Objects" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          02 Preparing FAIR Learning Objects
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%201%20%E2%80%93%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/02-Preparing%20FAIR%20Learning%20Objects/" class="md-nav__link">
+        Preparing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%201%20%E2%80%93%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/02-Preparing%20FAIR%20Learning%20Objects_cont/" class="md-nav__link">
+        Ideating
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Stage 2 – Discover
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stage 2 – Discover" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Stage 2 – Discover
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_1">
+          03 Existing learning materials
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="03 Existing learning materials" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          03 Existing learning materials
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%202%20%E2%80%93%20Discover/03-Existing%20learning%20materials/03-Existing%20learning%20materials/" class="md-nav__link">
+        Existing Learning Materials
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Stage 3 – Design
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stage 3 – Design" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Stage 3 – Design
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_1" type="checkbox" id="__nav_5_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_1">
+          04 Conceptualisation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="04 Conceptualisation" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_1">
+          <span class="md-nav__icon md-icon"></span>
+          04 Conceptualisation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%203%20%E2%80%93%20Design/04-Conceptualisation/04-Conceptualisation/" class="md-nav__link">
+        Conceptualisation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_2">
+          05 Hierarchical Structure
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="05 Hierarchical Structure" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          05 Hierarchical Structure
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%203%20%E2%80%93%20Design/05-Hierarchical%20Structure/05-HierarchicalStructure/" class="md-nav__link">
+        Hierarchical Structure
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_3">
+          06 Learning unit development
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="06 Learning unit development" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          06 Learning unit development
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%203%20%E2%80%93%20Design/06-Learning%20unit%20development/06-LearningUnitDevelopment/" class="md-nav__link">
+        Learning Unit Development
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" type="checkbox" id="__nav_5_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_4">
+          07 Facilitation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="07 Facilitation" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_4">
+          <span class="md-nav__icon md-icon"></span>
+          07 Facilitation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%203%20%E2%80%93%20Design/07-Facilitation/07-Facilitation/" class="md-nav__link">
+        Instructional design and facilitation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Stage 4 – Produce
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stage 4 – Produce" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Stage 4 – Produce
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_1" type="checkbox" id="__nav_6_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_1">
+          08 Development Tools
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="08 Development Tools" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_1">
+          <span class="md-nav__icon md-icon"></span>
+          08 Development Tools
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%204%20%E2%80%93%20Produce/08-Development%20Tools/08-Introduction%20to%20Markdown%20and%20Git/" class="md-nav__link">
+        Introduction to Markdown and Git
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%204%20%E2%80%93%20Produce/08-Development%20Tools/08-Setting%20up%20a%20Markdown%20Editor/" class="md-nav__link">
+        Setting up a Markdown Editor
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%204%20%E2%80%93%20Produce/08-Development%20Tools/08-Working%20with%20Git%20Books%20and%20Key%20Takeaways/" class="md-nav__link">
+        Working with Git Books and Key Takeaways
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_2" type="checkbox" id="__nav_6_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_2">
+          09 Content Development
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="09 Content Development" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_2">
+          <span class="md-nav__icon md-icon"></span>
+          09 Content Development
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%204%20%E2%80%93%20Produce/09-Content%20Development/09-Markdown%20Syntax/" class="md-nav__link">
+        Markdown Syntax
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_3" type="checkbox" id="__nav_6_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_3">
+          10 Content Mix
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="10 Content Mix" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_3">
+          <span class="md-nav__icon md-icon"></span>
+          10 Content Mix
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%204%20%E2%80%93%20Produce/10-Content%20Mix/10-Existing%20Markdown%20Materials%20Reuse/" class="md-nav__link">
+        Existing Markdown Materials Reuse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%204%20%E2%80%93%20Produce/10-Content%20Mix/10-Observing%20Changes/" class="md-nav__link">
+        Observing Changes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%204%20%E2%80%93%20Produce/10-Content%20Mix/10-Slide_Deck_preparation/" class="md-nav__link">
+        Slide Deck preparation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_4" type="checkbox" id="__nav_6_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_4">
+          11 Accessibility
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="11 Accessibility" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_4">
+          <span class="md-nav__icon md-icon"></span>
+          11 Accessibility
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%204%20%E2%80%93%20Produce/11-Accessibility/11-Checking_accessibility/" class="md-nav__link">
+        Accessibility check
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_5" type="checkbox" id="__nav_6_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_5">
+          12 Content Finalisation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="12 Content Finalisation" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_5">
+          <span class="md-nav__icon md-icon"></span>
+          12 Content Finalisation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%204%20%E2%80%93%20Produce/12-Content%20Finalisation/12-Content_finalisation/" class="md-nav__link">
+        Finalising the learning materials
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_6" type="checkbox" id="__nav_6_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_6">
+          13 Internal QA
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="13 Internal QA" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_6">
+          <span class="md-nav__icon md-icon"></span>
+          13 Internal QA
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%204%20%E2%80%93%20Produce/13-Internal%20QA/13-Internal_QA/" class="md-nav__link">
+        Internal QA Check
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_7" type="checkbox" id="__nav_6_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_7">
+          14 Team Collaboration
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="14 Team Collaboration" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_7">
+          <span class="md-nav__icon md-icon"></span>
+          14 Team Collaboration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%204%20%E2%80%93%20Produce/14-Team%20Collaboration/14-Team%20Collaboration/" class="md-nav__link">
+        Team Collaboration
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_8" type="checkbox" id="__nav_6_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_8">
+          15 Alternative
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="15 Alternative" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_8">
+          <span class="md-nav__icon md-icon"></span>
+          15 Alternative
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%204%20%E2%80%93%20Produce/15-Alternative/15-alternative/" class="md-nav__link">
+        This MD stuff is nice, but it's not for me
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          Stage 5 – Publish
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stage 5 – Publish" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Stage 5 – Publish
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_1" type="checkbox" id="__nav_7_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_1">
+          16 Publishing Preparations
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="16 Publishing Preparations" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_1">
+          <span class="md-nav__icon md-icon"></span>
+          16 Publishing Preparations
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%205%20%E2%80%93%20Publish/16-Publishing%20Preparations/16-Publishing%20Preparations/" class="md-nav__link">
+        Publishing Preparations
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_2" type="checkbox" id="__nav_7_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_2">
+          17 Zenodo Publishing
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="17 Zenodo Publishing" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_2">
+          <span class="md-nav__icon md-icon"></span>
+          17 Zenodo Publishing
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%205%20%E2%80%93%20Publish/17-Zenodo%20Publishing/17-Zenodo%20Publishing/" class="md-nav__link">
+        Zenodo Publishing
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_3" type="checkbox" id="__nav_7_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_3">
+          18 Publishing to learning platform
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="18 Publishing to learning platform" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_3">
+          <span class="md-nav__icon md-icon"></span>
+          18 Publishing to learning platform
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%205%20%E2%80%93%20Publish/18-Publishing%20to%20learning%20platform/18-Publishing%20to%20learning%20platform/" class="md-nav__link">
+        Publishing to learning platform
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          Stage 6 – Verify
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stage 6 – Verify" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Stage 6 – Verify
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_1" type="checkbox" id="__nav_8_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1">
+          19 Final QA check
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="19 Final QA check" data-md-level="2">
+        <label class="md-nav__title" for="__nav_8_1">
+          <span class="md-nav__icon md-icon"></span>
+          19 Final QA check
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Quality Assurance and FAIR Verification
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Quality Assurance and FAIR Verification
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    Learning Objectives
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#target-audience" class="md-nav__link">
+    Target Audience
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#duration" class="md-nav__link">
+    Duration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-tools" class="md-nav__link">
+    Learning Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#self-check-qa" class="md-nav__link">
+    Self-check QA
+  </a>
+  
+    <nav class="md-nav" aria-label="Self-check QA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-qa" class="md-nav__link">
+    General QA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fair-by-design-methodology-qa-checklist" class="md-nav__link">
+    FAIR-by-Design Methodology QA checklist
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#activity" class="md-nav__link">
+    Activity
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-qa" class="md-nav__link">
+    External QA
+  </a>
+  
+    <nav class="md-nav" aria-label="External QA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#learning-platform-qa" class="md-nav__link">
+    Learning platform QA
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#feedback-based-qa" class="md-nav__link">
+    Feedback-based QA
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-reading" class="md-nav__link">
+    Suggested Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_2" type="checkbox" id="__nav_8_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2">
+          20 Continuous Improvement
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="20 Continuous Improvement" data-md-level="2">
+        <label class="md-nav__title" for="__nav_8_2">
+          <span class="md-nav__icon md-icon"></span>
+          20 Continuous Improvement
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20-Continuous%20Improvement/20-CI/" class="md-nav__link">
+        Continuous Improvement
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    Learning Objectives
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#target-audience" class="md-nav__link">
+    Target Audience
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#duration" class="md-nav__link">
+    Duration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-tools" class="md-nav__link">
+    Learning Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#self-check-qa" class="md-nav__link">
+    Self-check QA
+  </a>
+  
+    <nav class="md-nav" aria-label="Self-check QA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-qa" class="md-nav__link">
+    General QA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fair-by-design-methodology-qa-checklist" class="md-nav__link">
+    FAIR-by-Design Methodology QA checklist
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#activity" class="md-nav__link">
+    Activity
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-qa" class="md-nav__link">
+    External QA
+  </a>
+  
+    <nav class="md-nav" aria-label="External QA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#learning-platform-qa" class="md-nav__link">
+    Learning platform QA
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#feedback-based-qa" class="md-nav__link">
+    Feedback-based QA
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-reading" class="md-nav__link">
+    Suggested Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+  <nav class="md-tags" >
+    
+      
+      
+        <span class="md-tag">FAIR-by-Design Learning Materials</span>
+      
+    
+      
+      
+        <span class="md-tag">FAIR Learning Objects</span>
+      
+    
+      
+      
+        <span class="md-tag">Quality Assurance</span>
+      
+    
+      
+      
+        <span class="md-tag">Review</span>
+      
+    
+  </nav>
+
+
+
+
+<h1 id="quality-assurance-and-fair-verification">Quality Assurance and FAIR verification</h1>
+<p>When publishing is completed, the learning materials are made available for both the learners' and instructors' communities. The publishing process consists of many steps taking place on several different platforms and is therefore prone to errors. It is thus prudent to verify that all is as it should be afterwards including the FAIR aspects of the learning materials. In addition, this is the moment when external quality assurance (QA) should be engaged to assess the produced learning materials from both the learners' and instructors' perspective.</p>
+<p>For these purposes you can use the <a href="https://doi.org/10.5281/zenodo.8305482">QA guidelines and checklists developed by Skills4EOSC T2.4</a>.</p>
+<h2 id="learning-objectives">Learning Objectives</h2>
+<ul>
+<li>Perform a QA review of the learning materials</li>
+<li>Rate FAIRness of learning materials</li>
+</ul>
+<h2 id="target-audience">Target Audience</h2>
+<ul>
+<li>attendees of the FAIR-by-Design ToT live webinar</li>
+</ul>
+<h2 id="duration">Duration</h2>
+<p>40 mins</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Completed <a href="../../../Stage%205%20%E2%80%93%20Publish/16-Publishing%20Preparations/16-Publishing%20Preparations/">Stage 5 - Publish</a></p>
+<h2 id="learning-tools">Learning Tools</h2>
+<ul>
+<li>Training BBB room</li>
+<li>Learning platform QA forms</li>
+<li>T2.4 QA checklists</li>
+</ul>
+<h2 id="self-check-qa">Self-check QA</h2>
+<p>The publication process contains very important steps that aim to create FAIR learning materials accessible to both learners and instructors. Therefore, it is imperative that you first go through a self-check phase to ensure everything is as intended. For these purposes you can use the <a href="https://doi.org/10.5281/zenodo.8305482">QA guidelines and checklists developed by T2.4</a>.</p>
+<p><img alt="checklist icon" src="../attachments/checklist-1622517_1280.png" style="height:200px;" /></p>
+<p>Image by <a href="https://pixabay.com/users/472301-472301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1622517">Shahid Abdullah</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1622517">Pixabay</a></p>
+<p>T2.4 have developed a number of QA checklists that should be used for this process, two of which are presented in this text. For the full list of checklists and their use please refer to <a href="{: style=&quot;height:150px;width:230px;&quot;}">D2.3</a>. The two QA checklists that are listed here as part of the verification process are:</p>
+<ul>
+<li>the general QA checklist that focuses on the learning materials content and analyses it from a learners' perspective</li>
+<li>the FAIR-by-Design QA checklist that focuses on the FAIR aspects of the learning materials and requirements imposed with the use of the methodology</li>
+</ul>
+<h3 id="general-qa">General QA</h3>
+<p>The general QA checklist developed by T2.4 addresses the main aspects of the developed learning materials that are related to their quality as perceived by the learners. </p>
+<p>In the following table these aspects are related to the steps or fields from the FAIR-by-Design methodology to help you understand where, or at which point, this aspect is being addressed by the methodology.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Checklist question</strong></th>
+<th><strong>FAIR-by-Design element</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Does the learning material title clearly describe what it offers?</td>
+<td>syllabus (metadata)</td>
+</tr>
+<tr>
+<td>Does the learning material include its goal?</td>
+<td>syllabus (metadata)</td>
+</tr>
+<tr>
+<td>Does the learning material clearly state its target audience?</td>
+<td>syllabus (metadata)</td>
+</tr>
+<tr>
+<td>Does the learning material state the level of expertise it is required from its audience?</td>
+<td>syllabus (metadata)</td>
+</tr>
+<tr>
+<td>Are the learning objectives/outcomes specific, well-defined, and measurable?</td>
+<td>syllabus (metadata)</td>
+</tr>
+<tr>
+<td>Does the learning material clearly describe its program / outline?</td>
+<td>syllabus (metadata)</td>
+</tr>
+<tr>
+<td>Does the learning material cover different learning styles?</td>
+<td>learning content</td>
+</tr>
+<tr>
+<td>Does the learning material states its delivery method? (live sessions, self-learning, hybrid, face-to-face...)</td>
+<td>syllabus (metadata)</td>
+</tr>
+<tr>
+<td>Does the learning material state the date when it was published and/or the date of the newest version?</td>
+<td>syllabus (metadata)</td>
+</tr>
+<tr>
+<td>If needed, does the learning material state the dates the training takes place?</td>
+<td>syllabus</td>
+</tr>
+<tr>
+<td>Does the learning material states the expected duration of the training?</td>
+<td>syllabus</td>
+</tr>
+<tr>
+<td>Does the learning material specify the developer/author of the learning material?</td>
+<td>syllabus</td>
+</tr>
+<tr>
+<td>Does the learning material specify the trainer/s of the learning material?</td>
+<td>syllabus</td>
+</tr>
+<tr>
+<td>If applicable, does the learning material explain the required tools/software/infrastructure as well as acceptable assignment submission types?</td>
+<td>syllabus + learning unit</td>
+</tr>
+<tr>
+<td>Does the learning material include any assignment? Are assessment strategies consistent with learning material objectives and are clearly stated?</td>
+<td>activities</td>
+</tr>
+<tr>
+<td>Is grading policy provided in a manner that clearly defines expectations for the learning material and respective assignments?</td>
+<td>quiz strategy</td>
+</tr>
+<tr>
+<td>Is the learning material comprised of micro-credentials that can be aligned to create a larger milestone credential?</td>
+<td>certification information in syllabus and learning units</td>
+</tr>
+<tr>
+<td>Does the learning material end with an activity that allows for feedback?</td>
+<td>feedback form</td>
+</tr>
+<tr>
+<td>Does the learning material include relevant keywords related to the content and structure?</td>
+<td>syllabus (metadata)</td>
+</tr>
+<tr>
+<td>Does the learning material include information regarding whether the access to it implies costs?</td>
+<td>syllabus (metadata)</td>
+</tr>
+<tr>
+<td>Does the learning material state the language used?</td>
+<td>syllabus (metadata)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="fair-by-design-methodology-qa-checklist">FAIR-by-Design Methodology QA checklist</h3>
+<p>With the FAIR-by-Design methodology QA checklist you can check if you have followed the most important aspects of the methodology and managed to produce FAIR learning materials. </p>
+<p>The questions marked as <strong>essential</strong> are related to the FAIR aspects of the obtained learning material. These elements must be present so that the learning materials are achieving bare minimum FAIRness. </p>
+<p>As you manage to comply with the rest of the items you work on increasing the FAIRness and quality of the learning materials.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Essential</strong></th>
+<th><strong>Topic</strong></th>
+<th style="text-align: center;"><strong>Stage</strong></th>
+<th style="text-align: center;"><strong>FAIR aspect</strong></th>
+<th><strong>Goal</strong></th>
+<th><strong>CHECKLIST   QUESTION</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"></td>
+<td>Instructional design process</td>
+<td style="text-align: center;">Prepare</td>
+<td style="text-align: center;">/</td>
+<td>Learner-centric   learning resources</td>
+<td>Did   you follow the stages of the backward instructional design process while   developing the learning resource?</td>
+</tr>
+<tr>
+<td style="text-align: center;">YES</td>
+<td>Schema</td>
+<td style="text-align: center;">Prepare</td>
+<td style="text-align: center;">Interoperable</td>
+<td>Choose   a metadata schema to describe the material, such as the RDA minimal metadata   schema</td>
+<td>Is   the RDA minimal (or domain specific) metadata schema used for the learning   material description?</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td>Vocabularies</td>
+<td style="text-align: center;">Prepare</td>
+<td style="text-align: center;">Interoperable</td>
+<td>Define   controlled vocabularies for certain fields such as main keywords; learning   objectives, audience, microcredentials.. using the controlled vocabularies   related to the schema</td>
+<td>Are   controlled vocabularies (CVs) used for describing the resource   characteristics aligned with the chosen metadata schema?</td>
+</tr>
+<tr>
+<td style="text-align: center;">YES</td>
+<td>License</td>
+<td style="text-align: center;">Design</td>
+<td style="text-align: center;">Reusable</td>
+<td>Reuse   of licensed materials with attribution</td>
+<td>If   applicable, is there clear attribution for all reused resources with   compatible licenses?</td>
+</tr>
+<tr>
+<td style="text-align: center;">YES</td>
+<td>License</td>
+<td style="text-align: center;">Design</td>
+<td style="text-align: center;">Reusable</td>
+<td>permissable   license allowing reuse and adaptations</td>
+<td>Has   the learning resource been made available for use by defining a permissable   license or policy information that allows derivations?</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td>Structure</td>
+<td style="text-align: center;">Design</td>
+<td style="text-align: center;">Reusable</td>
+<td>Decide   the level of aggregation on which FAIR will be implemented. The more granular   the better reuse</td>
+<td>Does   the learning resource represent a complete learning object or aggregation   consisting of content, tools and implementation resources defined around   minimum one learning objective?</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td>Facilitator   kit</td>
+<td style="text-align: center;">Design</td>
+<td style="text-align: center;">Reusable</td>
+<td>Develop   an instructor kit (how to, tips &amp; tricks...) that should help facilitate   the proces of others reusing the learning material</td>
+<td>Does   the resource incorporate an instructor kit that aids in facilitating the   process of others reusing learning material by offering helpful how-to   guides?</td>
+</tr>
+<tr>
+<td style="text-align: center;">YES</td>
+<td>Tools   &amp; Formats</td>
+<td style="text-align: center;">Produce</td>
+<td style="text-align: center;">Interoperable</td>
+<td>Use   interoperable tools that will enable you to save the intermediate (editable)   and final content in open file formats</td>
+<td>Is   your resource available in open file formats which are tool agnostic and   compatible with a wide variety of existing software?</td>
+</tr>
+<tr>
+<td style="text-align: center;">YES</td>
+<td>Metadata</td>
+<td style="text-align: center;">Produce</td>
+<td style="text-align: center;">Findable</td>
+<td>Describe   the material (all FAIR objects) using the rules provided in the chosen schema</td>
+<td>Is   metadata for the resource provided in both human- and machine-readable format   (e.g JSON, XMLor YAML?</td>
+</tr>
+<tr>
+<td style="text-align: center;">YES</td>
+<td>Accessibility</td>
+<td style="text-align: center;">Produce</td>
+<td style="text-align: center;">Accessible</td>
+<td>Ensure   accessibility of the material by people with different learning styles and/or   with disabilities.</td>
+<td>Has   an accessibility checker tool been utilised to improve the accessibility of   all learning resource files (PDF, HTML, video, etc.)?</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td>Versioning</td>
+<td style="text-align: center;">Publish</td>
+<td style="text-align: center;">Reusable</td>
+<td>Use   a versioning system to implement document version control. New versions are   released with a new DOI.</td>
+<td>Have   you employed a versioning system to track and control changes in your   materials?</td>
+</tr>
+<tr>
+<td style="text-align: center;">YES</td>
+<td>Repositories</td>
+<td style="text-align: center;">Publish</td>
+<td style="text-align: center;">Findable</td>
+<td>Publish   the new version of the learning materials &amp; metadata</td>
+<td>Is   the complete learning resource (including instructors info) registered or   indexed in at least one searchable repository? Is it in a FAIR repository?</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td>Access   rules</td>
+<td style="text-align: center;">Publish</td>
+<td style="text-align: center;">Accessible</td>
+<td>Ensure   all material is widely accessible by defining open access rules for learning   and reuse</td>
+<td>Are   the resource access rules (how to access, e.g. registration procedure)   explicitly communicated to learners?</td>
+</tr>
+<tr>
+<td style="text-align: center;">YES</td>
+<td>Access   rules</td>
+<td style="text-align: center;">Publish</td>
+<td style="text-align: center;">Accessible</td>
+<td>Ensure   all material is widely accessible by defining open access rules for learning   and reuse</td>
+<td>Are   access rules (authentication &amp; authorisation) implemented for the   learning resource?</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td>Catalogue</td>
+<td style="text-align: center;">Publish</td>
+<td style="text-align: center;">Findable</td>
+<td>Improve   findability by creating an entry in a selected training catalogue(s)   (thematic, project, regional, general, etc.)</td>
+<td>Is   the learning resource searchable in at least one relevant catalogue? Is it   FAIR (can be searched based on metadata)?</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td>Cocreation</td>
+<td style="text-align: center;">Verify</td>
+<td style="text-align: center;">Accessible</td>
+<td>Enable   the possibility to gather feedback and comments from users and peers</td>
+<td>Does   the course include the possibility to provide feedback or comments from users   and-or trainers/designers? If so, do you regurarly gather and analyse that   feedback?</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td>Cocreation</td>
+<td style="text-align: center;">Verify</td>
+<td style="text-align: center;">Reusable</td>
+<td>community   building</td>
+<td>Does   the resource adopt an open community approach regarding its quality and   reachability?</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td>QA</td>
+<td style="text-align: center;">Verify</td>
+<td style="text-align: center;">/</td>
+<td>external   QA</td>
+<td>Has   the learning resource been checked by a third party regarding its learning   experience quality?</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td>FAIR</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">FAIR</td>
+<td>Results</td>
+<td>Does   the resource align with the FAIR-by-design methodology principles?</td>
+</tr>
+</tbody>
+</table>
+<h3 id="activity">Activity</h3>
+<p>Both the general and the FAIR-by-Design methodology QA checklists are made available as forms on the Skills4EOSC learning platform. Perform a QA self-check using the forms and analyse the obtained score.</p>
+<p><img alt="QA self-check links on the learning platform" src="../attachments/self-check_moodle.png" /></p>
+<p>Based on the results of the self-check QA analysis you should go back and make adjustments and re-publish again if necessary.</p>
+<p>Don't forget that you should use <strong>all</strong> QA checklists provided by T2.4 when developing the Skills4EOSC training materials.</p>
+<h2 id="external-qa">External QA</h2>
+<p>To truly view the produced learning materials through the lenses of learners and other instructors, you need to perform a QA check with the help of an external party. This external party should be someone who has not been involved in any step of the materials design, better yet has not seen the materials ever before. In this way, you will have a pair of fresh eyes that will review the learning materials without any cognitive bias. </p>
+<p><img alt="Quality control approved logo" src="../attachments/approved-147677_1280.png" style="height:200px;" /></p>
+<p>Image by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=147677">OpenClipart-Vectors</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=147677">Pixabay</a></p>
+<p>To further support this effort the chosen QA reviewer should be an expert that is very well versed in the requirements for engaging learning content and learning styles, as well as the FAIR principles. It is their job as an external QA reviewer to evaluate the learning materials performance, quality, and suggest improvements using an objective and independent perspective.</p>
+<p>The external QA reviewer can use the T2.4 QA guidelines and checklists as a starting point for the QA, but should be encouraged to go more in-depth with the review process. </p>
+<p>The high impact recommendations in the QA review report should be resolved as soon as possible. The lower level improvement recommendations can be taken into account as relevant input for the continuous improvement step.</p>
+<h3 id="learning-platform-qa">Learning platform QA</h3>
+<p>In addition to the checklists the external QA reviewer should also ensure that the course on the Skill4EOSC learning platform is working properly.</p>
+<p>For instructor-led trainings and courses this must be done before the scheduled training takes place. For these purposes the external QA reviewer should assume the role of a learner and try to:</p>
+<ul>
+<li>access the course information</li>
+<li>self-enrol in the course</li>
+<li>go through <strong>all</strong> of the resources available on the course<ul>
+<li>including quizzes, feedback form and any other type of interaction</li>
+</ul>
+</li>
+</ul>
+<p>Any identified problems should be resolved as soon as possible. </p>
+<h2 id="feedback-based-qa">Feedback-based QA</h2>
+<p><img alt="feedback icon on the learning platform" src="../attachments/feedback_moodle.png" style="height:150px;" /></p>
+<p>An integral part of the QA process is using the feedback form to evaluate the performance and identify areas of improvement for the developed learning materials. For these purposes the feedback gathered via the implemented feedback form should be regularly analysed and any comments and insights should be taken as input into the continuous improvement phase. </p>
+<p>For these purposes you can use the Analysis button when clicking on the Feedback form on the Moodle course.</p>
+<p><img alt="feedback analysis section on the learning platform" src="../attachments/feedback_analysis.png" /></p>
+<h2 id="summary">Summary</h2>
+<p>Performing a QA self-check after publication is an essential step that aims to ensure that all stages of the FAIR-by-Design methodology have been implemented successfully and the learning materials are accessible and presented as planned. </p>
+<p>The <a href="https://doi.org/10.5281/zenodo.8305482">QA guidelines and checklists developed by T2.4</a> can be extremely helpful when it comes to QA.</p>
+<p>By engaging an external QA reviewer you are demonstrating your commitment to producing high-quality learning materials and provide accountability to your learners, the instructors community and the public in general.</p>
+<p>The suggested improvements by the QA reviewers together with the analysed feedback results are the input that triggers the activation of the continuous improvement step that aims to develop a new higher-quality version of the learning materials.</p>
+<h2 id="suggested-reading">Suggested Reading</h2>
+<ul>
+<li>
+<p><a href="https://doi.org/10.5281/zenodo.8305482">Sánchez, M., Méndez, E., Whyte, A., Weisteen Bjerde, K., Martínez, S., Bueno, G., &amp; Ucar, I. (2023). D2.3 Community-endorsed quality assurance and certification framework for professional training and qualifications (1.3). Zenodo. https://doi.org/10.5281/zenodo.8305482</a></p>
+</li>
+<li>
+<p><a href="https://www.trainingcheck.com/help-centre-2/guide-to-training-evaluation/the-trainingcheck-approach-2/">Training Check. The TrainingCheck Approach TrainingCheck.</a></p>
+</li>
+<li>
+<p><a href="https://www.knowledge.scot.nhs.uk/media/4088630/quality_assurance_checklists.pdf0">NHS Shared Learning. Quality Assurance Checklists for Evaluating Learning Objects and Online Courses. 2009.</a></p>
+</li>
+<li>
+<p><a href="https://zipboard.co/blog/elearning/elearning-qa-checklist/">zipBoard. eLearning Quality Assurance Checklist with use cases and examples. August 2020.</a></p>
+</li>
+<li>
+<p><a href="https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/">FAIR Training Handbook. New chapter on assessing FAIRness</a></p>
+</li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  
+  
+  <nav class="md-footer__inner md-grid" aria-label="" >
+    
+    
+    <a href="../../../Stage%205%20%E2%80%93%20Publish/18-Publishing%20to%20learning%20platform/18-Publishing%20to%20learning%20platform/" class="md-footer__link md-footer__link--prev"
+      aria-label="Previous: Publishing to learning platform" rel="prev">
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </div>
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Previous
+        </span>
+        <div class="md-ellipsis">
+          Publishing to learning platform
+        </div>
+      </div>
+    </a>
+    
+    
+    
+    <a href="../../20-Continuous%20Improvement/20-CI/" class="md-footer__link md-footer__link--next"
+      aria-label="Next: Continuous Improvement" rel="next">
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Next
+        </span>
+        <div class="md-ellipsis">
+          Continuous Improvement
+        </div>
+      </div>
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+      </div>
+    </a>
+    
+  </nav>
+  
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+      <div style="display: flex; justify-content: space-between; align-items: center">
+      
+        <div class="md-copyright"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
+              alt="Creative Commons License" style="border-width:0" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/a9f9eb58f58a4c39a32609c160ca52922c41fc2a/resources/attachments/cc-by.png" /></a> Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+            Attribution 4.0 International License</a>.
+        </div>
+      
+      </div>
+
+    </div>
+    <div class="logos-container" style="display: block; text-align: center;">
+      <img alt="Skills4EOSC Logo" style="max-height:30px" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/logo-white.png" />
+      <img alt="EOSC Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eosc-logo.png">
+      <img alt="Co-funded by the European Union Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eu-logo.png" />
+      <img alt="UK Research and Innovation Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/ukri-logo.png" />
+    </div>
+    <div class="md-container">
+
+      <div class="cite-example md-copyright">
+        <div class="md-footer-meta__inner md-grid" style="justify-content: center; align-items: center;">
+          Cite as:
+          
+            
+            
+            
+              Filiposka, Sonja,
+            
+          
+            
+            
+            
+              Mishev, Anastas,
+            
+          
+            
+            
+            
+              Kjorveziroski, Vojdan,
+            
+          
+            
+            
+            
+              Leister, Carolin.
+            
+          
+          (2024). FAIR-by-Design Learning Materials Methodology Training of Trainers (1.3.0). 
+          <a href="https://doi.org/10.5281/zenodo.12604767">&nbsp;https://doi.org/10.5281/zenodo.12604767</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.footer", "search.highlight", "search.suggest"], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+      
+    
+  </body>
+</html>

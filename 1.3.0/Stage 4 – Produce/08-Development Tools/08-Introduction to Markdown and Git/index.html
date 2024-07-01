@@ -1,0 +1,2056 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+  
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Skills4EOSC T2.3">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-8.5.7">
+    
+  
+    <meta name="title" content="Introduction to Markdown and Git"/>
+  
+  
+    <meta name="tags" content="['FAIR-by-Design Learning Materials', 'FAIR Learning Objects', 'Software Tools', 'File Formats', 'Version Management', 'Markdown', 'Git']"/>
+  
+
+    
+      
+        <title>Introduction to Markdown and Git - FAIR-by-Design Training of Trainers</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="custom" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introduction-to-markdown-and-git" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="FAIR-by-Design Training of Trainers" class="md-header__button md-logo" aria-label="FAIR-by-Design Training of Trainers" data-md-component="logo">
+      
+  <img src="../../../attachments/logo-white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FAIR-by-Design Training of Trainers
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Introduction to Markdown and Git
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="FAIR-by-Design Training of Trainers" class="md-nav__button md-logo" aria-label="FAIR-by-Design Training of Trainers" data-md-component="logo">
+      
+  <img src="../../../attachments/logo-white.png" alt="logo">
+
+    </a>
+    FAIR-by-Design Training of Trainers
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        FAIR-by-Design Methodology for Learning Materials Training of Trainers
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          00 Welcome
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="00 Welcome" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          00 Welcome
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00-Welcome/00-Welcome/" class="md-nav__link">
+        General Information
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Stage 1 – Prepare
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stage 1 – Prepare" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Stage 1 – Prepare
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          01 FAIR skills & principles
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="01 FAIR skills & principles" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          01 FAIR skills & principles
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%201%20%E2%80%93%20Prepare/01-FAIR%20skills%20%26%20principles/01-FAIR%20skills%20%26%20principles/" class="md-nav__link">
+        FAIR Skills for Instructional Designers
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          02 Preparing FAIR Learning Objects
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="02 Preparing FAIR Learning Objects" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          02 Preparing FAIR Learning Objects
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%201%20%E2%80%93%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/02-Preparing%20FAIR%20Learning%20Objects/" class="md-nav__link">
+        Preparing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%201%20%E2%80%93%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/02-Preparing%20FAIR%20Learning%20Objects_cont/" class="md-nav__link">
+        Ideating
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Stage 2 – Discover
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stage 2 – Discover" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Stage 2 – Discover
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_1">
+          03 Existing learning materials
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="03 Existing learning materials" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          03 Existing learning materials
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%202%20%E2%80%93%20Discover/03-Existing%20learning%20materials/03-Existing%20learning%20materials/" class="md-nav__link">
+        Existing Learning Materials
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Stage 3 – Design
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stage 3 – Design" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Stage 3 – Design
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_1" type="checkbox" id="__nav_5_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_1">
+          04 Conceptualisation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="04 Conceptualisation" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_1">
+          <span class="md-nav__icon md-icon"></span>
+          04 Conceptualisation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%203%20%E2%80%93%20Design/04-Conceptualisation/04-Conceptualisation/" class="md-nav__link">
+        Conceptualisation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_2">
+          05 Hierarchical Structure
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="05 Hierarchical Structure" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          05 Hierarchical Structure
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%203%20%E2%80%93%20Design/05-Hierarchical%20Structure/05-HierarchicalStructure/" class="md-nav__link">
+        Hierarchical Structure
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_3">
+          06 Learning unit development
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="06 Learning unit development" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          06 Learning unit development
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%203%20%E2%80%93%20Design/06-Learning%20unit%20development/06-LearningUnitDevelopment/" class="md-nav__link">
+        Learning Unit Development
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" type="checkbox" id="__nav_5_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_4">
+          07 Facilitation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="07 Facilitation" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_4">
+          <span class="md-nav__icon md-icon"></span>
+          07 Facilitation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%203%20%E2%80%93%20Design/07-Facilitation/07-Facilitation/" class="md-nav__link">
+        Instructional design and facilitation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Stage 4 – Produce
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stage 4 – Produce" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Stage 4 – Produce
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_1" type="checkbox" id="__nav_6_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_1">
+          08 Development Tools
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="08 Development Tools" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_1">
+          <span class="md-nav__icon md-icon"></span>
+          08 Development Tools
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Introduction to Markdown and Git
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Introduction to Markdown and Git
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    Learning Objectives
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#target-audience" class="md-nav__link">
+    Target Audience
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#duration" class="md-nav__link">
+    Duration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-tools" class="md-nav__link">
+    Learning Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-formats" class="md-nav__link">
+    File Formats
+  </a>
+  
+    <nav class="md-nav" aria-label="File Formats">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#markdown" class="md-nav__link">
+    Markdown
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#markdown-alternatives" class="md-nav__link">
+    Markdown Alternatives
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#markdowns-relationship-to-final-file-formats" class="md-nav__link">
+    Markdown's Relationship to Final File Formats
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-slides-conundrum" class="md-nav__link">
+    The Slides Conundrum
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-management" class="md-nav__link">
+    Version Management
+  </a>
+  
+    <nav class="md-nav" aria-label="Version Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#activity-first-steps-with-git" class="md-nav__link">
+    Activity: First Steps with Git
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-reading" class="md-nav__link">
+    Suggested Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-Setting%20up%20a%20Markdown%20Editor/" class="md-nav__link">
+        Setting up a Markdown Editor
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-Working%20with%20Git%20Books%20and%20Key%20Takeaways/" class="md-nav__link">
+        Working with Git Books and Key Takeaways
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_2" type="checkbox" id="__nav_6_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_2">
+          09 Content Development
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="09 Content Development" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_2">
+          <span class="md-nav__icon md-icon"></span>
+          09 Content Development
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09-Content%20Development/09-Markdown%20Syntax/" class="md-nav__link">
+        Markdown Syntax
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_3" type="checkbox" id="__nav_6_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_3">
+          10 Content Mix
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="10 Content Mix" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_3">
+          <span class="md-nav__icon md-icon"></span>
+          10 Content Mix
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10-Content%20Mix/10-Existing%20Markdown%20Materials%20Reuse/" class="md-nav__link">
+        Existing Markdown Materials Reuse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10-Content%20Mix/10-Observing%20Changes/" class="md-nav__link">
+        Observing Changes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10-Content%20Mix/10-Slide_Deck_preparation/" class="md-nav__link">
+        Slide Deck preparation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_4" type="checkbox" id="__nav_6_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_4">
+          11 Accessibility
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="11 Accessibility" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_4">
+          <span class="md-nav__icon md-icon"></span>
+          11 Accessibility
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11-Accessibility/11-Checking_accessibility/" class="md-nav__link">
+        Accessibility check
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_5" type="checkbox" id="__nav_6_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_5">
+          12 Content Finalisation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="12 Content Finalisation" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_5">
+          <span class="md-nav__icon md-icon"></span>
+          12 Content Finalisation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../12-Content%20Finalisation/12-Content_finalisation/" class="md-nav__link">
+        Finalising the learning materials
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_6" type="checkbox" id="__nav_6_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_6">
+          13 Internal QA
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="13 Internal QA" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_6">
+          <span class="md-nav__icon md-icon"></span>
+          13 Internal QA
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13-Internal%20QA/13-Internal_QA/" class="md-nav__link">
+        Internal QA Check
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_7" type="checkbox" id="__nav_6_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_7">
+          14 Team Collaboration
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="14 Team Collaboration" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_7">
+          <span class="md-nav__icon md-icon"></span>
+          14 Team Collaboration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../14-Team%20Collaboration/14-Team%20Collaboration/" class="md-nav__link">
+        Team Collaboration
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_8" type="checkbox" id="__nav_6_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_8">
+          15 Alternative
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="15 Alternative" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_8">
+          <span class="md-nav__icon md-icon"></span>
+          15 Alternative
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../15-Alternative/15-alternative/" class="md-nav__link">
+        This MD stuff is nice, but it's not for me
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          Stage 5 – Publish
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stage 5 – Publish" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Stage 5 – Publish
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_1" type="checkbox" id="__nav_7_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_1">
+          16 Publishing Preparations
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="16 Publishing Preparations" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_1">
+          <span class="md-nav__icon md-icon"></span>
+          16 Publishing Preparations
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%205%20%E2%80%93%20Publish/16-Publishing%20Preparations/16-Publishing%20Preparations/" class="md-nav__link">
+        Publishing Preparations
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_2" type="checkbox" id="__nav_7_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_2">
+          17 Zenodo Publishing
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="17 Zenodo Publishing" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_2">
+          <span class="md-nav__icon md-icon"></span>
+          17 Zenodo Publishing
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%205%20%E2%80%93%20Publish/17-Zenodo%20Publishing/17-Zenodo%20Publishing/" class="md-nav__link">
+        Zenodo Publishing
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_3" type="checkbox" id="__nav_7_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_3">
+          18 Publishing to learning platform
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="18 Publishing to learning platform" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_3">
+          <span class="md-nav__icon md-icon"></span>
+          18 Publishing to learning platform
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%205%20%E2%80%93%20Publish/18-Publishing%20to%20learning%20platform/18-Publishing%20to%20learning%20platform/" class="md-nav__link">
+        Publishing to learning platform
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          Stage 6 – Verify
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stage 6 – Verify" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Stage 6 – Verify
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_1" type="checkbox" id="__nav_8_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1">
+          19 Final QA check
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="19 Final QA check" data-md-level="2">
+        <label class="md-nav__title" for="__nav_8_1">
+          <span class="md-nav__icon md-icon"></span>
+          19 Final QA check
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%206%20%E2%80%93%20Verify/19-Final%20QA%20check/19-finalQA/" class="md-nav__link">
+        Quality Assurance and FAIR Verification
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_2" type="checkbox" id="__nav_8_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2">
+          20 Continuous Improvement
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="20 Continuous Improvement" data-md-level="2">
+        <label class="md-nav__title" for="__nav_8_2">
+          <span class="md-nav__icon md-icon"></span>
+          20 Continuous Improvement
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Stage%206%20%E2%80%93%20Verify/20-Continuous%20Improvement/20-CI/" class="md-nav__link">
+        Continuous Improvement
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    Learning Objectives
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#target-audience" class="md-nav__link">
+    Target Audience
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#duration" class="md-nav__link">
+    Duration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-tools" class="md-nav__link">
+    Learning Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-formats" class="md-nav__link">
+    File Formats
+  </a>
+  
+    <nav class="md-nav" aria-label="File Formats">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#markdown" class="md-nav__link">
+    Markdown
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#markdown-alternatives" class="md-nav__link">
+    Markdown Alternatives
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#markdowns-relationship-to-final-file-formats" class="md-nav__link">
+    Markdown's Relationship to Final File Formats
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-slides-conundrum" class="md-nav__link">
+    The Slides Conundrum
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-management" class="md-nav__link">
+    Version Management
+  </a>
+  
+    <nav class="md-nav" aria-label="Version Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#activity-first-steps-with-git" class="md-nav__link">
+    Activity: First Steps with Git
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-reading" class="md-nav__link">
+    Suggested Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+  <nav class="md-tags" >
+    
+      
+      
+        <span class="md-tag">FAIR-by-Design Learning Materials</span>
+      
+    
+      
+      
+        <span class="md-tag">FAIR Learning Objects</span>
+      
+    
+      
+      
+        <span class="md-tag">Software Tools</span>
+      
+    
+      
+      
+        <span class="md-tag">File Formats</span>
+      
+    
+      
+      
+        <span class="md-tag">Version Management</span>
+      
+    
+      
+      
+        <span class="md-tag">Markdown</span>
+      
+    
+      
+      
+        <span class="md-tag">Git</span>
+      
+    
+  </nav>
+
+
+
+
+<h1 id="introduction-to-markdown-and-git">Introduction to Markdown and Git</h1>
+<p>The purpose of this learning unit is to introduce relevant tools and file formats required for developing FAIR-by-Design learning objects. Once a working environment consisting of the recommended tools is in place and the initial concepts regarding the underlying file formats have been adopted, the instructional designer is then ready to start with production of the learning objects themselves. The first step on this journey is the introduction to an open text format – Markdown, and a robust version management system, Git.</p>
+<h2 id="learning-objectives">Learning Objectives</h2>
+<ul>
+<li>Recognize and use open file formats for producing FAIR learning objects</li>
+<li>Use a version management system for versioning file contents</li>
+<li>Select freely accessible software tools for working with the file formats</li>
+<li>Operate an already created automated publishing workflow for processing any changes made to the learning materials</li>
+<li>Explain the process of making changes to the learning objects and publishing them as a Git book</li>
+</ul>
+<h2 id="target-audience">Target Audience</h2>
+<ul>
+<li>Attendees of the FAIR-by-Design ToT live webinar</li>
+</ul>
+<h2 id="duration">Duration</h2>
+<p>120 mins</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Completed <a href="../../../Stage%203%20%E2%80%93%20Design/04-Conceptualisation/04-Conceptualisation/">Stage 3: Design</a></p>
+<h2 id="learning-tools">Learning Tools</h2>
+<ul>
+<li>Training BBB room</li>
+<li>Browser</li>
+<li>Menti access or BBB quiz interaction</li>
+<li>GitHub Desktop Software</li>
+<li>Obsidian Markdown Editor</li>
+</ul>
+<h2 id="file-formats">File Formats</h2>
+<p>During the production phase of the FAIR-by-Design learning objects, three important aspects need to be taken into account at all times:</p>
+<ul>
+<li>The intermediary and final file formats of the produced learning objects;</li>
+<li>The required software tools for producing and consuming the learning objects;</li>
+<li>Ensuring the future-proof compatibility and longevity of the learning objects.</li>
+</ul>
+<p>We will tackle all of these aspects during the training, starting with the introduction of the recommended intermediary and final file formats. An intermediate file format is a file format used during the production phase of the learning objects, and is aimed at direct contributors to the content itself. A final file format is obtained by transforming the intermediary file format, making it ready for consumption by a wider audience, focusing on its visual representation, interactivity, and ease-of-use.</p>
+<h3 id="markdown">Markdown</h3>
+<p>Markdown is a text-based intermediary file format that is easy to learn and use. It is the recommended intermediary file format for designing FAIR-by-Design learning objects, with a number of advantages over alternatives:</p>
+<ul>
+<li>plain text, editable with any editor across all possible platforms at any time;</li>
+<li>compatibility with version management systems, granular preview of changes down to the character level between file revisions;</li>
+<li>easy collaboration in the case of multiple contributors when combined with the use of a version management system;</li>
+<li>large eco-system of dedicated tools including: editors, convertors, validators;</li>
+<li>plethora of options for obtaining a visually appealing final format representation.</li>
+</ul>
+<p>Markdown has basic support for document formatting through the use of a specific, easy-to-learn, syntax for defining distinctive elements: headings, bulleted lists, numbered lists, quotes, tables... Users have the option of either manually formatting their documents by using the respective syntax, or using a What You See Is What You Get (WYSIWYG) editors which provide a more beginner friendly user interface, similar to traditional text processors. No matter the chosen approach, the end-result is the same, and compatibility with the complete Markdown ecosystem is preserved. </p>
+<h3 id="markdown-alternatives">Markdown Alternatives</h3>
+<p>Traditional alternatives to Markdown documents are the native file formats of the various popular text processors in use today, such as Microsoft Word (.docx) and the Open Document Text (.odt) file format which is the primary one for many open-source alternatives such as LibreOffice and OpenOffice. However, while these file formats are well-established and popular today, they are not the first choice when producing FAIR-by-Design learning objects. Both formats are binary in nature, meaning that version control management using external tools is much more complicated, and changes cannot be granularly followed. Due to this, collaboration on these documents is more challenging, especially in cases when no third-party, proprietary, cloud-services are involved. Compatibility is also negatively impacted, since formatting consistency is not guaranteed between different text processors, or even between different versions of the same text processor in certain cases. This has a negative impact on the overall accessibility, restricting the use of such materials only to users with a compatible computing platform and text processor version, which in many cases can be a proprietary, commercial, software.</p>
+<p>The FAIR-by-Design methodology by no means restricts the use of alternative intermediary file formats to Markdown. Users can continue using traditional text processor formats such as .docx with which they might be more familiar, as long as they are aware of the drawbacks of such an approach. The previously discussed restrictions should be carefully evaluated especially in terms of version control management, and ensuring compatibility with newer software versions in the future.</p>
+<h3 id="markdowns-relationship-to-final-file-formats">Markdown's Relationship to Final File Formats</h3>
+<p>Perhaps the most popular final file format for Markdown is HTML. An additional advantage of Markdown is the simplicity with which it can be converted to an HTML representation whose visual properties can be further customized to achieve the desired effect. Such HTML pages can be hosted publicly for free, allowing seamless access to the learning materials for anyone, from anywhere, as long as they have a device with a web browser at hand. A popular approach today is to combine multiple such HTML pages and produce an online book, commonly referred to as a Git book, a name that is derived from the Git version management system used for the intermediary files comprising the book. One of the focus points of this training is the creation of such Git books.</p>
+<p>An alternative final file format that is also widely popular and supported by Markdown documents is PDF.</p>
+<h3 id="the-slides-conundrum">The Slides Conundrum</h3>
+<p>In practice, Markdown can be used both for writing text heavy documents that can later optionally be converted to a Git book, as well as for slides design, with the end-goal of creating a presentation. Software such as Quatro and Marpit facilitate the use of Markdown, along with all of its previously discussed benefits, for creating presentations which can be exported either to HTML or PowerPoint (.pptx) documents. However, at present, the creation of interactive, and visually rich presentations with these tools is a more involved process, requiring greater experience with the specific framework itself (be it Quatro, Marpit, or an alternative). To overcome this, and to reduce the technical complexity of creating presentations, traditional  tools from this space such as PowerPoint, LibreOffice Impress, Google Slides... can be used. These presentations can be deposited in version management systems such as Git, but it will not be possible to leverage its main benefits, due to the binary nature of the underlying file format.</p>
+<h2 id="version-management">Version Management</h2>
+<p>Git is the most popular version management system in use today. It is available for all popular platforms either as a first-party command line utility or through third-party graphical user interface (GUI) clients. Git uses the concept of repositories which can granularly manage the versions of all objects placed within it. File changes are <strong>committed</strong> to a repository and each commit is automatically associated a unique and random identifier. In addition to this identifier, each commit is also described by its author, commit title and commit description. A single Git repository can be used by multiple users, each contributing and committing their changes. To facilitate remote collaboration, a Git repository can be shared publicly or privately. Git hosting services, such as GitHub and GitLab offer this functionality today for free. While Git can also be used independently from such hosting services, either completely locally and offline or by devising a custom synchronization workflow with third parties, in reality this is rarely the case. </p>
+<p>Git repositories can also be <strong>forked</strong>, meaning that their current state is copied to a brand new repository, preserving all history. The user who has initiated the fork can then make any desired changes directly to their own fork of the repository. If desired, such changes can optionally be reconciled and added to the original repository from which the fork was created, provided that they are accepted by the original owner. This is possible due to the fact that the repositories will have a shared history at least up until the point when the fork was made. In case their files have diverged (e.g., both the original and forked repository contain changes to the same files), and if these changes are conflicting (e.g., changes to the same part of a given document), Git will mark these changes and leave it up to the owner of the repository to decide how to proceed, and what version to accept. </p>
+<p>Below is a list of common Git related terminology which will be useful for the remaining of the training:</p>
+<ul>
+<li><strong>Git repository</strong> – a collaborative space where files can be versioned</li>
+<li><strong>Git commit</strong> – a granular change of a single or multiple files in the repository, identified by a random unique identifier, the committer's name, email address, short commit title and an optional longer commit description. A commit can contain file additions, modifications, removal, or relocation to a different directory.</li>
+<li><strong>Git clone</strong> – an action to download locally an existing Git repository. A repository hosted on a public Git hosting service such as GitHub can be cloned by anyone (assuming it is public) on their local machines. Once downloaded, users can explore the repository and optionally send their contributed changes upstream, if they have been assigned the necessary permissions.</li>
+<li><strong>Git fork</strong> – a 1:1 copy of an existing Git repository. A fork of an existing repository results with the creation of a brand new repository which will have a shared history with the original one up until the fork was made. The owner of the forked repository will be the user who initiated the fork. The original owner of the repository does not have any right in the forked repository by default. </li>
+<li><strong>Pull request/Merge request</strong> – when changes are made to a forked repository, they can be contributed back to the original repository by creating a merge request or a pull request (the terms are synonyms, depending on the platform either one can be used). With this approach a privileged user from the original repository from which the fork was initiated can review the changes and decide whether to accept them, modify them, or outright reject them. Forks can exist independently of the original repository forever.</li>
+</ul>
+<h3 id="activity-first-steps-with-git">Activity: First Steps with Git</h3>
+<p>As part of the preparation for this training, participants should already have downloaded and installed the <a href="https://desktop.github.com/">GitHub Desktop Client</a>, and created a free personal account on <a href="https://github.com/">GitHub</a>.</p>
+<p>To simulate the preparation of FAIR-by-Design learning objects, you are going to create a fork of the <a href="https://github.com/FAIR-by-Design-Methodology/templates">FAIR-by-Design Learning Object Templates</a> repository, and then clone it locally as to continue working on the materials.</p>
+<p>When using GitHub, repositories can either be hosted under the personal profile, or under an organization. Hosting a repository under an organization provides greater flexibility, since the organization name can be customized, and multiple owners can be added to an organizational repositories, unlike personal ones. Repository owners can edit the settings of the repository, such as enable third-party integrations or change its visibility level.</p>
+<p>We recommend to create and use a dedicated organization on GitHub for hosting repositories related to the development of FAIR-by-Design materials. Follow these steps to complete the initial Git setup for your new FAIR-by-Design repository</p>
+<ol>
+<li>Login to <a href="https://github.com">GitHub</a>.</li>
+<li>Click on the profile picture in the right hand corner and select <code>Your organizations</code>.</li>
+<li>
+<p>Create a new organization by clicking on the <code>New organization</code> button. </p>
+<p><img alt="GitHub Screenshot - Creating a new Organization" src="../attachments/01-new-organization.png" /></p>
+</li>
+<li>
+<p>Choose the <code>Free</code> plan by clicking on the <code>Create a free organization</code> button. All of the features in the <code>Team</code> plan are available for free to public repositories when using the <code>Free</code> plan, as of this writing.</p>
+</li>
+<li>
+<p>Enter the desired name for the new organization, and provide your email in the <code>Contact email</code> field. Select yourself as the organization owner by answering <code>My personal account</code> to the <code>This organization belongs to</code> question.</p>
+<ul>
+<li>Note that the selected organization name will be part of the URLs for all repositories created within the organization. For example when creating a repository <code>materials</code> under the <code>FAIR-by-Design-Demo</code> organization, the complete URL will be <code>https://github.com/FAIR-by-Design-Demo/materials</code>.</li>
+</ul>
+<p><img alt="GitHub Screenshot - Filling Out the Form for a New Organization" src="../attachments/02-organization-form.png" /></p>
+</li>
+<li>
+<p>In the next step you should be presented with an option to invite additional members to your organization. This can be skipped for now if no collaborators need to be invited at this point. </p>
+<p><img alt="GitHub Screenshot - Inviting Collaborators to the Newly Created Organization" src="../attachments/03-invite-collaborators.png" /></p>
+</li>
+<li>
+<p>You should be redirected to the home page of your newly created organization. By default the organization will be public, meaning that its information such as name and description can be accessed by anyone. If desired, you can restrict the visibility of the organization to only members by using the privacy controls on the right hand side of the landing page.</p>
+<p><img alt="GitHub Screenshot - Modifying the Organization's Privacy Settings" src="../attachments/04-repository-privacy-settings.png" /></p>
+</li>
+<li>
+<p>The next step is to create our first repository in the organization by creating a fork of the <a href="https://github.com/FAIR-by-Design-Methodology/templates">FAIR-by-Design Learning Object Templates</a> repository. To do so, navigate to its page and click the <code>Fork</code> button in the right-hand corner.</p>
+</li>
+<li>
+<p>Make sure to set your newly created organization as the owner of the repository. Finish filling-out the forking form by entering the desired repository name and its description. By default forks are created with the same name as the original (upstream) repository, but this can be customized directly on the form.</p>
+<p><img alt="GitHub Screenshot - Forking the Template Repository" src="../attachments/05-repository-forking.png" /></p>
+</li>
+<li>
+<p>After a few moments the forking process will be completed and you will be redirected to the homepage of your new repository.</p>
+</li>
+<li><span id="step11">The final step before we can start working on the development of learning objects is to clone the repository locally. To do so, we will use the <a href="https://desktop.github.com/">GitHub Desktop Client</a> that should already be installed as part of the preparation steps before attending the training. Open the application and authenticate using your GitHub credentials.</span></li>
+<li>Once logged in, you will be asked what name and email address you would like to associate with your future commits. You can either accept the defaults which are your GitHub username as the name and your GitHub provided email, or you can customize them as you see fit.</li>
+<li>
+<p>Using either the first run wizard that should start automatically after logging-in for the first time (<code>Clone a repository on your hard drive...</code> button) or by manually selecting <code>File -&gt; Clone repository</code>, make a local copy of the forked repository. If the repository is not yet visible, make sure to click the refresh button. Make sure to specify the desired location on your filesystem where to place the data from the cloned repository.</p>
+<p><img alt="GitHub Desktop Client - Cloning the Forked Repository" src="../attachments/06-cloning-repository.png" /></p>
+</li>
+<li>
+<p>If asked whether you would like to contribute to the original repository or continue working independently on the forked one, choose the second option, <code>For my own purposes</code>.</p>
+<p><img alt="GitHub Desktop - Selecting Repository Purpose" src="../attachments/100-repository-purpose.png" /></p>
+</li>
+</ol>
+<p>At this point we have created our own fork of the FAIR-by-Design templates repository and we have also cloned (downloaded) all of its contents locally, so we are ready to start producing our very own FAIR learning objects. However, one final step remains, and that is to go over how to work with Markdown files. </p>
+<h2 id="suggested-reading">Suggested Reading</h2>
+<ul>
+<li><a href="https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop">Getting Started with GitHub Desktop</a></li>
+<li><a href="https://www.atlassian.com/git/glossary/terminology">Git Terminology Glossary</a></li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  
+  
+  <nav class="md-footer__inner md-grid" aria-label="" >
+    
+    
+    <a href="../../../Stage%203%20%E2%80%93%20Design/07-Facilitation/07-Facilitation/" class="md-footer__link md-footer__link--prev"
+      aria-label="Previous: Instructional design and facilitation" rel="prev">
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </div>
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Previous
+        </span>
+        <div class="md-ellipsis">
+          Instructional design and facilitation
+        </div>
+      </div>
+    </a>
+    
+    
+    
+    <a href="../08-Setting%20up%20a%20Markdown%20Editor/" class="md-footer__link md-footer__link--next"
+      aria-label="Next: Setting up a Markdown Editor" rel="next">
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Next
+        </span>
+        <div class="md-ellipsis">
+          Setting up a Markdown Editor
+        </div>
+      </div>
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+      </div>
+    </a>
+    
+  </nav>
+  
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+      <div style="display: flex; justify-content: space-between; align-items: center">
+      
+        <div class="md-copyright"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
+              alt="Creative Commons License" style="border-width:0" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/a9f9eb58f58a4c39a32609c160ca52922c41fc2a/resources/attachments/cc-by.png" /></a> Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+            Attribution 4.0 International License</a>.
+        </div>
+      
+      </div>
+
+    </div>
+    <div class="logos-container" style="display: block; text-align: center;">
+      <img alt="Skills4EOSC Logo" style="max-height:30px" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/logo-white.png" />
+      <img alt="EOSC Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eosc-logo.png">
+      <img alt="Co-funded by the European Union Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eu-logo.png" />
+      <img alt="UK Research and Innovation Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/ukri-logo.png" />
+    </div>
+    <div class="md-container">
+
+      <div class="cite-example md-copyright">
+        <div class="md-footer-meta__inner md-grid" style="justify-content: center; align-items: center;">
+          Cite as:
+          
+            
+            
+            
+              Filiposka, Sonja,
+            
+          
+            
+            
+            
+              Mishev, Anastas,
+            
+          
+            
+            
+            
+              Kjorveziroski, Vojdan,
+            
+          
+            
+            
+            
+              Leister, Carolin.
+            
+          
+          (2024). FAIR-by-Design Learning Materials Methodology Training of Trainers (1.3.0). 
+          <a href="https://doi.org/10.5281/zenodo.12604767">&nbsp;https://doi.org/10.5281/zenodo.12604767</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.footer", "search.highlight", "search.suggest"], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+      
+    
+  </body>
+</html>
